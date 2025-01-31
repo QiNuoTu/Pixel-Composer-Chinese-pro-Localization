@@ -4,7 +4,7 @@ The simplified chinese localization file for Pixel-Composer
 
 该项目为 [Pixel-Composer](https://github.com/Ttanasart-pt/Pixel-Composer) 的简体中文汉化包.
 
-本项目的原始框架参考了:[Pixel-Composer](https://github.com/LunarConcerto/Pixel-Composer_Chinese-localization)后经过了修改
+本项目的原始框架参考了:[Pixel-Composer_Chinese-localization](https://github.com/LunarConcerto/Pixel-Composer_Chinese-localization)后经过了修改
 
 # 如何使用
 
