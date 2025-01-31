@@ -18,11 +18,10 @@ The simplified chinese localization file for Pixel-Composer
 
 # 进度
 
-- 实测在1.17 - 1.17 stable 版本可以正常使用，1.17以下的版本应该可以使用，在1.18版本会出现中文不能完全显示的问题
+- 实测在1.17 - 1.17 stable 版本可以正常使用，其他版本默认部分兼容
 - `UI.json` 已添加完整汉化文本.
 - `words.json` 已添加完整汉化文本.
 - `nodes.json` 已添加完整汉化文本.
-- 由于受到软件限制部分中文会变成口口正在试图沟通解决
 
 # 备注
 
