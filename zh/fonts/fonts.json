@@ -3,6 +3,10 @@
         "path": "./YeZiGongChangZhaoPaiTi-2.ttf",
         "size": 48
     },
+    "h2": {
+        "path": "./YeZiGongChangZhaoPaiTi-2.ttf",
+        "size": 32
+    },
     "h3": {
         "path": "./YeZiGongChangZhaoPaiTi-2.ttf",
         "size": 20
@@ -34,5 +38,15 @@
     "code": {
         "path": "./JetBrainsMono-Medium.ttf",
         "size": 12
+    },
+    "sdf": {
+        "path": "./YeZiGongChangZhaoPaiTi-2.ttf",
+        "size": 32,
+        "sdf": true
+    },
+    "sdf_medium": {
+        "path": "./JetBrainsMono-Medium.ttf",
+        "size": 22,
+        "sdf": true
     }
 }
