@@ -8,6 +8,10 @@ The simplified chinese localization file for Pixel-Composer
 
 # 如何使用
 
+先点击绿色的Code按钮然后点击Download ZIP已获取最新汉化
+
+## 软件本体汉化
+
 1. 打开软件，在顶部工具栏的中点击help，然后再点击Open local directory进入本地文件目录
 
 2. 下载汉化文件, 复制到刚才打开的本地目录找到Locale文件夹，然后把zh文件粘贴进去
@@ -16,11 +20,22 @@ The simplified chinese localization file for Pixel-Composer
 
 4. 然后重启程序，即可汉化成功
 
+## 示例教程汉化
+
+1. 打开软件，在顶部工具栏的中点击help，然后再点击Open local directory进入本地文件目录
+
+2. 删除本地文件目录中的Welcome files文件夹
+
+3. 从汉化文件中复制Welcome files文件夹，然后粘贴到本地文件目录
+
 # 进度
 
-- 实测在1.17 - 1.17 stable 版本可以正常使用，其他版本默认部分兼容
+- 实测在1.17 - 1.17 stable 版本可以正常使用，其他版本默认部分兼容，建议选择1.17 - 1.17 stable测试
+
 - `UI.json` 已添加完整汉化文本.
+
 - `words.json` 已添加完整汉化文本.
+
 - `nodes.json` 已添加完整汉化文本.
 
 # 软件交流
