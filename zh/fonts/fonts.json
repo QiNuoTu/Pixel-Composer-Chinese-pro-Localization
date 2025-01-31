@@ -1,0 +1,38 @@
+{
+    "h1": {
+        "path": "./YeZiGongChangZhaoPaiTi-2.ttf",
+        "size": 48
+    },
+    "h3": {
+        "path": "./YeZiGongChangZhaoPaiTi-2.ttf",
+        "size": 20
+    },
+    "h5": {
+        "path": "./YeZiGongChangZhaoPaiTi-2.ttf",
+        "size": 16
+    },
+    "p0": {
+        "path": "./YeZiGongChangZhaoPaiTi-2.ttf",
+        "size": 12
+    },
+    "p0b": {
+        "path": "./YeZiGongChangZhaoPaiTi-2.ttf",
+        "size": 12
+    },
+    "p1": {
+        "path": "./YeZiGongChangZhaoPaiTi-2.ttf",
+        "size": 11
+    },
+    "p2": {
+        "path": "./YeZiGongChangZhaoPaiTi-2.ttf",
+        "size": 10
+    },
+    "p3": {
+        "path": "./YeZiGongChangZhaoPaiTi-2.ttf",
+        "size": 9
+    },
+    "code": {
+        "path": "./JetBrainsMono-Medium.ttf",
+        "size": 12
+    }
+}
