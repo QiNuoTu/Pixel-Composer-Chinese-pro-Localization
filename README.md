@@ -23,6 +23,10 @@ The simplified chinese localization file for Pixel-Composer
 - `words.json` 已添加完整汉化文本.
 - `nodes.json` 已添加完整汉化文本.
 
+# 软件交流
+
+像素特效交流🐧群:[965593104](https://qm.qq.com/q/OJq4AY2z4e)
+
 # 备注
 
 使用的开源字体: 
