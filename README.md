@@ -10,7 +10,7 @@ The simplified chinese localization file for Pixel-Composer
 
 先点击绿色的Code按钮然后点击Download ZIP以获取最新汉化
 
-## 软件本体汉化（仍在进行的项目）
+## 软件本体汉化
 
 1. 打开软件，在顶部工具栏的中点击help，然后再点击Open local directory进入本地文件目录
 
@@ -20,7 +20,7 @@ The simplified chinese localization file for Pixel-Composer
 
 4. 然后重启程序，即可汉化成功
 
-## 示例教程汉化（未完成的项目，但可使用）
+## 示例教程汉化
 
 1. 打开软件，在顶部工具栏的中点击help，然后再点击Open local directory进入本地文件目录
 
@@ -39,6 +39,8 @@ The simplified chinese localization file for Pixel-Composer
 - `words.json` 已添加完整汉化文本.
 
 - `nodes.json` 已添加完整汉化文本.
+
+- 示例教程汉化仍在进行中，部分已汉化
 
 # 软件交流
 
