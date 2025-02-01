@@ -12,7 +12,7 @@ The simplified chinese localization file for Pixel-Composer
 
 ## 自动汉化
 
-解压后目录结构如下（必要文件）
+解压后目录结构如下（必要文件）（非目录结构内的可删)
 
 Pixel-Composer-Chinese-Localization/
 
@@ -20,9 +20,9 @@ Pixel-Composer-Chinese-Localization/
 
 ├── zh/
 
-└── PixelComposer一键汉化软件.exe
+└── PixelComposer一键汉化软件
 
-双击PixelComposer一键汉化软件.exe选择需要的汉化
+打开PixelComposer一键汉化软件文件夹，把Welcome files文件夹zh文件夹复制进去，然后打开软件选择需要的汉化点击即可
 
 ## 手动汉化（如果自动汉化失败请参考手动汉化）
 
