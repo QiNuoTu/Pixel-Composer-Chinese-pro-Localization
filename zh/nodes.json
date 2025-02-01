@@ -20697,17 +20697,17 @@
     "inputs":[
       {
         "tooltip":"",
-        "name":"值"
+        "name":"数值"
       },
       {
         "tooltip":"",
-        "name":"基础来源"
+        "name":"原进制"
       },
       {
         "tooltip":"",
-        "name":"基础目标"
+        "name":"目标进制"
       }
     ],
-    "name":"转换基础"
+    "name":"进制转换"
   }
 }

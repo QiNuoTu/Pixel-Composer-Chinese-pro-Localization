@@ -8,9 +8,9 @@ The simplified chinese localization file for Pixel-Composer
 
 # 如何使用
 
-先点击绿色的Code按钮然后点击Download ZIP已获取最新汉化
+先点击绿色的Code按钮然后点击Download ZIP以获取最新汉化
 
-## 软件本体汉化
+## 软件本体汉化（仍在进行的项目）
 
 1. 打开软件，在顶部工具栏的中点击help，然后再点击Open local directory进入本地文件目录
 
@@ -20,13 +20,15 @@ The simplified chinese localization file for Pixel-Composer
 
 4. 然后重启程序，即可汉化成功
 
-## 示例教程汉化
+## 示例教程汉化（未完成的项目，但可使用）
 
 1. 打开软件，在顶部工具栏的中点击help，然后再点击Open local directory进入本地文件目录
 
 2. 删除本地文件目录中的Welcome files文件夹
 
 3. 从汉化文件中复制Welcome files文件夹，然后粘贴到本地文件目录
+
+4. 打开Pixel Compose在开始窗口查看汉化过的教程吧！
 
 # 进度
 
