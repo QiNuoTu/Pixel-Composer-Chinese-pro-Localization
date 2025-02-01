@@ -1,0 +1,7 @@
+从群里下载汉化文件, 把zh文件夹和Welcome files文件夹复制到和这个软件同一个文件夹里
+
+然后运行软件，选择需要的汉化即可
+
+打开Pixel-Compose在顶部工具栏中点击File, 然后找到Preferences打开，找到Interface，再找到Interface Language将en切换到zh
+
+然后重启程序，即可汉化成功

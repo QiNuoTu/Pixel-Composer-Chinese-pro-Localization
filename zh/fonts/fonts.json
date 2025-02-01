@@ -1,38 +1,34 @@
 {
     "h1": {
-        "path": "./YeZiGongChangZhaoPaiTi-2.ttf",
+        "path": "./LXGWWenKaiMonoLite-Bold.ttf",
         "size": 48
     },
-    "h2": {
-        "path": "./YeZiGongChangZhaoPaiTi-2.ttf",
-        "size": 32
-    },
     "h3": {
-        "path": "./YeZiGongChangZhaoPaiTi-2.ttf",
+        "path": "./LXGWWenKaiMonoLite-Bold.ttf",
         "size": 20
     },
     "h5": {
-        "path": "./YeZiGongChangZhaoPaiTi-2.ttf",
+        "path": "./LXGWWenKaiMonoLite-Bold.ttf",
         "size": 16
     },
     "p0": {
-        "path": "./YeZiGongChangZhaoPaiTi-2.ttf",
+        "path": "./LXGWWenKaiMonoLite-Bold.ttf",
         "size": 12
     },
     "p0b": {
-        "path": "./YeZiGongChangZhaoPaiTi-2.ttf",
+        "path": "./LXGWWenKaiMonoLite-Bold.ttf",
         "size": 12
     },
     "p1": {
-        "path": "./YeZiGongChangZhaoPaiTi-2.ttf",
+        "path": "./LXGWWenKaiMonoLite-Bold.ttf",
         "size": 11
     },
     "p2": {
-        "path": "./YeZiGongChangZhaoPaiTi-2.ttf",
+        "path": "./LXGWWenKaiMonoLite-Bold.ttf",
         "size": 10
     },
     "p3": {
-        "path": "./YeZiGongChangZhaoPaiTi-2.ttf",
+        "path": "./LXGWWenKaiMonoLite-Bold.ttf",
         "size": 9
     },
     "code": {
@@ -40,13 +36,17 @@
         "size": 12
     },
     "sdf": {
-        "path": "./YeZiGongChangZhaoPaiTi-2.ttf",
+        "path": "./LXGWWenKaiMonoLite-Bold.ttf",
         "size": 32,
         "sdf": true
     },
     "sdf_medium": {
-        "path": "./YeZiGongChangZhaoPaiTi-2.ttf",
+        "path": "./JetBrainsMono-Medium.ttf",
         "size": 22,
         "sdf": true
+    },
+    "node": {
+        "path": "./LXGWWenKaiMonoLite-Bold.ttf",
+        "size": 12
     }
 }
