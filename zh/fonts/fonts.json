@@ -3,6 +3,10 @@
         "path": "./LXGWWenKaiMonoLite-Bold.ttf",
         "size": 48
     },
+    "h2": {
+        "path": "./LXGWWenKaiMonoLite-Bold.ttf",
+        "size": 32
+    },
     "h3": {
         "path": "./LXGWWenKaiMonoLite-Bold.ttf",
         "size": 20
@@ -23,13 +27,25 @@
         "path": "./LXGWWenKaiMonoLite-Bold.ttf",
         "size": 11
     },
+    "p1b": {
+        "path": "./LXGWWenKaiMonoLite-Bold.ttf",
+        "size": 11
+    },
     "p2": {
+        "path": "./LXGWWenKaiMonoLite-Bold.ttf",
+        "size": 10
+    },
+    "p2b": {
         "path": "./LXGWWenKaiMonoLite-Bold.ttf",
         "size": 10
     },
     "p3": {
         "path": "./LXGWWenKaiMonoLite-Bold.ttf",
         "size": 9
+    },
+    "p4": {
+        "path": "./LXGWWenKaiMonoLite-Bold.ttf",
+        "size": 8
     },
     "code": {
         "path": "./JetBrainsMono-Medium.ttf",
@@ -41,12 +57,8 @@
         "sdf": true
     },
     "sdf_medium": {
-        "path": "./JetBrainsMono-Medium.ttf",
+        "path": "./LXGWWenKaiMonoLite-Bold.ttf",
         "size": 22,
         "sdf": true
-    },
-    "node": {
-        "path": "./LXGWWenKaiMonoLite-Bold.ttf",
-        "size": 12
     }
 }
