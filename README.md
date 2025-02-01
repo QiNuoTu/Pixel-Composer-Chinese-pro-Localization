@@ -8,9 +8,25 @@ The simplified chinese localization file for Pixel-Composer
 
 # 如何使用
 
-先点击绿色的Code按钮然后点击Download ZIP以获取最新汉化
+先点击绿色的Code按钮然后点击Download ZIP以获取最新汉化文件的压缩包
 
-## 软件本体汉化
+## 自动汉化
+
+解压后目录结构如下（必要文件）
+
+Pixel-Composer-Chinese-Localization/
+
+├── Welcome files/
+
+├── zh/
+
+└── PixelComposer一键汉化软件.exe
+
+双击PixelComposer一键汉化软件.exe选择需要的汉化
+
+## 手动汉化（如果自动汉化失败请参考手动汉化）
+
+### 软件本体汉化
 
 1. 打开软件，在顶部工具栏的中点击help，然后再点击Open local directory进入本地文件目录
 
@@ -20,7 +36,7 @@ The simplified chinese localization file for Pixel-Composer
 
 4. 然后重启程序，即可汉化成功
 
-## 示例教程汉化
+### 示例教程汉化
 
 1. 打开软件，在顶部工具栏的中点击help，然后再点击Open local directory进入本地文件目录
 
