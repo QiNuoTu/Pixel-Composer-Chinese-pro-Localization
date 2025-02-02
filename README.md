@@ -1,4 +1,6 @@
-![zh_banner](https://github.com/user-attachments/assets/d94a649c-a775-4a93-ac52-55d720c284ba)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d94a649c-a775-4a93-ac52-55d720c284ba" alt="Pixel Composer"/>
+</p>
 
 # Pixel-Compose 简体中文汉化包
 
