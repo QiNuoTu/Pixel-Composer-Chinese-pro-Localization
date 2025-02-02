@@ -20,9 +20,9 @@ Pixel-Composer-Chinese-Localization/
 
 ├── zh/
 
-└── PixelComposer一键汉化软件
+└── 一键汉化软件
 
-打开PixelComposer一键汉化软件文件夹，把Welcome files文件夹zh文件夹复制进去，然后打开软件选择需要的汉化点击即可
+打开一键汉化工具文件夹，把Welcome files文件夹zh文件夹复制进去，然后打开软件选择需要的汉化点击即可
 
 ## 手动汉化（如果自动汉化失败请参考手动汉化）
 
