@@ -66,22 +66,8 @@
               "tooltip": "",
               "name": "网格类型",
               "display_data": [
-                  {
-                      "tooltip": "",
-                      "spr": "@ref sprite(s_node_mesh_type)",
-                      "data": "Grid",
-                      "spr_ind": 0.0,
-                      "spr_blend": 9404030.0,
-                      "name": "网格"
-                  },
-                  {
-                      "tooltip": "",
-                      "spr": "@ref sprite(s_node_mesh_type)",
-                      "data": "Custom",
-                      "spr_ind": 1.0,
-                      "spr_blend": 9404030.0,
-                      "name": "自定义"
-                  }
+                "网格",
+                "自定义"
               ]
           },
           {
@@ -112,38 +98,10 @@
           "tooltip":"",
           "name":"光源形状",
           "display_data":[
-            {
-              "tooltip":"",
-              "spr":"@ref sprite(s_node_2d_light_shape)",
-              "data":"点光源",
-              "spr_ind":0.0,
-              "spr_blend":9404030.0,
-              "name":"点光源"
-            },
-            {
-              "tooltip":"",
-              "spr":"@ref sprite(s_node_2d_light_shape)",
-              "data":"线光源",
-              "spr_ind":1.0,
-              "spr_blend":9404030.0,
-              "name":"线光源"
-            },
-            {
-              "tooltip":"",
-              "spr":"@ref sprite(s_node_2d_light_shape)",
-              "data":"不对称线光源",
-              "spr_ind":2.0,
-              "spr_blend":9404030.0,
-              "name":"不对称线光源"
-            },
-            {
-              "tooltip":"",
-              "spr":"@ref sprite(s_node_2d_light_shape)",
-              "data":"聚光灯",
-              "spr_ind":3.0,
-              "spr_blend":9404030.0,
-              "name":"聚光灯"
-            }
+            "点光源",
+            "线光源",
+            "不对称线光源",
+            "聚光灯"
           ]
         },
         {
@@ -186,30 +144,9 @@
           "tooltip":"控制光线随距离逐渐减弱的方式。",
           "name":"衰减",
           "display_data":[
-            {
-              "tooltip":"",
-              "spr":"@ref sprite(s_node_curve)",
-              "data":"二次方",
-              "spr_ind":0.0,
-              "spr_blend":9404030.0,
-              "name":"二次方"
-            },
-            {
-              "tooltip":"",
-              "spr":"@ref sprite(s_node_curve)",
-              "data":"逆二次方",
-              "spr_ind":1.0,
-              "spr_blend":9404030.0,
-              "name":"逆二次方"
-            },
-            {
-              "tooltip":"",
-              "spr":"@ref sprite(s_node_curve)",
-              "data":"线性",
-              "spr_ind":2.0,
-              "spr_blend":9404030.0,
-              "name":"线性"
-            }
+            "二次方",
+            "逆二次方",
+            "线性"
           ]
         },
         {
@@ -286,7 +223,7 @@
           },
           {
               "tooltip": "",
-              "name": "维度"
+              "name": "尺寸"
           },
           {
               "tooltip": "",
@@ -494,7 +431,7 @@
       ]
   },
   "Node_Camera": {
-      "tooltip": "创建一个相机，用于裁剪图像以适应维度，并控制位置和缩放。也可用于创建视差效果。",
+      "tooltip": "创建一个相机，用于裁剪图像以适应尺寸，并控制位置和缩放。也可用于创建视差效果。",
       "inputs": [
           {
               "tooltip": "",
@@ -642,7 +579,7 @@
             },
             {
                 "tooltip": "",
-                "name": "维度"
+                "name": "尺寸"
             },
             {
                 "tooltip": "",
@@ -781,7 +718,7 @@
             },
             {
                 "tooltip": "",
-                "name": "维度"
+                "name": "尺寸"
             },
             {
                 "tooltip": "",
@@ -921,30 +858,9 @@
                 "tooltip": "",
                 "name": "打包类型",
                 "display_data": [
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_alignment)",
-                        "data": "Horizontal",
-                        "spr_ind": 0.0,
-                        "spr_blend": 9404030.0,
-                        "name": "水平"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_alignment)",
-                        "data": "Vertical",
-                        "spr_ind": 1.0,
-                        "spr_blend": 9404030.0,
-                        "name": "垂直"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_alignment)",
-                        "data": "Grid",
-                        "spr_ind": 2.0,
-                        "spr_blend": 9404030.0,
-                        "name": "网格"
-                    }
+                    "水平",
+                    "垂直",
+                    "网格"
                 ]
             },
             {
@@ -1006,7 +922,7 @@
             },
             {
                 "tooltip": "",
-                "name": "目标维度"
+                "name": "目标尺寸"
             },
             {
                 "tooltip": "",
@@ -1234,54 +1150,12 @@
                 "display_data": [
                     "显示",
                     "隐藏",
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_condition_type)",
-                        "data": "Equal",
-                        "spr_ind": 0.0,
-                        "spr_blend": 9404030.0,
-                        "name": "等于"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_condition_type)",
-                        "data": "Not equal",
-                        "spr_ind": 1.0,
-                        "spr_blend": 9404030.0,
-                        "name": "不等于"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_condition_type)",
-                        "data": "Greater ",
-                        "spr_ind": 4.0,
-                        "spr_blend": 9404030.0,
-                        "name": "大于"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_condition_type)",
-                        "data": "Greater or equal",
-                        "spr_ind": 5.0,
-                        "spr_blend": 9404030.0,
-                        "name": "大于或等于"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_condition_type)",
-                        "data": "Lesser",
-                        "spr_ind": 2.0,
-                        "spr_blend": 9404030.0,
-                        "name": "小于"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_condition_type)",
-                        "data": "Lesser or equal",
-                        "spr_ind": 3.0,
-                        "spr_blend": 9404030.0,
-                        "name": "小于或等于"
-                    }
+                    "等于",
+                    "不等于",
+                    "大于",
+                    "大于或等于",
+                    "小于",
+                    "小于或等于"
                 ]
             },
             {
@@ -1310,7 +1184,7 @@
         "inputs": [
             {
                 "tooltip": "",
-                "name": "维度"
+                "name": "尺寸"
             }
         ],
         "name": "画布组",
@@ -1458,7 +1332,7 @@
           },
           {
               "tooltip": "",
-              "name": "维度"
+              "name": "尺寸"
           },
           {
               "tooltip": "",
@@ -1468,30 +1342,9 @@
               "tooltip": "",
               "name": "模式",
               "display_data": [
-                  {
-                      "tooltip": "",
-                      "spr": "@ref sprite(s_node_repeat_axis)",
-                      "data": "Linear",
-                      "spr_ind": 0.0,
-                      "spr_blend": 9404030.0,
-                      "name": "线性"
-                  },
-                  {
-                      "tooltip": "",
-                      "spr": "@ref sprite(s_node_repeat_axis)",
-                      "data": "Grid",
-                      "spr_ind": 1.0,
-                      "spr_blend": 9404030.0,
-                      "name": "网格"
-                  },
-                  {
-                      "tooltip": "",
-                      "spr": "@ref sprite(s_node_repeat_axis)",
-                      "data": "Circular",
-                      "spr_ind": 2.0,
-                      "spr_blend": 9404030.0,
-                      "name": "圆形"
-                  }
+                "线性",
+                "网格",
+                "圆形"
               ]
           },
           {
@@ -1588,7 +1441,7 @@
               "name": "动画衰减"
           },
           {
-              "tooltip": "将每个副本依次放置，考虑表面维度。",
+              "tooltip": "将每个副本依次放置，考虑表面尺寸。",
               "name": "堆叠",
               "display_data": [
                   "无",
@@ -1759,7 +1612,7 @@
             },
             {
                 "tooltip": "",
-                "name": "维度"
+                "name": "尺寸"
             },
             {
                 "tooltip": "",
@@ -1845,22 +1698,8 @@
                 "tooltip": "",
                 "name": "渲染类型",
                 "display_data": [
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_leaf)",
-                        "data": "Leaf",
-                        "spr_ind": 0.0,
-                        "spr_blend": 9404030.0,
-                        "name": "树叶"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_circle)",
-                        "data": "Circle",
-                        "spr_ind": 0.0,
-                        "spr_blend": 9404030.0,
-                        "name": "圆形"
-                    }
+                    "树叶",
+                    "圆形"
                 ]
             },
             {
@@ -1953,22 +1792,8 @@
                 "tooltip": "",
                 "name": "形状",
                 "display_data": [
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_circle)",
-                        "data": "Circle",
-                        "spr_ind": 0.0,
-                        "spr_blend": 9404030.0,
-                        "name": "圆形"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_rectangle)",
-                        "data": "Rectangle",
-                        "spr_ind": 0.0,
-                        "spr_blend": 9404030.0,
-                        "name": "矩形"
-                    }
+                    "圆形",
+                    "矩形"
                 ]
             },
             {
@@ -2091,22 +1916,8 @@
                 "tooltip": "",
                 "name": "形状",
                 "display_data": [
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_circle)",
-                        "data": "Circle",
-                        "spr_ind": 0.0,
-                        "spr_blend": 9404030.0,
-                        "name": "圆形"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_rectangle)",
-                        "data": "Rectangle",
-                        "spr_ind": 0.0,
-                        "spr_blend": 9404030.0,
-                        "name": "矩形"
-                    }
+                     "圆形",
+                     "矩形"
                 ]
             },
             {
@@ -2197,22 +2008,8 @@
                 "tooltip": "",
                 "name": "形状",
                 "display_data": [
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_circle)",
-                        "data": "Circle",
-                        "spr_ind": 0.0,
-                        "spr_blend": 9404030.0,
-                        "name": "圆形"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_rectangle)",
-                        "data": "Rectangle",
-                        "spr_ind": 0.0,
-                        "spr_blend": 9404030.0,
-                        "name": "矩形"
-                    }
+                    "圆形",
+                    "矩形"
                 ]
             },
             {
@@ -2289,7 +2086,7 @@
         "inputs": [
             {
                 "tooltip": "",
-                "name": "维度"
+                "name": "尺寸"
             },
             {
                 "tooltip": "",
@@ -2383,7 +2180,7 @@
         "inputs": [
             {
                 "tooltip": "",
-                "name": "维度"
+                "name": "尺寸"
             },
             {
                 "tooltip": "",
@@ -2481,30 +2278,9 @@
                 "tooltip": "",
                 "name": "形状",
                 "display_data": [
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_rectangle)",
-                        "data": "Box",
-                        "spr_ind": 0.0,
-                        "spr_blend": 9404030.0,
-                        "name": "盒子"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_circle)",
-                        "data": "Circle",
-                        "spr_ind": 0.0,
-                        "spr_blend": 9404030.0,
-                        "name": "圆形"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_misc)",
-                        "data": "Custom",
-                        "spr_ind": 1.0,
-                        "spr_blend": 9404030.0,
-                        "name": "自定义"
-                    }
+                    "盒子",
+                    "圆形",
+                    "自定义"
                 ]
             },
             {
@@ -2589,7 +2365,7 @@
         "inputs": [
             {
                 "tooltip": "",
-                "name": "渲染维度"
+                "name": "渲染尺寸"
             },
             {
                 "tooltip": "",
@@ -2669,7 +2445,7 @@
         "inputs": [
             {
                 "tooltip": "",
-                "name": "渲染维度"
+                "name": "渲染尺寸"
             },
             {
                 "tooltip": "",
@@ -2697,7 +2473,7 @@
             },
             {
                 "tooltip": "",
-                "name": "维度"
+                "name": "尺寸"
             },
             {
                 "tooltip": "",
@@ -2857,7 +2633,7 @@
             },
             {
                 "tooltip": "",
-                "name": "维度"
+                "name": "尺寸"
             },
             {
                 "tooltip": "",
@@ -2899,22 +2675,8 @@
                 "tooltip": "",
                 "name": "渲染类型",
                 "display_data": [
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_flip_render)",
-                        "data": "Particle",
-                        "spr_ind": 0.0,
-                        "spr_blend": 9404030.0,
-                        "name": "粒子"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_flip_render)",
-                        "data": "Line",
-                        "spr_ind": 1.0,
-                        "spr_blend": 9404030.0,
-                        "name": "线条"
-                    }
+                    "粒子",
+                    "线条"
                 ]
             },
             {
@@ -2983,7 +2745,7 @@
         "inputs": [
             {
                 "tooltip": "",
-                "name": "维度"
+                "name": "尺寸"
             },
             {
                 "tooltip": "",
@@ -3130,22 +2892,8 @@
                 "tooltip": "",
                 "name": "生成形状",
                 "display_data": [
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_circle)",
-                        "data": "Circle",
-                        "spr_ind": 0.0,
-                        "spr_blend": 9404030.0,
-                        "name": "圆形"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_rectangle)",
-                        "data": "Rectangle",
-                        "spr_ind": 0.0,
-                        "spr_blend": 9404030.0,
-                        "name": "矩形"
-                    },
+                    "圆形",
+                    "矩形",
                     "表面"
                 ]
             },
@@ -3343,7 +3091,7 @@
         "inputs": [
             {
                 "tooltip": "",
-                "name": "维度"
+                "name": "尺寸"
             },
             {
                 "tooltip": "",
@@ -3501,7 +3249,7 @@
             },
             {
                 "tooltip": "",
-                "name": "维度"
+                "name": "尺寸"
             },
             {
                 "tooltip": "",
@@ -3826,7 +3574,7 @@
         "inputs": [
             {
                 "tooltip": "",
-                "name": "维度"
+                "name": "尺寸"
             },
             {
                 "tooltip": "",
@@ -3948,7 +3696,7 @@
             },
             {
                 "tooltip": "",
-                "name": "维度"
+                "name": "尺寸"
             },
             {
                 "tooltip": "",
@@ -3990,30 +3738,9 @@
                 "tooltip": "",
                 "name": "翻转限制",
                 "display_data": [
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_mk_grid_flip)",
-                        "data": "None",
-                        "spr_ind": 0.0,
-                        "spr_blend": 9404030.0,
-                        "name": "无"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_mk_grid_flip)",
-                        "data": "90",
-                        "spr_ind": 1.0,
-                        "spr_blend": 9404030.0,
-                        "name": "90"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_mk_grid_flip)",
-                        "data": "180",
-                        "spr_ind": 2.0,
-                        "spr_blend": 9404030.0,
-                        "name": "180"
-                    }
+                    "无",
+                    "90",
+                    "180"
                 ]
             }
         ],
@@ -4385,175 +4112,34 @@
         "inputs": [
             {
                 "tooltip": "",
-                "name": "维度"
+                "name": "尺寸"
             },
             {
                 "tooltip": "",
                 "name": "形状",
                 "display_data": [
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_3d)",
-                        "data": "Plane",
-                        "spr_ind": 0.0,
-                        "spr_blend": 15259350.0,
-                        "name": "平面"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_3d)",
-                        "data": "Box",
-                        "spr_ind": 1.0,
-                        "spr_blend": 15259350.0,
-                        "name": "盒子"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_3d)",
-                        "data": "Box Frame",
-                        "spr_ind": 2.0,
-                        "spr_blend": 15259350.0,
-                        "name": "盒子框架"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_3d)",
-                        "data": "Box Round",
-                        "spr_ind": 3.0,
-                        "spr_blend": 15259350.0,
-                        "name": "圆角盒子"
-                    },
+                    "平面",
+                    "盒子",
+                    "盒子框架",
+                    "圆角盒子",
                     -1.0,
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_3d)",
-                        "data": "Sphere",
-                        "spr_ind": 4.0,
-                        "spr_blend": 15259350.0,
-                        "name": "球体"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_3d)",
-                        "data": "Ellipse",
-                        "spr_ind": 5.0,
-                        "spr_blend": 15259350.0,
-                        "name": "椭圆"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_3d)",
-                        "data": "Cut Sphere",
-                        "spr_ind": 6.0,
-                        "spr_blend": 15259350.0,
-                        "name": "切球"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_3d)",
-                        "data": "Cut Hollow Sphere",
-                        "spr_ind": 7.0,
-                        "spr_blend": 15259350.0,
-                        "name": "切空心球"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_3d)",
-                        "data": "Torus",
-                        "spr_ind": 8.0,
-                        "spr_blend": 15259350.0,
-                        "name": "圆环"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_3d)",
-                        "data": "Capped Torus",
-                        "spr_ind": 9.0,
-                        "spr_blend": 15259350.0,
-                        "name": "封顶圆环"
-                    },
+                    "球体",
+                    "椭圆",
+                    "切球",
+                    "切空心球",
+                    "圆环",
+                    "封顶圆环",
                     -1.0,
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_3d)",
-                        "data": "Cylinder",
-                        "spr_ind": 10.0,
-                        "spr_blend": 15259350.0,
-                        "name": "圆柱"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_3d)",
-                        "data": "Prism",
-                        "spr_ind": 11.0,
-                        "spr_blend": 15259350.0,
-                        "name": "棱柱"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_3d)",
-                        "data": "Capsule",
-                        "spr_ind": 12.0,
-                        "spr_blend": 15259350.0,
-                        "name": "胶囊"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_3d)",
-                        "data": "Cone",
-                        "spr_ind": 13.0,
-                        "spr_blend": 15259350.0,
-                        "name": "圆锥"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_3d)",
-                        "data": "Capped Cone",
-                        "spr_ind": 14.0,
-                        "spr_blend": 15259350.0,
-                        "name": "封顶圆锥"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_3d)",
-                        "data": "Round Cone",
-                        "spr_ind": 15.0,
-                        "spr_blend": 15259350.0,
-                        "name": "圆角圆锥"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_3d)",
-                        "data": "3D Arc",
-                        "spr_ind": 16.0,
-                        "spr_blend": 15259350.0,
-                        "name": "3D 弧"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_3d)",
-                        "data": "Pie",
-                        "spr_ind": 17.0,
-                        "spr_blend": 15259350.0,
-                        "name": "派"
-                    },
+                    "圆柱",
+                    "棱柱",
+                    "圆锥",
+                    "封顶圆锥",
+                    "圆角圆锥",
+                    "3D 弧线",
+                    "饼",
                     -1.0,
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_3d)",
-                        "data": "Octahedron",
-                        "spr_ind": 18.0,
-                        "spr_blend": 15259350.0,
-                        "name": "八面体"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_shape_3d)",
-                        "data": "Pyramid",
-                        "spr_ind": 19.0,
-                        "spr_blend": 15259350.0,
-                        "name": "金字塔"
-                    }
+                    "八面体",
+                    "金字塔"
                 ]
             },
             {
@@ -4791,7 +4377,7 @@
         "inputs": [
             {
                 "tooltip": "",
-                "name": "维度"
+                "name": "尺寸"
             },
             {
                 "tooltip": "",
@@ -4963,7 +4549,7 @@
         "inputs": [
             {
                 "tooltip": "",
-                "name": "维度"
+                "name": "尺寸"
             },
             {
                 "tooltip": "",
@@ -5024,7 +4610,7 @@
             },
             {
                 "tooltip": "",
-                "name": "使用背景维度"
+                "name": "使用背景尺寸"
             },
             {
                 "tooltip": "",
@@ -5061,7 +4647,7 @@
         "inputs": [
             {
                 "tooltip": "",
-                "name": "维度"
+                "name": "尺寸"
             },
             {
                 "tooltip": "",
@@ -5133,7 +4719,7 @@
         ]
     },
     "Node_MK_Rain": {
-        "tooltip": "生成确定性的雨。",
+        "tooltip": "生成自定义的雨。",
         "inputs": [
             {
                 "tooltip": "",
@@ -5175,30 +4761,9 @@
                 "tooltip": "",
                 "name": "形状",
                 "display_data": [
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_mk_rain_type)",
-                        "data": "Rain",
-                        "spr_ind": 0.0,
-                        "spr_blend": 9404030.0,
-                        "name": "雨"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_mk_rain_type)",
-                        "data": "Snow",
-                        "spr_ind": 1.0,
-                        "spr_blend": 9404030.0,
-                        "name": "雪"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_mk_rain_type)",
-                        "data": "Texture",
-                        "spr_ind": 2.0,
-                        "spr_blend": 9404030.0,
-                        "name": "纹理"
-                    }
+                    "雨",
+                    "雪",
+                    "纹理"
                 ]
             },
             {
@@ -5275,7 +4840,7 @@
         "inputs": [
             {
                 "tooltip": "",
-                "name": "维度"
+                "name": "尺寸"
             },
             {
                 "tooltip": "",
@@ -5323,7 +4888,7 @@
         "inputs": [
             {
                 "tooltip": "",
-                "name": "维度"
+                "name": "尺寸"
             },
             {
                 "tooltip": "",
@@ -5416,7 +4981,7 @@
             },
             {
                 "tooltip": "",
-                "name": "目标维度"
+                "name": "目标尺寸"
             },
             {
                 "tooltip": "",
@@ -5480,7 +5045,7 @@
         "inputs": [
             {
                 "tooltip": "",
-                "name": "输出维度"
+                "name": "输出尺寸"
             },
             {
                 "tooltip": "将位置四舍五入到最接近的整数值，以避免抖动。",
@@ -5508,7 +5073,7 @@
         "inputs": [
             {
                 "tooltip": "",
-                "name": "输出维度"
+                "name": "输出面"
             },
             {
                 "tooltip": "将位置四舍五入到最接近的整数值，以避免抖动。",
@@ -5588,7 +5153,7 @@
         "inputs": [
             {
                 "tooltip": "",
-                "name": "维度"
+                "name": "尺寸"
             },
             {
                 "tooltip": "",
@@ -5957,7 +5522,7 @@
             },
             {
                 "tooltip": "",
-                "name": "参考维度"
+                "name": "参考尺寸"
             },
             {
                 "tooltip": "",
@@ -6022,7 +5587,7 @@
         "inputs": [
             {
                 "tooltip": "",
-                "name": "维度"
+                "name": "尺寸"
             },
             {
                 "tooltip": "",
@@ -6131,7 +5696,7 @@
         "inputs": [
             {
                 "tooltip": "",
-                "name": "输出维度"
+                "name": "输出尺寸"
             },
             {
                 "tooltip": "",
@@ -6227,7 +5792,7 @@
             },
             {
                 "tooltip": "",
-                "name": "输出维度"
+                "name": "输出尺寸"
             },
             {
                 "tooltip": "",
@@ -6411,7 +5976,7 @@
         ]
     },
     "Node_Vignette": {
-        "tooltip": "对边界应用渐变效果。",
+        "tooltip": "在边缘应用晕影效果",
         "inputs": [
             {
                 "tooltip": "",
@@ -6438,7 +6003,7 @@
                 "name": "圆润度"
             }
         ],
-        "name": "渐变",
+        "name": "晕影效果",
         "outputs": [
             {
                 "tooltip": "",
@@ -6451,7 +6016,7 @@
         "inputs": [
             {
                 "tooltip": "",
-                "name": "维度"
+                "name": "尺寸"
             },
             {
                 "tooltip": "",
@@ -6499,7 +6064,7 @@
         "inputs": [
             {
                 "tooltip": "",
-                "name": "维度"
+                "name": "尺寸"
             },
             {
                 "tooltip": "",
@@ -6643,7 +6208,7 @@
         "inputs": [
             {
                 "tooltip": "",
-                "name": "维度"
+                "name": "尺寸"
             },
             {
                 "tooltip": "",
@@ -6803,11 +6368,11 @@
             },
             {
                 "tooltip": "",
-                "name": "使用自定义维度"
+                "name": "使用自定义尺寸"
             },
             {
                 "tooltip": "",
-                "name": "维度"
+                "name": "尺寸"
             }
         ],
         "name": "扭曲",
@@ -6819,7 +6384,7 @@
         ]
     },
     "Node_3D_Point_Affector": {
-        "tooltip": "根据距离在两个值之间插值，生成 3D 点数组。",
+        "tooltip": "在两个3D点(A到B)之间，按照等距离生成一个点的序列（数组），这些点均匀地分布在从起点到终点的直线上。",
         "inputs": [
             {
                 "tooltip": "",
@@ -6861,22 +6426,8 @@
                 "tooltip": "",
                 "name": "形状",
                 "display_data": [
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_3d_affector_shape)",
-                        "data": "Sphere",
-                        "spr_ind": 0.0,
-                        "spr_blend": 9404030.0,
-                        "name": "球体"
-                    },
-                    {
-                        "tooltip": "",
-                        "spr": "@ref sprite(s_node_3d_affector_shape)",
-                        "data": "Plane",
-                        "spr_ind": 1.0,
-                        "spr_blend": 9404030.0,
-                        "name": "平面"
-                    }
+                    "球体",
+                    "平面"
                 ]
             }
         ],
@@ -6937,7 +6488,7 @@
             },
             {
                 "tooltip": "",
-                "name": "维度"
+                "name": "尺寸"
             },
             {
                 "tooltip": "",
@@ -7450,7 +7001,7 @@
         "inputs": [
             {
                 "tooltip": "",
-                "name": "维度"
+                "name": "尺寸"
             },
             {
                 "tooltip": "",
@@ -7958,7 +7509,7 @@
       "inputs": [
         {
           "tooltip": "",
-          "name": "维度"
+          "name": "尺寸"
         },
         {
           "tooltip": "",
@@ -8014,7 +7565,7 @@
       "inputs": [
         {
           "tooltip": "",
-          "name": "维度"
+          "name": "尺寸"
         },
         {
           "tooltip": "",
@@ -8090,7 +7641,7 @@
       "inputs": [
         {
           "tooltip": "",
-          "name": "维度"
+          "name": "尺寸"
         },
         {
           "tooltip": "",
@@ -8176,7 +7727,7 @@
       "inputs": [
         {
           "tooltip": "",
-          "name": "维度"
+          "name": "尺寸"
         },
         {
           "tooltip": "",
@@ -8510,7 +8061,7 @@
       "inputs": [
         {
           "tooltip": "",
-          "name": "维度"
+          "name": "尺寸"
         },
         {
           "tooltip": "",
@@ -8551,7 +8102,7 @@
       "inputs": [
         {
           "tooltip": "",
-          "name": "维度"
+          "name": "尺寸"
         },
         {
           "tooltip": "",
@@ -8561,30 +8112,9 @@
           "tooltip": "",
           "name": "类型",
           "display_data": [
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_gradient_type)",
-              "data": "Linear",
-              "spr_ind": 0.0,
-              "spr_blend": 9404030.0,
-              "name": "线性"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_gradient_type)",
-              "data": "Circular",
-              "spr_ind": 1.0,
-              "spr_blend": 9404030.0,
-              "name": "圆形"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_gradient_type)",
-              "data": "Radial",
-              "spr_ind": 2.0,
-              "spr_blend": 9404030.0,
-              "name": "径向"
-            }
+            "线性",
+            "圆形"，
+            "径向"
           ]
         },
         {
@@ -8682,11 +8212,11 @@
       ]
     },
     "Node_Noise_Simplex": {
-      "tooltip": "生成 Simplex 噪声，类似于 Perlin 噪声，但具有更好的保真度，但不可平铺。",
+      "tooltip": "生成 Simplex 噪声，类似于 柏林噪声，但具有更好的保真度，但不可平铺。",
       "inputs": [
         {
           "tooltip": "",
-          "name": "维度"
+          "name": "尺寸"
         },
         {
           "tooltip": "",
@@ -8769,22 +8299,8 @@
           "tooltip": "",
           "name": "光源类型",
           "display_data": [
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shadow_type)",
-              "data": "Point",
-              "spr_ind": 0.0,
-              "spr_blend": 9404030.0,
-              "name": "点光源"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shadow_type)",
-              "data": "Sun",
-              "spr_ind": 1.0,
-              "spr_blend": 9404030.0,
-              "name": "太阳光"
-            }
+            "点光源"，
+            "太阳光"
           ]
         },
         {
@@ -8823,30 +8339,9 @@
           "tooltip": "控制光线随距离衰减的方式。",
           "name": "衰减",
           "display_data": [
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_curve)",
-              "data": "Quadratic",
-              "spr_ind": 0.0,
-              "spr_blend": 9404030.0,
-              "name": "二次方"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_curve)",
-              "data": "Invert quadratic",
-              "spr_ind": 1.0,
-              "spr_blend": 9404030.0,
-              "name": "反二次方"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_curve)",
-              "data": "Linear",
-              "spr_ind": 2.0,
-              "spr_blend": 9404030.0,
-              "name": "线性"
-            }
+            "二次方",
+            "反转二次方",
+            "线性"
           ]
         },
         {
@@ -9007,7 +8502,7 @@
       "inputs": [
         {
           "tooltip": "",
-          "name": "维度"
+          "name": "尺寸"
         },
         {
           "tooltip": "",
@@ -9075,7 +8570,7 @@
       "inputs": [
         {
           "tooltip": "",
-          "name": "维度"
+          "name": "尺寸"
         },
         {
           "tooltip": "",
@@ -9120,7 +8615,7 @@
         },
         {
           "tooltip": "",
-          "name": "维度"
+          "name": "尺寸"
         },
         {
           "tooltip": "",
@@ -9148,7 +8643,7 @@
       "inputs": [
         {
           "tooltip": "",
-          "name": "维度"
+          "name": "尺寸"
         },
         {
           "tooltip": "",
@@ -9323,22 +8818,8 @@
           "tooltip": "",
           "name": "形状",
           "display_data": [
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_circle)",
-              "data": "Circle",
-              "spr_ind": 0.0,
-              "spr_blend": 9404030.0,
-              "name": "圆形"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_misc)",
-              "data": "Polygon",
-              "spr_ind": 1.0,
-              "spr_blend": 9404030.0,
-              "name": "多边形"
-            }
+            "圆形",
+            "多边形"
           ]
         },
         {
@@ -9555,7 +9036,7 @@
       "inputs": [
         {
           "tooltip": "",
-          "name": "维度"
+          "name": "尺寸"
         },
         {
           "tooltip": "",
@@ -9645,7 +9126,7 @@
         },
         {
           "tooltip": "",
-          "name": "使用纹理维度"
+          "name": "使用纹理尺寸"
         }
       ],
       "name": "六边形网格",
@@ -9661,7 +9142,7 @@
       "inputs": [
         {
           "tooltip": "",
-          "name": "维度"
+          "name": "尺寸"
         },
         {
           "tooltip": "",
@@ -9714,7 +9195,7 @@
       "inputs": [
         {
           "tooltip": "",
-          "name": "维度"
+          "name": "尺寸"
         },
         {
           "tooltip": "",
@@ -9803,7 +9284,7 @@
       "inputs": [
         {
           "tooltip": "",
-          "name": "维度"
+          "name": "尺寸"
         },
         {
           "tooltip": "",
@@ -9821,70 +9302,14 @@
           "tooltip": "",
           "name": "形状",
           "display_data": [
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_poly_type)",
-              "data": "Rectangle",
-              "spr_ind": 0.0,
-              "spr_blend": 9404030.0,
-              "name": "矩形"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_poly_type)",
-              "data": "Ellipse",
-              "spr_ind": 1.0,
-              "spr_blend": 9404030.0,
-              "name": "椭圆"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_poly_type)",
-              "data": "Star",
-              "spr_ind": 2.0,
-              "spr_blend": 9404030.0,
-              "name": "星形"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_poly_type)",
-              "data": "Capsule",
-              "spr_ind": 3.0,
-              "spr_blend": 9404030.0,
-              "name": "胶囊"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_poly_type)",
-              "data": "Ring",
-              "spr_ind": 4.0,
-              "spr_blend": 9404030.0,
-              "name": "环形"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_poly_type)",
-              "data": "Arc",
-              "spr_ind": 5.0,
-              "spr_blend": 9404030.0,
-              "name": "弧形"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_poly_type)",
-              "data": "Gear",
-              "spr_ind": 6.0,
-              "spr_blend": 9404030.0,
-              "name": "齿轮"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_poly_type)",
-              "data": "Cross",
-              "spr_ind": 7.0,
-              "spr_blend": 9404030.0,
-              "name": "十字形"
-            }
+            "矩形",
+            "椭圆",
+            "星形",
+            "胶囊",
+            "环形",
+            "弧形",
+            "齿轮",
+            "十字形"
           ]
         },
         {
@@ -9957,7 +9382,7 @@
       "inputs": [
         {
           "tooltip": "",
-          "name": "维度"
+          "name": "尺寸"
         },
         {
           "tooltip": "",
@@ -10030,7 +9455,7 @@
         },
         {
           "tooltip": "",
-          "name": "使用纹理维度"
+          "name": "使用纹理尺寸"
         }
       ],
       "name": "五边形网格",
@@ -10046,7 +9471,7 @@
       "inputs": [
         {
           "tooltip": "",
-          "name": "维度"
+          "name": "尺寸"
         },
         {
           "tooltip": "",
@@ -10136,7 +9561,7 @@
         },
         {
           "tooltip": "",
-          "name": "使用纹理维度"
+          "name": "使用纹理尺寸"
         }
       ],
       "name": "三角形网格",
@@ -10152,7 +9577,7 @@
       "inputs": [
         {
           "tooltip": "",
-          "name": "维度"
+          "name": "尺寸"
         },
         {
           "tooltip": "",
@@ -10263,7 +9688,7 @@
         },
         {
           "tooltip": "",
-          "name": "使用纹理维度"
+          "name": "使用纹理尺寸"
         },
         {
           "tooltip": "",
@@ -10478,7 +9903,7 @@
       "inputs": [
         {
           "tooltip": "",
-          "name": "维度"
+          "name": "尺寸"
         },
         {
           "tooltip": "",
@@ -10488,161 +9913,28 @@
           "tooltip": "",
           "name": "形状",
           "display_data": [
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_type)",
-              "data": "Rectangle",
-              "spr_ind": 0.0,
-              "spr_blend": 9404030.0,
-              "name": "矩形"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_type)",
-              "data": "Diamond",
-              "spr_ind": 1.0,
-              "spr_blend": 9404030.0,
-              "name": "菱形"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_type)",
-              "data": "Trapezoid",
-              "spr_ind": 2.0,
-              "spr_blend": 9404030.0,
-              "name": "梯形"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_type)",
-              "data": "Parallelogram",
-              "spr_ind": 3.0,
-              "spr_blend": 9404030.0,
-              "name": "平行四边形"
-            },
+            "矩形",
+            "菱形",
+            "梯形",
+            "平行四边形",
             -1.0,
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_type)",
-              "data": "Ellipse",
-              "spr_ind": 4.0,
-              "spr_blend": 9404030.0,
-              "name": "椭圆"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_type)",
-              "data": "Arc",
-              "spr_ind": 5.0,
-              "spr_blend": 9404030.0,
-              "name": "弧形"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_type)",
-              "data": "Donut",
-              "spr_ind": 6.0,
-              "spr_blend": 9404030.0,
-              "name": "甜甜圈"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_type)",
-              "data": "Crescent",
-              "spr_ind": 7.0,
-              "spr_blend": 9404030.0,
-              "name": "新月形"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_type)",
-              "data": "Disk Segment",
-              "spr_ind": 8.0,
-              "spr_blend": 9404030.0,
-              "name": "圆盘段"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_type)",
-              "data": "Pie",
-              "spr_ind": 9.0,
-              "spr_blend": 9404030.0,
-              "name": "饼图"
-            },
+            "椭圆",
+            "弧形",
+            "甜甜圈",
+            "新月形",
+            "圆盘段",
+            "饼图",
             -1.0,
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_type)",
-              "data": "Regular polygon",
-              "spr_ind": 10.0,
-              "spr_blend": 9404030.0,
-              "name": "正多边形"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_type)",
-              "data": "Star",
-              "spr_ind": 11.0,
-              "spr_blend": 9404030.0,
-              "name": "星形"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_type)",
-              "data": "Cross",
-              "spr_ind": 12.0,
-              "spr_blend": 9404030.0,
-              "name": "十字形"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_type)",
-              "data": "Rounded Cross",
-              "spr_ind": 13.0,
-              "spr_blend": 9404030.0,
-              "name": "圆角十字形"
-            },
+            "正多边形",
+            "星形",
+            "十字形",
+            "圆角十字形",
             -1.0,
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_type)",
-              "data": "Teardrop",
-              "spr_ind": 14.0,
-              "spr_blend": 9404030.0,
-              "name": "泪滴形"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_type)",
-              "data": "Leaf",
-              "spr_ind": 15.0,
-              "spr_blend": 9404030.0,
-              "name": "树叶形"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_type)",
-              "data": "Heart",
-              "spr_ind": 16.0,
-              "spr_blend": 9404030.0,
-              "name": "心形"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_type)",
-              "data": "Arrow",
-              "spr_ind": 17.0,
-              "spr_blend": 9404030.0,
-              "name": "箭头"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_type)",
-              "data": "Gear",
-              "spr_ind": 18.0,
-              "spr_blend": 9404030.0,
-              "name": "齿轮"
-            }
+            "泪滴形",
+            "树叶形",
+            "心形",
+            "箭头",
+            "齿轮"
           ]
         },
         {
@@ -10829,7 +10121,7 @@
       "inputs": [
         {
           "tooltip": "",
-          "name": "维度"
+          "name": "尺寸"
         },
         {
           "tooltip": "",
@@ -10881,7 +10173,7 @@
       "inputs": [
         {
           "tooltip": "",
-          "name": "维度"
+          "name": "尺寸"
         },
         {
           "tooltip": "",
@@ -11338,54 +10630,12 @@
           "display_data": [
             "显示",
             "隐藏",
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_condition_type)",
-              "data": "Equal",
-              "spr_ind": 0.0,
-              "spr_blend": 9404030.0,
-              "name": "等于"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_condition_type)",
-              "data": "Not equal",
-              "spr_ind": 1.0,
-              "spr_blend": 9404030.0,
-              "name": "不等于"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_condition_type)",
-              "data": "Greater ",
-              "spr_ind": 4.0,
-              "spr_blend": 9404030.0,
-              "name": "大于"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_condition_type)",
-              "data": "Greater or equal",
-              "spr_ind": 5.0,
-              "spr_blend": 9404030.0,
-              "name": "大于等于"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_condition_type)",
-              "data": "Lesser",
-              "spr_ind": 2.0,
-              "spr_blend": 9404030.0,
-              "name": "小于"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_condition_type)",
-              "data": "Lesser or equal",
-              "spr_ind": 3.0,
-              "spr_blend": 9404030.0,
-              "name": "小于等于"
-            }
+            "等于",
+            "不等于",
+            "大于",
+            "大于等于",
+            "小于",
+            "小于等于"
           ]
         },
         {
@@ -11727,11 +10977,11 @@
         },
         {
           "tooltip":"",
-          "name":"强度地图"
+          "name":"强度图"
         },
         {
           "tooltip":"",
-          "name":"方向地图"
+          "name":"方向图"
         },
         {
           "tooltip":"",
@@ -11840,15 +11090,15 @@
         },
         {
           "tooltip":"",
-          "name":"渐变偏移地图"
+          "name":"渐变偏移图"
         },
         {
           "tooltip":"",
-          "name":"渐变地图"
+          "name":"渐变图"
         },
         {
           "tooltip":"",
-          "name":"渐变地图范围"
+          "name":"渐变图范围"
         }
       ],
       "name":"着色",
@@ -12275,30 +11525,16 @@
           "tooltip": "",
           "name": "形状",
           "display_data": [
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_rectangle)",
-              "data": "Rectangle",
-              "spr_ind": 0.0,
-              "spr_blend": 9404030.0,
-              "name": "矩形"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_circle)",
-              "data": "Elipse",
-              "spr_ind": 0.0,
-              "spr_blend": 9404030.0,
-              "name": "椭圆"
-            }
+            "矩形",
+            "椭圆"
           ]
         },
         {
           "tooltip": "",
           "name": "类型",
           "display_data": [
-            "Center Span",
-            "Two Point"
+            "中心跨度",
+            "两点"
           ]
         }
       ],
@@ -12397,8 +11633,8 @@
           "tooltip": "",
           "name": "采样类型",
           "display_data": [
-            "Channel value",
-            "Greyscale"
+            "通道值",
+            "灰度"
           ]
         },
         {
@@ -12441,8 +11677,8 @@
           "tooltip": "",
           "name": "材质耗散类型",
           "display_data": [
-            "Multiply",
-            "Subtract"
+            "相乘",
+            "相减"
           ]
         },
         {
@@ -12453,8 +11689,8 @@
           "tooltip": "",
           "name": "速度耗散类型",
           "display_data": [
-            "Multiply",
-            "Subtract"
+            "相乘",
+            "相减"
           ]
         },
         {
@@ -12513,8 +11749,8 @@
           "tooltip": "",
           "name": "类型",
           "display_data": [
-            "String",
-            "Number"
+            "字符串",
+            "数字"
           ]
         },
         {
@@ -12593,8 +11829,8 @@
           "tooltip": "",
           "name": "材质耗散类型",
           "display_data": [
-            "Multiply",
-            "Subtract"
+            "相乘",
+            "相减"
           ]
         },
         {
@@ -12605,8 +11841,8 @@
           "tooltip": "",
           "name": "速度耗散类型",
           "display_data": [
-            "Multiply",
-            "Subtract"
+            "相乘",
+            "相减"
           ]
         },
         {
@@ -12681,17 +11917,17 @@
           "tooltip": "",
           "name": "排序方式",
           "display_data": [
-            "Brightness",
+            "亮度",
             -1.0,
-            "Hue (HSV)",
-            "Saturation (SHV)",
-            "Value (VHS)",
+            "色调 (HSV)",
+            "饱和度 (HSV)",
+            "明度 (HSV)",
             -1.0,
-            "Red (RGB)",
-            "Green (GBR)",
-            "Blue (BRG)",
+            "红色 (RGB)",
+            "绿色 (RGB)",
+            "蓝色 (RGB)",
             -1.0,
-            "Custom"
+            "自定义"
           ]
         },
         {
@@ -12718,54 +11954,12 @@
           "tooltip": "",
           "name": "类型",
           "display_data": [
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_condition_type)",
-              "data": "Equal",
-              "spr_ind": 0.0,
-              "spr_blend": 9404030.0,
-              "name": "等于"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_condition_type)",
-              "data": "Not equal",
-              "spr_ind": 1.0,
-              "spr_blend": 9404030.0,
-              "name": "不等于"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_condition_type)",
-              "data": "Greater ",
-              "spr_ind": 4.0,
-              "spr_blend": 9404030.0,
-              "name": "大于"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_condition_type)",
-              "data": "Greater or equal",
-              "spr_ind": 5.0,
-              "spr_blend": 9404030.0,
-              "name": "大于等于"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_condition_type)",
-              "data": "Lesser",
-              "spr_ind": 2.0,
-              "spr_blend": 9404030.0,
-              "name": "小于"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_condition_type)",
-              "data": "Lesser or equal",
-              "spr_ind": 3.0,
-              "spr_blend": 9404030.0,
-              "name": "小于等于"
-            }
+            "等于",
+            "不等于",
+            "大于",
+            "大于等于",
+            "小于",
+            "小于等于"
           ]
         },
         {
@@ -12864,8 +12058,8 @@
           "tooltip": "",
           "name": "模式",
           "display_data": [
-            "Override",
-            "Add"
+            "覆盖",
+            "添加"
           ]
         }
       ],
@@ -12912,9 +12106,9 @@
           "tooltip": "",
           "name": "渲染类型",
           "display_data": [
-            "Colored tile",
-            "Height map",
-            "Texture grid"
+            "彩色瓷砖",
+            "高度图",
+            "纹理网格"
           ]
         },
         {
@@ -13009,8 +12203,8 @@
           "tooltip": "",
           "name": "模式",
           "display_data": [
-            "Override",
-            "Add"
+            "覆盖",
+            "添加"
           ]
         }
       ],
@@ -13045,9 +12239,9 @@
           "tooltip": "",
           "name": "生成分布",
           "display_data": [
-            "Area",
-            "Border",
-            "Map"
+            "区域",
+            "边界",
+            "映射"
           ]
         },
         {
@@ -13098,9 +12292,9 @@
           "tooltip": "",
           "name": "生成类型",
           "display_data": [
-            "Stream",
-            "Burst",
-            "Trigger"
+            "流",
+            "爆发",
+            "触发"
           ]
         },
         {
@@ -13127,10 +12321,10 @@
           "tooltip": "是否从数组中按顺序、随机选择图像，或将数组视为动画。",
           "name": "表面数组",
           "display_data": [
-            "Random",
-            "Order",
-            "Animation",
-            "Scale"
+            "随机",
+            "顺序",
+            "动画",
+            "缩放"
           ]
         },
         {
@@ -13141,8 +12335,8 @@
           "tooltip": "",
           "name": "散射",
           "display_data": [
-            "Uniform",
-            "Random"
+            "均匀",
+            "随机"
           ]
         },
         {
@@ -13153,9 +12347,9 @@
           "tooltip": "",
           "name": "动画结束时",
           "display_data": [
-            "Loop",
-            "Ping pong",
-            "Destroy"
+            "循环",
+            "往返",
+            "销毁(粒子动画播放完就销毁)"
           ]
         },
         {
@@ -13262,9 +12456,9 @@
           "tooltip": "",
           "name": "混合模式",
           "display_data": [
-            "Normal",
+            "正常",
             "Alpha",
-            "Additive"
+            "叠加"
           ]
         },
         {
@@ -13275,8 +12469,8 @@
           "tooltip": "",
           "name": "渲染类型",
           "display_data": [
-            "Surface",
-            "Line"
+            "表面",
+            "线条"
           ]
         },
         {
@@ -13339,8 +12533,8 @@
           "tooltip": "",
           "name": "模式",
           "display_data": [
-            "Override",
-            "Add"
+            "覆盖",
+            "添加"
           ]
         }
       ],
@@ -13411,9 +12605,9 @@
           "tooltip": "如何处理表面外的像素。\n    - Empty: 使用空像素\n    - Clamp: 重复边缘像素\n    - Repeat: 重复纹理。",
           "name": "过采样模式",
           "display_data": [
-            "Empty",
-            "Clamp",
-            "Repeat"
+            "空",
+            "重复边缘像素",
+            "重复纹理"
           ]
         },
         {
@@ -13528,8 +12722,8 @@
           "tooltip": "",
           "name": "模式",
           "display_data": [
-            "Hexagon",
-            "Star"
+            "六边形",
+            "星形"
           ]
         },
         {
@@ -13592,9 +12786,9 @@
           "tooltip": "",
           "name": "输出尺寸",
           "display_data": [
-            "First surface",
-            "Largest surface",
-            "Constant"
+            "保持为第一个表面的尺寸",
+            "最大的表面",
+            "固定值"
           ]
         },
         {
@@ -13689,9 +12883,9 @@
           "tooltip": "",
           "name": "高亮",
           "display_data": [
-            "None",
-            "Color",
-            "Inner pixel"
+            "无",
+            "颜色",
+            "内部像素"
           ]
         },
         {
@@ -13706,8 +12900,8 @@
           "tooltip": "",
           "name": "数组处理",
           "display_data": [
-            "Individual",
-            "Combined"
+            "单独处理",
+            "组合处理"
           ]
         }
       ],
@@ -13730,54 +12924,12 @@
           "tooltip":"",
           "name":"条件",
           "display_data":[
-            {
-              "tooltip":"",
-              "spr":"@ref sprite(s_node_condition_type)",
-              "data":"Equal",
-              "spr_ind":0.0,
-              "spr_blend":9404030.0,
-              "name":"等于"
-            },
-            {
-              "tooltip":"",
-              "spr":"@ref sprite(s_node_condition_type)",
-              "data":"Not equal",
-              "spr_ind":1.0,
-              "spr_blend":9404030.0,
-              "name":"不等于"
-            },
-            {
-              "tooltip":"",
-              "spr":"@ref sprite(s_node_condition_type)",
-              "data":"Less ",
-              "spr_ind":2.0,
-              "spr_blend":9404030.0,
-              "name":"小于"
-            },
-            {
-              "tooltip":"",
-              "spr":"@ref sprite(s_node_condition_type)",
-              "data":"Less or equal ",
-              "spr_ind":3.0,
-              "spr_blend":9404030.0,
-              "name":"小于或等于"
-            },
-            {
-              "tooltip":"",
-              "spr":"@ref sprite(s_node_condition_type)",
-              "data":"Greater ",
-              "spr_ind":4.0,
-              "spr_blend":9404030.0,
-              "name":"大于"
-            },
-            {
-              "tooltip":"",
-              "spr":"@ref sprite(s_node_condition_type)",
-              "data":"Greater or equal",
-              "spr_ind":5.0,
-              "spr_blend":9404030.0,
-              "name":"大于或等于"
-            }
+            "等于",
+            "不等于",
+            "小于",
+            "小于或等于",
+            "大于",
+            "大于或等于"
           ]
         },
         {
@@ -13827,36 +12979,15 @@
       ]
     },
     "Node_Stack":{
-      "tooltip":"将图像线性排列在一起，或者堆叠在彼此之上。",
+      "tooltip":"将图像沿直线依次并排摆放，或者相互堆叠摆放。",
       "inputs":[
         {
           "tooltip":"",
           "name":"轴",
           "display_data":[
-            {
-              "tooltip":"",
-              "spr":"@ref sprite(s_node_alignment)",
-              "data":"Horizontal",
-              "spr_ind":0.0,
-              "spr_blend":9404030.0,
-              "name":"水平"
-            },
-            {
-              "tooltip":"",
-              "spr":"@ref sprite(s_node_alignment)",
-              "data":"Vertical",
-              "spr_ind":1.0,
-              "spr_blend":9404030.0,
-              "name":"垂直"
-            },
-            {
-              "tooltip":"",
-              "spr":"@ref sprite(s_node_alignment)",
-              "data":"On top",
-              "spr_ind":3.0,
-              "spr_blend":9404030.0,
-              "name":"堆叠"
-            }
+            "水平",
+            "垂直",
+            "堆叠"
           ]
         },
         {
@@ -13904,9 +13035,9 @@
           "tooltip":"如何处理表面外的像素。\n    - Empty: 使用空像素\n    - Clamp: 重复边缘像素\n    - Repeat: 重复纹理。",
           "name":"超采样模式",
           "display_data":[
-            "Empty",
-            "Clamp",
-            "Repeat"
+            "空",
+            "重复边缘像素",
+            "重复纹理"
           ]
         },
         {
@@ -14333,22 +13464,8 @@
           "tooltip": "",
           "name": "主轴",
           "display_data": [
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_alignment)",
-              "data": "Horizontal",
-              "spr_ind": 0.0,
-              "spr_blend": 9404030.0,
-              "name": "水平"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_alignment)",
-              "data": "Vertical",
-              "spr_ind": 1.0,
-              "spr_blend": 9404030.0,
-              "name": "垂直"
-            }
+             "水平",
+             "垂直"
           ]
         },
         {
@@ -14516,7 +13633,7 @@
       ]
     },
     "Node_Path_Bake": {
-      "tooltip": "将路径数据烘焙为 vec2 点数组。",
+      "tooltip": "将路径数据烘焙为一个由二维向量点（vec2 points）组成的数组(通常表示为x,y)。",
       "inputs": [
         {
           "tooltip": "",
@@ -14540,7 +13657,7 @@
       ]
     },
     "Node_Cross_Section": {
-      "tooltip": "将像素的亮度映射到线性轴上生成表面。",
+      "tooltip": "将像素的亮度在一条线性轴上进行映射，从而生成一个表面",
       "inputs": [
         {
           "tooltip": "",
@@ -14720,7 +13837,7 @@
       ]
     },
     "Node_Strand_Create": {
-      "tooltip": "从点、路径或网格创建发丝。",
+      "tooltip": "从点、路径或网格创建毛发。",
       "inputs": [
         {
           "tooltip": "",
@@ -14732,7 +13849,7 @@
           ]
         },
         {
-          "tooltip": "生成的发丝数量。",
+          "tooltip": "生成的毛发数量。",
           "name": "密度"
         },
         {
@@ -14797,7 +13914,7 @@
           ]
         },
         {
-          "tooltip": "防止发丝重置以应用手动修改。取消烘焙将移除所有更改。",
+          "tooltip": "防止毛发重置以应用手动修改。取消烘焙将移除所有更改。",
           "name": "烘焙头发"
         },
         {
@@ -14805,15 +13922,15 @@
           "name": "查看固定头发"
         },
         {
-          "tooltip": "从根部断裂发丝所需的力。设置为 -1 使发丝无限强度。",
+          "tooltip": "从根部断裂毛发所需的力。设置为 -1 使毛发无限强度。",
           "name": "根部强度"
         }
       ],
-      "name": "创建发丝",
+      "name": "创建毛发",
       "outputs": [
         {
           "tooltip": "",
-          "name": "发丝"
+          "name": "毛发"
         }
       ]
     },
@@ -14974,11 +14091,11 @@
       ]
     },
     "Node_Strand_Force_Apply": {
-      "tooltip": "对发丝应用通用力。",
+      "tooltip": "对毛发施加一般力。",
       "inputs": [
         {
           "tooltip": "",
-          "name": "发丝"
+          "name": "毛发"
         },
         {
           "tooltip": "",
@@ -15025,20 +14142,20 @@
           "name": "湍流细节"
         }
       ],
-      "name": "发丝力应用",
+      "name": "毛发力施加",
       "outputs": [
         {
           "tooltip": "",
-          "name": "发丝"
+          "name": "毛发"
         }
       ]
     },
     "Node_Strand_Gravity": {
-      "tooltip": "对发丝应用向下的加速度。",
+      "tooltip": "对毛发施加向下的力。",
       "inputs": [
         {
           "tooltip": "",
-          "name": "发丝"
+          "name": "毛发"
         },
         {
           "tooltip": "",
@@ -15049,36 +14166,36 @@
           "name": "方向"
         }
       ],
-      "name": "发丝重力",
+      "name": "毛发重力",
       "outputs": [
         {
           "tooltip": "",
-          "name": "发丝"
+          "name": "毛发"
         }
       ]
     },
     "Node_Strand_Group_Inline": {
-      "tooltip": "为发丝模拟创建组。",
+      "tooltip": "为毛发模拟创建组。",
       "inputs": [
       ],
-      "name": "发丝模拟组",
+      "name": "毛发模拟组",
       "outputs": [
       ]
     },
     "Node_Strand_Group": {
-      "tooltip": "为发丝模拟创建组。",
+      "tooltip": "为毛发模拟创建组。",
       "inputs": [
       ],
-      "name": "发丝模拟组",
+      "name": "毛发模拟组",
       "outputs": [
       ]
     },
     "Node_Strand_Length_Adjust": {
-      "tooltip": "调整指定区域内的发丝长度。",
+      "tooltip": "调整指定区域内的毛发长度。",
       "inputs": [
         {
           "tooltip": "",
-          "name": "发丝"
+          "name": "毛发"
         },
         {
           "tooltip": "",
@@ -15117,11 +14234,11 @@
           "name": "强度"
         }
       ],
-      "name": "发丝长度调整",
+      "name": "毛发长度调整",
       "outputs": [
         {
           "tooltip": "",
-          "name": "发丝"
+          "name": "毛发"
         }
       ]
     },
@@ -15142,7 +14259,7 @@
       ]
     },
     "Node_Strand_Render_Texture": {
-      "tooltip": "将发丝渲染为纹理路径。",
+      "tooltip": "将毛发渲染为纹理路径。",
       "inputs": [
         {
           "tooltip": "",
@@ -15150,7 +14267,7 @@
         },
         {
           "tooltip": "",
-          "name": "发丝"
+          "name": "毛发"
         },
         {
           "tooltip": "",
@@ -15169,7 +14286,7 @@
           "name": "种子"
         }
       ],
-      "name": "发丝纹理渲染",
+      "name": "毛发纹理渲染",
       "outputs": [
         {
           "tooltip": "",
@@ -15248,22 +14365,8 @@
           "tooltip": "",
           "name": "主轴",
           "display_data": [
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_alignment)",
-              "data": "Horizontal",
-              "spr_ind": 0.0,
-              "spr_blend": 9404030.0,
-              "name": "水平"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_alignment)",
-              "data": "Vertical",
-              "spr_ind": 1.0,
-              "spr_blend": 9404030.0,
-              "name": "垂直"
-            }
+            "水平",
+            "垂直"
           ]
         },
         {
@@ -15368,7 +14471,7 @@
       ]
     },
     "Node_Strand_Render": {
-      "tooltip": "将发丝渲染到表面上，作为单条路径。",
+      "tooltip": "将毛发渲染到表面上，作为单条路径。",
       "inputs": [
         {
           "tooltip": "",
@@ -15376,7 +14479,7 @@
         },
         {
           "tooltip": "",
-          "name": "发丝"
+          "name": "毛发"
         },
         {
           "tooltip": "",
@@ -15399,15 +14502,15 @@
           "name": "种子"
         },
         {
-          "tooltip": "在真实发丝之间渲染额外的发丝。",
-          "name": "子发丝"
+          "tooltip": "在真实毛发之间渲染额外的毛发。",
+          "name": "子毛发"
         },
         {
           "tooltip": "",
           "name": "更新质量"
         }
       ],
-      "name": "发丝渲染",
+      "name": "毛发渲染",
       "outputs": [
         {
           "tooltip": "",
@@ -15440,22 +14543,22 @@
       ]
     },
     "Node_Strand_Update": {
-      "tooltip": "更新发丝一步。",
+      "tooltip": "更新毛发一步。",
       "inputs": [
         {
           "tooltip": "",
-          "name": "发丝"
+          "name": "毛发"
         },
         {
           "tooltip": "",
           "name": "步长"
         }
       ],
-      "name": "发丝更新",
+      "name": "毛发更新",
       "outputs": [
         {
           "tooltip": "",
-          "name": "发丝"
+          "name": "毛发"
         }
       ]
     },
@@ -15996,22 +15099,8 @@
           "tooltip": "",
           "name": "坐标系统",
           "display_data": [
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_axis_type)",
-              "data": "Cartesian",
-              "spr_ind": 0.0,
-              "spr_blend": 9404030.0,
-              "name": "笛卡尔坐标系"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_axis_type)",
-              "data": "Polar",
-              "spr_ind": 1.0,
-              "spr_blend": 9404030.0,
-              "name": "极坐标系"
-            }
+              "笛卡尔坐标系",
+              "极坐标系"
           ]
         },
         {
@@ -17097,7 +16186,7 @@
             "刚体对象",
             "域",
             "结构体",
-            "发丝",
+            "毛发",
             "网格",
             "触发器",
             -1.0,
@@ -17148,54 +16237,12 @@
           "display_data": [
             "显示",
             "隐藏",
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_condition_type)",
-              "data": "Equal",
-              "spr_ind": 0.0,
-              "spr_blend": 9404030.0,
-              "name": "等于"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_condition_type)",
-              "data": "Not equal",
-              "spr_ind": 1.0,
-              "spr_blend": 9404030.0,
-              "name": "不等于"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_condition_type)",
-              "data": "Greater ",
-              "spr_ind": 4.0,
-              "spr_blend": 9404030.0,
-              "name": "大于"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_condition_type)",
-              "data": "Greater or equal",
-              "spr_ind": 5.0,
-              "spr_blend": 9404030.0,
-              "name": "大于等于"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_condition_type)",
-              "data": "Lesser",
-              "spr_ind": 2.0,
-              "spr_blend": 9404030.0,
-              "name": "小于"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_condition_type)",
-              "data": "Lesser or equal",
-              "spr_ind": 3.0,
-              "spr_blend": 9404030.0,
-              "name": "小于等于"
-            }
+            "等于",
+            "不等于",
+            "大于",
+            "大于等于",
+            "小于",
+            "小于等于"
           ]
         },
         {
@@ -18162,7 +17209,7 @@
       ]
     },
     "Node_Time_Remap": {
-      "tooltip": "使用纹理作为时间映射重新映射图像。其中较亮的像素表示使用来自更早帧的像素。",
+      "tooltip": "使使用纹理作为时间映射重新映射图像，亮度较高的像素表示使用来自旧帧的像素。",
       "inputs": [
         {
           "tooltip": "",
@@ -18663,7 +17710,7 @@
       ]
     },
     "Node_Kuwahara": {
-      "tooltip": "应用 Kuwahara 滤镜。创建类似水彩的效果。",
+      "tooltip": "使用 Kuwahara 滤镜。创建类似水彩的效果。",
       "inputs": [
         {
           "tooltip": "",
@@ -18702,7 +17749,7 @@
           "name": "蒙版羽化"
         }
       ],
-      "name": "Kuwahara",
+      "name": "Kuwahara滤镜",
       "outputs": [
         {
           "tooltip": "",
@@ -18979,22 +18026,8 @@
           "tooltip": "",
           "name": "轴",
           "display_data": [
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_alignment)",
-              "data": "Horizontal",
-              "spr_ind": 0.0,
-              "spr_blend": 9404030.0,
-              "name": "水平"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_alignment)",
-              "data": "Vertical",
-              "spr_ind": 1.0,
-              "spr_blend": 9404030.0,
-              "name": "垂直"
-            }
+            "水平",
+            "垂直"
           ]
         },
         {
@@ -20128,7 +19161,7 @@
       ]
     },
     "Node_Perlin_Extra": {
-      "tooltip": "使用不同算法生成的随机 Perlin 噪声。",
+      "tooltip": "使用不同算法生成的随机 柏林噪声。",
       "inputs": [
         {
           "tooltip": "",
@@ -20213,7 +19246,7 @@
           "name": "旋转"
         }
       ],
-      "name": "额外的 Perlin 噪声",
+      "name": "额外的 柏林噪声",
       "outputs": [
         {
           "tooltip": "",
@@ -20252,38 +19285,10 @@
           "tooltip": "",
           "name": "触发条件",
           "display_data": [
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_trigger_cond)",
-              "data": "True frame",
-              "spr_ind": 0.0,
-              "spr_blend": 9404030.0,
-              "name": "真值帧"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_trigger_cond)",
-              "data": "False to True",
-              "spr_ind": 1.0,
-              "spr_blend": 9404030.0,
-              "name": "假值到真值"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_trigger_cond)",
-              "data": "True to False",
-              "spr_ind": 2.0,
-              "spr_blend": 9404030.0,
-              "name": "真值到假值"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_trigger_cond)",
-              "data": "Value changed",
-              "spr_ind": 3.0,
-              "spr_blend": 9404030.0,
-              "name": "值变化"
-            }
+            "真值帧",
+            "假值变成真值",
+            "真值变成假值",
+            "值变化"
           ]
         }
       ],
@@ -20336,7 +19341,7 @@
       ]
     },
     "Node_Perlin": {
-      "tooltip": "生成 Perlin 噪声。",
+      "tooltip": "生成 柏林噪声。",
       "inputs": [
         {
           "tooltip": "",
@@ -20392,7 +19397,7 @@
           "name": "旋转"
         }
       ],
-      "name": "Perlin 噪声",
+      "name": "柏林噪声",
       "outputs": [
         {
           "tooltip": "",
@@ -20798,22 +19803,8 @@
           "tooltip": "",
           "name": "类型",
           "display_data": [
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_bend_type)",
-              "data": "Arc",
-              "spr_ind": 0.0,
-              "spr_blend": 9404030.0,
-              "name": "弧形"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_bend_type)",
-              "data": "Wave",
-              "spr_ind": 1.0,
-              "spr_blend": 9404030.0,
-              "name": "波形"
-            }
+             "弧形",
+             "波形"
           ]
         },
         {
@@ -20914,7 +19905,7 @@
       ]
     },
     "Node_Bevel": {
-      "tooltip": "对图像应用 2D 倒角。",
+      "tooltip": "在图像上施加 2D 倒角效果。",
       "inputs": [
         {
           "tooltip": "",
@@ -20936,30 +19927,9 @@
           "tooltip": "",
           "name": "斜率",
           "display_data": [
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_curve)",
-              "data": "Linear",
-              "spr_ind": 2.0,
-              "spr_blend": 9404030.0,
-              "name": "线性"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_curve)",
-              "data": "Smooth",
-              "spr_ind": 4.0,
-              "spr_blend": 9404030.0,
-              "name": "平滑"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_curve)",
-              "data": "Circular",
-              "spr_ind": 5.0,
-              "spr_blend": 9404030.0,
-              "name": "圆形"
-            }
+            "线性",
+            "平滑",
+            "圆形"
           ]
         },
         {
@@ -21130,9 +20100,9 @@
           "tooltip": "如何处理表面外的像素。\n    - 空白：使用空白像素\n    - 钳制：重复边缘像素\n    - 重复：重复纹理。",
           "name": "超采样模式",
           "display_data": [
-            "空白",
-            "钳制",
-            "重复"
+            "空",
+            "重复边缘像素",
+            "重复纹理"
           ]
         },
         {
@@ -21241,20 +20211,20 @@
           "name": "沿长度的宽度变化"
         },
         {
-          "tooltip": "将完整的'沿长度的宽度变化'应用于修剪后的路径。",
-          "name": "沿路径应用宽度"
+          "tooltip": "将完整的'沿长度的宽度变化'应用于修剪过的路径。",
+          "name": "沿路径分布宽度"
         },
         {
-          "tooltip": "",
+          "tooltip": "在线条或路径的末端应用圆形端点",
           "name": "圆角端点"
         },
         {
-          "tooltip": "",
+          "tooltip": "将路径或线条的每个段处理成圆滑的形状",
           "name": "圆角分段"
         },
         {
           "tooltip": "将完整的'沿长度的颜色变化'应用于修剪后的路径。",
-          "name": "沿路径应用颜色"
+          "name": "沿路径分布颜色"
         },
         {
           "tooltip": "",
@@ -21362,39 +20332,18 @@
           "tooltip": "如何处理表面外的像素。\n    - 空白：使用空白像素\n    - 钳制：重复边缘像素\n    - 重复：重复纹理。",
           "name": "超采样模式",
           "display_data": [
-            "空白",
-            "钳制",
-            "重复"
+            "空",
+            "重复边缘像素",
+            "重复纹理"
           ]
         },
         {
           "tooltip": "",
           "name": "形状",
           "display_data": [
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_rectangle)",
-              "data": "Square",
-              "spr_ind": 0.0,
-              "spr_blend": 9404030.0,
-              "name": "方形"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_circle)",
-              "data": "Circle",
-              "spr_ind": 0.0,
-              "spr_blend": 9404030.0,
-              "name": "圆形"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_shape_misc)",
-              "data": "Diamond",
-              "spr_ind": 0.0,
-              "spr_blend": 9404030.0,
-              "name": "菱形"
-            }
+            "正方形",
+            "圆形",
+            "菱形"
           ]
         },
         {
@@ -21461,54 +20410,12 @@
           "tooltip": "",
           "name": "类型",
           "display_data": [
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_logic)",
-              "data": "And",
-              "spr_ind": 0.0,
-              "spr_blend": 9404030.0,
-              "name": "与"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_logic)",
-              "data": "Or",
-              "spr_ind": 1.0,
-              "spr_blend": 9404030.0,
-              "name": "或"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_logic)",
-              "data": "Not",
-              "spr_ind": 2.0,
-              "spr_blend": 9404030.0,
-              "name": "非"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_logic)",
-              "data": "Nand",
-              "spr_ind": 3.0,
-              "spr_blend": 9404030.0,
-              "name": "与非"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_logic)",
-              "data": "Nor",
-              "spr_ind": 4.0,
-              "spr_blend": 9404030.0,
-              "name": "或非"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_logic)",
-              "data": "Xor",
-              "spr_ind": 5.0,
-              "spr_blend": 9404030.0,
-              "name": "异或"
-            }
+            "与 And",
+            "或 Or",
+            "非 Not",
+            "与非 Nand",
+            "或非 Nor",
+            "异或 Xor"
           ]
         }
       ],
@@ -21535,19 +20442,19 @@
           "tooltip": "",
           "name": "混合模式",
           "display_data": [
-            "正常",
-            "加",
-            "减",
-            "乘",
-            "屏幕",
-            "叠加",
-            "色调",
-            "饱和度",
-            "亮度",
-            "最大值",
-            "最小值",
-            "替换",
-            "差值"
+            "正常模式",
+            "加法模式",
+            "减法模式",
+            "乘法模式",
+            "屏幕模式",
+            "叠加模式",
+            "色调模式",
+            "饱和度模式",
+            "亮度模式",
+            "最大值模式",
+            "最小值模式",
+            "替换模式",
+            "差值模式"
           ]
         },
         {
@@ -21562,9 +20469,9 @@
           "tooltip": "",
           "name": "填充模式",
           "display_data": [
-            "无",
-            "拉伸",
-            "平铺"
+            "无填充",
+            "拉伸填充",
+            "平铺填充"
           ]
         },
         {
@@ -21575,7 +20482,7 @@
             "前景",
             "蒙版",
             "最大值",
-            "固定"
+            "固定（常数）"
           ]
         },
         {
@@ -21708,22 +20615,8 @@
           "tooltip": "",
           "name": "类型",
           "display_data": [
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_plot_linear_type)",
-              "data": "Bar chart",
-              "spr_ind": 0.0,
-              "spr_blend": 9404030.0,
-              "name": "条形图"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_plot_linear_type)",
-              "data": "Graph",
-              "spr_ind": 1.0,
-              "spr_blend": 9404030.0,
-              "name": "折线图"
-            }
+            "条形图",
+            "折线图",
           ]
         },
         {
@@ -21840,18 +20733,18 @@
       ]
     },
     "Node_Bloom": {
-      "tooltip": "应用光晕效果，模糊并提亮图像的亮部。",
+      "tooltip": "应用泛光效果，模糊和提亮图像的明亮部分",
       "inputs": [
         {
           "tooltip": "",
           "name": "输入表面"
         },
         {
-          "tooltip": "光晕模糊半径。",
+          "tooltip": "泛光模糊半径.",
           "name": "大小"
         },
         {
-          "tooltip": "像素亮度达到多少开始产生光晕。",
+          "tooltip": "像素需要多亮才能开始泛光.",
           "name": "容差"
         },
         {
@@ -21860,7 +20753,7 @@
         },
         {
           "tooltip": "",
-          "name": "光晕蒙版"
+          "name": "泛光蒙版"
         },
         {
           "tooltip": "",
@@ -21907,7 +20800,7 @@
           "name": "缩放原点"
         }
       ],
-      "name": "光晕",
+      "name": "泛光",
       "outputs": [
         {
           "tooltip": "",
@@ -21958,30 +20851,9 @@
           "tooltip": "",
           "name": "半径模式",
           "display_data": [
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_curve)",
-              "data": "Linear",
-              "spr_ind": 2.0,
-              "spr_blend": 9404030.0,
-              "name": "线性"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_curve)",
-              "data": "Inverse Square",
-              "spr_ind": 1.0,
-              "spr_blend": 9404030.0,
-              "name": "反平方"
-            },
-            {
-              "tooltip": "",
-              "spr": "@ref sprite(s_node_curve)",
-              "data": "Logarithm",
-              "spr_ind": 3.0,
-              "spr_blend": 9404030.0,
-              "name": "对数"
-            }
+            "线性",
+            "反平方比",
+            "对数"
           ]
         },
         {
@@ -23375,9 +22247,9 @@
           "tooltip":"如何处理表面外的像素。\n    - Empty: 使用空像素\n    - Clamp: 重复边缘像素\n    - Repeat: 重复纹理。",
           "name":"超采样模式",
           "display_data":[
-            "Empty",
-            "Clamp",
-            "Repeat"
+            "空",
+            "重复边缘像素",
+            "重复纹理"
           ]
         },
         {
@@ -23518,7 +22390,7 @@
       ]
     },
     "Node_RD":{
-      "tooltip":"模拟反应扩散效果。",
+      "tooltip":"模拟反应-扩散效果。",
       "inputs":[
         {
           "tooltip":"",
@@ -23526,11 +22398,11 @@
         },
         {
           "tooltip":"",
-          "name":"杀死速率"
+          "name":"抑制率"
         },
         {
           "tooltip":"",
-          "name":"喂养速率"
+          "name":"促进率"
         },
         {
           "tooltip":"",
@@ -23550,27 +22422,27 @@
         },
         {
           "tooltip":"",
-          "name":"添加 B"
+          "name":"增加 B"
+        },
+        {
+          "tooltip":"用于控制某些区域中抑制反应的速率",
+          "name":"抑制图"
+        },
+        {
+          "tooltip":"用于控制某些区域中促进反应的速率",
+          "name":"促进图"
+        },
+        {
+          "tooltip":"用于控制模拟中时间的流动或变化速率",
+          "name":"时间图"
         },
         {
           "tooltip":"",
-          "name":"杀死地图"
+          "name":"扩散A图"
         },
         {
           "tooltip":"",
-          "name":"喂养地图"
-        },
-        {
-          "tooltip":"",
-          "name":"时间地图"
-        },
-        {
-          "tooltip":"",
-          "name":"DfA 地图"
-        },
-        {
-          "tooltip":"",
-          "name":"DfB 地图"
+          "name":"扩散B图"
         },
         {
           "tooltip":"",
@@ -23622,7 +22494,7 @@
       "inputs":[
         {
           "tooltip":"",
-          "name":"维度"
+          "name":"尺寸"
         },
         {
           "tooltip":"",
@@ -23646,11 +22518,11 @@
         },
         {
           "tooltip":"",
-          "name":"数量地图"
+          "name":"数量图"
         },
         {
           "tooltip":"",
-          "name":"角度地图"
+          "name":"角度图"
         },
         {
           "tooltip":"",
@@ -23667,7 +22539,7 @@
         },
         {
           "tooltip":"",
-          "name":"宽度地图"
+          "name":"宽度图"
         },
         {
           "tooltip":"",
@@ -23735,17 +22607,17 @@
           "name":"填充类型",
           "display_data":[
             "随机",
-            "颜色地图",
-            "纹理地图"
+            "颜色图",
+            "纹理图"
           ]
         },
         {
           "tooltip":"",
-          "name":"颜色地图"
+          "name":"颜色图"
         },
         {
           "tooltip":"",
-          "name":"纹理地图"
+          "name":"纹理图"
         },
         {
           "tooltip":"",
@@ -23781,9 +22653,9 @@
           "tooltip":"如何处理表面外的像素。\n    - Empty: 使用空像素\n    - Clamp: 重复边缘像素\n    - Repeat: 重复纹理。",
           "name":"超采样模式",
           "display_data":[
-            "Empty",
-            "Clamp",
-            "Repeat"
+            "空",
+            "重复边缘像素",
+            "重复纹理"
           ]
         },
         {
@@ -23920,11 +22792,11 @@
           },
           {
             "tooltip":"",
-            "name":"亮度地图"
+            "name":"亮度图"
           },
           {
             "tooltip":"",
-            "name":"对比度地图"
+            "name":"对比度图"
           }
         ],
         "name":"BW",
@@ -23972,7 +22844,7 @@
           "name":"种子"
         }
       ],
-      "name":"MK 延迟机",
+      "name":"MK 延时器",
       "outputs":[
         {
           "tooltip":"",
@@ -24017,7 +22889,7 @@
       ]
     },
     "Node_Equation":{
-      "tooltip":"评估字符串形式的方程。可以选择设置变量。",
+      "tooltip":"计算方程式字符串的值，并可选择设置变量",
       "inputs":[
         {
           "tooltip":"",
@@ -24033,7 +22905,7 @@
       ]
     },
     "Node_Erode":{
-      "tooltip":"移除接近图像边界的像素。",
+      "tooltip":"移除靠近图像边缘的像素。",
       "inputs":[
         {
           "tooltip":"",
@@ -24045,7 +22917,7 @@
         },
         {
           "tooltip":"",
-          "name":"保留边界"
+          "name":"保留边缘"
         },
         {
           "tooltip":"",
@@ -24077,7 +22949,7 @@
         },
         {
           "tooltip":"",
-          "name":"宽度地图"
+          "name":"宽度图"
         }
       ],
       "name":"腐蚀",
