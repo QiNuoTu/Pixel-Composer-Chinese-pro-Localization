@@ -1,3 +1,5 @@
+ ![](file:///D:/Users/WWNNL/Desktop/GodotProjects/PixelComposerProject/Pixel-Composer-Chinese-Localization/img/zh_banner.png)
+
 # Pixel-Compose 简体中文汉化包
 
 The simplified chinese localization file for Pixel-Composer
