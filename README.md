@@ -1,4 +1,4 @@
- ![](file:///D:/Users/WWNNL/Desktop/GodotProjects/PixelComposerProject/Pixel-Composer-Chinese-Localization/img/zh_banner.png)
+![zh_banner](https://github.com/user-attachments/assets/d94a649c-a775-4a93-ac52-55d720c284ba)
 
 # Pixel-Compose 简体中文汉化包
 
