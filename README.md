@@ -14,6 +14,8 @@ The simplified chinese localization file for Pixel-Composer
 
 先点击绿色的Code按钮然后点击Download ZIP以获取最新汉化文件的压缩包
 
+或点击Releases,获取版本构建
+
 ## 自动汉化
 
 解压后目录结构如下（必要文件）（非目录结构内的可删)
