@@ -10,6 +10,18 @@ The simplified chinese localization file for Pixel-Composer
 
 本项目的原始框架参考了[Pixel-Composer_Chinese-localization](https://github.com/LunarConcerto/Pixel-Composer_Chinese-localization)后经过了修改
 
+# 进度
+
+- 1.18.0.4版本（也就是在测试项内选无）可以正常使用，其他版本默认部分兼容
+
+- `UI.json` 已添加完整汉化文本.
+
+- `words.json` 已添加完整汉化文本.
+
+- `nodes.json` 已添加完整汉化文本.
+
+- 示例教程汉化 已添加完整汉化文本.
+
 # 如何使用
 
 先点击绿色的Code按钮然后点击Download ZIP以获取最新汉化文件的压缩包
@@ -51,18 +63,6 @@ Pixel-Composer-Chinese-Localization/
 3. 从汉化文件中复制Welcome files文件夹，然后粘贴到本地文件目录
 
 4. 打开Pixel Compose在开始窗口查看汉化过的教程吧！
-
-# 进度
-
-- 1.18.0.4版本（也就是在测试项内选无）可以正常使用，其他版本默认部分兼容
-
-- `UI.json` 已添加完整汉化文本.
-
-- `words.json` 已添加完整汉化文本.
-
-- `nodes.json` 已添加完整汉化文本.
-
-- 示例教程汉化仍在进行中，部分已汉化
 
 # 软件交流
 
