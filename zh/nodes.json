@@ -1,6 +1,6 @@
 {
     "Node_Cache_Array": {
-      "tooltip": "将当前动画存储为数组。缓存会在保存之间保持。",
+      "tooltip": "将当前动画存储为数组缓存会在保存之间保\n持",
       "inputs": [
           {
               "tooltip": "",
@@ -28,7 +28,7 @@
       ]
     },
     "Node_Mesh_Warp": {
-      "tooltip": "通过将图像转换为网格并使用控制点来包裹图像。",
+      "tooltip": "通过将图像转换为网格\n并使用控制点来包裹图像。",
       "inputs": [
           {
               "tooltip": "",
@@ -431,7 +431,7 @@
       ]
   },
   "Node_Camera": {
-      "tooltip": "创建一个相机，用于裁剪图像以适应尺寸，并控制位置和缩放。也可用于创建视差效果。",
+      "tooltip": "创建一个相机用于裁剪图像以适应尺寸并\n控制位置和缩放，也可用于创建视差效果",
       "inputs": [
           {
               "tooltip": "",
@@ -595,7 +595,7 @@
         ]
     },
     "Node_Export": {
-        "tooltip": "将图像、图像数组导出为文件、图像序列或动画。",
+        "tooltip": "将图像、图像数组导出为文件图像序列或\n动画",
         "inputs": [
             {
                 "tooltip": "",
@@ -914,7 +914,7 @@
         ]
     },
     "Node_Repeat_Texture": {
-        "tooltip": "在更大的表面上重复纹理，避免重复图案。",
+        "tooltip": "在更大的表面上重复纹理，避免重复图案",
         "inputs": [
             {
                 "tooltip": "",
@@ -1208,7 +1208,7 @@
         ]
     },
     "Node_Feedback": {
-        "tooltip": "创建一个组，将上一帧的输出重用到当前帧。",
+        "tooltip": "创建一个组，将上一帧的输出重用到当前帧",
         "inputs": [
         ],
         "name": "反馈",
@@ -1496,7 +1496,7 @@
       ]
     },
     "Node_RGB_Channel":{
-        "tooltip":"提取图像上的RGBA通道，每个通道成为单独的图像。",
+        "tooltip":"提取图像上的 RGBA 通道每个通道\n成为单独的图像",
         "inputs":[
           {
             "tooltip":"",
@@ -4096,7 +4096,7 @@
         ]
     },
     "Node_VFX_Group_Inline": {
-        "tooltip": "创建 VFX 组，可以使用不同的力节点操作生成的粒子。",
+        "tooltip": "创建 VFX 组，可以使用不同的力节点\n操作生成的粒子",
         "inputs": [
             {
                 "tooltip": "",
@@ -6384,7 +6384,7 @@
         ]
     },
     "Node_3D_Point_Affector": {
-        "tooltip": "在两个3D点(A到B)之间，按照等距离生成一个点的序列（数组），这些点均匀地分布在从起点到终点的直线上。",
+        "tooltip": "在两个3D点(A到B)之间，按照等距离生成\n一个点的序列（数组），这些点均匀地分\n布在从起点到终点的直线上",
         "inputs": [
             {
                 "tooltip": "",
@@ -7425,7 +7425,7 @@
         ]
     },
     "Node_Seperate_Shape": {
-      "tooltip": "将不相连的像素区域分别提取到图像数组中的每个图像。",
+      "tooltip": "将不相连的像素区域分别提取到图像数组\n中的每个图像",
       "inputs": [
         {
           "tooltip": "",
@@ -7863,7 +7863,7 @@
       ]
     },
     "Node_Websocket_Sender": {
-      "tooltip": "创建 WebSocket 服务器以将数据发送到网络。",
+      "tooltip": "创建 WebSocket 服务器\n以将数据发送到网络。",
       "inputs": [
         {
           "tooltip": "",
@@ -8212,7 +8212,7 @@
       ]
     },
     "Node_Noise_Simplex": {
-      "tooltip": "生成 Simplex 噪声，类似于 柏林噪声，但具有更好的保真度，但不可平铺。",
+      "tooltip": "生成 Simplex 噪声，类似于柏林噪声\n但具有更好的保真度，不可平铺",
       "inputs": [
         {
           "tooltip": "",
@@ -8607,7 +8607,7 @@
       ]
     },
     "Node_9Slice": {
-      "tooltip": "将图像切割为 3x3 部分，并仅缩放/重复中间部分。",
+      "tooltip": "将图像切割为 3x3 部分\n并仅缩放/重复中间部分。",
       "inputs": [
         {
           "tooltip": "",
@@ -9256,7 +9256,7 @@
       ]
     },
     "Node_Normalize": {
-      "tooltip": "将图像范围（亮度、RGB 通道）归一化到 [0, 1] 范围内。",
+      "tooltip": "将图像范围（亮度、RGB 通道）归一化\n到 [0, 1] 范围内",
       "inputs": [
         {
           "tooltip": "",
@@ -9712,7 +9712,7 @@
       ]
     },
     "Node_Color_adjust": {
-      "tooltip": "调整亮度、对比度、色相、饱和度、明度、透明度，并将图像与颜色混合。",
+      "tooltip": "调整亮度、对比度、色相、饱和度\n明度、透明度，并将图像与颜色混合",
       "inputs": [
         {
           "tooltip": "",
@@ -10471,7 +10471,7 @@
       ]
     },
     "Node_Color_replace": {
-      "tooltip": "将图像匹配到调色板，然后将其重新映射到另一个调色板。",
+      "tooltip": "将图像匹配到调色板\n然后将其重新映射到另一个调色板",
       "inputs": [
         {
           "tooltip": "",
@@ -10753,7 +10753,7 @@
       ]
     },
     "Node_Override_Channel":{
-      "tooltip":"用另一个表面的RGBA值替换一个表面的RGBA值。",
+      "tooltip":"用另一个表面的RGBA值替换一个表面的\nRGBA值",
       "inputs":[
         {
           "tooltip":"",
@@ -11046,7 +11046,7 @@
       ]
     },
     "Node_Colorize":{
-      "tooltip":"将像素的亮度映射到渐变中的颜色。",
+      "tooltip":"将像素的亮度映射到渐变中的颜色",
       "inputs":[
         {
           "tooltip":"",
@@ -11134,7 +11134,7 @@
       ]
     },
     "Node_Pack_Sprites": {
-      "tooltip": "使用不同算法将不同尺寸的图像数组组合在一起。",
+      "tooltip": "使用不同算法将不同尺寸的图像数组组合\n在一起",
       "inputs": [
         {
           "tooltip": "",
@@ -11176,7 +11176,7 @@
       ]
     },
     "Node_Padding": {
-      "tooltip": "通过在四个方向上添加空间来使图像变大。",
+      "tooltip": "通过在四个方向上添加空间来使图像变大",
       "inputs": [
         {
           "tooltip": "",
@@ -11547,7 +11547,7 @@
       ]
     },
     "Node_Combine_HSV": {
-      "tooltip": "将 4 个图像组合成一个。每个图像用于控制 HSVA 通道。",
+      "tooltip": "将 4 个图像组合成一个每个图像用于控\n制 HSVA 通道",
       "inputs": [
         {
           "tooltip": "",
@@ -11611,7 +11611,7 @@
       ]
     },
     "Node_Combine_RGB": {
-      "tooltip": "将 4 个图像组合成一个。每个图像用于控制 RGBA 通道。",
+      "tooltip": "将 4 个图像组合成一个每个图像用于控\n制 RGBA 通道",
       "inputs": [
         {
           "tooltip": "",
@@ -12016,7 +12016,7 @@
       ]
     },
     "Node_Palette": {
-      "tooltip": "创建调色板值。注意调色板只是一个颜色数组。",
+      "tooltip": "创建调色板值注意调色板只是一个颜色数组",
       "inputs": [
         {
           "tooltip": "",
@@ -12744,7 +12744,7 @@
       ]
     },
     "Node_HSV_Channel": {
-      "tooltip": "提取图像的 HSVA 通道，每个通道成为独立的图像。",
+      "tooltip": "提取图像的 HSVA 通道每个通道成\n为独立的图像",
       "inputs": [
         {
           "tooltip": "",
@@ -12776,7 +12776,7 @@
       ]
     },
     "Node_Composite": {
-      "tooltip": "将多个图像组合在一起<br>- 可控制位置、旋转和缩放。",
+      "tooltip": "将多个图像组合在一起\n可控制位置、旋转和缩放。",
       "inputs": [
         {
           "tooltip": "",
@@ -12841,7 +12841,7 @@
       ]
     },
     "Node_Sprite_Stack": {
-      "tooltip": "通过重复单个图像或使用数组堆叠不同图像创建精灵堆叠。",
+      "tooltip": "通过重复单个图像或使用数组堆叠不同\n图像创建精灵堆叠",
       "inputs": [
         {
           "tooltip": "",
@@ -12914,7 +12914,7 @@
       ]
     },
     "Node_Condition":{
-      "tooltip":"给定一个条件，如果为真则输出一个值，否则输出另一个值。",
+      "tooltip":"给定一个条件，如果为真则输出一个值\n否则输出另一个值",
       "inputs":[
         {
           "tooltip":"",
@@ -12979,7 +12979,7 @@
       ]
     },
     "Node_Stack":{
-      "tooltip":"将图像沿直线依次并排摆放，或者相互堆叠摆放。",
+      "tooltip":"将图像沿直线依次并排摆放或者相互堆叠\n摆放",
       "inputs":[
         {
           "tooltip":"",
@@ -13021,7 +13021,7 @@
       ]
     },
     "Node_Convolution":{
-      "tooltip":"使用自定义的 3x3 卷积核对每个像素应用卷积操作。",
+      "tooltip":"使用自定义的 3x3 卷积核\n对每个像素应用卷积操作",
       "inputs":[
         {
           "tooltip":"",
@@ -13236,7 +13236,7 @@
       ]
     },
     "Node_Counter":{
-      "tooltip":"输出当前帧作为帧索引，或动画进度（0 - 1）。",
+      "tooltip":"输出当前帧作为帧索引或动画进度0-1",
       "inputs":[
         {
           "tooltip":"",
@@ -13657,7 +13657,7 @@
       ]
     },
     "Node_Cross_Section": {
-      "tooltip": "将像素的亮度在一条线性轴上进行映射，从而生成一个表面",
+      "tooltip": "将像素的亮度在一条线性轴上进行映射从\n而生成一个表面",
       "inputs": [
         {
           "tooltip": "",
@@ -15158,7 +15158,7 @@
       ]
     },
     "Node_IsoSurf": {
-      "tooltip": "创建一个动态表面，其纹理根据旋转而变化。",
+      "tooltip": "创建一个动态表面，其纹理根据旋转而变化",
       "inputs": [
         {
           "tooltip": "",
@@ -15280,7 +15280,7 @@
       ]
     },
     "Node_Iterate_Each_Inline": {
-      "tooltip": "创建一个组，对数组中的每个成员进行迭代。",
+      "tooltip": "创建一个组，对数组中的每个成员进行迭代",
       "inputs": [
       ],
       "name": "数组循环",
@@ -15746,7 +15746,7 @@
       ]
     },
     "Node_Iterate": {
-      "tooltip": "创建一个组，在一帧内反复使用输出作为输入。",
+      "tooltip": "创建一个组在一帧内反复使用输出作为输入",
       "inputs": [
         {
           "tooltip": "",
@@ -16050,7 +16050,7 @@
       ]
     },
     "Node_Array_Pin": {
-      "tooltip": "创建一个可以接收多个值并返回数组的引脚。",
+      "tooltip": "创建一个可以接收多个值并返回数组的引脚",
       "inputs": [
       ],
       "name": "数组引脚",
@@ -16082,7 +16082,7 @@
       ]
     },
     "Node_Array_Range": {
-      "tooltip": "通过设置起始值、结束值和步长来创建数字数组。",
+      "tooltip": "通过设置起始值、结束值和步长来创建\n数字数组",
       "inputs": [
         {
           "tooltip": "",
@@ -16947,7 +16947,7 @@
       ]
     },
     "Node_Texture_Remap": {
-      "tooltip": "使用纹理映射重新映射图像。其中红色通道控制 x 位置，绿色通道控制 y 位置。",
+      "tooltip": "使用纹理映射重新映射图像其中红色通道\n控制 x 位置，绿色通道控制 y 位置",
       "inputs": [
         {
           "tooltip": "",
@@ -17185,7 +17185,7 @@
       ]
     },
     "Node_Tile_Random": {
-      "tooltip": "在更大的表面上随机重复图像。",
+      "tooltip": "在更大的表面上随机重复图像",
       "inputs": [
         {
           "tooltip": "",
@@ -17209,7 +17209,7 @@
       ]
     },
     "Node_Time_Remap": {
-      "tooltip": "使使用纹理作为时间映射重新映射图像，亮度较高的像素表示使用来自旧帧的像素。",
+      "tooltip": "使用纹理作为时间映射重新映射图像亮度\n较高的像素表示使用来自旧帧的像素",
       "inputs": [
         {
           "tooltip": "",
@@ -17710,7 +17710,7 @@
       ]
     },
     "Node_Kuwahara": {
-      "tooltip": "使用 Kuwahara 滤镜。创建类似水彩的效果。",
+      "tooltip": "使用 Kuwahara 滤镜创建类似水彩的\n效果",
       "inputs": [
         {
           "tooltip": "",
@@ -17758,7 +17758,7 @@
       ]
     },
     "Node_Trail": {
-      "tooltip": "通过填充两帧或多帧之间的像素来混合动画。",
+      "tooltip": "通过填充两帧或多帧之间的像素来混合\n动画",
       "inputs": [
         {
           "tooltip": "",
@@ -19325,14 +19325,14 @@
         },
         {
           "tooltip": "",
-          "name": "原基数"
+          "name": "原进制"
         },
         {
           "tooltip": "",
-          "name": "目标基数"
+          "name": "目标进制"
         }
       ],
-      "name": "基数转换",
+      "name": "进制转换",
       "outputs": [
         {
           "tooltip": "",
@@ -19406,7 +19406,7 @@
       ]
     },
     "Node_Pin": {
-      "tooltip": "创建一个引脚以组织连接。可以通过双击连接线来创建。",
+      "tooltip": "创建一个引脚以组织连接可以通过双击连接线\n来创建",
       "inputs": [
         {
           "tooltip": "",
@@ -19853,7 +19853,7 @@
       ]
     },
     "Node_Pixel_Sort": {
-      "tooltip": "按亮度在水平或垂直轴上对像素进行排序。",
+      "tooltip": "按亮度在水平或垂直轴上对像素进行排序",
       "inputs": [
         {
           "tooltip": "",
@@ -20160,7 +20160,7 @@
       ]
     },
     "Node_Line": {
-      "tooltip": "在图像上绘制线条。连接路径数据以从路径绘制线条。",
+      "tooltip": "在图像上绘制线条\n连接路径数据以从路径绘制线条",
       "inputs": [
         {
           "tooltip": "",
@@ -20309,7 +20309,7 @@
       ]
     },
     "Node_Local_Analyze": {
-      "tooltip": "对每个像素局部应用非线性操作（最小值、最大值）。",
+      "tooltip": "对每个像素局部应用非线性操作\n（最小值、最大值）",
       "inputs": [
         {
           "tooltip": "",
@@ -20428,7 +20428,7 @@
       ]
     },
     "Node_Blend": {
-      "tooltip": "使用不同的混合模式混合两幅图像。",
+      "tooltip": "使用不同的混合模式混合两幅图像",
       "inputs": [
         {
           "tooltip": "",
@@ -20537,7 +20537,7 @@
       ]
     },
     "Node_Blobify": {
-      "tooltip": "通过模糊和阈值处理，将黑白图像的锐角变圆。",
+      "tooltip": "通过模糊和阈值处理\n将黑白图像的锐角变圆",
       "inputs": [
         {
           "tooltip": "",
@@ -20700,7 +20700,7 @@
           "name": "值渐变映射范围"
         }
       ],
-      "name": "绘制条形图/折线图",
+      "name": "绘制条形/折线图",
       "outputs": [
         {
           "tooltip": "",
@@ -20733,7 +20733,7 @@
       ]
     },
     "Node_Bloom": {
-      "tooltip": "应用泛光效果，模糊和提亮图像的明亮部分",
+      "tooltip": "应用泛光效果\n模糊和提亮图像的明亮部分",
       "inputs": [
         {
           "tooltip": "",
@@ -20878,7 +20878,7 @@
       ]
     },
     "Node_Blur_Bokeh": {
-      "tooltip": "创建散景效果。以镜头方式模糊较亮的颜色。",
+      "tooltip": "创建散景效果以镜头方式模糊较亮的颜色",
       "inputs": [
         {
           "tooltip": "",
@@ -21616,7 +21616,7 @@
       ]
     },
     "Node_Blur_Shape": {
-      "tooltip": "使用另一幅图像作为模糊映射来模糊图像。",
+      "tooltip": "使用另一幅图像作为模糊映射来模糊图像",
       "inputs": [
         {
           "tooltip": "",
@@ -21781,7 +21781,7 @@
       ]
     },
     "Node_Blur_Simple": {
-      "tooltip": "使用更简单的算法模糊图像。允许使用可变的模糊强度。",
+      "tooltip": "使用更简单的算法模糊图像允许使用可变\n的模糊强度",
       "inputs": [
         {
           "tooltip": "",
