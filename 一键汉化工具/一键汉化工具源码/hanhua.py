@@ -6,6 +6,8 @@ from customtkinter import CTk, CTkLabel, CTkButton, CTkEntry, CTkFrame
 import json
 from CTkMessagebox import CTkMessagebox  # 确保导入 CTkMessagebox
 import base64
+import win32api  # 新增[1]
+import win32con
 
 # 作者名称
 AUTHOR_NAME = "安尘,WWNNL"
@@ -29,6 +31,42 @@ def get_user_locale_path():
 # 获取用户的Preferences路径
 def get_preferences_path():
     return os.path.join(get_user_path(), "Preferences", "1171")
+
+def get_install_location(app_reg_key="Steam App 2299510"):
+    """通过注册表获取Steam版安装路径"""  # 新增[1]
+    try:
+        reg_path = rf"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{app_reg_key}"
+        key = win32api.RegOpenKey(
+            win32con.HKEY_LOCAL_MACHINE,
+            reg_path,
+            0,
+            win32con.KEY_READ
+        )
+        install_path, _ = win32api.RegQueryValueEx(key, "InstallLocation")
+        win32api.RegCloseKey(key)
+        clean_path = os.path.normpath(install_path.strip('"'))
+        return clean_path if os.path.exists(clean_path) else None
+    except Exception as e:
+        print(f"注册表操作失败: {e}")
+        return None
+def delete_welcome_zip(install_path):
+    """删除官方教程压缩包"""  # 新增[1]
+    if not install_path:
+        return "未提供有效安装路径"
+    
+    target_path = os.path.join(install_path, "data", "Welcome files")
+    if not os.path.exists(target_path):
+        return f"目标路径不存在: {target_path}"
+    
+    zip_path = os.path.join(target_path, "Welcome files.zip")
+    if not os.path.exists(zip_path):
+        return f"官方英文教程压缩包不存在，可能已删除"
+    
+    try:
+        os.remove(zip_path)
+        return f"成功删除官方英文教程压缩包"
+    except Exception as e:
+        return f"删除文件失败: {str(e)}"
 
 # 修改keys.json文件中的local字段
 def modify_keys_json(locale="zh"):
@@ -246,6 +284,47 @@ def copy_tutorial_folder():
             font=("Microsoft YaHei", 14, "bold")
         )
 
+def handle_tutorial_localization():
+    """带选项的教程汉化处理"""  # 新增[1]
+    msg = CTkMessagebox(
+        title="教程清理选项",
+        message="是否删除软件自动的英文教程？\n不删除会导致它在每次启动的时候，自动添加英文教程",
+        icon="question",
+        option_1="是",
+        option_2="否",
+        button_width=200,
+        button_color="#FF9166",
+        button_hover_color="#FF9166",
+        button_text_color="#191925",
+        font=("Microsoft YaHei", 14, "bold")
+    )
+    
+    if msg.get() == "是":
+        install_path = get_install_location()
+        if install_path:
+            result = delete_welcome_zip(install_path)
+            CTkMessagebox(
+                title="清理结果",
+                message=result,
+                icon="info",
+                button_color="#FF9166",
+                button_hover_color="#FF9166",
+                button_text_color="#191925",
+                font=("Microsoft YaHei", 14, "bold")
+            )
+        else:
+            CTkMessagebox(
+                title="路径错误",
+                message="未找到Steam版安装路径！",
+                icon="warning",
+                button_color="#FF9166",
+                button_hover_color="#FF9166",
+                button_text_color="#191925",
+                font=("Microsoft YaHei", 14, "bold")
+            )
+    
+    copy_tutorial_folder()
+
 # 打开浏览器进入特效交流群
 def open_communication_group():
     url = "https://qm.qq.com/q/Vu9GTC4mw8"
@@ -255,15 +334,46 @@ def open_communication_group():
 root = CTk()
 root.title("PixelComposer 汉化工具")
 
-# 设置窗口居中
-def center_window(width=500, height=230):
-    screen_width = root.winfo_screenwidth()
-    screen_height = root.winfo_screenheight()
-    x_cordinate = int((screen_width / 2) - (width / 2))
-    y_cordinate = int((screen_height / 2) - (height / 2))
-    root.geometry(f"{width}x{height}+{x_cordinate}+{y_cordinate}")
+def create_centered_dialog(parent, dialog_type, **kwargs):
+    """创建居中子对话框"""
+    dialog = dialog_type(parent, **kwargs)
+    dialog.update_idletasks()
+    
+    parent_x = parent.winfo_x()
+    parent_y = parent.winfo_y()
+    parent_width = parent.winfo_width()
+    parent_height = parent.winfo_height()
+    
+    dialog_width = dialog.winfo_reqwidth()
+    dialog_height = dialog.winfo_reqheight()
+    
+    x = parent_x + (parent_width - dialog_width) // 2
+    y = parent_y + (parent_height - dialog_height) // 2
+    
+    dialog.geometry(f"+{x}+{y}")
+    return dialog
 
-center_window()  # 调用窗口居中函数
+# 设置窗口居中
+def center_window(window, width, height):
+    """通用窗口居中函数"""
+    screen_width = window.winfo_screenwidth()
+    screen_height = window.winfo_screenheight()
+    x = (screen_width - width) // 2
+    y = (screen_height - height) // 2
+    window.geometry(f"{width}x{height}+{x}+{y}")
+
+center_window(root, 500, 230)  # 调用窗口居中函数
+
+def on_window_move(event):
+    """窗口移动时更新子窗口位置"""
+    if event.widget == root:
+        for child in root.winfo_children():
+            if isinstance(child, (ctk.CTkToplevel, CTkMessagebox)):
+                child.update_idletasks()
+                new_x = root.winfo_x() + (root.winfo_width() - child.winfo_width())//2
+                new_y = root.winfo_y() + (root.winfo_height() - child.winfo_height())//2
+                child.geometry(f"+{new_x}+{new_y}")
+root.bind("<Configure>", on_window_move)
 
 # 设置窗口图标
 try:
@@ -286,7 +396,7 @@ input_frame.pack(pady=5)
 
 # 创建输入框和标签
 locale_var = ctk.StringVar(value="zh")
-locale_label = CTkLabel(input_frame, text="输入汉化名（默认为zh）:", font=("Microsoft YaHei", 16))
+locale_label = CTkLabel(input_frame, text="输入汉化包名（默认为zh）:", font=("Microsoft YaHei", 16))
 locale_label.pack(side=ctk.LEFT, padx=5)
 locale_entry = CTkEntry(input_frame, textvariable=locale_var, width=100, font=("Microsoft YaHei", 16, "bold"), text_color="#FF9166")
 locale_entry.pack(side=ctk.LEFT, padx=5)
@@ -304,7 +414,16 @@ localize_button = CTkButton(button_frame, text="一键汉化软件", command=on_
 localize_button.pack(side=ctk.LEFT, padx=5)
 
 # 创建一键汉化教程按钮
-tutorial_button = CTkButton(button_frame, text="一键汉化教程", command=copy_tutorial_folder, width=150, font=("Microsoft YaHei", 14, "bold"), text_color="#191925", fg_color="#FF9166", hover_color="#FF9166")
+tutorial_button = CTkButton(
+    button_frame, 
+    text="一键汉化教程", 
+    command=handle_tutorial_localization,  # 修改[1]
+    width=150,
+    font=("Microsoft YaHei", 14, "bold"),
+    text_color="#191925",
+    fg_color="#FF9166",
+    hover_color="#FF9166"
+)
 tutorial_button.pack(side=ctk.LEFT, padx=5)
 
 # 创建一个空的Frame来作为新的一行
