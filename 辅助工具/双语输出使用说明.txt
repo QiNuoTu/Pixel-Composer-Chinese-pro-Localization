@@ -1,0 +1,39 @@
+双语JSON处理脚本说明书
+
+一、功能说明
+将输入的JSON文件中的节点名称转换为两种双语格式：
+- 中文_英文（保存到ce-zh文件夹）
+- 英文_中文（保存到ec-zh文件夹）
+
+二、快速开始
+1. 准备输入文件
+   - 创建nodes.json文件，格式示例：
+     {
+       "Node_Image_Generation": {"name": "图像生成"},
+       "Node_Text_Analysis": {"name": "文本分析"}
+     }
+
+2. 运行脚本
+   > python your_script_name.py
+
+3. 获取结果
+   - 生成ce-zh/nodes.json（示例："图像生成_Image Generation"）
+   - 生成ec-zh/nodes.json（示例："Image Generation_图像生成"）
+
+三、输入文件要求
+- 节点键名必须以Node_开头（如Node_Example）
+- 每个节点必须包含name字段（存储中文名称）
+
+四、自定义设置（可选）
+修改脚本底部参数：
+input_json_path = "你的文件路径.json"  # 输入文件路径
+output_folder_ce = "新文件夹名"      # 中文优先输出目录
+output_folder_ec = "新文件夹名"      # 英文优先输出目录
+
+五、常见问题
+1. 文件找不到 → 检查文件路径和文件名
+2. 输出顺序错误 → 确认节点键名符合Node_前缀格式
+3. 中文缺失 → 检查name字段是否存在
+
+六、技术支持
+运行失败时查看终端报错信息，根据提示排查问题
