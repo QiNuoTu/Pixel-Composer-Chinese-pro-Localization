@@ -330,9 +330,36 @@ def open_communication_group():
     url = "https://qm.qq.com/q/Vu9GTC4mw8"
     webbrowser.open(url)
 
+"""通用窗口居中函数"""
+def center_window(window, width, height):
+    screen_width = window.winfo_screenwidth()
+    screen_height = window.winfo_screenheight()
+    
+    # 计算窗口居中的位置
+    x = (screen_width - width//2) // 2
+    y = (screen_height - height//2) // 2 - 40
+    
+    # 设置窗口大小和位置
+    window.geometry(f"{width}x{height}+{x}+{y}")
+
+
+def on_window_move(event):
+    """窗口移动时更新子窗口位置"""
+    if event.widget == root:
+        for child in root.winfo_children():
+            if isinstance(child, (ctk.CTkToplevel, CTkMessagebox)):
+                child.update_idletasks()
+                new_x = root.winfo_x() + (root.winfo_width() - child.winfo_width())//2
+                new_y = root.winfo_y() + (root.winfo_height() - child.winfo_height())//2
+                child.geometry(f"+{new_x}+{new_y}")
+
 # 创建主窗口
 root = CTk()
 root.title("PixelComposer 汉化工具")
+root.update()  # 确保窗口尺寸正确计算
+root.resizable(False, False)  # 禁止调整窗口大小
+root.bind("<Configure>", on_window_move)
+center_window(root, 500, 230)  # 调用窗口居中函数
 
 def create_centered_dialog(parent, dialog_type, **kwargs):
     """创建居中子对话框"""
@@ -352,28 +379,6 @@ def create_centered_dialog(parent, dialog_type, **kwargs):
     
     dialog.geometry(f"+{x}+{y}")
     return dialog
-
-# 设置窗口居中
-def center_window(window, width, height):
-    """通用窗口居中函数"""
-    screen_width = window.winfo_screenwidth()
-    screen_height = window.winfo_screenheight()
-    x = (screen_width - width) // 2
-    y = (screen_height - height) // 2
-    window.geometry(f"{width}x{height}+{x}+{y}")
-
-center_window(root, 500, 230)  # 调用窗口居中函数
-
-def on_window_move(event):
-    """窗口移动时更新子窗口位置"""
-    if event.widget == root:
-        for child in root.winfo_children():
-            if isinstance(child, (ctk.CTkToplevel, CTkMessagebox)):
-                child.update_idletasks()
-                new_x = root.winfo_x() + (root.winfo_width() - child.winfo_width())//2
-                new_y = root.winfo_y() + (root.winfo_height() - child.winfo_height())//2
-                child.geometry(f"+{new_x}+{new_y}")
-root.bind("<Configure>", on_window_move)
 
 # 设置窗口图标
 try:
