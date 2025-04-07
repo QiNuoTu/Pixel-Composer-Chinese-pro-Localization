@@ -5,16 +5,21 @@ import customtkinter as ctk
 from customtkinter import CTk, CTkLabel, CTkButton, CTkEntry, CTkFrame
 import json
 from CTkMessagebox import CTkMessagebox  # 确保导入 CTkMessagebox
-import base64
+import sys
 import win32api  # 新增[1]
 import win32con
+import tkinter as tk  # 新增行
 
 # 作者名称
 AUTHOR_NAME = "安尘,WWNNL"
-
-# base64 图标数据留空
-icon_data = "AAABAAEAQEAAAAEAIAAoQgAAFgAAACgAAABAAAAAgAAAAAEAIAAAAAAAAAAAAMQOAADEDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABlkf+AZo//wGaP/8Bmj//AZo//wGaP/8Bmj//AZo//wGaP/8Bmj//AZo//wGaP/8Bmj//AZo//wGaP/8Bmj//AZo//wGaP/8Bmj//AZo//wGaP/8Bmj//AZo//wGaP/8Bmj//AZo//wGaP/8Bmj//AZo//wGaP/8Bmj//AZo//wGaP/8Bmj//AZo//wGaP/8Bmj//AZo//wGaP/8Bmj//AZo//wGaP/8Bmj//AZo//wGaP/8Bmj//AZo//wGaP/8Bmj//AZo//wGaP/8Blkf+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZpH+cGaR//9mkf//YoXm/1VhmP9VYZj/VWGY/1VhmP9VYZj/VWGY/1VhmP9VYZj/VWGY/1VhmP9VYZj/VWGY/1VhmP9VYZj/VWGY/1VhmP9VYZj/VWGY/1VhmP9VYZj/VWGY/1VhmP9VYZj/VWGY/1VhmP9VYZj/VWGY/1VhmP9VYZj/VWGY/1VhmP9VYZj/VWGY/1VhmP9VYZj/VWGY/1VhmP9VYZj/VWGY/1VhmP9VYZj/VWGY/1VhmP9VYZj/VWGY/1VhmP9VYZj/VWGY/1VhmP9VYZj/YoXm/2aR//9mkf//ZpH+cAAAAAAAAAAAAAAAAAAAAAAAAAAAZI/90GaR//9HPUv/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/Rz1L/2aR//9kj/3QAAAAAAAAAAAAAAAAZo//UGaR//9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/ZpH//2aP/1AAAAAAAAAAAGaR//9KQ1j/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0pDWP9mkf//AAAAAAAAAABmkf//QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/ZpH//wAAAABmkf5wZIvz/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/2SL8/9mkf5wZo//wFdnpf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/zoqKv82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/86Kir/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9ZbbL/Zo//wGaP/8BVYZj/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/OCkp/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/84KSn/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/VWGY/2aP/8Bmj//AVWGY/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/1VhmP9mj//AZo//wFVhmP9DMTH/QzEx/0MxMf9DMTH/QzEx/zsrK/82Jyf/Nicn/zYnJ/82Jyf/Nicn/z87UP9CQl3/QkJd/0JCXf9CQl3/QkJd/0JCXf9CQl3/QkJd/0JCXf9CQl3/QkJd/0JCXf9CQl3/QkJd/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/87Kyv/QzEx/0MxMf9DMTH/QzEx/0MxMf9VYZj/Zo//wGaP/8BVYZj/QzEx/0MxMf9DMTH/QzEx/0MxMf82Jyf/Nicn/zYnJ/82Jyf/OS41/2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//Y4vy/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/0MxMf9DMTH/QzEx/0MxMf9DMTH/VWGY/2aP/8Bmj//AVWGY/0MxMf9DMTH/QzEx/0MxMf9DMTH/Nicn/zYnJ/82Jyf/Nicn/2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9Uaq//Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/0JCXf9OXJP/VGqv/0tWhv82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/9DMTH/QzEx/0MxMf9DMTH/QzEx/1VhmP9mj//AZo//wFVhmP9DMTH/QzEx/0MxMf9DMTH/QzEx/zYnJ/82Jyf/Nicn/zYnJ/9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/85LjX/ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9RY6H/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/QzEx/0MxMf9DMTH/QzEx/0MxMf9VYZj/Zo//wGaP/8BVYZj/QzEx/0MxMf9DMTH/QzEx/0MxMf82Jyf/Nicn/zYnJ/82Jyf/ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//WnfK/2CE5f9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Y4vy/2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//z87UP82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/0MxMf9DMTH/QzEx/0MxMf9DMTH/VWGY/2aP/8Bmj//AVWGY/0MxMf9DMTH/QzEx/0MxMf9DMTH/Nicn/zYnJ/82Jyf/Nicn/2aR//9mkf//ZpH//2aR//9mkf//ZpH//0VIa/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/9dfdf/ZpH//2aR//9mkf//ZpH//2aR//9mkf//Nicn/zYnJ/82Jyf/Nicn/zYnJ/9FSGv/ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//PztQ/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/9DMTH/QzEx/0MxMf9DMTH/QzEx/1VhmP9mj//AZo//wFVhmP9DMTH/QzEx/0MxMf9DMTH/QzEx/zYnJ/82Jyf/Nicn/zYnJ/9mkf//ZpH//2aR//9mkf//ZpH//zkuNf82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/1Rqr/9mkf//ZpH//2aR//9mkf//ZpH//zYnJ/82Jyf/Nicn/zYnJ/82Jyf/ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9OXJP/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/QzEx/0MxMf9DMTH/QzEx/0MxMf9VYZj/Zo//wGaP/8BVYZj/QzEx/0MxMf9DMTH/QzEx/0MxMf82Jyf/Nicn/zYnJ/82Jyf/ZpH//2aR//9mkf//ZpH//0hPeP82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/ZpH//2aR//9mkf//ZpH//2aR//82Jyf/Nicn/zYnJ/82Jyf/V3C8/2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/0MxMf9DMTH/QzEx/0MxMf9DMTH/VWGY/2aP/8Bmj//AVWGY/0MxMf9DMTH/QzEx/0MxMf9DMTH/Nicn/zYnJ/82Jyf/Nicn/2aR//9mkf//ZpH//2aR//82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/1dwvP9mkf//ZpH//2aR//9mkf//Nicn/zYnJ/82Jyf/Nicn/2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/9DMTH/QzEx/0MxMf9DMTH/QzEx/1VhmP9mj//AZo//wFVhmP9DMTH/QzEx/0MxMf9DMTH/QzEx/zYnJ/82Jyf/Nicn/zYnJ/9mkf//ZpH//2aR//9mkf//Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/ZpH//2aR//9mkf//ZpH//zYnJ/82Jyf/Nicn/zYnJ/9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//QkJd/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/QzEx/0MxMf9DMTH/QzEx/0MxMf9VYZj/Zo//wGaP/8BVYZj/QzEx/0MxMf9DMTH/QzEx/0MxMf82Jyf/Nicn/zYnJ/82Jyf/ZpH//2aR//9mkf//ZpH//zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/1p3yv9mkf//ZpH//2aR//82Jyf/Nicn/zYnJ/82Jyf/ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//05ck/82Jyf/Nicn/zYnJ/82Jyf/Nicn/0MxMf9DMTH/QzEx/0MxMf9DMTH/VWGY/2aP/8Bmj//AVWGY/0MxMf9DMTH/QzEx/0MxMf9DMTH/Nicn/zYnJ/82Jyf/Nicn/2aR//9mkf//ZpH//2aR//82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/9dfdf/ZpH//2aR//9mkf//Nicn/zYnJ/82Jyf/Nicn/2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9OXJP/Nicn/zYnJ/82Jyf/Nicn/zYnJ/9DMTH/QzEx/0MxMf9DMTH/QzEx/1VhmP9mj//AZo//wFVhmP9DMTH/QzEx/0MxMf9DMTH/QzEx/zYnJ/82Jyf/Nicn/zYnJ/9mkf//ZpH//2aR//9mkf//Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/9FSGv/ZpH//2aR//9mkf//ZpH//zYnJ/82Jyf/Nicn/zYnJ/9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//PDRC/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/QzEx/0MxMf9DMTH/QzEx/0MxMf9VYZj/Zo//wGaP/8BVYZj/QzEx/0MxMf9DMTH/QzEx/0MxMf82Jyf/Nicn/zYnJ/82Jyf/ZpH//2aR//9mkf//ZpH//zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/WnfK/2aR//9mkf//ZpH//2aR//82Jyf/Nicn/zYnJ/82Jyf/ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/0MxMf9DMTH/QzEx/0MxMf9DMTH/VWGY/2aP/8Bmj//AVWGY/0MxMf9DMTH/QzEx/0MxMf9DMTH/Nicn/zYnJ/82Jyf/Nicn/2aR//9mkf//ZpH//2aR//9ji/L/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/OS41/2aR//9mkf//ZpH//2aR//9mkf//Nicn/zYnJ/82Jyf/Nicn/0JCXf9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2OL8v82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/9DMTH/QzEx/0MxMf9DMTH/QzEx/1VhmP9mj//AZo//wFVhmP9DMTH/QzEx/0MxMf9DMTH/QzEx/zYnJ/82Jyf/Nicn/zYnJ/9mkf//ZpH//2aR//9mkf//ZpH//1191/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/OS41/2aR//9mkf//ZpH//2aR//9mkf//ZpH//zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Y4vy/2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//1191/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/QzEx/0MxMf9DMTH/QzEx/0MxMf9VYZj/Zo//wGaP/8BVYZj/QzEx/0MxMf9DMTH/QzEx/0MxMf82Jyf/Nicn/zYnJ/82Jyf/ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2CE5f8/O1D/Nicn/zYnJ/9IT3j/XX3X/2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/9IT3j/ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2OL8v82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/0MxMf9DMTH/QzEx/0MxMf9DMTH/VWGY/2aP/8Bmj//AVWGY/0MxMf9DMTH/QzEx/0MxMf9DMTH/Nicn/zYnJ/82Jyf/Nicn/2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2CE5f9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/2OL8v9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//88NEL/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/9DMTH/QzEx/0MxMf9DMTH/QzEx/1VhmP9mj//AZo//wFVhmP9DMTH/QzEx/0MxMf9DMTH/QzEx/zYnJ/82Jyf/Nicn/zYnJ/9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//Y4vy/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/PDRC/2OL8v9mkf//ZpH//2aR//9mkf//YITl/05ck/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/QzEx/0MxMf9DMTH/QzEx/0MxMf9VYZj/Zo//wGaP/8BVYZj/QzEx/0MxMf9DMTH/QzEx/0MxMf82Jyf/Nicn/zYnJ/82Jyf/WnfK/2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//zkuNf82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/0MxMf9DMTH/QzEx/0MxMf9DMTH/VWGY/2aP/8Bmj//AVWGY/0MxMf9DMTH/QzEx/0MxMf9DMTH/Nicn/zYnJ/82Jyf/Nicn/zYnJ/9IT3j/ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//YITl/zkuNf82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/9DMTH/QzEx/0MxMf9DMTH/QzEx/1VhmP9mj//AZo//wFVhmP9DMTH/QzEx/0MxMf9DMTH/QzEx/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/QzEx/0MxMf9DMTH/QzEx/0MxMf9VYZj/Zo//wGaP/8BVYZj/QzEx/0MxMf9DMTH/QzEx/0MxMf82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/0MxMf9DMTH/QzEx/0MxMf9DMTH/VWGY/2aP/8Bmj//AVWGY/0MxMf9DMTH/QzEx/0MxMf9DMTH/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/PztQ/2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9Uaq//Nicn/zYnJ/82Jyf/Nicn/zYnJ/9DMTH/QzEx/0MxMf9DMTH/QzEx/1VhmP9mj//AZo//wFVhmP9DMTH/QzEx/0MxMf9DMTH/QzEx/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/PDRC/2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2CE5f82Jyf/Nicn/zYnJ/82Jyf/QzEx/0MxMf9DMTH/QzEx/0MxMf9VYZj/Zo//wGaP/8BVYZj/QzEx/0MxMf9DMTH/QzEx/0MxMf82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/WnfK/2aR//9mkf//ZpH//2aR//9mkf//ZpH//0hPeP82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//Nicn/zYnJ/82Jyf/Nicn/0MxMf9DMTH/QzEx/0MxMf9DMTH/VWGY/2aP/8Bmj//AVWGY/0MxMf9DMTH/QzEx/0MxMf9DMTH/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/9FSGv/ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9ad8r/UWOh/2OL8v9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//zYnJ/82Jyf/Nicn/zYnJ/9DMTH/QzEx/0MxMf9DMTH/QzEx/1VhmP9mj//AZo//wFVhmP9DMTH/QzEx/0MxMf9DMTH/QzEx/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9Uaq//Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//1Fjof88NEL/Nicn/zYnJ/82Jyf/VGqv/2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//82Jyf/Nicn/zYnJ/82Jyf/QzEx/0MxMf9DMTH/QzEx/0MxMf9VYZj/Zo//wGaP/8BVYZj/QzEx/0MxMf9DMTH/QzEx/0MxMf82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/85LjX/Y4vy/2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//82Jyf/Nicn/zYnJ/82Jyf/Nicn/2aR//9mkf//ZpH//2aR//9mkf//ZpH//zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/VGqv/2aR//9mkf//ZpH//2aR//9mkf//Nicn/zYnJ/82Jyf/Nicn/0MxMf9DMTH/QzEx/0MxMf9DMTH/VWGY/2aP/8Bmj//AVWGY/0MxMf9DMTH/QzEx/0MxMf9DMTH/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//SE94/zYnJ/82Jyf/Nicn/zYnJ/9mkf//ZpH//2aR//9mkf//ZpH//zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/9ghOX/ZpH//2aR//9mkf//ZpH//zYnJ/82Jyf/Nicn/zYnJ/9DMTH/QzEx/0MxMf9DMTH/QzEx/1VhmP9mj//AZo//wFVhmP9DMTH/QzEx/0MxMf9DMTH/QzEx/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//82Jyf/Nicn/zYnJ/82Jyf/ZpH//2aR//9mkf//ZpH//1Rqr/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/2aR//9mkf//ZpH//2aR//82Jyf/Nicn/zYnJ/82Jyf/QzEx/0MxMf9DMTH/QzEx/0MxMf9VYZj/Zo//wGaP/8BVYZj/QzEx/0MxMf9DMTH/QzEx/0MxMf82Jyf/Nicn/zYnJ/82Jyf/Nicn/z87UP9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//Nicn/zYnJ/82Jyf/Nicn/2aR//9mkf//ZpH//2aR//9CQl3/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/9mkf//ZpH//2aR//9mkf//Nicn/zYnJ/82Jyf/Nicn/0MxMf9DMTH/QzEx/0MxMf9DMTH/VWGY/2aP/8Bmj//AVWGY/0MxMf9DMTH/QzEx/0MxMf9DMTH/Nicn/zYnJ/82Jyf/Nicn/zYnJ/9OXJP/ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//zYnJ/82Jyf/Nicn/zYnJ/9mkf//ZpH//2aR//9ad8r/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/ZpH//2aR//9mkf//ZpH//zYnJ/82Jyf/Nicn/zYnJ/9DMTH/QzEx/0MxMf9DMTH/QzEx/1VhmP9mj//AZo//wFVhmP9DMTH/QzEx/0MxMf9DMTH/QzEx/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/TlyT/2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//82Jyf/Nicn/zYnJ/82Jyf/ZpH//2aR//9mkf//WnfK/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/2aR//9mkf//ZpH//2aR//82Jyf/Nicn/zYnJ/82Jyf/QzEx/0MxMf9DMTH/QzEx/0MxMf9VYZj/Zo//wGaP/8BVYZj/QzEx/0MxMf9DMTH/QzEx/0MxMf82Jyf/Nicn/zYnJ/82Jyf/Nicn/0JCXf9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//Nicn/zYnJ/82Jyf/Nicn/2aR//9mkf//ZpH//2aR//85LjX/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/9mkf//ZpH//2aR//9mkf//Nicn/zYnJ/82Jyf/Nicn/0MxMf9DMTH/QzEx/0MxMf9DMTH/VWGY/2aP/8Bmj//AVWGY/0MxMf9DMTH/QzEx/0MxMf9DMTH/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//Y4vy/zYnJ/82Jyf/Nicn/zYnJ/9mkf//ZpH//2aR//9mkf//XX3X/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/85LjX/ZpH//2aR//9mkf//ZpH//zYnJ/82Jyf/Nicn/zYnJ/9DMTH/QzEx/0MxMf9DMTH/QzEx/1VhmP9mj//AZo//wFVhmP9DMTH/QzEx/0MxMf9DMTH/QzEx/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//1Fjof82Jyf/Nicn/zYnJ/82Jyf/ZpH//2aR//9mkf//ZpH//2aR//82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/TlyT/2aR//9mkf//ZpH//2aR//82Jyf/Nicn/zYnJ/82Jyf/QzEx/0MxMf9DMTH/QzEx/0MxMf9VYZj/Zo//wGaP/8BVYZj/QzEx/0MxMf9DMTH/QzEx/0MxMf82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/9FSGv/ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//82Jyf/Nicn/zYnJ/82Jyf/Nicn/2aR//9mkf//ZpH//2aR//9mkf//XX3X/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/PztQ/2aR//9mkf//ZpH//2aR//9mkf//Nicn/zYnJ/82Jyf/Nicn/0MxMf9DMTH/QzEx/0MxMf9DMTH/VWGY/2aP/8Bmj//AVWGY/0MxMf9DMTH/QzEx/0MxMf9DMTH/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zkuNf9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2OL8v8/O1D/Nicn/zYnJ/82Jyf/Nicn/zYnJ/9mkf//ZpH//2aR//9mkf//ZpH//2aR//9ji/L/OS41/zYnJ/82Jyf/Nicn/zYnJ/88NEL/VGqv/2aR//9mkf//ZpH//2aR//9mkf//ZpH//zYnJ/82Jyf/Nicn/zYnJ/9DMTH/QzEx/0MxMf9DMTH/QzEx/1VhmP9mj//AZo//wFVhmP9DMTH/QzEx/0MxMf9DMTH/QzEx/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/OS41/2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//1p3yv82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//82Jyf/Nicn/zYnJ/82Jyf/QzEx/0MxMf9DMTH/QzEx/0MxMf9VYZj/Zo//wGaP/8BVYZj/QzEx/0MxMf9DMTH/QzEx/0MxMf82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/9FSGv/ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2OL8v82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//Nicn/zYnJ/82Jyf/Nicn/0MxMf9DMTH/QzEx/0MxMf9DMTH/VWGY/2aP/8Bmj//AVWGY/0MxMf9DMTH/QzEx/0MxMf9DMTH/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/PztQ/0hPeP9CQl3/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/9OXJP/ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//zYnJ/82Jyf/Nicn/zYnJ/9DMTH/QzEx/0MxMf9DMTH/QzEx/1VhmP9mj//AZo//wFVhmP9DMTH/QzEx/0MxMf9DMTH/QzEx/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/1p3yv9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//2aR//9mkf//ZpH//zYnJ/82Jyf/Nicn/zYnJ/82Jyf/QzEx/0MxMf9DMTH/QzEx/0MxMf9VYZj/Zo//wGaP/8BVYZj/QzEx/0MxMf9DMTH/QzEx/0MxMf88Kyv/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/PCsr/0MxMf9DMTH/QzEx/0MxMf9DMTH/VWGY/2aP/8Bmj//AVWGY/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/1VhmP9mj//AZo//wFVhmP9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf87Kyv/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zYnJ/82Jyf/Nicn/zsrK/9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9VYZj/Zo//wGWP/bBbc7//QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf89LS3/OSkp/zkpKf85KSn/OSkp/zkpKf85KSn/OSkp/zkpKf85KSn/OSkp/zkpKf85KSn/OSkp/zkpKf85KSn/OSkp/zkpKf85KSn/OSkp/zkpKf85KSn/OSkp/zkpKf85KSn/OSkp/zkpKf85KSn/OSkp/zkpKf85KSn/OSkp/zkpKf85KSn/OSkp/zkpKf85KSn/OSkp/zkpKf85KSn/OSkp/zkpKf85KSn/PS0t/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/W3O//2WP/bBkkv9gZpH//0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/2aR//9kkv9gAAAAAGaR//9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9mkf//AAAAAAAAAABmkf//Tk9y/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9OT3L/ZpH//wAAAAAAAAAAZI//MGaR//9FNz7/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9FNz7/ZpH//2SP/zAAAAAAAAAAAAAAAABmkf2QZpH//1BVf/9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9DMTH/QzEx/0MxMf9QVX//ZpH//2aR/ZAAAAAAAAAAAAAAAAAAAAAAAAAAAGSP/zBmkf//ZpH//2aR//9decz/XXnM/115zP9decz/XXnM/115zP9decz/XXnM/115zP9decz/XXnM/115zP9decz/XXnM/115zP9decz/XXnM/115zP9decz/XXnM/115zP9decz/XXnM/115zP9decz/XXnM/115zP9decz/XXnM/115zP9decz/XXnM/115zP9decz/XXnM/115zP9decz/XXnM/115zP9decz/XXnM/115zP9decz/XXnM/115zP9decz/XXnM/115zP9decz/XXnM/2aR//9mkf//ZpH//2SP/zAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABnj/9AZZH/gGWR/4Blkf+AZZH/gGWR/4Blkf+AZZH/gGWR/4Blkf+AZZH/gGWR/4Blkf+AZZH/gGWR/4Blkf+AZZH/gGWR/4Blkf+AZZH/gGWR/4Blkf+AZZH/gGWR/4Blkf+AZZH/gGWR/4Blkf+AZZH/gGWR/4Blkf+AZZH/gGWR/4Blkf+AZZH/gGWR/4Blkf+AZZH/gGWR/4Blkf+AZZH/gGWR/4Blkf+AZZH/gGWR/4Blkf+AZZH/gGWR/4Blkf+AZZH/gGWR/4Bnj/9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA///////////wAAAAAAAAD+AAAAAAAAAHwAAAAAAAAAOAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAAAAAABwAAAAAAAAAPgAAAAAAAAB/AAAAAAAAAP//////////8="  
-# 留空，后续自行填充
+# GitHub地址
+GITHUB_URL = "https://github.com/LifeOfAc/Pixel-Composer-Chinese-Localization"  
+# 获取正确的基础路径
+if getattr(sys, 'frozen', False):
+    BASE_DIR = sys._MEIPASS
+else:
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+ICON_PATH = os.path.join(BASE_DIR, "assets", "app_icon.ico")  # 新增
 
 # 设置外观模式和默认颜色主题
 ctk.set_appearance_mode("Dark")  # 设置为 Dark 模式
@@ -79,7 +84,9 @@ def modify_keys_json(locale="zh"):
             data["local"] = locale
             with open(keys_path, 'w', encoding='utf-8') as f:
                 json.dump(data, f, indent=2, ensure_ascii=False)
-            CTkMessagebox(
+            create_centered_dialog(
+                root,
+                CTkMessagebox,
                 title="成功", 
                 message=f"汉化完成！已成功修改语言设置为 {locale}", 
                 icon="check",
@@ -89,7 +96,9 @@ def modify_keys_json(locale="zh"):
             )
             return True
         else:
-            CTkMessagebox(
+            create_centered_dialog(
+                root,
+                CTkMessagebox,
                 title="成功", 
                 message="汉化完成！但语言设置无需修改", 
                 icon="check",
@@ -99,7 +108,9 @@ def modify_keys_json(locale="zh"):
             )
             return False
     except FileNotFoundError:
-        CTkMessagebox(
+        create_centered_dialog(
+            root,
+            CTkMessagebox,
             title="错误", 
             message=f"未找到keys.json文件：{keys_path}", 
             icon="cancel",
@@ -110,7 +121,9 @@ def modify_keys_json(locale="zh"):
         )
         return False
     except json.JSONDecodeError:
-        CTkMessagebox(
+        create_centered_dialog(
+            root,
+            CTkMessagebox,
             title="错误", 
             message="JSON文件格式错误，请检查文件内容", 
             icon="cancel",
@@ -121,7 +134,9 @@ def modify_keys_json(locale="zh"):
         )
         return False
     except PermissionError:
-        CTkMessagebox(
+        create_centered_dialog(
+            root,
+            CTkMessagebox,
             title="错误", 
             message="没有文件写入权限，请用管理员权限运行", 
             icon="cancel",
@@ -132,7 +147,9 @@ def modify_keys_json(locale="zh"):
         )
         return False
     except Exception as e:
-        CTkMessagebox(
+        create_centered_dialog(
+            root,
+            CTkMessagebox,
             title="未知错误", 
             message=str(e), 
             icon="cancel",
@@ -148,7 +165,9 @@ def copy_localization_folder(locale="zh"):
     # 检查工具同目录下是否存在汉化文件夹
     source_folder = os.path.join(os.getcwd(), locale)
     if not os.path.exists(source_folder):
-        CTkMessagebox(
+        create_centered_dialog(
+            root,
+            CTkMessagebox,
             title="错误", 
             message=f"汉化文件夹 '{locale}' 未找到，请确保它在工具同目录下！", 
             icon="cancel",
@@ -166,7 +185,9 @@ def copy_localization_folder(locale="zh"):
 
     # 检查目标路径是否存在
     if not os.path.exists(locale_path):
-        CTkMessagebox(
+        create_centered_dialog(
+            root,
+            CTkMessagebox,
             title="错误", 
             message="请检查PixelComposer安装路径！(多次尝试未果请手动安装)(请检查是否修改主目录路径)", 
             icon="cancel",
@@ -178,7 +199,9 @@ def copy_localization_folder(locale="zh"):
         return
 
     if not os.path.exists(en_folder):
-        CTkMessagebox(
+        create_centered_dialog(
+            root,
+            CTkMessagebox,
             title="错误", 
             message="请检查PixelComposer安装路径！(多次尝试未果请手动安装)(请检查是否修改主目录路径)", 
             icon="cancel",
@@ -197,7 +220,9 @@ def copy_localization_folder(locale="zh"):
         shutil.copytree(source_folder, target_folder, dirs_exist_ok=True)
         modify_keys_json(locale)
     except Exception as e:
-        CTkMessagebox(
+        create_centered_dialog(
+            root,
+            CTkMessagebox,
             title="错误", 
             message=f"汉化过程中出现错误：{e}", 
             icon="cancel",
@@ -223,7 +248,9 @@ def copy_tutorial_folder():
     welcome_files_folder = os.path.join(lib_path, 'Welcome files')
     
     if not os.path.exists(lib_path):
-        CTkMessagebox(
+        create_centered_dialog(
+            root,
+            CTkMessagebox,
             title="错误", 
             message="请检查PixelComposer安装路径！(多次尝试未果请手动安装)(请检查是否修改主目录路径)", 
             icon="cancel",
@@ -235,7 +262,9 @@ def copy_tutorial_folder():
         return
 
     if not os.path.exists(welcome_files_folder):
-        CTkMessagebox(
+        create_centered_dialog(
+            root,
+            CTkMessagebox,
             title="错误", 
             message="请检查PixelComposer安装路径！(多次尝试未果请手动安装)(请检查是否修改主目录路径)", 
             icon="cancel",
@@ -251,7 +280,9 @@ def copy_tutorial_folder():
     source_folder = os.path.join(os.getcwd(), 'Welcome files')
 
     if not os.path.exists(source_folder):
-        CTkMessagebox(
+        create_centered_dialog(
+            root,
+            CTkMessagebox,
             title="错误", 
             message="汉化教程文件夹 'Welcome files' 未找到，请确保它在工具同目录下！", 
             icon="cancel",
@@ -264,7 +295,9 @@ def copy_tutorial_folder():
 
     try:
         shutil.copytree(source_folder, welcome_files_folder, dirs_exist_ok=True)
-        CTkMessagebox(
+        create_centered_dialog(
+            root,
+            CTkMessagebox,
             title="成功", 
             message="教程汉化完成！", 
             icon="check",
@@ -274,7 +307,9 @@ def copy_tutorial_folder():
             font=("Microsoft YaHei", 14, "bold")
         )
     except Exception as e:
-        CTkMessagebox(
+        create_centered_dialog(
+            root,
+            CTkMessagebox,
             title="错误", 
             message=f"教程汉化过程中出现错误：{e}", 
             icon="cancel",
@@ -286,7 +321,9 @@ def copy_tutorial_folder():
 
 def handle_tutorial_localization():
     """带选项的教程汉化处理"""  # 新增[1]
-    msg = CTkMessagebox(
+    msg = create_centered_dialog(
+        root,
+        CTkMessagebox,
         title="教程清理选项",
         message="是否删除软件自动的英文教程？\n不删除会导致它在每次启动的时候，自动添加英文教程",
         icon="question",
@@ -303,7 +340,9 @@ def handle_tutorial_localization():
         install_path = get_install_location()
         if install_path:
             result = delete_welcome_zip(install_path)
-            CTkMessagebox(
+            create_centered_dialog(
+                root,
+                CTkMessagebox,
                 title="清理结果",
                 message=result,
                 icon="info",
@@ -313,7 +352,9 @@ def handle_tutorial_localization():
                 font=("Microsoft YaHei", 14, "bold")
             )
         else:
-            CTkMessagebox(
+            create_centered_dialog(
+                root,
+                CTkMessagebox,
                 title="路径错误",
                 message="未找到Steam版安装路径！",
                 icon="warning",
@@ -330,14 +371,52 @@ def open_communication_group():
     url = "https://qm.qq.com/q/Vu9GTC4mw8"
     webbrowser.open(url)
 
+class Tooltip:
+    def __init__(self, widget, text):
+        self.widget = widget
+        self.text = text
+        self.tip_window = None
+        self.widget.bind("<Enter>", self.show_tip)
+        self.widget.bind("<Leave>", self.hide_tip)
+    def show_tip(self, event=None):
+        if self.tip_window:
+            return
+        # 获取按钮在屏幕上的位置
+        x = self.widget.winfo_rootx() + self.widget.winfo_width() + 10
+        y = self.widget.winfo_rooty() - 10
+        
+        # 创建提示窗口
+        self.tip_window = tk.Toplevel(self.widget)
+        self.tip_window.wm_overrideredirect(True)
+        self.tip_window.wm_geometry(f"+{x}+{y}")
+        
+        # 设置样式
+        label = tk.Label(
+            self.tip_window,
+            text=self.text,
+            background="#1a1a1a",
+            foreground="#FF9166",
+            relief=tk.FLAT,
+            borderwidth=0,
+            font=("Microsoft YaHei", 10)
+        )
+        label.pack()
+    def hide_tip(self, event=None):
+        if self.tip_window:
+            self.tip_window.destroy()
+        self.tip_window = None
+
+def open_github():  # 新增函数
+    webbrowser.open(GITHUB_URL)
+
 """通用窗口居中函数"""
 def center_window(window, width, height):
     screen_width = window.winfo_screenwidth()
     screen_height = window.winfo_screenheight()
     
-    # 计算窗口居中的位置
-    x = (screen_width - width//2) // 2
-    y = (screen_height - height//2) // 2 - 40
+    # 修正计算方式 [修改位置]
+    x = (screen_width - width) // 2
+    y = (screen_height - height) // 2 - 40
     
     # 设置窗口大小和位置
     window.geometry(f"{width}x{height}+{x}+{y}")
@@ -346,15 +425,21 @@ def center_window(window, width, height):
 def on_window_move(event):
     """窗口移动时更新子窗口位置"""
     if event.widget == root:
-        for child in root.winfo_children():
-            if isinstance(child, (ctk.CTkToplevel, CTkMessagebox)):
-                child.update_idletasks()
-                new_x = root.winfo_x() + (root.winfo_width() - child.winfo_width())//2
-                new_y = root.winfo_y() + (root.winfo_height() - child.winfo_height())//2
-                child.geometry(f"+{new_x}+{new_y}")
+        # 获取所有子窗口
+        children = [child for child in root.winfo_children() 
+                  if isinstance(child, (ctk.CTkToplevel, CTkMessagebox))]
+
+        # 更新每个子窗口位置
+        for child in children:
+            child.update_idletasks()
+            new_x = root.winfo_rootx() + (root.winfo_width() - child.winfo_width()) // 2
+            new_y = root.winfo_rooty() + (root.winfo_height() - child.winfo_height()) // 2
+            child.geometry(f"+{new_x}+{new_y}")
 
 # 创建主窗口
 root = CTk()
+root.geometry("500x230")  # 显式设置窗口尺寸
+center_window(root, 500, 230)  # 调用修正后的居中函数
 root.title("PixelComposer 汉化工具")
 root.update()  # 确保窗口尺寸正确计算
 root.resizable(False, False)  # 禁止调整窗口大小
@@ -362,34 +447,38 @@ root.bind("<Configure>", on_window_move)
 center_window(root, 500, 230)  # 调用窗口居中函数
 
 def create_centered_dialog(parent, dialog_type, **kwargs):
-    """创建居中子对话框"""
-    dialog = dialog_type(parent, **kwargs)
+    dialog = dialog_type(master=parent, **kwargs)
     dialog.update_idletasks()
     
-    parent_x = parent.winfo_x()
-    parent_y = parent.winfo_y()
+    # 获取坐标和尺寸
+    parent_root_x = parent.winfo_rootx()
+    parent_root_y = parent.winfo_rooty()
     parent_width = parent.winfo_width()
     parent_height = parent.winfo_height()
+    dialog_width = dialog.winfo_width()
+    dialog_height = dialog.winfo_height()
     
-    dialog_width = dialog.winfo_reqwidth()
-    dialog_height = dialog.winfo_reqheight()
+    # 带动态补偿的居中计算
+    base_offset = -8  # 基础偏移量
+    dynamic_offset = int(parent_height * 0.02)  # 动态偏移
+    total_offset = base_offset + dynamic_offset
     
-    x = parent_x + (parent_width - dialog_width) // 2
-    y = parent_y + (parent_height - dialog_height) // 2
+    x = parent_root_x + (parent_width - dialog_width) // 2
+    y = parent_root_y + (parent_height - dialog_height) // 2 + total_offset
     
     dialog.geometry(f"+{x}+{y}")
     return dialog
 
 # 设置窗口图标
 try:
-    if icon_data:
-        icon_bytes = base64.b64decode(icon_data)
-        with open('temp.ico', 'wb') as f:
-            f.write(icon_bytes)
-        root.iconbitmap('temp.ico')
-        os.remove('temp.ico')
+    print("尝试加载图标路径:", ICON_PATH)
+    if os.path.exists(ICON_PATH):
+        root.iconbitmap(ICON_PATH)
+        print("图标设置成功")
+    else:
+        print(f"图标文件不存在: {ICON_PATH}")
 except Exception as e:
-    print(f"设置图标时出现错误: {e}")
+    print(f"图标设置失败: {str(e)}")
 
 # 添加标题标签
 title_label = CTkLabel(root, text="PixelComposer 汉化工具", font=("Microsoft YaHei", 28, "bold"))
@@ -401,7 +490,7 @@ input_frame.pack(pady=5)
 
 # 创建输入框和标签
 locale_var = ctk.StringVar(value="zh")
-locale_label = CTkLabel(input_frame, text="输入汉化包名（默认为zh）:", font=("Microsoft YaHei", 16))
+locale_label = CTkLabel(input_frame, text="输入汉化包名(需在同目录):", font=("Microsoft YaHei", 16))
 locale_label.pack(side=ctk.LEFT, padx=5)
 locale_entry = CTkEntry(input_frame, textvariable=locale_var, width=100, font=("Microsoft YaHei", 16, "bold"), text_color="#FF9166")
 locale_entry.pack(side=ctk.LEFT, padx=5)
@@ -440,18 +529,46 @@ group_button = CTkButton(empty_frame, text="加入特效交流群", command=open
 group_button.pack(pady=5)
 
 # 添加作者名称标签
-author_label = CTkLabel(root, text=f"作者:{AUTHOR_NAME}", font=("Microsoft YaHei", 16))
-author_label.pack(pady=5)
+# 添加作者信息框架
+author_frame = CTkFrame(root, fg_color="transparent")  # 新增行
+author_frame.pack(pady=5)  # 修改行
+
+# 添加星号按钮
+github_button = CTkButton(  # 新增按钮
+    author_frame,
+    text="★",
+    width=28,
+    height=28,
+    command=open_github,
+    font=("Microsoft YaHei", 20, "bold"),
+    text_color="#FF9166",
+    fg_color="transparent",
+    hover_color="#2B2B2B"
+)
+github_button.pack(side=ctk.LEFT, padx=(0, 5))  # 新增行
+
+# 添加Tooltip
+Tooltip(github_button, "打开GitHub给作者一个Star鼓励一下") 
+
+# 原有作者标签修改
+author_label = CTkLabel(  # 修改行
+    author_frame,  # 修改父容器
+    text=f"作者:{AUTHOR_NAME}",
+    font=("Microsoft YaHei", 16)
+)
+author_label.pack(side=ctk.LEFT)  # 修改行
 
 # 显示初始提示
-CTkMessagebox(
-        title="注意", 
-        message="请在PixelComposer第一次运行后使用，请保证汉化文件夹与本程序在同一目录", 
-        icon="info",
-        button_color="#FF9166",
-        button_hover_color="#FF9166",
-        button_text_color="#191925",
-        font=("Microsoft YaHei", 14, "bold")
+create_centered_dialog(
+    root,
+    CTkMessagebox,
+    title="注意", 
+    message="请在PixelComposer第一次运行后使用，请保证汉化文件夹与本程序在同一目录", 
+    icon="info",
+    button_color="#FF9166",
+    button_hover_color="#FF9166",
+    button_text_color="#191925",
+    font=("Microsoft YaHei", 14, "bold")
 )
 
 # 运行主循环
