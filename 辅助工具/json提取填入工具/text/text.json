@@ -1,0 +1,5 @@
+{
+  "name": "Monitor",
+  "tooltip": "Startings/ending frames, set end to 0 to default to last frame.",
+  "display_data": "\\\\\\\\.\\\\DISPLAY1"
+}
