@@ -1,0 +1,9234 @@
+2D Light
+Apply different shaped light on the image.
+Surface In
+Light shape
+Point
+Ellipse
+Line
+Line asymmetric
+Saber
+Spot
+Flame
+Center
+Range
+Intensity
+Color
+Start
+Finish
+Sweep
+Sweep end
+Banding
+Attenuation
+Control how light fade out over distance.
+Quadratic
+Invert quadratic
+Linear
+Radial banding
+Radial start
+Radial band ratio
+Active
+Radius x
+Radius y
+Rotation
+Exponent
+Anti aliasing
+Two sides
+Thickness
+Surface Out
+Light only
+3D Camera
+Create 3D camera that render scene to surface.
+Position
+Rotation
+Scale
+Anchor
+FOV
+Clipping Distance
+Dimension
+Projection
+Perspective
+Orthographic
+Scene
+Ambient Light
+Show Background
+Backface Culling
+None
+CW
+CCW
+Orthographic Scale
+Postioning Mode
+Position + Rotation
+Position + Lookat
+Lookat + Rotation
+Lookat Position
+Roll
+Horizontal Angle
+Vertical Angle
+Distance
+Gamma Adjust
+Environment Texture
+Ambient Occlusion
+AO Radius
+AO Bias
+AO Strength
+Round Normal
+Blend mode
+Normal
+Additive
+Wireframe
+Wireframe Thickness
+Wireframe Color
+Wireframe antialias
+Wireframe shading
+Wireframe only
+Backface Blending
+Rendered
+Normal
+Depth
+Shadow
+Ambient Occlusion
+Diffuse
+3D Camera Set
+3D camera with built-in key and fill directional lights.
+Position
+Rotation
+Scale
+Anchor
+FOV
+Clipping Distance
+Dimension
+Projection
+Perspective
+Orthographic
+Scene
+Ambient Light
+Show Background
+Backface Culling
+None
+CW
+CCW
+Orthographic Scale
+Postioning Mode
+Position + Rotation
+Position + Lookat
+Lookat + Rotation
+Lookat Position
+Roll
+Horizontal Angle
+Vertical Angle
+Distance
+Gamma Adjust
+Environment Texture
+Ambient Occlusion
+AO Radius
+AO Bias
+AO Strength
+Round Normal
+Blend mode
+Normal
+Additive
+Wireframe
+Wireframe Thickness
+Wireframe Color
+Wireframe antialias
+Wireframe shading
+Wireframe only
+Backface Blending
+L1 H angle
+L1 V angle
+L1 Color
+L1 Intensity
+L2 H angle
+L2 V angle
+L2 Color
+L2 Intensity
+Rendered
+Normal
+Depth
+Shadow
+Ambient Occlusion
+Diffuse
+3D Displace
+Shift vertex of 3D mesh using 2D map.
+Mesh
+Displace Texture
+Height
+Subobjects
+Recalculate normal
+Mesh
+Directional Light
+Create directional light directed at the origin point.
+Position
+Rotation
+Scale
+Anchor
+Active
+Color
+Intensity
+Cast Shadow
+Shadow Map Size
+Shadow Map Scale
+Shadow Bias
+Light
+Point Light
+Create point light to illuminate surrounding area.
+Position
+Rotation
+Scale
+Anchor
+Active
+Color
+Intensity
+Radius
+Cast Shadow
+Shadow Map Size
+Shadow Bias
+Light
+3D Material
+Create 3D material with adjustable parameters.
+Texture
+Diffuse
+Specular
+Shininess
+Metalic
+Normal Map
+Normal Strength
+Roughness
+Anti aliasing
+Scale
+Shift
+Material
+3D Cone
+Create 3D cone mesh
+Position
+Rotation
+Scale
+Anchor
+Side
+Material Bottom
+Material Side
+Smooth Side
+Mesh
+3D Cube
+Create 3D cube mesh.
+Position
+Rotation
+Scale
+Anchor
+Material per side
+Material
+Material Bottom
+Material Left
+Material Right
+Material Back
+Material Front
+Taper
+Taper Axis
+X
+Y
+Z
+Subdivision
+Mesh
+3D Cylinder
+Create 3D cylinder mesh
+Position
+Rotation
+Scale
+Anchor
+Side
+Material Top
+Material Bottom
+Material Side
+Smooth Side
+End caps
+Segments
+Profile
+Mesh
+Mesh Export
+Export 3D mesh as .obj file
+Mesh
+Paths
+Export Texture
+Invert UV
+Surface Extrude
+Extrude 2D image into 3D object.
+Position
+Rotation
+Scale
+Anchor
+Front Surface
+Front Height
+Smooth
+Always update
+Double Side
+Back Surface
+Back Height
+Front Height Level
+Back Height Level
+Front Texture
+Back Texture
+Side Texture
+Mesh
+Mesh Extrude
+Extrude mesh data into 3D object.
+Position
+Rotation
+Scale
+Anchor
+Mesh
+Thickness
+Smooth
+Always update
+Face Texture
+Side Texture
+Back Texture
+Mesh
+3D Object
+Load .obj file from your computer as a 3D object.
+Position
+Rotation
+Scale
+Anchor
+File Path
+Flip UV
+Flip UV axis, can be use to fix some texture mapping error.
+Import Scale
+Axis
+XYZ
+XZ-Y
+X-ZY
+Material
+Mesh
+Path Extrude
+Extrude path into 3D object.
+Position
+Rotation
+Scale
+Anchor
+Path
+Side
+Material Side
+Material Cap
+Smooth
+End caps
+Subdivision
+Radius
+Radius Over Path
+Texture Scale
+Loop
+Inverted
+Profile Angle
+Mesh
+3D Plane
+Put 2D image on a plane in 3D space.
+Position
+Rotation
+Scale
+Anchor
+Material
+Normal
+X
+Y
+Z
+Both side
+Back Material
+Mesh
+3D Icosphere
+Create 3D icosphere mesh
+Position
+Rotation
+Scale
+Anchor
+Subdivision
+Material
+Smooth Normal
+Mesh
+3D UV Sphere
+Create 3D uv sphere mesh
+Position
+Rotation
+Scale
+Anchor
+Horizontal Slices
+Vertical Slices
+Material
+Smooth Normal
+Projection
+Lambert
+Equirectangular
+Mesh
+Slice Stack
+Slice 3D object into array of 2d images.
+Mesh
+Output Dimension
+Scale
+Slices
+BBOX Padding
+Outputs
+3D Terrain
+Create 3D terrain from height map.
+Position
+Rotation
+Scale
+Anchor
+Material
+Input type
+Surface
+Array
+Height map
+Subdivision
+Height array
+Smooth
+Front Height Level
+Mesh
+3D Torus
+Create 3D torus mesh
+Position
+Rotation
+Scale
+Anchor
+Toroidal Slices
+Poloidal Slices
+Toroidal Radius
+Poloidal Radius
+Material
+Smooth Normal
+Toroidal Angle
+Poloidal Angle
+Mesh
+3D Wall Builder
+Create 3D wall be extruding 2D path.
+Position
+Rotation
+Scale
+Anchor
+Path
+Segments
+Height
+Thickness
+Material per side
+Side Material
+Path Scale
+Side Material 2
+Cap Material
+Loop
+Mesh
+Point Affector
+Generate array of 3D points interpolating between two values based on the distance.
+Position
+Rotation
+Scale
+Anchor
+Points
+Initial value
+Final value
+Falloff distance
+Falloff curve
+Shape
+Sphere
+Plane
+Output
+3D Repeat
+Repeat the same 3D mesh multiple times.
+Objects
+Object Mode
+Duplicate
+Array
+Amount
+Starting Position
+Starting Rotation
+Starting Scale
+Shift Position
+Shift Rotation
+Shift Scale
+Positions
+Rotations
+Scales
+Use Instance
+Scene
+Discretize vertex
+Round out vertex position to a specified step.
+Mesh
+Step
+Mesh
+3D Scene
+Combine multiple 3D objects into a single junction.
+Object
+Scene
+Set Material
+Replace mesh material with a new one.
+Mesh
+Materials
+Single material
+Mesh
+3D Subdivide
+Subdivide faces in mesh.
+Mesh
+Subobjects
+Level
+Mesh
+Transform
+Transform 3D object.
+Position
+Rotation
+Scale
+Anchor
+Mesh
+Mesh
+Transform 3D
+Transform image in 3D space
+Position
+Rotation
+Scale
+Anchor
+Surface
+Projection
+Orthographic
+Perspective
+FOV
+Texture Tiling
+View Range
+Depth Range
+Mesh
+Rendered
+Depth
+Transform Scene
+Transform 3D scene, accepts array of transformations for each objects.
+Scene
+Position
+Rotation
+Scale
+Positioning type
+Additive
+Override
+Rotating type
+Additive
+Override
+Scaling type
+Additive
+Multiplicative
+Override
+Scene
+UV Remap
+Remap UV map using plane.
+Position
+Rotation
+Scale
+Anchor
+Mesh
+Target subobject
+Bake UV
+Mesh
+Nine Slice
+Cut image into 3x3 parts, and scale\/repeat only the middle part.
+Surface In
+Dimension
+Splice
+Filling modes
+Scale
+Repeat
+Surface Out
+Active Canvas
+Draw using parameterized brush.
+Dimension
+Texture
+Position
+Rotation
+Scale
+Color
+Alpha
+Active
+Distance
+Output
+Alpha Cutoff
+Remove pixel with low alpha value.
+Surface In
+Minimum
+Any pixel with less alpha (more transparent) than this will be removed.
+Mask
+Mix
+Active
+Invert mask
+Mask feather
+Surface Out
+Alpha to Grey
+Convert alpha value into solid greyscale.
+Surface In
+Active
+Surface Out
+Ambient Occlusion
+Apply simple 2D AO effect using height map.
+Height Map
+Intensity
+Active
+Height
+Pixel Sweep
+Blend Original
+Blendmode
+Multiply
+Subtract
+Blend Strength
+Surface Out
+Evaluate Curve
+Evaluate value from an animation curve.
+Curve
+Progress
+Minimum
+Maximum
+Animated
+Display Type
+Number
+Curve
+Curve
+Frame Loop
+Loop animation around the given period.
+Surface
+Loop Start
+Loop Range
+Infinite
+Loop Amount
+Pre Loop
+Passthrough
+Empty
+Post Loop
+Passthrough
+Empty
+Surface
+Animation Control
+Control animation state with triggers.
+Toggle Play \/ Pause
+Pause
+Resume
+Play From Beginning
+Play once
+Skip Frames
+Skip Frames Count
+GUI In
+
+GUI
+GUI Out
+
+GUI
+Area
+Generate area data.
+Position
+Span
+Shape
+Rectangle
+Elipse
+Type
+Center Span
+Two Point
+Area
+Argument
+
+Tag
+Type
+String
+Number
+Default value
+Value
+Armature Create
+Create new armature system.
+Armature
+Armature Bind
+Bind and render image to an armature system.
+Dimension
+Armature
+Bind data
+Bone transform
+Bone scale
+Surface
+Transform
+Inherit Rotation
+Apply Bone Rotation
+Inherit Scale
+Apply Bone Scale
+Surface Out
+Atlas data
+Bind data
+Armature Mesh Rig
+Rig mesh to armature system.
+Armature
+Mesh
+Autoweight
+Auto Weight Radius
+Rigged Surface
+Armature Path
+Generate path from armature system.
+Armature
+Path
+Armature Pose
+Pose armature system.
+Armature
+bone
+Armature
+Armature Sample
+Sample point from armature system.
+Armature
+Bone name
+Sample point
+Position
+Array
+Create an array.
+Type
+Any
+Surface
+Number
+Color
+Text
+Spread array
+Unpack array and push the contents into the output one by one.
+Input
+Array
+Array Add
+Add elements into an array.
+Array
+Spread array
+Value
+Output
+Array Boolean Opr
+Apply a boolean operation bewteen two arrays.
+Array 1
+Array 2
+Operation
+Union
+Subtract
+Intersect
+XOR
+Array out
+Array Composite
+Create 2D array by multiplying each member in the first 1D array with the second 1D array.
+Array
+Compose
+Array
+Array Convolute
+Apply convolution between 2 number arrays.
+Array
+Kernel
+Boundary
+Zero
+Wrap
+Skip
+Array
+Array Copy
+Copy array or subarray.
+Array
+Starting Index
+Size
+Array
+Parse CSV
+Parse CSV string into array.
+CSV string
+Skip line
+First Row Header
+Sort
+Output Struct
+Columns
+Number Columns
+Array
+Array Find
+Returns index of an array member that match a condition.
+Array
+Value
+Index
+Array Flattern
+Flattern higher dimension array into 1 dimension linear array.
+Array in
+Flatterned Array
+Array Get
+Returns nth member in an array.
+Array
+Index
+Overflow
+Clamp
+Loop
+Ping Pong
+Value
+Array Insert
+Insert member into an array at any position.
+Array
+Index
+Value
+Spread array
+Array
+Array Length
+Returns number of members in an array.
+Array
+Size
+Array Pin
+Create a pin that can receive multiple values and return an array.
+Input
+Array
+Array Range
+Create array of numbers by setting start, end and step length.
+Start
+End
+Step
+Array
+Array Rearrange
+Rearrange array member manually.
+Array
+Orders
+Array
+Array Remove
+Remove member in an array.
+Array
+Type
+Index
+Value
+Index
+Value
+Spread array
+Array
+Array Reverse
+Reverse array order
+Array
+Array
+Array Sample
+Sample member from an array to create smaller one.
+Array
+Step
+Mode
+Uniform
+Random
+Shift
+Seed
+Amount
+Dimension
+Amount Type
+Input Range
+Custom
+Array
+Array Set
+Set array member based on index.
+Array
+Index
+Value
+Array
+Array Shift
+Shift all member in an array.
+Array
+Shift
+Overflow
+Wrap
+Zero
+Ignore
+Array
+Shuffle Array
+Randomly rearrange the array members.
+Array in
+Seed
+Shuffled array
+Sort Array
+Sort array using default comparison.
+Array in
+Order
+Ascending
+Descending
+Sorted array
+Sorted index
+Array Split
+Split array members into individual outputs.
+Array
+val 0
+Array Transpose
+
+Array in
+Transposed Array
+Array Unique
+Return a new array with all duplicate values removed.
+Array in
+Unique Array
+Array Zip
+Combine multiple arrays into higher dimension array by grouping member of the same indicies.
+Spread Content
+Value
+Output
+ASE File In
+Load Aseprite file with support for layers, tags.
+Path
+Generate layers
+Current tag
+Use cel dimension
+Output
+Content
+Path
+Palette
+Layers
+Tags
+Raw data
+Frame Amount
+ASE Layer
+Load Aseprite project file
+ASE data
+Crop Output
+Layer name
+Surface Out
+Layer name
+ASE Tag
+Read tag from ASE file.
+ASE data
+Tag
+Surface Out
+Frame Range
+Assert
+
+Name
+Value
+Target
+Pixel Expand
+Replace transparent pixel with the closest non-transparent pixel.
+Surface In
+Active
+Method
+Radial
+Scan
+Surface Out
+Draw Atlas
+Render image atlas to a surface.
+Dimension
+Atlas
+Combine
+Surface
+Atlas Get
+Extract atlas data.
+Atlas
+Surface
+Position
+Rotation
+Scale
+Blend
+Alpha
+Atlas Set
+Modify atlas data.
+Atlas
+Set Surface
+Surface
+Set Position
+Mode
+Absolute
+Relative
+Position
+Set Rotation
+Mode
+Absolute
+Relative
+Rotation
+Recalculate Position
+Set Scale
+Mode
+Absolute
+Additive
+Multiplicative
+Scale
+Set Blending
+Mode
+Absolute
+Multiplicative
+Blend
+Set Alpha
+Mode
+Absolute
+Additive
+Multiplicative
+Alpha
+Anchor
+Atlas
+Atlas to Struct
+Convert atlas into generic struct.
+Atlas
+Struct
+Audio Volume
+Calculate volume of an audio bit array.
+Audio Data
+Loudness
+Audio Window
+Take a slice of an audio array based on the current frame.
+Audio data
+Width
+Amount of bits to extract.
+Location
+Cursor location
+Start
+Middle
+End
+Step
+Match timeline
+Set window cursor to match animation timeline.
+Bit Array
+Average
+Average color of every pixels in the image.
+Surface In
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Surface Out
+Color
+Convert Base
+Convert number from one base to another.
+Value
+Base from
+Base to
+Result
+Bend
+Warp an image into a predefined shape.
+Surface In
+Active
+Type
+Arc
+Wave
+Axis
+x
+y
+Amount
+Scale
+Shift
+Surface Out
+Bevel
+Apply 2D bevel on the image.
+Surface In
+Height
+Shift
+Scale
+Slope
+Linear
+Smooth
+Circular
+Mask
+Mix
+Active
+Oversample mode
+How to deal with pixel outside the surface.\n    - Empty: Use empty pixel\n    - Clamp: Repeat edge pixel\n    - Repeat: Repeat texture.
+Empty
+Clamp
+Repeat
+Invert mask
+Mask feather
+Height map
+Surface Out
+Quantize Colors
+Reduce color by quantizing color in each channels.
+Surface In
+Color Space
+RGB
+HSV
+OKLAB
+YIQ
+Steps
+Dithering
+Pattern
+2 x 2 Bayer
+4 x 4 Bayer
+8 x 8 Bayer
+Contrast
+Alpha Steps
+Surface Out
+Blend
+Combine 2 images using different blend modes.
+Background
+Foreground
+Blend mode
+Normal
+Replace
+-1.0
+Multiply
+Color Burn
+Linear Burn
+Minimum
+-1.0
+Add
+Screen
+Color Dodge
+Maximum
+-1.0
+Overlay
+Soft Light
+Hard Light
+Vivid Light
+Linear Light
+Pin Light
+-1.0
+Difference
+Exclusion
+Subtract
+Divide
+-1.0
+Hue
+Saturation
+Luminosity
+Opacity
+Mask
+Fill mode
+None
+Stretch
+Tile
+Output dimension
+Background
+Forground
+Mask
+Maximum
+Constant
+Constant dimension
+Active
+Preserve alpha
+Horizontal Align
+@ref sprite(__newsprite1122)
+@ref sprite(__newsprite1122)
+@ref sprite(__newsprite1122)
+Vertical Align
+@ref sprite(__newsprite1123)
+@ref sprite(__newsprite1123)
+@ref sprite(__newsprite1123)
+Invert mask
+Mask feather
+Position
+Surface Out
+Blend Edge
+Blend the edges of an image to create tilable patterns.
+Surface In
+Width
+Types
+Both
+Horizontal
+Vertical
+Active
+Channel
+Width map
+Blending
+Smoothness
+Surface Out
+Blobify
+Round off sharp corner in BW image by bluring and thresholding.
+Surface In
+Active
+Radius
+Threshold
+Surface Out
+Bloom
+Apply bloom effect, blurring and brighten the bright part of the image.
+Surface In
+Size
+Bloom blur radius.
+Tolerance
+How bright a pixel should be to start blooming.
+Strength
+Blend intensity.
+Bloom mask
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Aspect Ratio
+Direction
+Types
+Gaussian
+Zoom
+Zoom Origin
+Blend
+Saturation
+Surface Out
+Bloom Mask
+Blur
+Blur image smoothly.
+Surface In
+Size
+Oversample mode
+How to deal with pixel outside the surface.\n    - Empty: Use empty pixel\n    - Clamp: Repeat edge pixel\n    - Repeat: Repeat texture.
+Empty
+Clamp
+Repeat
+Override color
+Replace all color while keeping the alpha. Used to\nfix grey outline when bluring transparent pixel.
+Color
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Gamma Correction
+Aspect Ratio
+Direction
+Surface Out
+Lens Blur
+Create bokeh effect. Blur lighter color in a lens-like manner.
+Surface In
+Strength
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Strength map
+Surface Out
+Box Blur
+Blur pixel in square area uniformly.
+Surface In
+Size
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Separate Axis
+2D Size
+Surface Out
+Contrast Blur
+Blur only pixel of a similiar color.
+Surface In
+Size
+Threshold
+Brightness different to be blur together.
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Gamma Correction
+Surface Out
+Directional Blur
+Blur image given a direction.
+Surface In
+Strength
+Direction
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Strength map
+Direction map
+Single direction
+Gamma Correction
+Surface Out
+Path Blur
+Blur pixel along path.
+Surface In
+Blur Path
+Resolution
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Intensity
+Intensity Along Path
+Range
+Path Origin
+Surface Out
+Radial Blur
+Blur image by rotating around a mid point.
+Surface In
+Strength
+Center
+Oversample mode
+How to deal with pixel outside the surface.\n    - Empty: Use empty pixel\n    - Clamp: Repeat edge pixel\n    - Repeat: Repeat texture.
+Empty
+Clamp
+Repeat
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Strength map
+Gamma Correction
+Surface Out
+Shape Blur
+Blur image using another image as blur map.
+Surface In
+Blur Shape
+Blur mask
+Mask
+Mix
+Active
+Channel
+Mode
+Blur
+Max
+Invert mask
+Mask feather
+Gamma Correction
+Surface Out
+Non-Uniform Blur
+Blur image using simpler algorithm. Allowing for variable blur strength.
+Surface In
+Size
+Oversample mode
+How to deal with pixel outside the surface.\n    - Empty: Use empty pixel\n    - Clamp: Repeat edge pixel\n    - Repeat: Repeat texture.
+Empty
+Clamp
+Repeat
+Blur mask
+Override color
+Replace all color while keeping the alpha. Used to\nfix grey outline when bluring transparent pixel.
+Color
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Gradient
+Gradient map
+Gradient map range
+Use Gradient
+Gamma Correction
+Surface Out
+Slope Blur
+Blur along a gradient of a slope map.
+Surface In
+Strength
+Slope Map
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Strength map
+Step
+Gamma Correction
+Surface Out
+Zoom Blur
+Blur image by zooming in\/out from a mid point.
+Surface In
+Strength
+Center
+Oversample mode
+How to deal with pixel outside the surface.\n    - Empty: Use empty pixel\n    - Clamp: Repeat edge pixel\n    - Repeat: Repeat texture.
+Empty
+Clamp
+Repeat
+Zoom origin
+Start
+Middle
+End
+Blur mask
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Strength map
+Gamma Correction
+Samples
+Mode
+Blur
+Step
+Surface Out
+Boolean
+Generate boolean (true, false) data.
+Value
+Hide Background
+Name location
+Top
+Bottom
+Boolean
+Box Pattern
+Generate square-based patterns.
+Dimension
+Scale
+Angle
+Position
+Color 1
+Color 2
+Amount Map
+Angle Map
+Render Type
+Solid
+Smooth
+AA
+Width
+Width Map
+Pattern
+Cross
+Xor
+Iteration
+Mask
+Surface Out
+Brush
+Apply brush effect.
+Surface In
+Active
+Iteration
+Seed
+Length
+Attenuation
+Circulation
+Mask
+Mix
+Channel
+Invert mask
+Mask feather
+Surface Out
+BW
+Convert color image to black and white.
+Surface In
+Brightness
+Contrast
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Brightness map
+Contrast map
+Surface Out
+Byte File In
+Load any file to buffer.
+Path
+Content
+Path
+Byte File Out
+Save buffer content to a file.
+Path
+Content
+Cache
+Store current animation. Cache persisted between save.
+Surface In
+Cache surface
+Cache Array
+Store current animation as array.  Cache persisted between save.
+Surface In
+Start frame
+Frame index to start caching, set to -1 to start at the first frame.
+Stop frame
+Frame index to stop caching (inclusive), set to -1 to stop at the last frame.
+Step
+Cache every N frames, set to 1 to cache every frame.
+Cache array
+Cache Value Array
+Store current value as array.
+Value
+Start frame
+Frame index to start caching, set to -1 to start at the first frame.
+Stop frame
+Frame index to stop caching (inclusive), set to -1 to stop at the last frame.
+Cache array
+Camera
+Create camera that crop image to fix dimension with control of position, zoom. Also can be use to create parallax effect.
+Focus Center
+Zoom
+Depth of Field
+Focal distance
+Defocus
+Focal range
+Dimension
+Element 0
+Positioning 0
+Space
+Camera
+Position 0
+Oversample 0
+Empty 
+Repeat 
+Repeat X
+Repeat Y
+Parallax 0
+Depth 0
+Surface Out
+Canvas
+Draw on surface using brush, eraser, etc.
+Dimension
+Color
+Brush Size
+Fill Threshold
+Fill Type
+4 connect
+8 connect
+Entire canvas
+Draw Preview Overlay
+Brush
+Surface Amount
+Background
+Background Alpha
+Render Background
+Alpha
+Frames Animation
+Animation Speed
+Use Background Dimension
+Brush Distance
+Rotate Brush by Direction
+Random Direction
+Animation Type
+Loop
+Hold
+Clear
+Surface Out
+Canvas Group
+Create a group that combines multiple canvas nodes a layers.
+Dimension
+Caustic
+Generate caustic noise
+Dimension
+Position
+Scale
+Seed
+Progress
+Detail
+Intensity
+Mask
+Surface Out
+Cellular Noise
+Generate voronoi pattern.
+Dimension
+Position
+Scale
+Seed
+Type
+Point
+Edge
+Cell
+Crystal
+Contrast
+Pattern
+Tiled
+Uniform
+Radial
+Middle
+Radial scale
+Radial shatter
+Colored
+Scale map
+Rotation
+Mask
+Phase
+Surface Out
+Checker
+Generate checkerboard pattern.
+Dimension
+Amount
+Angle
+Position
+Color 1
+Color 2
+Amount map
+Angle map
+Type
+Solid
+Smooth
+AA
+Diagonal
+Mask
+Surface Out
+Chromatic Aberration
+Apply chromatic aberration effect to the image.
+Surface In
+Center
+Strength
+Active
+Strength map
+Type
+RGB
+Continuous
+Surface Out
+Color
+Create color value.
+Color
+Color
+Color Adjust
+Adjust brightness, contrast, hue, saturation, value, alpha, and blend image with color.
+Surface In
+Brightness
+Contrast
+Hue
+Saturation
+Value
+Blend
+Blend amount
+Mask
+Alpha
+Exposure
+Active
+Input Type
+Surface
+Color
+Color
+Blend mode
+Normal
+Replace
+-1.0
+Multiply
+Color Burn
+Linear Burn
+Minimum
+-1.0
+Add
+Screen
+Color Dodge
+Maximum
+-1.0
+Overlay
+Soft Light
+Hard Light
+Vivid Light
+Linear Light
+Pin Light
+-1.0
+Difference
+Exclusion
+Subtract
+Divide
+-1.0
+Hue
+Saturation
+Luminosity
+Channel
+Invert mask
+Mask feather
+Brightness map
+Contrast map
+Hue map
+Saturation map
+Value map
+Blend map
+Alpha map
+Exposure map
+Surface Out
+Color out
+Color Data
+Get data (rgb, hsv, brightness) from color.
+Color
+Normalize
+Red
+Green
+Blue
+Hue
+Saturation
+Value
+Brightness
+Alpha
+HSV Color
+Create (rgb) color from value in HSV color space.
+Hue
+Saturation
+Value
+Normalized
+Alpha
+Color
+Mix Color
+Combine two colors.
+Color from
+Color to
+Mix
+Color space
+RGB
+HSV
+OKLAB
+Color
+OKLCH Color
+Create (rgb) color from value in OKLCH color space.
+Lightness
+Chroma
+Hue
+Alpha
+Gamut clipping
+Chroma
+50% grey
+Adaptive grey
+RGB (Naive)
+Color
+Raw RGB
+Remove Color
+Remove color that match a palette.
+Surface In
+Colors
+Threshold
+Mask
+Mix
+Active
+Invert
+Keep the selected colors and remove the rest.
+Channel
+Invert mask
+Mask feather
+Threshold map
+Surface Out
+Replace Palette
+Match image to a palette then remap it to another palette.
+Surface In
+From
+To
+Threshold
+Replace Other Colors
+Multiply alpha
+Hard replace
+Completely override pixel with new color instead of blending between it.
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Mode
+Closest
+Random
+Seed
+Target Color
+Surface Out
+RGB Color
+Create (rgb) color from value in RGB color space.
+Red
+Green
+Blue
+Normalized
+Alpha
+Color
+Separate Color
+Generate array of surfaces for each color.
+Surface In
+All Colors
+Colors
+Match All
+If false, only match pixels with the exact same color.
+Surface Out
+Color HSV
+Return normalized HSV components of a color.
+Color
+Hue
+Saturation
+Value
+Color OKLCH
+Return normalized LCH components of a color.
+Color
+Lightness
+Chroma
+Hue
+Color RGB
+Return normalized RGB components of a color.
+Color
+Red
+Green
+Blue
+Colorize
+Map brightness of a pixel to a color from a gradient.
+Surface In
+Gradient
+Gradient Shift
+Mask
+Mix
+Active
+Multiply Alpha
+Channel
+Invert mask
+Mask feather
+Gradient shift map
+Gradient map
+Gradient map range
+Keep Alpha
+Surface Out
+Replace Colors
+Replace selected colors with a new one.
+Surface In
+Palette from
+Palette to
+Threshold
+Mask
+Mix
+Active
+Invert mask
+Mask feather
+Surface Out
+HSV Combine
+Combine 4 image in to one. Each image use to control HSVA channel.
+Hue
+Saturation
+Value
+Alpha
+Array Input
+HSV Array
+Surface Out
+RGBA Combine
+Combine 4 image in to one. Each image use to control RGBA channel.
+Red
+Green
+Blue
+Alpha
+Sampling type
+Channel value
+Greyscale
+Base value
+Set value to the unconnected color channels.
+Base value
+Array Input
+RGBA Array
+Surface Out
+Compare
+Compare 2 numbers.
+Type
+Equal
+Not equal
+Greater 
+Greater or equal
+Lesser
+Lesser or equal
+a
+b
+Result
+Composite
+Combine multiple images with custom transformation.
+Padding
+Output dimension
+First surface
+Largest surface
+Constant
+Dimension
+Surface 0
+Position 0
+Rotation 0
+Scale 0
+Blend 0
+Normal
+Replace
+-1.0
+Multiply
+Color Burn
+Linear Burn
+Minimum
+-1.0
+Add
+Screen
+Color Dodge
+Maximum
+-1.0
+Overlay
+Soft Light
+Hard Light
+Vivid Light
+Linear Light
+Pin Light
+-1.0
+Difference
+Exclusion
+Subtract
+Divide
+-1.0
+Hue
+Saturation
+Luminosity
+Opacity 0
+Surface Out
+Atlas data
+Dimension
+Composite Tag
+
+Dimension
+Surface
+Surface Out
+Condition
+Output value based on conditions.
+Check value
+Condition
+Equal
+Not equal
+Less 
+Less or equal 
+Greater 
+Greater or equal
+Compare to
+True
+False
+Eval Mode
+Boolean
+Number compare
+Text compare
+Boolean
+Text 1
+Text 2
+Result
+Bool
+Convolution
+Apply convolution operation on each pixel using a custom 3x3 kernel.
+Surface In
+Kernel
+Oversample mode
+How to deal with pixel outside the surface.\n    - Empty: Use empty pixel\n    - Clamp: Repeat edge pixel\n    - Repeat: Repeat texture.
+Empty
+Clamp
+Repeat
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Normalize
+Size
+Surface Out
+Round Corner
+Round out sharp corner of the image.
+Surface In
+Radius
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Thershold
+Surface Out
+Frame Index
+Output current frame as frame index, or animation progress (0 - 1).
+Start
+Speed
+Mode
+Counting mode\\n- Frame count: Count value up\/down per frame.\\n- Animation progress: Count from 0 (first frame) to 1 (last frame). 
+Frame count
+Animation progress
+Value
+Crop
+Crop out image to create smaller ones.
+Surface In
+Crop
+Active
+Aspect Ratio
+None
+Manual
+1:1
+3:2
+4:3
+16:9
+Ratio
+Center
+Width
+Fit Mode
+Manual
+Width
+Height
+Minimum
+Surface Out
+Crop Content
+Crop out empty pixel from the image.
+Surface In
+Active
+Array Sizing
+Cropping mode for dealing with image array.
+Largest, same size
+Independent
+Padding
+Add padding back after crop.
+Background
+Surface Out
+Crop distance
+Atlas
+Draw Cross Section
+Map the brightness of pixels on a linear axis into a surface.
+Surface In
+Axis
+X
+Y
+Position
+Anti-aliasing
+Mode
+BW
+Colored
+Mask
+Surface Out
+CSV File In
+Load .csv as text, number array.
+Path
+Convert to Number
+Content
+Path
+CSV File Out
+Save array as .csv file.
+Path
+Content
+Curve
+Adjust brightness of an image using curves.
+Surface In
+Brightness
+Red
+Green
+Blue
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Alpha
+Surface Out
+HSV Curve
+Adjust hsv values of an image using curves.
+Surface In
+Hue
+Saturation
+Value
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Surface Out
+Datetime
+Get current date\/time data.
+Format
+Update
+Data
+De-Corner
+Attempt to remove single pixel corner from the image.
+Surface In
+Active
+Tolerance
+Iteration
+Type
+Double
+Diagonal
+Mask
+Mix
+Invert mask
+Mask feather
+Include
+Surface Out
+De-Stray
+Attempt to remove orphan pixel.
+Surface In
+Tolerance
+Active
+Iteration
+Strictness
+Low
+High
+Stray-only
+Mask
+Mix
+Invert mask
+Mask feather
+Fill Empty
+Surface Out
+Delay
+Delay the animation by fix amount of frames.
+Surface
+Frames
+Overflow
+Hold
+Loop
+Clear
+Surface
+Delay Value
+Delay value by fix amount of frames.
+Value
+Frames
+Overflow
+Hold
+Loop
+Value
+Default
+Value
+Differential
+Calculate how much the input value has changed since the last frame.
+Value
+Result
+Diffuse
+Simulate diffusion like simulation.
+Density field
+Dissipation
+Scale
+Randomness
+Flow rate
+Threshold
+Seed
+External
+External Strength
+Detail
+External Type
+Point
+Vector
+External Direction
+Result
+Dilate
+Expand the image around a mid point.
+Surface In
+Center
+Strength
+Radius
+Oversample mode
+How to deal with pixel outside the surface.\n    - Empty: Use empty pixel\n    - Clamp: Repeat edge pixel\n    - Repeat: Repeat texture.
+Empty
+Clamp
+Repeat
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Strength map
+Radius map
+Surface Out
+Directory Search
+Search for files in directory.
+Path
+Extensions
+Type
+Surface
+Text
+Recursive
+Outputs
+Paths
+Displace
+Distort image using another image as a map.
+Surface In
+Displace map
+Position
+Vector to displace pixel by.
+Strength
+Mid value
+Brightness value to be use as a basis for 'no displacement'.
+Mode
+Use color data for extra information.\r\n    - Linear: Displace along a single line (defined by the position value).\r\n    - Vector: Use red as X displacement, green as Y displacement.\r\n    - Angle: Use red as angle, green as distance.\r\n    - Gradient: Displace down the brightness value defined by the Displace map.
+Linear
+Vector
+Angle
+Gradient
+Iterate
+If not set, then strength value is multiplied directly to the displacement.\r\nIf set, then strength value control how many times the effect applies on itself.
+Oversample Mode
+How to deal with pixel outside the surface.\n    - Empty: Use empty pixel\n    - Clamp: Repeat edge pixel\n    - Repeat: Repeat texture.
+Empty
+Clamp
+Repeat
+Mask
+Mix
+Active
+Blend Mode
+Overwrite
+Min
+Max
+Channel
+Invert mask
+Mask feather
+Strength map
+Separate axis
+Displace map 2
+Iteration
+Fade Distance
+Reposition
+Surface Out
+Display Image
+Display image on the graph.
+Path
+Position
+Scale
+Smooth transform
+Display Text
+Display text on the graph.
+Color
+Text
+Style
+Header
+Sub header
+Normal
+Alpha
+Line width
+Position
+Line height
+Dither
+Reduce color and use dithering to preserve original color.
+Surface In
+Palette
+Pattern
+2 x 2 Bayer
+4 x 4 Bayer
+8 x 8 Bayer
+White Noise
+Custom
+Dither map
+Contrast
+Contrast map
+Mode
+Color
+Alpha
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Seed
+Use palette
+Steps
+Surface Out
+Error Diffuse Dither
+Dither image using error diffusion algorithm.
+Surface In
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Type
+Floyd-Steinberg
+Jarvis, Judice, and Ninke
+Atkinson
+Linear
+Seed
+Greyscale
+Surface Out
+Dotted
+
+Dimension
+Mask
+Size
+Scale Map
+Angle
+Angle Map
+Render Mode
+Step
+AA
+Smooth
+BG Color
+Dot Color
+Dot Size
+Dot Size Map
+Intensity
+Smoothness
+Pattern
+Grid
+Hexagonal
+Position
+Spacing
+Dot Color Mode
+Solid
+Palette
+Random
+Texture
+Palette
+Gradient
+Texture
+Seed
+Surface Out
+Input
+
+Value
+Output
+
+Surface
+x
+y
+sx
+sy
+angle
+color
+alpha
+PCX
+getHeight
+
+Height
+PCX
+getWidth
+
+Width
+PCX
+Edge Detect
+Edge detect by applying Sobel, Prewitt, or Laplacian kernel.
+Surface in self
+Algorithm
+Sobel
+Prewitt
+Laplacian
+Neighbor max diff
+Oversample mode
+Empty
+Clamp
+Repeat
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Surface Out
+Equation
+Evaluate string of equation. With an option for setting variables.
+Equation
+Argument name
+Argument value
+Result
+Erode
+Remove pixel that are close to the border of the image.
+Surface In
+Width
+Preserve Border
+Use Alpha
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Width map
+Surface Out
+Export
+Export image\/animation to file(s).
+Surface
+Directory
+Template
+Type
+Single image
+Image sequence
+Animation
+Template guides
+Loop
+Frame optimization
+Color merge
+Framerate
+Format
+.png
+.jpg
+.webp
+.exr
+Quality
+Sequence begin
+Frame range
+Subformat
+INDEX4
+INDEX8
+Default (PNG32)
+Frame step
+Custom Range
+Export on Save
+Automatically export when saving project.
+Use Built-in gif encoder
+Quality
+Scale
+File name
+Preview
+Feedback
+Create a group that reuse output from last frame to the current one.
+Feedback
+
+Input
+
+Subtype
+Any
+Range
+Input Type
+Integer
+Float
+Boolean
+Color
+Surface
+File Path
+Curve
+Text
+Object
+Node
+-1.0
+Any
+Path
+Particle
+Rigidbody Object
+Domain
+Struct
+Strands
+Mesh
+Trigger
+-1.0
+3D Mesh
+3D Light
+3D Camera
+3D Scene
+3D Material
+-1.0
+PCX
+Audio
+Fluid Domain
+SDF
+Gradient
+Enum Labels
+Define enum choices, use comma to separate each choice.
+Vector size
+2
+3
+4
+Order
+Display preview gizmo
+Step
+Button Label
+Visible Condition
+Always Show
+Always Hide
+Equal
+Not equal
+Greater 
+Greater or equal
+Lesser
+Lesser or equal
+Visible Check
+Visible Check To
+Gizmo Position
+Gizmo Scale
+Gizmo Rotation
+Gizmo Label
+Value
+Feedback loop
+Output
+
+Value
+Feedback loop
+FFT
+Perform fourier transform on number array.
+Data
+Preprocess Function
+None
+Hann
+Array
+Find pixel
+Get the position of the first pixel with a given color.
+Surface In
+Search color
+Tolerance
+Find all
+Include alpha
+Alpha tolerance
+Position
+Flip
+Flip image horizontally or vertically.
+Surface In
+Axis
+x
+y
+Active
+Surface Out
+Add Collider
+
+Domain
+Position
+Radius
+Shape
+Circle
+Rectangle
+Size
+Texture
+Domain
+Apply Velocity
+
+Domain
+Position
+Radius
+Velocity
+Shape
+Circle
+Rectangle
+Size
+Domain
+Destroy
+
+Domain
+Position
+Shape
+Circle
+Rectangle
+Radius
+Size
+Ratio
+Domain
+Domain
+
+Dimension
+Particle Size
+Particle Density
+FLIP Ratio
+Resolve accelerator
+Iteration
+Damping
+Gravity
+Time Step
+Wall
+Viscosity
+Friction
+Wall Elasticity
+Gravity Direction
+Domain
+FLIP Fluid
+Create group for fluid simulation.
+Render
+
+Domain
+Merge threshold
+Lifespan
+Particle expansion
+Draw obstracles
+Fluid particle
+Render type
+Particle
+Line
+Threshold
+Additive
+Alpha
+Segments
+Color Over Velocity
+Velocity Map
+Rendered
+Repel
+
+Domain
+Position
+Radius
+Strength
+Domain
+Spawner
+
+Domain
+Spawn Shape
+Circle
+Rectangle
+Surface
+Spawn Position
+Spawn Type
+Stream
+Splash
+Spawn Frame
+Spawn Amount
+Spawn Velocity
+Spawn Surface
+Spawn Radius
+Seed
+Spawn Direction
+Inherit Velocity
+Spawn Duration
+Spawn Szie
+Domain
+FLIP to VFX
+
+Domain
+Particles
+Update
+
+Domain
+Update
+Override timestep
+Timestep
+Domain
+Vortex
+
+Domain
+Position
+Radius
+Strength
+Attraction
+Domain
+Flood Fill
+Filled connected pixel given position and color.
+Surface In
+Mask
+Mix
+Active
+Position
+Colors
+Threshold
+Diagonal
+Invert mask
+Mask feather
+Blend
+Override
+Multiply
+Surface Out
+Flow Noise
+Generate fluid flow noise
+Dimension
+Position
+Scale
+Progress
+Detail
+Rotation
+Mask
+Surface Out
+Ease
+Create easing function.
+Display
+Number
+Graph
+Range
+Amount
+Smooth
+Cubic poly
+Quadratic rat
+Cubic rat
+Cosine
+Output
+Math
+Apply mathematic operation of wave value.
+Display
+Number
+Graph
+Operation
+Add
+Minus
+Multiply
+Value 1
+Value 2
+Output
+SmoothStep
+Apply smoothstop function to a value.
+Display
+Number
+Graph
+Value
+Type
+Cubic poly
+Quadratic rat
+Cubic rat
+Cosine
+Output
+WaveTable
+Create value changing overtime in wave pattern.
+Display
+Number
+Graph
+Pattern
+Range
+Frequency
+Phase
+Output
+Fold Noise
+Generate cloth fold noise
+Dimension
+Position
+Scale
+Iteration
+Stretch
+Amplitude
+Mode
+Greyscale
+Map
+Rotation
+Mask
+Surface Out
+Surfaces to Font
+Create font from surface array.
+Font Surfaces
+String Map
+Proportional
+Separation
+Font
+Frame
+Create frame surrounding nodes.
+Size
+Color
+Alpha
+Label size
+Blend label
+FXAA
+Apply fast approximate anti-aliasing to te image.
+Surface In
+Active
+Distance
+Mix
+Surface Out
+Mask
+Gabor Noise
+Generate Gabor noise
+Dimension
+Position
+Scale
+Seed
+Density
+Sharpness
+Augment
+Phase
+Scale map
+Density map
+Sharpness map
+Phase map
+Rotation
+Mask
+Surface Out
+Gamma Map
+Apply gamma approximation (pow(2.2)) to an image.
+Surface In
+Invert
+Active
+Surface Out
+Gap Contract
+
+Surface In
+Active
+Mask
+Mix
+Invert mask
+Mask feather
+Max Width
+Surface Out
+Glow
+Apply glow to the border of the image.
+Surface In
+Border
+Size
+Strength
+Color
+Mask
+Mix
+Active
+Invert mask
+Mask feather
+Mode
+Greyscale
+Alpha
+Draw Original
+Side
+Outer
+Inner
+Surface Out
+GMRoom
+
+Data
+Room Preview
+Draw Gradient
+Create image from gradient.
+Dimension
+Gradient
+Type
+Linear
+Circular
+Radial
+Diamond
+Angle
+Radius
+Shift
+Center
+Loop
+None
+Loop
+Pingpong
+Mask
+Scale
+Angle map
+Radius map
+Shift map
+Scale map
+Uniform ratio
+Gradient map
+Gradient map range
+Shape
+Surface Out
+Gradient Data
+Get palatte and array of key positions from gradient.
+Gradient
+Colors
+Positions
+Type
+Gradient
+Create gradient object
+Gradient
+Sample
+Position to sample a color from the gradient.
+Gradient
+Color
+Palette to Gradient
+Create gradient from palette.
+Palette
+Custom positions
+Positions
+Array of number indicating color position (0 - 1).
+Interpolation
+None
+RGB
+HSV
+OKLAB
+sRGB
+Gradient
+Draw 4 Points Gradient
+Create image from 4 color points.
+Dimension
+Center 1
+Color 1
+Center 2
+Color 2
+Center 3
+Color 3
+Center 4
+Color 4
+Use palette
+Palette
+Falloff 1
+Falloff 2
+Falloff 3
+Falloff 4
+Normalize weight
+Surface Out
+Gradient Replace
+Replace color inside a gradient.
+Gradient
+Color from
+Color to
+Threshold
+Gradient
+Sample Gradient
+Sample gradient into palette.
+Gradient
+Step
+Shift
+Colors
+Gradient Shift
+Move gradients keys.
+Gradient
+Shift
+Wrap
+Scale
+Gradient
+Grain
+Add noise pattern to the image.
+Surface In
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Brightness
+Brightness map
+Seed
+Red
+Red map
+Green
+Green map
+Blue
+Blue map
+Hue
+Hue map
+Saturation
+Saturation map
+Value
+Value map
+Blend mode
+Additive
+Multiply
+Screen
+Overlay
+Blend mode
+Additive
+Multiply
+Screen
+Blend mode
+Additive
+Multiply
+Screen
+Surface Out
+Graph Preview
+
+Surface
+Position
+Scale
+Sticky
+Alpha
+Grey to Alpha
+Convert greyscale to alpha value.
+Surface In
+Replace color
+Replace output with solid color.
+Color
+Active
+Surface Out
+Greyscale
+Convert color image to greyscale.
+Surface In
+Brightness
+Contrast
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Brightness map
+Contrast map
+Surface Out
+Grid
+Generate grid pattern.
+Dimension
+Position
+Grid Size
+Gap
+Angle
+Tile Color
+Gap Color
+Texture
+Shift
+Shift Axis
+X
+Y
+Render Type
+Colored tile
+Colored tile (Accurate)
+Height map
+Texture grid
+Texture sample
+Seed
+Anti-aliasing
+Scale Map
+Gap Map
+Angle Map
+Shift Map
+Truchet
+Truchet Seed
+Flip Horizontal
+Gradient Map
+Gradient Map Range
+Flip Vertical
+Texture Angle
+Level
+Use Texture Dimension
+Gap Width
+Diagonal
+Uniform Gap
+Secondary Scale
+Secondary Shift
+Random Shift
+Shift Seed
+Random Scale
+Scale Seed
+Mask
+Invert Size
+Surface Out
+Hexagonal Grid
+Generate hexagonal grid pattern.
+Dimension
+Position
+Scale
+Angle
+Gap
+Tile Color
+Gap Color
+Render Type
+Colored tile
+Height map
+Texture grid
+Texture sample
+Seed
+Texture
+Anti-aliasing
+Scale Map
+Angle Map
+Gap Map
+Truchet
+Truchet Seed
+Truchet Threshold
+Gradient Map
+Gradient Map Range
+Texture Angle
+Level
+Use Texture Dimension
+Mask
+Surface Out
+Grid Noise
+
+Dimension
+Position
+Scale
+Seed
+Shift
+Texture Sample
+Shift Axis
+x
+y
+Color Mode
+Greyscale
+RGB
+HSV
+Color R Range
+Color G Range
+Color B Range
+Mask
+Surface Out
+Pentagonal Grid
+Generate Pentagonal grid pattern.
+Dimension
+Position
+Scale
+Gap
+Angle
+Tile Color
+Gap Color
+Texture
+Render Type
+Colored tile
+Height map
+Texture grid
+Seed
+Anti-aliasing
+Scale Map
+Gap Map
+Angle Map
+Gradient Map
+Gradient Map Range
+Level
+Use Texture Dimension
+Mask
+Surface Out
+Triangular Grid
+Generate triangular grid pattern.
+Dimension
+Position
+Scale
+Gap
+Angle
+Tile Color
+Gap Color
+Texture
+Render Type
+Colored tile
+Height map
+Texture grid
+Texture sample
+Seed
+Anti-aliasing
+Scale Map
+Gap Map
+Angle Map
+Truchet
+Truchet Seed
+Truchet Threshold
+Gradient Map
+Gradient Map Range
+Texture Angle
+Level
+Use Texture Dimension
+Mask
+Surface Out
+Group
+
+Input
+
+Subtype
+Any
+Range
+Input Type
+Integer
+Float
+Boolean
+Color
+Surface
+File Path
+Curve
+Text
+Object
+Node
+-1.0
+Any
+Path
+Particle
+Rigidbody Object
+Domain
+Struct
+Strands
+Mesh
+Trigger
+-1.0
+3D Mesh
+3D Light
+3D Camera
+3D Scene
+3D Material
+-1.0
+PCX
+Audio
+Fluid Domain
+SDF
+Gradient
+Enum Labels
+Define enum choices, use comma to separate each choice.
+Vector size
+2
+3
+4
+Order
+Display preview gizmo
+Step
+Button Label
+Visible Condition
+Always Show
+Always Hide
+Equal
+Not equal
+Greater 
+Greater or equal
+Lesser
+Lesser or equal
+Visible Check
+Visible Check To
+Gizmo Position
+Gizmo Scale
+Gizmo Rotation
+Gizmo Label
+Value
+Output
+
+Value
+Thumbnail
+
+Input
+Output
+Herringbone Tile
+Generate Herringbone tile pattern.
+Dimension
+Position
+Scale
+Angle
+Gap
+Tile Color
+Gap Color
+Render Type
+Colored tile
+Height map
+Texture grid
+Seed
+Texture
+Anti-aliasing
+Scale Map
+Angle Map
+Gap Map
+Truchet
+Truchet Seed
+Truchet Threshold
+Tile length
+Gradient Map
+Gradient Map Range
+Texture Angle
+Level
+Mask
+Surface Out
+High Pass
+Apply high pass filter
+Surface In
+Active
+Mask
+Mix
+Channel
+Invert mask
+Mask feather
+Radius
+Intensity
+Blend Original
+Surface Out
+HLSL
+Execute HLSL shader on a surface.
+Vertex
+Main
+Base Texture
+Libraries
+Global
+Argument name
+Argument type
+Float
+Int
+Vec2
+Vec3
+Vec4
+Mat3
+Mat4
+Sampler2D
+Color
+Argument value
+Surface
+Honeycomb Noise
+Generate honeycomb noise
+Dimension
+Position
+Scale
+Rotation
+Mode
+Hexagon
+Star
+Seed
+Iteration
+Mask
+Surface Out
+HSV Extract
+Extract HSVA channel on an image, each channel becomes its own image.
+Surface In
+Output Array
+Hue
+Saturation
+Value
+Alpha
+HTTP
+Request data from the internet.
+Address
+Type
+Get
+Post
+Content
+Result
+HTTP Download
+Download a file from the internet.
+Address
+Format
+Image
+Result
+Image
+Load a single image from your computer.
+Path
+Padding
+Surface Out
+Path
+Animation
+Load multiple images from your computer as animation.
+Path
+Padding
+Stretch frame
+Stretch animation speed to match project length.
+Animation speed
+Loop modes
+Loop
+Ping pong
+Hold last frame
+Hide
+Set animation length to match
+Custom frame order
+Frame
+Canvas size
+First
+Minimum
+Maximum
+Surface Out
+Image Buffer
+
+Surface
+Image GIF
+Load animated .gif from your computer.
+Path
+Set animation length to gif
+Output as array
+Loop modes
+Loop
+Ping pong
+Hold last frame
+Hide
+Start frame
+Custom frame order
+Frame
+Animation speed
+Surface Out
+Path
+Image Grid
+Place image next to each other in grid pattern.
+Main Axis
+Horizontal
+Vertical
+Column
+Spacing
+Padding
+Group
+Input
+Surface Out
+Atlas data
+Patreon Grid
+
+Tiers
+Column
+Spacing
+Padding
+Surfaces
+Atlas data
+Image Array
+Load multiple images from your computer as array.
+Paths
+Padding
+Canvas size
+Individual
+Minimum
+Maximum
+Sizing method
+Padding \/ Crop
+Scale
+Surface Out
+Paths
+Splice Spritesheet
+Cut up spritesheet into animation or image array.
+Surface In
+Sprite size
+Row
+Amount
+Offset
+Spacing
+Padding
+Output
+Animation
+Array
+Animation speed
+Main Axis
+Horizontal
+Vertical
+Auto fill
+Automatically set amount based on sprite size.
+Sync animation
+Filter empty output
+Filtered Pixel
+Transparent
+Color
+Filtered Color
+Surface Out
+Atlas Data
+Interlace
+Apply interlace effect to an image.
+Surface In
+Active
+Mask
+Mix
+Channel
+Invert mask
+Mask feather
+Axis
+X
+Y
+Size
+Invert
+Delay
+Loop
+Surface Out
+Interpret Number
+Convert array of number into surface.
+Number
+Mode
+Greyscale
+Gradient
+Range
+Gradient
+Gradient map
+Gradient map range
+Surface Out
+Invert
+Invert color.
+Surface In
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Include Alpha
+Surface Out
+IsoSurf
+Create a dynamic surface that changes its texture based on rotation.
+Direction
+Surfaces
+Angle Shift
+Angle Split
+Offsets
+IsoSurf
+Loop
+Create group that reuse output as input repeatedly in one frame.
+Repeat
+Loop Array
+
+Array
+Array
+Loop Array
+Create group that iterate to each member in an array.
+Filter Array
+Filter array using condition.
+Array
+Array
+Filter Array
+Filter array using condition.
+Loop
+
+Repeat
+Sort Array
+Sort array using node graph.
+Array
+Array
+Sort Array Inline
+Sort array using node graph.
+Loop Input
+
+Array in
+Value in
+Loop Output
+
+Value out
+Array out
+Input
+
+Value in
+Array Length
+
+Length
+Output
+
+Value out
+Preview
+Filter Input
+
+Array in
+Value in
+Filter Output
+
+Value out
+Filter result
+Array out
+Input
+
+Value in
+Output
+
+Value
+Result
+Index
+
+Loop index
+Loop Input
+
+Subtype
+Any
+Range
+Input Type
+Integer
+Float
+Boolean
+Color
+Surface
+File Path
+Curve
+Text
+Object
+Node
+-1.0
+Any
+Path
+Particle
+Rigidbody Object
+Domain
+Struct
+Strands
+Mesh
+Trigger
+-1.0
+3D Mesh
+3D Light
+3D Camera
+3D Scene
+3D Material
+-1.0
+PCX
+Audio
+Fluid Domain
+SDF
+Gradient
+Enum Labels
+Define enum choices, use comma to separate each choice.
+Vector size
+2
+3
+4
+Order
+Display preview gizmo
+Step
+Button Label
+Visible Condition
+Always Show
+Always Hide
+Equal
+Not equal
+Greater 
+Greater or equal
+Lesser
+Lesser or equal
+Visible Check
+Visible Check To
+Gizmo Position
+Gizmo Scale
+Gizmo Rotation
+Gizmo Label
+Value
+Loop entrance
+Loop amount
+
+Length
+Loop Output
+
+Value
+Loop exit
+Sort Input
+
+Array in
+Value 1
+Value 2
+Sort Output
+
+Swap
+Array out
+Sort Input
+
+Value in
+Value in
+Sort Output
+
+Result
+JPEG
+Apply JPEG compression to the image.
+Surface In
+Active
+Patch Size
+Compression
+Reconstruction
+Mask
+Mix
+Channel
+Invert mask
+Mask feather
+Transformation
+Cosine
+Zigzag
+Smooth Zigzag
+Step
+Phase
+Deconstruct Only
+Reconstruct All
+Surface Out
+JSON File In
+Load .json file using keys.
+Path
+Path
+Struct
+JSON File Out
+Save data to .json file.
+Path
+Struct
+Pretty print
+Serialize
+Julia
+Generate Julia fractal.
+Dimension
+C
+Position
+Scale
+Rotation
+Max Iteration
+Diverge Threshold
+Mask
+Surface
+Kuwahara
+Apply Kuwahara filter. Creating a watercolor-like effect.
+Surface In
+Active
+Radius
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Types
+Basic
+Anisotropics
+Generalized
+Alpha
+Zero crossing
+Hardness
+Sharpness
+Surface Out
+Level
+Adjust brightness of an image by changing its brightness range.
+Surface In
+White in
+Red in
+Green in
+Blue in
+Alpha in
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+White out
+Red out
+Green out
+Blue out
+Alpha out
+Surface Out
+Level Selector
+Isolate part of the image that falls in the selected brightness range.
+Surface In
+Midpoint
+Range
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Midpoint map
+Range map
+Keep Original
+Smoothness
+Surface Out
+Draw Line
+Draw line on an image. Connect path data to it to draw line from path.
+Dimension
+Background
+Segment
+Width
+Wiggle
+Random Seed
+Rotation
+Path
+Draw line along path.
+Range
+Range of the path to draw.
+Shift
+Color over Length
+Width over Length
+Span Width over Path
+Apply the full 'width over length' to the trimmed path.
+End Cap
+None
+Round
+Tri
+Round Segment
+Span Color over Path
+Apply the full 'color over length' to the trimmed path.
+Width Pass
+1px Mode
+Render pixel perfect 1px line.
+Texture
+Fix Length
+Fix length of each segment instead of segment count.
+Segment Length
+Texture Position
+Texture Rotation
+Texture Scale
+Random Blend
+Invert
+Clamp Range
+Data Type
+None
+Path
+Segments
+Two points
+Segments
+Scale Texture to Length
+Use Path Bounding Box
+Padding
+Start Point
+End Point
+SSAA
+None
+2x
+4x
+8x
+Force Loop
+Apply Weight
+Color Weight
+Color Range
+Seed
+Start Cap
+End Cap
+Rotate Cap
+Surface Out
+Width Pass
+Liquefy
+Distort image using variety of tools.
+Surface In
+Active
+Mask
+Mix
+Channel
+Invert mask
+Mask feather
+Type
+Push
+Twirl
+Pinch
+Bloat
+Position
+Position 2
+Radius
+Intensity
+Falloff
+Falloff Curve
+Push
+Push path
+Push resolution
+Radius 2
+Surface Out
+Local Analyze
+Apply non-linear operation (minimum, maximum) on each pixel locally.
+Surface In
+Algorithm
+Average (Blur)
+Maximum
+Minimum
+Size
+Oversample mode
+How to deal with pixel outside the surface.\n    - Empty: Use empty pixel\n    - Clamp: Repeat edge pixel\n    - Repeat: Repeat texture.
+Empty
+Clamp
+Repeat
+Shape
+Square
+Circle
+Diamond
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Surface Out
+Logic Opr
+Apply logic operation (and, or, not, etc.) to boolean(s).
+Type
+And
+Or
+Not
+Nand
+Nor
+Xor
+a
+Result
+Lua Compute
+Execute lua function and returns a data.
+Function name
+Return type
+Number
+String
+Struct
+Lua code
+@ref object(o_dialog_lua_reference)
+Execution thread
+Execute on frame
+Argument name
+Argument type
+Number
+String
+Surface
+Struct
+Argument value
+Execution thread
+Return value
+Lua Global
+Execute lua script in global scope without returning any data.
+Lua code
+@ref object(o_dialog_lua_reference)
+Run order
+On start
+Every frame
+Execution thread
+Execution thread
+Lua Surface
+Execute lua script on a surface.
+Function name
+Output dimension
+Lua code
+@ref object(o_dialog_lua_reference)
+Execution thread
+Execute on frame
+Argument name
+Argument type
+Number
+String
+Surface
+Struct
+Argument value
+Execution thread
+Surface Out
+Math
+Apply mathematical function to number(s).
+Type
+Add
+Subtract
+Multiply
+Divide
+Power
+Root
+Sin
+Cos
+Tan
+Modulo
+Floor
+Ceil
+Round
+Lerp
+Abs
+Clamp
+Snap
+Fract
+Map
+a
+b
+Degree Angle
+To integer
+Amount
+From
+To
+Output Vector
+Result
+Matrix
+Create matrix.
+Size
+Data
+Matrix
+Matrix Color Apply
+Apply matrix linear combination to RGB color
+Surface In
+Matrix
+Intensity
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Surface Out
+Matrix Determinant
+Calculate the determinant of a matrix.
+Matrix
+Determinant
+Matrix Invert
+Calculate the inverse of a matrix.
+Matrix
+Matrix
+Matrix Math
+Apply math operations to matrix.
+Matrix 1
+Matrix 2
+Operation
+Add
+Subtract
+Multiply Scalar
+Divide Scalar
+-1.0
+Multiply Matrix
+Scala
+Matrix
+Matrix Multiply Vector
+Multiply a matrix by a vector.
+Matrix
+Vector
+Vector
+Matrix Set
+Set value in a matrix.
+Matrix
+Position
+Value
+Matrix
+Matrix to Array
+Convert matrix to 1d array.
+Matrix
+Array
+Matrix Transpose
+Return the transpose of the input matrix.
+Matrix
+Matrix
+Path to Mesh
+Create mesh from path.
+Path
+Sample
+Algorithm
+Ear Clipping
+Convex Fan
+Delaunay
+Mesh
+Mesh Transform
+Transform (move, rotate, scale) mesh.
+Mesh
+Position
+Rotation
+Scale
+Anchor
+Mesh
+Mesh Warp
+Wrap image by converting it to mesh, and using control points.
+Surface In
+Sample
+Amount of grid subdivision. Higher number means more grid, detail.
+Spring Force
+Mesh
+Diagonal Link
+Include diagonal link to prevent drastic grid deformation.
+Active
+Link Strength
+Link length preservation, setting it to 1 will prevent any stretching, contraction.
+Full Mesh
+Mesh Type
+Grid
+Custom
+Seed
+Randomness
+Surface Out
+Mesh data
+MIDI In
+Receive MIDI message.
+Input
+Index
+Normalize
+Raw Message
+Pressing notes
+Direct values
+Value
+Mirror
+Reflect the image along a reflection line.
+Surface In
+Position
+Angle
+Active
+Both Side
+Surface Out
+Mirror mask
+Polar Mirror
+Reflect the image around multiple radial reflection lines.
+Surface In
+Position
+Angle
+Active
+Spokes
+Reflective
+Scale
+Output Dimension
+Same as input
+Relative
+Constant
+Relative Dimension
+Constant Dimension
+Radial Scale
+Linear
+Exponential
+Surface Out
+MK Blinker
+Flicker regions of the selected colors randomly.
+Surface In
+Mask
+Seed
+Amount
+Target Colors
+Light Colors
+Active
+Tolerance
+Glow
+Size
+Strength
+Surface Out
+Light only
+MK Brownian
+Generate random particle.
+Background
+Sprite
+Amount
+Area
+Direction
+Speed
+Color
+Alpha
+Seed
+Angular speed
+Angular acceleration
+Turn
+Dimension
+Size
+Output
+MK Delay Machine
+Combines multiple frames of animation into one.
+Surface
+Delay Amounts
+Delay Frames
+Blend over Delay
+Alpha over Delay
+Palette Select
+Loop
+Pingpong
+Random
+Seed
+Overflow
+Empty
+Loop
+Hold
+Blend Mode
+Normal
+Alpha
+Additive
+Maximum
+Invert
+Surface
+MK Fall
+Generate leaves falling effects.
+Background
+Dimension
+Seed
+Area
+Amount
+Gravity
+X Swing
+Y Swing
+Swing frequency
+Size
+Speed
+X Momentum
+Wind
+Color
+Alpha
+Ground
+Ground levels
+Y Momentum
+Twist
+Twist Rate
+Twist Speed
+Scale
+Render Type
+Leaf
+Circle
+Twist Radius
+Output
+MK Flag
+Generate waving flag.
+Dimension
+Texture
+Position
+Pin side
+Left
+Right
+Up
+Down
+Subdivision
+Wind speed
+Wave width
+Wave size
+Phase
+Clip
+Shadow
+Shadow threshold
+Invert shadow
+Surface Out
+MK Lens Flare
+Generate lens flare.
+Background
+Origin
+Dimension
+Scale
+Alpha
+Flares
+Focus
+Surface Out
+Light only
+MK Fracture
+Deterministically fracture and image and apply basic physics.
+Surface In
+Subdivision
+Progress
+Progress map
+Movement
+Rotation
+Scale
+Alpha
+Gravity
+Movement map
+Rotation map
+Brick Shift
+Skew
+Brick Axis
+X
+Y
+Surface Out
+MK GridBalls
+Generate controllable grid of spheres.
+Surface In
+Dimension
+Amount
+Light
+Scatter
+Seed
+Shading
+Scatter direction
+Shift
+Stretch
+Stretch direction
+Stretch shift
+Roundness
+Twist
+Twist axis
+Twist shift
+Surface Out
+MK GridFlip
+Generate controllable grid of planes.
+Surface front
+Dimension
+Amount
+Seed
+Surface back
+Rotation
+Axis
+X
+Y
+Sweep
+Sweep direction
+Sweep shift
+Flip limit
+None
+90
+180
+Surface Out
+MK Rain
+Generate deterministic rain.
+Surface In
+Direction
+Density
+Raindrop width
+Raindrop length
+Color
+Alpha
+Velocity
+Seed
+Shape
+Rain
+Snow
+Texture
+Snow size
+Texture
+Track extension
+Size over lifetime
+Limited lifespan
+Lifespan
+Lifespan of a droplet as a ratio of the entire animation.
+Alpha over lifetime
+Fade alpha
+Surface Out
+MK Saber
+Generate glowing saber from 2 points.
+Dimension
+Point 1
+Point 2
+Thickness
+Color
+Trace
+Fix length
+Gradient step
+Glow intensity
+Glow radius
+Trace texture
+Surface Out
+MK Sparkle
+Generate random star animation.
+Size
+Seed
+Speed
+Shade
+Amount
+Scatter
+Colors
+Additive
+Diagonal
+Loop
+None
+Loop
+Ping-pong
+Loop Length
+Frame Shift
+Array
+Array Length
+Surface Out
+MK Subpixel
+Apply subpixel filter on top of a surface.
+Dimension
+Type
+Hex Disc
+Strip
+Linear Block
+Linear Block offset
+Chevron
+Square
+Square Non-Uniform
+Density
+Size
+Blur
+Noise
+Intensity
+Surface
+Seed
+Ridge amount
+Ridge Intensity
+Ridge
+Scene Scale
+Flicker
+Flicker Intensity
+Flicker Frequency
+Flicker Cut
+Surface Out
+MK Tile
+Generate game engines-ready tileset.
+Texture
+Background texture
+Type
+GMS Corner (18 sprites)
+GMS Corner + Side (55 sprites)
+Godot Blob (48 sprites)
+Output type
+Sheet
+Array
+Crop
+Edge type
+Uniform
+Individual
+Edge
+Edge bottom
+Edge left
+Edge right
+Edge shift
+Full edge
+Edge sprite
+Single
+Side + Center
+Side + Center + Side
+Edge transform
+Flip
+Rotate
+Sort array by bit
+Surface Out
+Monitor Capture
+
+Mode
+Monitor
+Region
+Monitor
+\\\\.\\DISPLAY1
+\\\\.\\DISPLAY2
+\\\\.\\DISPLAY5
+Region
+GUI
+Morph Surface
+Morph pixel between two surfaces.
+Surface from
+Surface to
+Morph amount
+Threshold
+Surface Out
+Transform Point
+Translate array of points.
+Point
+Anchor Point
+Position
+Rotation
+Scale
+Result
+Noise
+Generate white noise.
+Dimension
+Seed
+Color Mode
+Greyscale
+RGB
+HSV
+Color R Range
+Color G Range
+Color B Range
+Mask
+Surface Out
+Anisotropic Noise
+Generate anisotropic noise.
+Dimension
+X Amount
+Seed
+Position
+Rotation
+Y Amount
+X Amount map
+Y Amount map
+Rotation map
+Render Mode
+Blend
+Waterfall
+Seed
+Mask
+Surface Out
+Bubble Noise
+Generate bubble noise
+Dimension
+Density
+Seed
+Scale
+Thickness
+Mode
+Line
+Fill
+Opacity
+Blend Mode
+Max
+Add
+Mask
+Surface Out
+Cristal Noise
+Generate Cristal noise
+Dimension
+Position
+Scale
+Seed
+Iteration
+Color
+Gamma
+Phase
+Mask
+Surface Out
+Hexagonal Noise
+
+Dimension
+Seed
+Position
+Scale
+Texture Sample
+Mask
+Surface Out
+Simplex Noise
+Generate simplex noise, similiar to perlin noise with better fidelity but non-tilable.
+Dimension
+Position
+Scale
+Iteration
+Color Mode
+Greyscale
+RGB
+HSV
+Color R Range
+Color G Range
+Color B Range
+Scale map
+Iteration map
+Rotation
+Scaling
+Amplitude
+Mask
+Surface Out
+Strand Noise
+Generate random srtands noise.
+Dimension
+Position
+Density
+Seed
+Slope
+Curve
+Curve scale
+Thickness
+Curve shift
+Axis
+x
+y
+Mode
+Line
+Area
+Opacity
+Mask
+Surface Out
+Triangular Noise
+
+Dimension
+Seed
+Position
+Scale
+Texture sample
+Mask
+Surface Out
+Normal
+Create normal map using greyscale value as height.
+Surface In
+Height
+Smooth
+Include diagonal pixel in normal calculation, which leads to smoother output.
+Active
+Normalize
+Flip X
+Surface Out
+Normal Light
+Light up the image using normal mapping.
+Surface In
+Normal map
+Height
+Ambient
+Height map
+Type
+Point
+Sun
+Line
+Spot
+Position
+Range
+Intensity
+Color
+End Position
+End Color
+Surface Out
+Light only
+Normalize
+Normalize image ranges (brightness, RGB channels) in to [0, 1] range.
+Surface In
+Channels
+BW
+RGB
+Modes
+Global
+Local
+Radius
+Surface Out
+Number
+Generate number data.
+Value
+Integer
+Display Type
+Number
+Slider
+Rotator
+Increment
+Range
+Step
+Clamp to range
+Style
+Blob
+Flat
+Rotate speed
+Show on global
+Whether to show overlay gizmo when not selecting any nodes.
+Gizmo offset
+Gizmo scale
+Gizmo style
+Default
+Shapes
+Sprite
+Gizmo shape
+Rectangle
+Ellipse
+Arrow
+Gizmo sprite
+Gizmo size
+Knob Range
+Number
+Offset
+Shift image with tiling.
+Surface In
+X Offset
+Y Offset
+Active
+Surface Out
+Onion Skin
+
+Surface In
+Range
+Alpha
+Color pre
+Color post
+Step
+On top
+Render current frame on top of all frames.
+Output
+Outline
+Add border to the image.
+Surface In
+Width
+Color
+Blend
+Blend outline color with the original color.
+Blend alpha
+Position
+Inside
+Outside
+Anti-aliasing
+Oversample mode
+How to deal with pixel outside the surface.\n    - Empty: Use empty pixel\n    - Clamp: Repeat edge pixel\n    - Repeat: Repeat texture.
+Empty
+Clamp
+Repeat
+Start
+Shift outline inside, outside the shape.
+Mask
+Mix
+Active
+Crop border
+Invert mask
+Mask feather
+Width map
+Blend alpha map
+Start map
+Profile
+Circle
+Square
+Diamond
+Threshold
+Surface Out
+Outline
+Override Channel
+Replace RGBA value of one surface with another.
+Surface
+Red
+Green
+Blue
+Alpha
+Sampling type
+Brightness
+Channel value
+Surface Out
+Pack Sprites
+Combine array of images with different dimension using different algorithms.
+Sprites
+Algorithm
+Skyline
+Shelf
+Top left
+Best fit
+Max width
+Max height
+Spacing
+Packed image
+Atlas data
+Padding
+Make image bigger by adding space in 4 directions.
+Surface In
+Padding
+Fill Method
+Empty
+Solid
+Fill Color
+Active
+Pad Mode
+Pad out
+Pad to size
+Target Dimension
+Horizontal Alignment
+@ref sprite(__newsprite1122)
+@ref sprite(__newsprite1122)
+@ref sprite(__newsprite1122)
+Vertical Alignment
+@ref sprite(__newsprite1123)
+@ref sprite(__newsprite1123)
+@ref sprite(__newsprite1123)
+Surface Out
+Palette
+Create palette value. Note that palette is simple an array of colors.
+Palette
+Trim range
+Palette
+Palette Extract
+Extract palette from an image.
+Surface In
+Max colors
+Amount of color in a palette.
+Seed
+Algorithm
+K-mean
+Frequency
+All Colors
+Color Space
+RGB
+HSV
+Mask
+Radius
+Palette
+Palette Replace
+Replace colors in a palette with new one.
+Palette in
+Palette from
+Palette to
+Threshold
+Surface Out
+Palette Shift
+Shift the order of color in palette.
+Surface In
+Palette
+Shift
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Surface Out
+Shrink Palette
+Reduce palette size by collapsing similiar colors.
+Palette in
+Algorithm
+Histogram
+K-mean
+Amount
+Seed
+Color Space
+RGB
+HSV
+Palette
+Sort Palette
+Sort palette with specified order.
+Palette in
+Order
+Brightness
+-1.0
+Hue (HSV)
+Saturation (SHV)
+Value (VHS)
+-1.0
+Red (RGB)
+Green (GBR)
+Blue (BRG)
+-1.0
+Custom
+Reverse
+Sort Order
+Compose sorting algorithm using string.\r\n    - RGB: Red\/Green\/Blur channel\r\n    - HSV: Hue\/Saturation\/Value\r\n    - L:   Brightness\r\n    - Use small letter for ascending, capital letter for descending order.
+Sorted palette
+Particle
+Generate particle effect.
+Particle Sprite
+Spawn Delay
+Frames delay between each particle spawn.
+Spawn Amount
+Amount of particle spawn in that frame.
+Spawn Area
+Spawn Source
+Area Inside
+Area Border
+Map
+Path
+Lifespan
+Initial Direction
+Acceleration
+Initial Rotation
+Rotational Speed
+Initial Scale
+Scale Over Time
+Color Over Lifetime
+Alpha
+Alpha Over Time
+Rotate by Direction
+Make the particle rotates to follow its movement.
+Spawn Type
+Stream
+Burst
+Trigger
+Initial Size
+Initial Speed
+Gravity
+Direction Wiggle
+Loop
+Surface Array
+Whether to select image from an array in order, at random, or treat array as animation.
+Random
+Order
+Animation
+Scale
+Animation Speed
+Distribution
+Uniform
+Random
+Boundary Data
+On Animation End
+Loop
+Ping pong
+Destroy
+Spawn
+Random Blend
+Directed From Center
+Make particle move away from the spawn center.
+Distribution Map
+Atlas
+Seed
+Gravity Direction
+Turning
+Turn Both Directions
+Apply randomized 1, -1 multiplier to the turning speed.
+Turn Scale with Speed
+Collide Ground
+Ground Offset
+Bounce Amount
+Bounce Friction
+Apply horizontal friction once particle stop bouncing.
+Position Wiggle
+Rotation Wiggle
+Scale Wiggle
+Spawn
+Follow Path
+Path
+Path Deviation
+Reset Seed
+Stretch Animation
+Color by Index
+Burst Duration
+Uniform Period
+Angle Range
+Friction
+Spawn Path
+Sample Surface
+Use Physics
+Use Wiggles
+Rotational Speed Over Time
+Base Speed Over Time
+Speed may conflict with physics-based properties.
+Snap Rotation
+Dimension
+Round position
+Round position to the closest integer value to avoid jittering.
+Blend mode
+Normal
+Alpha
+Additive
+Maximum
+Background
+Render Type
+Surface
+Line
+Line life
+Surface Out
+Path
+Create path using bezier curve.
+Path progress
+Sample position from path.
+Loop
+Progress mode
+Entire line
+Segment
+Round anchor
+Anchor
+Position out
+Path data
+Anchors
+3D Path
+Create path in 3D space.
+Path progress
+Sample position from path.
+Loop
+Progress mode
+Entire line
+Segment
+Round anchor
+Anchor
+Position out
+Path data
+Anchors
+3D Path Camera
+Render a 3D path into 2d space
+Position
+Rotation
+Scale
+Anchor
+FOV
+Projection
+Perspective
+Orthographic
+Path
+Orthographic Scale
+Postioning Mode
+Position + Rotation
+Position + Lookat
+Lookat + Rotation
+Lookat Position
+Roll
+Horizontal Angle
+Vertical Angle
+Distance
+Dimension
+Apply depth to weight
+Depth range
+Rendered
+Path Anchor
+Create path anchor data.
+Postion
+Control point 1
+Control point 2
+Mirror control point
+Anchor
+Path Combine
+Combine multiple path into one.
+Path
+Combined Path
+Bake Path
+Bake path data into array of vec2 points.
+Path
+Segment length
+Spread single path
+Segments
+Blend Path
+Blend between 2 paths.
+Path 1
+Path 2
+Ratio
+Path
+Bridge Path
+Create new paths that connect multiple paths at the same sample positions.
+Path
+Amount
+Smooth
+Path
+Path Builder
+Create path from array of vec2 points.
+Point array
+Loop
+Path
+Fill Path
+Fill area inside path.
+Dimension
+Path
+Resolution
+Color
+Inverted
+Bachground
+Scale
+Surface Out
+Path from Mask
+Create path that wrap around a mask.
+Mask
+Smooth angle
+Path
+L system
+Generate path using Lindenmayer system.
+Length
+Angle
+Starting position
+Iteration
+Starting rule
+@ref object(o_dialog_l_system)
+End replacement
+Replace symbol of the last generated rule, for example a=F to replace all a with F. Use comma to separate different replacements.
+Starting Angle
+Seed
+3D
+Forward
+X
+Y
+Z
+Starting position
+Subangle
+Name 0
+Rule 0
+Path
+Map Path
+Map a texture between multiple paths.
+Path
+Dimension
+Texture
+Subdivision
+Rendered
+Remap Path
+Scale path to fit a given area.
+Path
+Area
+Map From
+Path Boundary
+Fix Dimension
+BBOX
+Dimension From
+Map To
+Area
+Fix Dimension
+BBOX
+Dimension To
+BBOX From
+BBOX To
+Path
+Morph Path
+Draw gradient connecting 2 paths.
+Path 1
+Path 2
+Dimension
+Subdivision
+Clip In-Out
+Curve
+Match index
+Surface Out
+Plot Path
+Create path from parametric equations.
+Output scale
+Coordinate
+Cartesian
+Polar
+Equation type
+x function
+y function
+parametric
+0 function
+1 function
+Origin
+Range
+Input Scale
+Input Shift
+Use Weight
+w(x)
+z(x)
+3D
+Path
+Draw Path Profile
+Fill-in an area on one side of a path.
+Dimension
+Path
+Resolution
+Side
+L
+R
+T
+D
+Mirror
+Color
+Anti-aliasing
+Background
+BG Color
+Fill
+Odd
+All
+Output
+Repeat Path
+Repeat paths.
+Path
+Amount
+Shift Position
+Shift Rotation
+Shift Scale
+Anchor
+Path
+Reverse Path
+Reverse path direction.
+Path
+Path
+Sample Path
+Sample a 2D position from a path
+Path
+Ratio
+Type
+Loop
+Ping pong
+Position
+Direction
+Weight
+Scatter Path
+Scatter paths along another path.
+Base Path
+Scatter Path
+Range
+Amount
+Scale
+Seed
+Scale over Length
+Rotation
+Distribution
+Uniform
+Random
+Trim over Length
+Range
+Flip if Negative
+Origin
+Individual
+First
+Zero
+Path
+Path To SDF
+Draw distance field from path.
+Path
+Dimension
+Subdivision
+Max Distance
+Inverted
+Surface Out
+Separate File Path
+Separate path string into a pair of directory and filename.
+Path
+Keep extension
+Directory
+File Name
+Shape Path
+Create path with predefined shape.
+Position
+Half Size
+Rotation
+Shape
+Rectangle
+Trapezoid
+Parallelogram
+-1.0
+Ellipse
+Arc
+Squircle
+-1.0
+Polygon
+Star
+-1.0
+Line
+Curve
+Spiral
+Spiral Circle
+Skew
+Angle Range
+Factor
+Sides
+Inner Radius
+Corner Radius
+Revolution
+Pitch
+Path data
+Shape Path 3D
+Create 3D path in predefined shape.
+Position
+Half Size
+Shape
+Rectangle
+Ellipse
+Regular Polygon
+-1.0
+Star
+-1.0
+Spring
+Spring Sphere
+Spiral
+Up Axis
+X
+Y
+Z
+Rotation
+Sides
+Revolution
+Pitch
+Inner Radius
+Path data
+Shift Path
+Move path along its normal.
+Path
+Distance
+Path
+Smooth Path
+Create path with automatic smoothness.
+Loop
+Round anchor
+Smoothness
+Anchor
+Path data
+Transform Path
+Move rotate and scale a path.
+Path
+Position
+Rotation
+Scale
+Anchor
+Path
+Trim Path
+Trim path.
+Path
+Range
+Shift
+Path
+Wave Path
+Apply wave effect along the path.
+Path
+Frequency
+Amplitude
+Shift
+Mode
+Zigzag
+Sine
+Square
+Seed
+Wiggle
+Wiggle Amplitude
+Wiggle Frequency
+Amplitude over length
+Post Fn
+None
+Absolute
+Clamp
+Path
+Path Weight Adjust
+Adjust path weight.
+Path
+Mode
+Additive
+Multiplicative
+Value
+Curve
+Type
+Constant
+Curve
+Curve Range
+Path
+PB Box
+
+Base PBBOX
+PBBOX
+PBBOX Left
+PBBOX Top
+PBBOX Right
+PBBOX Bottom
+PBBOX Width
+PBBOX Height
+PBBOX
+PBBOX Convert
+
+PBBOX
+BBOX
+Area
+Width
+Height
+Dimension
+PBBox Mirror
+
+Mirror PBBOX
+PBBOX
+Axis
+PBBOX
+PBBOX Get Point
+
+PBBOX
+Anchor
+Position
+Point
+PBBox Split
+
+PBBOX
+Axis
+X
+Y
+Anchor
+Start
+End
+Unit
+Ratio
+Pixel
+Ratio
+Size
+PBBOX
+PBBOX
+Crop PBBOX
+
+Surface
+PBBOX
+Surface
+Dimension
+
+Dimension
+Width
+Height
+Curve
+
+Base PBBOX
+PBBOX
+PBBOX Left
+PBBOX Top
+PBBOX Right
+PBBOX Bottom
+PBBOX Width
+PBBOX Height
+Type
+@ref sprite(__newsprite938)
+@ref sprite(__newsprite938)
+@ref sprite(__newsprite938)
+@ref sprite(__newsprite938)
+@ref sprite(__newsprite938)
+@ref sprite(__newsprite938)
+Thickness
+Overflow
+Bend
+Segments
+Effect Type
+Fill
+Stroke
+Corner
+Highlight
+Extrude
+Shine
+Color
+Intensity
+Pattern
+Solid
+-1.0
+Stripe X
+Stripe Y
+Stripe D0
+Stripe D1
+-1.0
+Checker
+Checker Diag
+-1.0
+Grid
+Grid Diag
+-1.0
+Half X
+Half Y
+Half D0
+Half D1
+-1.0
+Grad X
+Grad Y
+Grad D0
+Grad D1
+-1.0
+Grad Both X
+Grad Both Y
+Grad Both D0
+Grad Both D1
+-1.0
+Grad Circular
+Grad Radial
+-1.0
+Brick X
+Brick Y
+-1.0
+Zigzag X
+Zigzag Y
+Half Zigzag X
+Half Zigzag Y
+-1.0
+Half Wave X
+Half Wave Y
+-1.0
+Noise
+Color
+Intensity
+Scale
+Position
+Map BBOX
+Thickness
+Position
+@ref sprite(__newsprite955)
+@ref sprite(__newsprite955)
+@ref sprite(__newsprite955)
+Corner
+@ref sprite(__newsprite956)
+@ref sprite(__newsprite956)
+Radius
+Widths
+Color Left
+Color Right
+Color Top
+Color Bottom
+Modify
+Subtract
+Direction
+Shines
+Progress
+Slope
+Axis
+X
+Y
+Seed
+PBBOX
+Surface Out
+Diamond
+
+Base PBBOX
+PBBOX
+PBBOX Left
+PBBOX Top
+PBBOX Right
+PBBOX Bottom
+PBBOX Width
+PBBOX Height
+Corner
+Scale
+Minimum
+Effect Type
+Fill
+Stroke
+Corner
+Highlight
+Extrude
+Shine
+Color
+Intensity
+Pattern
+Solid
+-1.0
+Stripe X
+Stripe Y
+Stripe D0
+Stripe D1
+-1.0
+Checker
+Checker Diag
+-1.0
+Grid
+Grid Diag
+-1.0
+Half X
+Half Y
+Half D0
+Half D1
+-1.0
+Grad X
+Grad Y
+Grad D0
+Grad D1
+-1.0
+Grad Both X
+Grad Both Y
+Grad Both D0
+Grad Both D1
+-1.0
+Grad Circular
+Grad Radial
+-1.0
+Brick X
+Brick Y
+-1.0
+Zigzag X
+Zigzag Y
+Half Zigzag X
+Half Zigzag Y
+-1.0
+Half Wave X
+Half Wave Y
+-1.0
+Noise
+Color
+Intensity
+Scale
+Position
+Map BBOX
+Thickness
+Position
+@ref sprite(__newsprite955)
+@ref sprite(__newsprite955)
+@ref sprite(__newsprite955)
+Corner
+@ref sprite(__newsprite956)
+@ref sprite(__newsprite956)
+Radius
+Widths
+Color Left
+Color Right
+Color Top
+Color Bottom
+Modify
+Subtract
+Direction
+Shines
+Progress
+Slope
+Axis
+X
+Y
+Seed
+PBBOX
+Surface Out
+Ellipse
+
+Base PBBOX
+PBBOX
+PBBOX Left
+PBBOX Top
+PBBOX Right
+PBBOX Bottom
+PBBOX Width
+PBBOX Height
+Effect Type
+Fill
+Stroke
+Corner
+Highlight
+Extrude
+Shine
+Color
+Intensity
+Pattern
+Solid
+-1.0
+Stripe X
+Stripe Y
+Stripe D0
+Stripe D1
+-1.0
+Checker
+Checker Diag
+-1.0
+Grid
+Grid Diag
+-1.0
+Half X
+Half Y
+Half D0
+Half D1
+-1.0
+Grad X
+Grad Y
+Grad D0
+Grad D1
+-1.0
+Grad Both X
+Grad Both Y
+Grad Both D0
+Grad Both D1
+-1.0
+Grad Circular
+Grad Radial
+-1.0
+Brick X
+Brick Y
+-1.0
+Zigzag X
+Zigzag Y
+Half Zigzag X
+Half Zigzag Y
+-1.0
+Half Wave X
+Half Wave Y
+-1.0
+Noise
+Color
+Intensity
+Scale
+Position
+Map BBOX
+Thickness
+Position
+@ref sprite(__newsprite955)
+@ref sprite(__newsprite955)
+@ref sprite(__newsprite955)
+Corner
+@ref sprite(__newsprite956)
+@ref sprite(__newsprite956)
+Radius
+Widths
+Color Left
+Color Right
+Color Top
+Color Bottom
+Modify
+Subtract
+Direction
+Shines
+Progress
+Slope
+Axis
+X
+Y
+Seed
+PBBOX
+Surface Out
+Line
+
+Base PBBOX
+PBBOX
+PBBOX Left
+PBBOX Top
+PBBOX Right
+PBBOX Bottom
+PBBOX Width
+PBBOX Height
+Type
+@ref sprite(__newsprite938)
+@ref sprite(__newsprite938)
+@ref sprite(__newsprite938)
+@ref sprite(__newsprite938)
+@ref sprite(__newsprite938)
+@ref sprite(__newsprite938)
+Thickness
+Overflow
+Corner
+Effect Type
+Fill
+Stroke
+Corner
+Highlight
+Extrude
+Shine
+Color
+Intensity
+Pattern
+Solid
+-1.0
+Stripe X
+Stripe Y
+Stripe D0
+Stripe D1
+-1.0
+Checker
+Checker Diag
+-1.0
+Grid
+Grid Diag
+-1.0
+Half X
+Half Y
+Half D0
+Half D1
+-1.0
+Grad X
+Grad Y
+Grad D0
+Grad D1
+-1.0
+Grad Both X
+Grad Both Y
+Grad Both D0
+Grad Both D1
+-1.0
+Grad Circular
+Grad Radial
+-1.0
+Brick X
+Brick Y
+-1.0
+Zigzag X
+Zigzag Y
+Half Zigzag X
+Half Zigzag Y
+-1.0
+Half Wave X
+Half Wave Y
+-1.0
+Noise
+Color
+Intensity
+Scale
+Position
+Map BBOX
+Thickness
+Position
+@ref sprite(__newsprite955)
+@ref sprite(__newsprite955)
+@ref sprite(__newsprite955)
+Corner
+@ref sprite(__newsprite956)
+@ref sprite(__newsprite956)
+Radius
+Widths
+Color Left
+Color Right
+Color Top
+Color Bottom
+Modify
+Subtract
+Direction
+Shines
+Progress
+Slope
+Axis
+X
+Y
+Seed
+PBBOX
+Surface Out
+Pie
+
+Base PBBOX
+PBBOX
+PBBOX Left
+PBBOX Top
+PBBOX Right
+PBBOX Bottom
+PBBOX Width
+PBBOX Height
+Corner
+@ref sprite(s_node_pb_draw_pie_corner)
+@ref sprite(s_node_pb_draw_pie_corner)
+@ref sprite(s_node_pb_draw_pie_corner)
+@ref sprite(s_node_pb_draw_pie_corner)
+Effect Type
+Fill
+Stroke
+Corner
+Highlight
+Extrude
+Shine
+Color
+Intensity
+Pattern
+Solid
+-1.0
+Stripe X
+Stripe Y
+Stripe D0
+Stripe D1
+-1.0
+Checker
+Checker Diag
+-1.0
+Grid
+Grid Diag
+-1.0
+Half X
+Half Y
+Half D0
+Half D1
+-1.0
+Grad X
+Grad Y
+Grad D0
+Grad D1
+-1.0
+Grad Both X
+Grad Both Y
+Grad Both D0
+Grad Both D1
+-1.0
+Grad Circular
+Grad Radial
+-1.0
+Brick X
+Brick Y
+-1.0
+Zigzag X
+Zigzag Y
+Half Zigzag X
+Half Zigzag Y
+-1.0
+Half Wave X
+Half Wave Y
+-1.0
+Noise
+Color
+Intensity
+Scale
+Position
+Map BBOX
+Thickness
+Position
+@ref sprite(__newsprite955)
+@ref sprite(__newsprite955)
+@ref sprite(__newsprite955)
+Corner
+@ref sprite(__newsprite956)
+@ref sprite(__newsprite956)
+Radius
+Widths
+Color Left
+Color Right
+Color Top
+Color Bottom
+Modify
+Subtract
+Direction
+Shines
+Progress
+Slope
+Axis
+X
+Y
+Seed
+PBBOX
+Surface Out
+Polygon
+
+Base PBBOX
+PBBOX
+PBBOX Left
+PBBOX Top
+PBBOX Right
+PBBOX Bottom
+PBBOX Width
+PBBOX Height
+Sides
+Angle
+Effect Type
+Fill
+Stroke
+Corner
+Highlight
+Extrude
+Shine
+Color
+Intensity
+Pattern
+Solid
+-1.0
+Stripe X
+Stripe Y
+Stripe D0
+Stripe D1
+-1.0
+Checker
+Checker Diag
+-1.0
+Grid
+Grid Diag
+-1.0
+Half X
+Half Y
+Half D0
+Half D1
+-1.0
+Grad X
+Grad Y
+Grad D0
+Grad D1
+-1.0
+Grad Both X
+Grad Both Y
+Grad Both D0
+Grad Both D1
+-1.0
+Grad Circular
+Grad Radial
+-1.0
+Brick X
+Brick Y
+-1.0
+Zigzag X
+Zigzag Y
+Half Zigzag X
+Half Zigzag Y
+-1.0
+Half Wave X
+Half Wave Y
+-1.0
+Noise
+Color
+Intensity
+Scale
+Position
+Map BBOX
+Thickness
+Position
+@ref sprite(__newsprite955)
+@ref sprite(__newsprite955)
+@ref sprite(__newsprite955)
+Corner
+@ref sprite(__newsprite956)
+@ref sprite(__newsprite956)
+Radius
+Widths
+Color Left
+Color Right
+Color Top
+Color Bottom
+Modify
+Subtract
+Direction
+Shines
+Progress
+Slope
+Axis
+X
+Y
+Seed
+PBBOX
+Surface Out
+Quadrilateral
+
+Base PBBOX
+PBBOX
+PBBOX Left
+PBBOX Top
+PBBOX Right
+PBBOX Bottom
+PBBOX Width
+PBBOX Height
+Top Left
+Top Right
+Bottom Left
+Bottom Right
+Effect Type
+Fill
+Stroke
+Corner
+Highlight
+Extrude
+Shine
+Color
+Intensity
+Pattern
+Solid
+-1.0
+Stripe X
+Stripe Y
+Stripe D0
+Stripe D1
+-1.0
+Checker
+Checker Diag
+-1.0
+Grid
+Grid Diag
+-1.0
+Half X
+Half Y
+Half D0
+Half D1
+-1.0
+Grad X
+Grad Y
+Grad D0
+Grad D1
+-1.0
+Grad Both X
+Grad Both Y
+Grad Both D0
+Grad Both D1
+-1.0
+Grad Circular
+Grad Radial
+-1.0
+Brick X
+Brick Y
+-1.0
+Zigzag X
+Zigzag Y
+Half Zigzag X
+Half Zigzag Y
+-1.0
+Half Wave X
+Half Wave Y
+-1.0
+Noise
+Color
+Intensity
+Scale
+Position
+Map BBOX
+Thickness
+Position
+@ref sprite(__newsprite955)
+@ref sprite(__newsprite955)
+@ref sprite(__newsprite955)
+Corner
+@ref sprite(__newsprite956)
+@ref sprite(__newsprite956)
+Radius
+Widths
+Color Left
+Color Right
+Color Top
+Color Bottom
+Modify
+Subtract
+Direction
+Shines
+Progress
+Slope
+Axis
+X
+Y
+Seed
+PBBOX
+Surface Out
+Rectangle
+
+Base PBBOX
+PBBOX
+PBBOX Left
+PBBOX Top
+PBBOX Right
+PBBOX Bottom
+PBBOX Width
+PBBOX Height
+Effect Type
+Fill
+Stroke
+Corner
+Highlight
+Extrude
+Shine
+Color
+Intensity
+Pattern
+Solid
+-1.0
+Stripe X
+Stripe Y
+Stripe D0
+Stripe D1
+-1.0
+Checker
+Checker Diag
+-1.0
+Grid
+Grid Diag
+-1.0
+Half X
+Half Y
+Half D0
+Half D1
+-1.0
+Grad X
+Grad Y
+Grad D0
+Grad D1
+-1.0
+Grad Both X
+Grad Both Y
+Grad Both D0
+Grad Both D1
+-1.0
+Grad Circular
+Grad Radial
+-1.0
+Brick X
+Brick Y
+-1.0
+Zigzag X
+Zigzag Y
+Half Zigzag X
+Half Zigzag Y
+-1.0
+Half Wave X
+Half Wave Y
+-1.0
+Noise
+Color
+Intensity
+Scale
+Position
+Map BBOX
+Thickness
+Position
+@ref sprite(__newsprite955)
+@ref sprite(__newsprite955)
+@ref sprite(__newsprite955)
+Corner
+@ref sprite(__newsprite956)
+@ref sprite(__newsprite956)
+Radius
+Widths
+Color Left
+Color Right
+Color Top
+Color Bottom
+Modify
+Subtract
+Direction
+Shines
+Progress
+Slope
+Axis
+X
+Y
+Seed
+PBBOX
+Surface Out
+Round Rectangle
+
+Base PBBOX
+PBBOX
+PBBOX Left
+PBBOX Top
+PBBOX Right
+PBBOX Bottom
+PBBOX Width
+PBBOX Height
+Corner Radius
+Profile
+Round
+Sharp
+Clamp
+Effect Type
+Fill
+Stroke
+Corner
+Highlight
+Extrude
+Shine
+Color
+Intensity
+Pattern
+Solid
+-1.0
+Stripe X
+Stripe Y
+Stripe D0
+Stripe D1
+-1.0
+Checker
+Checker Diag
+-1.0
+Grid
+Grid Diag
+-1.0
+Half X
+Half Y
+Half D0
+Half D1
+-1.0
+Grad X
+Grad Y
+Grad D0
+Grad D1
+-1.0
+Grad Both X
+Grad Both Y
+Grad Both D0
+Grad Both D1
+-1.0
+Grad Circular
+Grad Radial
+-1.0
+Brick X
+Brick Y
+-1.0
+Zigzag X
+Zigzag Y
+Half Zigzag X
+Half Zigzag Y
+-1.0
+Half Wave X
+Half Wave Y
+-1.0
+Noise
+Color
+Intensity
+Scale
+Position
+Map BBOX
+Thickness
+Position
+@ref sprite(__newsprite955)
+@ref sprite(__newsprite955)
+@ref sprite(__newsprite955)
+Corner
+@ref sprite(__newsprite956)
+@ref sprite(__newsprite956)
+Radius
+Widths
+Color Left
+Color Right
+Color Top
+Color Bottom
+Modify
+Subtract
+Direction
+Shines
+Progress
+Slope
+Axis
+X
+Y
+Seed
+PBBOX
+Surface Out
+Star
+
+Base PBBOX
+PBBOX
+PBBOX Left
+PBBOX Top
+PBBOX Right
+PBBOX Bottom
+PBBOX Width
+PBBOX Height
+Sides
+Angle
+Inner Radius
+Mode
+Fill
+Lines
+Thickness
+Effect Type
+Fill
+Stroke
+Corner
+Highlight
+Extrude
+Shine
+Color
+Intensity
+Pattern
+Solid
+-1.0
+Stripe X
+Stripe Y
+Stripe D0
+Stripe D1
+-1.0
+Checker
+Checker Diag
+-1.0
+Grid
+Grid Diag
+-1.0
+Half X
+Half Y
+Half D0
+Half D1
+-1.0
+Grad X
+Grad Y
+Grad D0
+Grad D1
+-1.0
+Grad Both X
+Grad Both Y
+Grad Both D0
+Grad Both D1
+-1.0
+Grad Circular
+Grad Radial
+-1.0
+Brick X
+Brick Y
+-1.0
+Zigzag X
+Zigzag Y
+Half Zigzag X
+Half Zigzag Y
+-1.0
+Half Wave X
+Half Wave Y
+-1.0
+Noise
+Color
+Intensity
+Scale
+Position
+Map BBOX
+Thickness
+Position
+@ref sprite(__newsprite955)
+@ref sprite(__newsprite955)
+@ref sprite(__newsprite955)
+Corner
+@ref sprite(__newsprite956)
+@ref sprite(__newsprite956)
+Radius
+Widths
+Color Left
+Color Right
+Color Top
+Color Bottom
+Modify
+Subtract
+Direction
+Shines
+Progress
+Slope
+Axis
+X
+Y
+Seed
+PBBOX
+Surface Out
+PB Draw Surface
+
+Base PBBOX
+PBBOX
+PBBOX Left
+PBBOX Top
+PBBOX Right
+PBBOX Bottom
+PBBOX Width
+PBBOX Height
+Surface
+Surface
+Trapezoid
+
+Base PBBOX
+PBBOX
+PBBOX Left
+PBBOX Top
+PBBOX Right
+PBBOX Bottom
+PBBOX Width
+PBBOX Height
+Axis
++Y
+-Y
++X
+-X
+Side
+Effect Type
+Fill
+Stroke
+Corner
+Highlight
+Extrude
+Shine
+Color
+Intensity
+Pattern
+Solid
+-1.0
+Stripe X
+Stripe Y
+Stripe D0
+Stripe D1
+-1.0
+Checker
+Checker Diag
+-1.0
+Grid
+Grid Diag
+-1.0
+Half X
+Half Y
+Half D0
+Half D1
+-1.0
+Grad X
+Grad Y
+Grad D0
+Grad D1
+-1.0
+Grad Both X
+Grad Both Y
+Grad Both D0
+Grad Both D1
+-1.0
+Grad Circular
+Grad Radial
+-1.0
+Brick X
+Brick Y
+-1.0
+Zigzag X
+Zigzag Y
+Half Zigzag X
+Half Zigzag Y
+-1.0
+Half Wave X
+Half Wave Y
+-1.0
+Noise
+Color
+Intensity
+Scale
+Position
+Map BBOX
+Thickness
+Position
+@ref sprite(__newsprite955)
+@ref sprite(__newsprite955)
+@ref sprite(__newsprite955)
+Corner
+@ref sprite(__newsprite956)
+@ref sprite(__newsprite956)
+Radius
+Widths
+Color Left
+Color Right
+Color Top
+Color Bottom
+Modify
+Subtract
+Direction
+Shines
+Progress
+Slope
+Axis
+X
+Y
+Seed
+PBBOX
+Surface Out
+Triangle
+
+Base PBBOX
+PBBOX
+PBBOX Left
+PBBOX Top
+PBBOX Right
+PBBOX Bottom
+PBBOX Width
+PBBOX Height
+Base
+@ref sprite(s_node_pb_draw_tri_base)
+@ref sprite(s_node_pb_draw_tri_base)
+@ref sprite(s_node_pb_draw_tri_base)
+@ref sprite(s_node_pb_draw_tri_base)
+Apex Ratio
+Mode
+@ref sprite(s_node_pb_draw_tri_apex)
+@ref sprite(s_node_pb_draw_tri_apex)
+Apex Corner
+@ref sprite(s_node_pb_draw_tri_apexc)
+@ref sprite(s_node_pb_draw_tri_apexc)
+@ref sprite(s_node_pb_draw_tri_apexc)
+@ref sprite(s_node_pb_draw_tri_apexc)
+Effect Type
+Fill
+Stroke
+Corner
+Highlight
+Extrude
+Shine
+Color
+Intensity
+Pattern
+Solid
+-1.0
+Stripe X
+Stripe Y
+Stripe D0
+Stripe D1
+-1.0
+Checker
+Checker Diag
+-1.0
+Grid
+Grid Diag
+-1.0
+Half X
+Half Y
+Half D0
+Half D1
+-1.0
+Grad X
+Grad Y
+Grad D0
+Grad D1
+-1.0
+Grad Both X
+Grad Both Y
+Grad Both D0
+Grad Both D1
+-1.0
+Grad Circular
+Grad Radial
+-1.0
+Brick X
+Brick Y
+-1.0
+Zigzag X
+Zigzag Y
+Half Zigzag X
+Half Zigzag Y
+-1.0
+Half Wave X
+Half Wave Y
+-1.0
+Noise
+Color
+Intensity
+Scale
+Position
+Map BBOX
+Thickness
+Position
+@ref sprite(__newsprite955)
+@ref sprite(__newsprite955)
+@ref sprite(__newsprite955)
+Corner
+@ref sprite(__newsprite956)
+@ref sprite(__newsprite956)
+Radius
+Widths
+Color Left
+Color Right
+Color Top
+Color Bottom
+Modify
+Subtract
+Direction
+Shines
+Progress
+Slope
+Axis
+X
+Y
+Seed
+PBBOX
+Surface Out
+PB Mirror
+
+PBBOX
+Surface
+Axis
+Surface Out
+PB Polar
+
+PBBOX
+Surface
+Copies
+Surface Out
+Bevel
+
+Surface
+Height
+Color Over Height
+Color Over Angles
+Shift Angle
+Highlight
+Highlight Color
+Highlight Direction
+Highlight All
+Surface Out
+Inner Area
+Extrude
+
+Surface
+Angle
+Distance
+Color
+Clone Color
+Highlight
+Highlight Color
+Highlight Direction
+Shape PBBOX
+Target PBBOX
+Use PBBOX
+PBBOX Mode
+4 Directions
+Extends
+Surface Out
+Highlight
+
+Surface
+Width
+Color Left
+Color Right
+Color Top
+Color Bottom
+Surface Out
+Shine
+
+Surface
+Mask
+Colors
+Invert Direction
+Shines
+Progress
+Slope
+Intensity
+Axis
+X
+Y
+Surface Out
+PB Output
+
+Surface
+Layer
+Blend Mode
+Normal
+Subtract
+Active
+Array Get
+
+Array
+Index
+PCX
+Array Set
+
+Array
+Index
+Value
+PCX
+Condition
+
+Condition
+True
+False
+PCX
+Equation
+
+Equation
+Argument name
+Argument value
+Result
+Math
+
+Operator
+Add
+Subtract
+Multiply
+Divide
+Power
+Modulo
+Absolute
+-1.0
+Round
+Floor
+Ceil
+-1.0
+Sin
+Cos
+Tan
+Arcsin
+Arccos
+Arctan
+-1.0
+Min
+Max
+Clamp
+-1.0
+Lerp
+x
+y
+z
+PCX
+Random
+
+Min
+Max
+Integer
+PCX
+Surface Height
+
+Surface
+PCX
+Surface Width
+
+Surface
+PCX
+Fn Variable
+
+Default Value
+PCX
+Variable
+
+Name
+Value
+PCX
+Perlin Noise
+Generate perlin noise.
+Dimension
+Position
+Scale
+Iteration
+Tile
+Seed
+Color Mode
+Greyscale
+RGB
+HSV
+Color R Range
+Color G Range
+Color B Range
+Scale map
+Rotation
+Mask
+Phase
+Surface Out
+Extra Perlins
+Random perlin noise made with different algorithms.
+Dimension
+Position
+Scale
+Iteration
+Tile
+Tiling only works with integer scale, and some effect type doesn't support tiling.
+Seed
+Color Mode
+Greyscale
+RGB
+HSV
+Color R Range
+Color G Range
+Color B Range
+Noise Type
+Absolute worley
+Fluid
+Noisy
+Camo
+Blocky
+Max
+Vine
+Parameter A
+Parameter B
+Scale map
+Parameter A map
+Parameter B map
+Rotation
+Mask
+Surface Out
+Pin
+Create a pin to organize your connection. Can be create by double clicking on a connection line.
+In
+Out
+Pixel Builder
+Will break, do not create. please. Why is it here??
+Dimension
+Outline
+Thickness
+Color
+Surface Out
+Pixel Cloud
+Displace each pixel of the image randomly.
+Surface In
+Seed
+Strength
+Strength map
+Color over lifetime
+Distance
+Alpha over lifetime
+Random blending
+Active
+Gradient map
+Gradient map range
+Surface Out
+Pixel Extract
+Extract pixels from an image.
+Surface In
+Skip
+None
+Black
+Empty
+Colors
+Pixel Math
+Apply mathematical operation directly on RGBA value.
+Surface In
+Active
+Mask
+Mix
+Channel
+Invert mask
+Mask feather
+Operator
+Add
+Subtract
+Multiply
+Divide
+Power
+Root
+Sin
+Cos
+Tan
+Modulo
+Floor
+Ceil
+Round
+Lerp
+Abs
+Clamp
+Snap
+Fract
+Map
+Less than
+Less than equal
+Greater than
+Greater than equal
+Operand
+Range
+Operand Type
+Vec4
+Surface
+Operand Surface
+Mix
+Surface Out
+Pixel Sampler
+Map image on to each individual pixels of another image.
+Base Texture
+Sample Mode
+Keep Size
+Expand
+Match Mode
+Brightness
+RGB
+Hue
+Surfaces
+Gradient
+Gradient map
+Gradient map range
+Color Blending
+None
+Multiply
+Blending Intensity
+Surface Out
+Pixel Sort
+Sort pixel by brightness in horizontal, or vertial axis.
+Surface In
+Iteration
+Threshold
+Direction
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Surface Out
+Draw Bar \/ Graph
+Plot graph or bar chart from array of number.
+Dimension
+Data
+Range
+Sample frequency
+Origin
+Scale
+Base Color
+Graph Thickness
+Background
+Background color
+Direction
+Type
+Bar chart
+Graph
+Value Offset
+Color Over Sample
+Trim mode
+Range
+Window
+Window Size
+Window Offset
+Spacing
+Bar Width
+Rounded Bar
+Path
+Flip Value
+Loop
+Smooth
+Color Over Value
+Value range
+Absolute
+Sample Gradient map
+Sample Gradient map range
+Value Gradient map
+Value Gradient map range
+Surface Out
+Point in Area
+Check whether a point lies in an area.
+Area
+Point
+Include Boundary
+Is in
+Triangulate Points
+
+Points
+Segments
+Polar
+Convert image to polar coordinate.
+Surface In
+Mask
+Mix
+Active
+Channel
+Invert
+Blend
+Invert mask
+Mask feather
+Radius Mode
+Linear
+Inverse Square
+Logarithm
+Swap
+Blend Map
+Tile
+Range
+Surface Out
+Posterize
+Reduce and remap color to match a palette.
+Surface In
+Palette
+Use Palette
+Steps
+Gamma
+Active
+Posterize alpha
+Gamma map
+Space
+RGB
+LAB
+Use Global Range
+Hue Bias
+Reference
+Surface Out
+Print
+Display text to notification.
+Active
+Text
+Project Data
+
+Name
+Description
+Author
+Contact
+Path
+Pytagorean Tile
+Generate Pytagorean tile pattern.
+Dimension
+Position
+Scale
+Rotation
+Gap
+Tile Color
+Gap Color
+Render Type
+Colored tile
+Height map
+Texture grid
+Seed
+Texture
+Anti Aliasing
+Scale Map
+Angle Map
+Gap Map
+Truchet
+Truchet Seed
+Truchet Threshold
+Phase
+Gradient Map
+Gradient Map Range
+Texture Angle
+Level
+Mask
+Surface Out
+Quasicrystal
+Generate Quasicrystal pattern.
+Dimension
+Scale
+Angle
+Position
+Color 1
+Color 2
+Scale map
+Angle map
+Phase
+Phasemap
+Angle Range
+Mask
+Surface Out
+Random
+Generate pseudo-random value based on seed.
+Seed
+From
+To
+Shuffle
+Mode
+Per Frame
+Periordic
+Trigger
+Probabilistic
+Accumulative
+Period
+Period Shift
+Trigger
+Probability
+Distribution
+Uniform
+Gaussian
+Bernoulli (True\/False)
+Binomial
+Custom
+Dist. Curve
+Mean
+Variance
+p
+t
+Smoothing
+None
+Moving Average
+Convolution
+Lerp
+Window Size
+Kernel Span
+Kernel
+Lerp Ratio
+Average Period
+Period Variance
+Result
+Draw Random Shape
+Generate random shape, use for testing purposes.
+Dimension
+Seed
+SSAA
+None
+2x
+4x
+8x
+Surface Out
+Random Tile
+Generate Random tile pattern.
+Dimension
+Position
+Scale
+Angle
+Gap
+Tile Color
+Gap Color
+Render Type
+Colored tile
+Height map
+Texture grid
+Seed
+Texture
+Anti-aliasing
+Scale Map
+Angle Map
+Gap Map
+Truchet
+Truchet Seed
+Truchet Threshold
+Gradient Map
+Gradient Map Range
+Texture Angle
+Level
+Mask
+Surface Out
+Rate Remap
+Remap animation to a new framerate.
+Surface
+Framerate
+Active
+Surface
+Reaction Diffusion
+Simulate reaction diffusion effect.
+Seed
+Kill rate
+Feed rate
+Timestep
+Iteration
+Diffusion A
+Diffusion B
+Add B
+Kill map
+Feed map
+Time map
+DfA map
+DfB map
+Diffusion
+Reacted
+Rendered
+Region Fill
+Fill connected pixel with colors.
+Surface In
+Mask
+Fill Colors
+Fill
+Seed
+Target Color
+Inner Only
+Only fill regions with surrounding pixels.
+Draw Original
+None
+Above
+Behind
+Fill Type
+Random
+Color map
+Texture map
+Texture Coord
+Texture Index
+Color Map
+Texture Map
+Color Filter
+Random Rotation
+Surface Out
+Render Spritesheet
+Create spritesheet from image array or animation.
+Sprites
+Sprite set
+Animation
+Sprite array
+Frame step
+Number of frames until next sprite. Can be seen as (Step - 1) frame skip.
+Packing type
+Horizontal
+Vertical
+Grid
+Grid column
+Alignment
+First
+Middle
+Last
+Spacing
+Padding
+Range
+Starting\/ending frames, set end to 0 to default to last frame.
+Spacing
+Overlappable
+Custom Range
+Surface Out
+Atlas Data
+Repeat
+Repeat image multiple times linearly, or in grid pattern.
+Surface In
+Dimension
+Amount
+Pattern
+Linear
+Grid
+Circular
+Shift position
+Repeat rotation
+Scale multiply
+Angle range
+Radius
+Start position
+Scale over copy
+Path
+Make each copy follow along path.
+Path range
+Range of the path to follow.
+Path shift
+Color over copy
+Alpha over copy
+Array select
+Whether to select image from an array in order, at random, or spread each image to its own output.
+Order
+Random
+Spread
+Seed
+Column
+Column shift
+Animator midpoint
+Animator range
+Animator position
+Animator rotation
+Animator scale
+Animator falloff
+Stack
+Place each copy next to each other, taking surface dimension into account.
+None
+X
+Y
+Animator blend
+Animator alpha
+Animator
+Gradient map
+Gradient map range
+Start rotation
+Base rotation
+Blend Mode
+Normal
+Additive
+Maximum
+Output dimension type
+Same as input
+Constant
+Relative to input
+Fit content
+Relative dimension
+Padding
+Shift per copy
+Animator type
+Linear Transform
+Blending
+Select mode
+Index
+Area
+Surface
+Position
+Rotation
+Scale
+Anchor type
+Global
+Local
+Anchor Position
+Anchor point for transformation, absolute value for global type, relative for local.
+Color
+Alpha
+Selection area
+Selection index
+Selection range
+Selection falloff
+Selection falloff curve
+Selection surface
+Strength
+Surface Out
+Repeat Texture
+Repeat texture over larger surface without repeating patterns.
+Surface In
+Target dimension
+Type
+Tile
+Scatter
+Cell
+Seed
+Surface Out
+Reverse
+Cache the entire animation and replay backward.
+Surface In
+Output
+RGBA Extract
+Extract RGBA channel on an image, each channel becomes its own image.
+Surface In
+Output Type
+Channel value
+Greyscale
+Keep Alpha
+Output Array
+Red
+Green
+Blue
+Alpha
+Activate Physics
+Enable or disable rigidbody object.
+Object
+Physics activated
+Object
+Apply Force
+Apply force to objects.
+Object
+Force type
+Constant
+Impulse
+Torque
+Explode
+Position
+Torque
+Apply frame
+Frame index to apply force.
+Force
+Scope
+Global
+Local
+Strength
+Range
+Object
+RigidSim Global
+
+Gravity
+RigidSim
+Create group for rigidbody simulation.
+RigidSim
+Create group for rigidbody simulation.
+Gravity
+Dimension
+Object
+Spawn a rigidbody object.
+Affect by force
+Weight
+Contact friction
+Air resistance
+Rotation resistance
+Shape
+Box
+Circle
+Custom
+Texture
+Start position
+Spawn
+Make object spawn when start.
+Generate mesh
+Mesh expansion
+Add pixel collider
+Collision group
+Object
+Object Spawner
+Spawn multiple rigidbody objects.
+Object
+Spawn area
+Spawn type
+Stream
+Burst
+Spawn delay
+Spawn amount
+Spawn frame
+Spawn
+Seed
+Object
+Rigidbody Override
+Replace rigidbody object variable with a new one.
+Object
+Positions
+Scales
+Rotations
+Blends
+Alpha
+Velocity
+Object
+Render
+Render rigidbody object to surface.
+Render dimension
+Round position
+Object
+Surface Out
+Render
+
+Render dimension
+Round position
+Object
+Rigidbody Variable
+Extract veriable from rigidbody object.
+Object
+Positions
+Scales
+Rotations
+Blends
+Alpha
+Velocity
+Center of mass
+Velocity magnitude
+Wall
+
+Sides
+Contact Friction
+Dimension
+Collision Group
+RM Cloud
+Generate distance field cloud texture.
+Dimension
+Position
+Rotation
+Scale
+FOV
+View Range
+Density
+Detail
+Threshold
+Detail Scaling
+Detail Attenuation
+Shape
+Volume
+Plane
+Use Fog
+Colors
+Surface Out
+RM Combine
+Combine 2 SDF objects using boolean operation.
+Dimension
+Projection
+Perspective
+Orthographic
+FOV
+Ortho Scale
+View Range
+Depth
+Draw BG
+Background
+Ambient Level
+Light Position
+Environment
+Camera Rotation
+Camera Scale
+Shape 1
+Shape 2
+Type
+Place
+Union
+Subtract
+Intersect
+Merge
+Render
+Env Interpolation
+Surface Out
+Shape Data
+RM Primitive
+Create SDF object.
+Dimension
+Shape
+Plane
+Box
+Box Frame
+Box Round
+-1.0
+Sphere
+Ellipse
+Cut Sphere
+Cut Hollow Sphere
+Torus
+Capped Torus
+-1.0
+Cylinder
+Prism
+Capsule
+Cone
+Capped Cone
+Round Cone
+3D Arc
+Pie
+-1.0
+Octahedron
+Pyramid
+Position
+Rotation
+Scale
+FOV
+View Range
+Depth
+Light Position
+Base Color
+Ambient Level
+Elongate
+Rounded
+Projection
+Perspective
+Orthographic
+Ortho Scale
+Wave Amplitude
+Wave Intensity
+Wave Phase
+Twist Axis
+X
+Y
+Z
+Twist Amount
+Tile Distance
+Size
+Radius
+Thickness
+Crop
+Angle
+Height
+Radius Range
+Uniform Size
+Tile Amount
+Background
+Draw BG
+Volumetric
+Density
+Environment
+Reflective
+Texture
+Triplanar Smoothing
+Texture Scale
+Corner
+2D Size
+Side
+Camera Rotation
+Camera Scale
+Render
+Tile
+Tiled Shift
+Tiled Rotation
+Tiled Scale
+Env Interpolation
+Texture Interpolation
+Surface Out
+Shape Data
+RM Render
+Render SDF object.
+Dimension
+Projection
+Perspective
+Orthographic
+FOV
+Ortho Scale
+View Range
+Depth
+Draw BG
+Background
+Ambient Level
+Light Position
+Environment
+Camera Rotation
+Camera Scale
+SDF Object
+Env Interpolation
+Surface Out
+RM Terrain
+Generate SDF image from height map.
+Dimension
+Surface
+Position
+Rotation
+Scale
+FOV
+View Range
+BG Bleed
+Ambient
+Height
+Tile
+Texture
+Background
+Reflection
+Sun Position
+Shadow
+Surface Out
+Sampler
+Sample color from an image.
+Surface In
+Position
+Sampling size
+Size of square around the position to sample and average pixel color.
+Alpha
+Color
+Scale
+Simple node for scaling image.
+Surface In
+Scale
+Mode
+Upscale
+Scale to fit
+Target Dimension
+Active
+Scale Atlas Position
+Surface Out
+Scale Algorithm
+Scale image using pixel-art based scaling algorithms.
+Surface In
+Algorithm
+Scale2x
+Scale3x
+CleanEdge
+Tolerance
+Active
+Scale Atlas Position
+Scale
+Rotation
+Surface Out
+Scatter
+Scatter image randomly multiple times.
+Surface In
+Dimension
+Amount
+Scale
+Angle
+Area
+Distribution
+Area
+Border
+Map
+Direct Data
+Path
+Full image + Tile
+Point at Center
+Rotate each copy to face the spawn center.
+Uniform Scaling
+Scatter
+Uniform
+Random
+Poisson
+Seed
+Random Blend
+Alpha
+Distribution Map
+Distribution Data
+Array
+What to do when input array of surface.\r\n- Spread: Create Array of output each scattering single surface.\r\n- Mixed: Create single output scattering multiple images.
+Spread output
+Index
+Random
+Data
+Texture
+Multiply Alpha
+Extra Value
+Apply the third and later values in each data point (if exist) on given properties.
+Blend Mode
+Normal
+Add
+Max
+Path
+Rotate Along Path
+Path Shift
+Scatter Distance
+Sort Y
+Array Indices
+Array Texture
+Animated Array
+Animated Array End
+Loop
+Ping Pong
+Hide
+Gradient Map
+Gradient Map Range
+Uniform Amount
+Auto Amount
+Rotate per Radius
+Random Position
+Scale per Radius
+Angle Range
+Shift Position
+Exact
+Spacing
+After
+Between
+Around
+Shift Radial
+Anchor
+Sample Surface
+Sample Wiggle
+Scale Surface
+Distance
+Surface Out
+Atlas Data
+Scatter Points
+Generate array of vector 2 points.
+Point area
+Distribution
+Area
+Border
+Map
+Scatter
+Uniform
+Random
+Poisson
+Amount
+Amount of particle spawn in that frame.
+Distribution Map
+Seed
+Fixed Position
+Fix point position, and only select point in the area.
+Reference Dimension
+Reference Value
+Output 3D
+Normal
+X
+Y
+Z
+Plane Position
+Distance
+Points
+SDF
+Create signed distance field using jump flooding algorithm.
+Surface In
+Active
+Side
+Inside
+Outside
+Both
+Max distance
+Keep Alpha
+Invert
+Angle
+Surface Out
+Filter Segments
+Filter segment (vec2 array) based on a conditions.
+Segments
+Angle
+Spread
+Both side
+Segments
+Separate Shape
+Separate disconnected pixel each into an image in an image array.
+Surface In
+Tolerance
+Override color
+Color
+Ignore blank
+Skip empty shapes.
+Mode
+Greyscale
+Alpha
+Crop
+Surface Out
+Atlas
+Array to Anim
+Convert array of images into animation.
+Surface In
+Speed
+Sequence
+Overflow
+Hold
+Loop
+Ping Pong
+Empty
+Surface Out
+Shadow
+Apply shadow behind the image.
+Surface In
+Color
+Strength
+Shift
+Grow
+Blur
+Mask
+Mix
+Active
+Invert mask
+Mask feather
+Positioning
+Shift
+Light
+Light Position
+Surface Out
+Cast Shadow
+Apply light that casts shadow.
+Background
+Solid
+Light Position
+Soft light radius
+Light density
+Light type
+Point
+Sun
+Ambient color
+Light color
+Light radius
+Render solid
+Use BG color
+If checked, background color will be used as shadow caster.
+BG threshold
+Light intensity
+Banding
+Attenuation
+Control how light fade out over distance.
+Quadratic
+Invert quadratic
+Linear
+Ambient occlusion
+Ambient occlusion strength
+Active
+Surface Out
+Light mask
+Draw Shape
+Draw simple shapes using signed distance field.
+Dimension
+Background
+Shape
+Rectangle
+Diamond
+Trapezoid
+Parallelogram
+Half
+-1.0
+Ellipse
+Arc
+Donut
+Crescent
+Disk Segment
+Pie
+Squircle
+-1.0
+Regular polygon
+Star
+Cross
+Rounded Cross
+-1.0
+Line
+Arrow
+-1.0
+Teardrop
+Leaf
+Heart
+Gear
+Position
+Sides
+Inner radius
+Anti-aliasing
+Rotation
+Angle range
+Corner radius
+Shape color
+Background color
+Height
+Start radius
+Shape path
+Positioning Mode
+Area
+Center + Scale
+Full Image
+Center
+Half Size
+Tile
+Shape rotation
+Level
+Angles
+Skew
+Arrow Sizes
+Arrow Head
+Teeth Amount
+Teeth Size
+Teeth Rotation
+Shape Scale
+Curve
+Caps
+Factor
+Point 1
+Point 2
+Thickness
+Point 3
+Corner Shape
+Round
+Cut
+Opacity
+Surface Out
+Shape Map
+Map image into shapes.
+Surface In
+Active
+Shape
+Circle
+Polygon
+Map Scale
+Radius
+Sides
+Scale
+Angle
+Surface Out
+Draw Shape Polygon
+Draw polygonal shapes.
+Dimension
+Background
+Background color
+Shape color
+Shape
+Rectangle
+Diamond
+Trapezoid
+Parallelogram
+-1.0
+Ellipse
+Arc
+Ring
+Crescent
+Pie
+Squircle
+-1.0
+Regular Polygon
+Star
+Cross
+-1.0
+Capsule
+-1.0
+Leaf
+Gear
+Position
+Rotation
+Scale
+Sides
+Inner radius
+Radius
+Teeth
+Teeth height
+Teeth taper
+Angle range
+Round cap
+Mesh
+Explode
+Piece Rotation
+Vertex Color 1
+Vertex Color 2
+Vertex Color 3
+Piece Scale
+Shape Palette
+SSAA
+None
+2x
+4x
+8x
+Trapezoid sides
+Skew
+Factor
+Surface Out
+Mesh
+Path
+Shard Noise
+Generate glass shard-looking noise
+Dimension
+Position
+Scale
+Seed
+Sharpness
+Progress
+Scale map
+Sharpness map
+Progress map
+Rotation
+Mask
+Surface Out
+Execute Shell
+Execute shell script.
+Path
+Script
+Shuffle
+Shuffle image while keeping pixel colors.
+Surface
+Type
+Pixel
+Block
+Seed
+Axis
+Horizontal
+Vertical
+Both
+Block count
+Randomness
+Surface Out
+Skew
+Skew image horizontally, or vertically.
+Surface In
+Axis
+x
+y
+Strength
+Wrap
+Center
+Oversample mode
+Empty
+Clamp
+Repeat
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Strength map
+Surface Out
+Sky
+Generate sky texture using different model.
+Dimension
+Offset
+Scale
+Model
+Preetham
+Basic scattering
+Hosek
+Turbidity
+Sun
+Sun Radius
+Sun Radiance
+Albedo
+Coordinate
+Rectangular
+Polar
+Mask
+Surface Out
+Slideshow
+
+Order
+Title
+Anchor
+Center
+Top left
+Arrival Speed
+Smear
+Stretch out brighter pixel in one direction.
+Surface In
+Strength
+Direction
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Strength map
+Direction map
+Mode
+Greyscale
+Alpha
+Modulate strength
+Distance
+Color
+None
+Spread
+Invert
+Blend Mode
+Maximum
+Additive
+Render Mode
+Distance
+Distance Normalized
+Base Color
+Blend Side
+Surface Out
+Add Emitter
+Add smoke emitter.
+Domain
+Fluid brush
+Position
+Active
+Inherit velocity
+Density
+Expand velocity mask
+Velocity
+Type
+Shape
+Surface
+Scale
+Repulse
+Shape
+Disk
+Ring
+Level
+Spokes
+Twist
+Domain
+Add Collider
+Add solid object that smoke can collides to.
+Domain
+Collider
+Area
+Domain
+Apply Velocity
+Apply velocity to smoke.
+Domain
+Brush
+Position
+Velocity
+Active
+Type
+Shape
+Surface
+Scale
+Strength
+Domain
+Domain
+
+Dimension
+Collision
+Material dissipation type
+Multiply
+Subtract
+Material dissipation
+Velocity dissipation type
+Multiply
+Subtract
+Velocity dissipation
+Acceleration
+Material intertia
+Initial pressure
+Material Maccormack weight
+Velocity Maccormack weight
+Boundary
+Free
+Wall
+Wrap
+Timestep
+Domain
+Velocity
+Pressure
+Queue Domain
+Sync multiple domains to be render at the same time.
+Input
+Domain
+SmokeSim
+Create group for fluid simulation.
+Dimension
+Collision
+Material dissipation type
+Multiply
+Subtract
+Material dissipation
+Velocity dissipation type
+Multiply
+Subtract
+Velocity dissipation
+Acceleration
+Material intertia
+Initial pressure
+Material Maccormack weight
+Velocity Maccormack weight
+Wrap
+SmokeSim
+Create group for smoke simulation.
+Render Domain
+Render smoke to surface. This node also have update function build in.
+Domain
+Dimension
+Interpolate
+Draw Domain
+Auto Update
+Smoke
+Domain
+Render Domain
+
+Domain
+Dimension
+Interpolate
+Draw Domain
+Auto Update
+Repulse
+Spread smoke away from a point.
+Domain
+Position
+Radius
+Strength
+Spokes
+Twist
+Domain
+Turbulence
+Apply random velocity map to the smoke.
+Domain
+Effect area
+Strength
+Scale
+Seed
+Domain
+Update Domain
+Run smoke by one step.
+Domain
+Active
+Domain
+Vortex
+Apply rotational force around a point.
+Domain
+Position
+Radius
+Strength
+Attraction
+Domain
+Domain
+Solid
+Create image of a single color.
+Dimension
+Color
+Empty
+Mask
+Use mask dimension
+Surface Out
+Spherize
+Wrap a texture on to sphere.
+Surface In
+Center
+Strength
+Radius
+Oversample Mode
+How to deal with pixel outside the surface.\n    - Empty: Use empty pixel\n    - Clamp: Repeat edge pixel\n    - Repeat: Repeat texture.
+Empty
+Clamp
+Repeat
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Strength Map
+Radius Map
+Trim Edge
+Surface Out
+Spout Sender
+Send surface through Spout.
+Sender name
+Surface
+Surface
+Sprite Stack
+Create sprite stack either from repeating a single image or stacking different images using array.
+Base shape
+Dimension
+Stack amount
+Stack shift
+Position
+Rotation
+Stack blend
+Alpha end
+Alpha value for the last copy.
+Move base
+Make each copy move the original image.
+Highlight
+None
+Color
+Inner pixel
+Highlight color
+Highlight alpha
+Array process
+Individual
+Combined
+Output dimension type
+Same as input
+Constant
+Relative to input
+Fit content
+Relative dimension
+Surface Out
+Stack
+Place image next to each other linearly, or on top of each other.
+Axis
+Horizontal
+Vertical
+On top
+Align
+Start
+Middle
+End
+Spacing
+Padding
+Blend Mode
+Normal
+Replace
+-1.0
+Multiply
+Color Burn
+Linear Burn
+Minimum
+-1.0
+Add
+Screen
+Color Dodge
+Maximum
+-1.0
+Overlay
+Soft Light
+Hard Light
+Vivid Light
+Linear Light
+Pin Light
+-1.0
+Difference
+Exclusion
+Subtract
+Divide
+-1.0
+Hue
+Saturation
+Luminosity
+Input
+Surface Out
+Atlas data
+Stagger
+Delay the animation based on array index.
+Surface
+Delay Step
+Delay Amount
+Stagger Curve
+Overflow
+Hide
+Clamp
+Surface
+Statistic
+Apply statistical operation (sum, average, median, etc.) to array of numbers.
+Type
+Sum
+Mean
+Median
+Max
+Min
+Input
+Statistic
+Strand Break
+Detach strands from its origin.
+Strand
+Shape
+Point
+Band
+Position
+Range
+Direction
+Falloff
+Chance
+Seed
+Strand
+Strand Collision
+Create solid object for strands to collides to.
+Strand
+Collision mesh
+Strand
+Strand Create
+Create strands from point, path, or mesh.
+Type
+Point
+Path
+Mesh
+Density
+How many strands to generate.
+Length
+Segment
+Elasticity
+Length preservation, the higher the value the easier it is to stretch each segment.
+Path
+Position
+Side
+Inner
+Outer
+Both
+Spring
+Structure
+The ability to keep its original shape.
+Seed
+Curl frequency
+Curliness
+Mesh
+Distribution
+Uniform
+Random
+Bake hair
+Prevent strand reseting to apply manual modification. Unbaking will remove all changes.
+View fix hair
+Root Strength
+The force required to break strand from its root. Set to -1 to make strand infinitely strong.
+Direction
+Restitution
+Minimum speed before the strand stops moving completely.
+Strand
+Strand Force Apply
+Apply general force to strands.
+Strand
+Shape
+Point
+Band
+Position
+Range
+Direction
+Falloff
+Strength
+Turbulence
+Seed
+Turbulence frequency
+Turbulence detail
+Strand
+Strand Gravity
+Apply downward acceleration to strands.
+Strand
+Gravity
+Direction
+Strand
+StrandSim
+Create group for hair simulation.
+StrandSim
+Create group for hair simulation.
+Strand Length Adjust
+Adjust length of strands in area.
+Strand
+Shape
+Point
+Band
+Position
+Range
+Direction
+Falloff
+Type
+Increase
+Decrease
+Strength
+Strand
+Strand Render
+Render strands to surface as a single path.
+Dimension
+Strand
+Thickness
+Thickness over length
+Random color
+Color over length
+Seed
+Children Count
+Render extra strands between the real strands.
+Update Step
+Use Scatter
+Scatter Range
+Surface Out
+Strand Render Texture
+Render strands to surface as a textured path.
+Dimension
+Strand
+Thickness
+Random color
+Texture
+Seed
+Surface Out
+Strand Update
+Update strands by one step.
+Strand
+Step
+Strand
+Text
+Generate text\/string data.
+Text
+Text
+Change Case
+Change text to uppercase, lowercase, or titlecase.
+Text
+Target
+Lowercase
+Uppercase
+Titlecase
+Text
+Count Text
+Counts the number of times a subtext occurs in a text.
+Text
+Count Text
+Amount
+Delete Text
+Delete parts of a text.
+Text
+Index
+Amount
+Text
+Format Text
+Replace string with {var} format with a proper variable.
+Text
+Argument name
+Argument value
+Text
+Get Character
+Get a nth character in a string.
+Text
+Index
+Amount
+Text
+Insert Text
+Insert subtext into another text.
+Text
+Insert Text
+Position
+Text
+Join Text Array
+Combine string array with an option to add extra string in-between.
+Text array
+Divider
+Text
+Text Length
+Return number of character in a string.
+Text
+Mode
+Character
+Word
+Text
+Combine Texts
+Combine multiple strings into one long string.
+Text
+Text
+RegEx Match
+Check whether regular expression pattern exist in a string.
+Text
+Regex
+Results
+RegEx Replace
+Replace instances of a string with another using regular expression.
+Text
+Regex
+Replacement
+Results
+RegEx Search
+Search for instances in a string using regular expression.
+Text
+Regex
+Results
+Split Text
+Split string into arrays of substring based on delimiter.
+Text
+Delimiter
+Character that used to split text,\nleave blank to create character array.
+Mode
+Delimiter
+Periodic
+Period
+Text
+Trim Text
+Remove first and last n character(s) from a string.
+Text
+Head
+Tail
+Trim
+Character
+Word
+Mode
+Set to progress to use ratio, where 0 means no change and 1 means the entire length of the text.
+Counter
+Progress
+Text
+Stripe
+Generate stripe pattern.
+Dimension
+Amount
+Angle
+Type
+Solid
+Smooth
+AA
+Position
+Random
+Coloring
+Alternate
+Palette
+Random
+Colors
+Color 1
+Color 2
+Strip Ratio
+Amount Map
+Angle Map
+Random Map
+Ratio Map
+Gradient Map
+Gradient Map Range
+Progress
+Colors
+Seed
+Mask
+Surface Out
+Struct
+Create key-value pair struct.
+Key
+value
+Struct
+Struct Get
+Get value from struct and key.
+Struct
+Key
+Value
+Parse JSON
+Parse json string into struct\/array.
+JSON string
+Struct
+Struct Set
+Modify struct
+Struct
+Key
+Value
+Struct
+Surface Data
+Extract information about a surface
+Surface
+Dimension
+Width
+Height
+Format String
+Bit Depth
+Channels
+Surface from Buffer
+Create surface from a valid buffer.
+Buffer
+Surface
+Replace Image
+Replace instances of an image with a new one.
+Base Image
+Target Image
+Replacement Image
+Color Threshold
+How similiar the color need to be in order to be count as matched.
+Draw Base Image
+Fast Mode
+Pixel Threshold
+How many pixel need to me matched to replace with replacement image.
+Array mode
+Match index
+Randomized
+Seed
+Replace Empty
+Surface Out
+Tag Surface
+
+Surface In
+Tag
+Position
+Tagged Surface
+Buffer from Surface
+Create buffer from a surface.
+Surface
+Buffer
+SVG
+Load a SVG file.
+Path
+Scale
+Surface Out
+SVG Struct
+Switch
+Output value based on index.
+Index
+Default value
+Case
+value
+Result
+Terminal trigger
+
+Terminal
+Draw Text
+Draw text on an image.
+Text
+Font
+Size
+Anti-aliasing 
+Character Range
+Color
+Fixed Dimension
+H Align
+@ref sprite(__newsprite1002)
+@ref sprite(__newsprite1002)
+@ref sprite(__newsprite1002)
+V Align
+@ref sprite(__newsprite1004)
+@ref sprite(__newsprite1004)
+@ref sprite(__newsprite1004)
+Output Dimension
+Fixed
+Dynamic
+Padding
+Letter Spacing
+Line Height
+Path
+Path Shift
+Scale to Fit
+Render Background
+BG Color
+Wave
+Wave Amplitude
+Wave Scale
+Wave Phase
+Wave Shape
+Typewriter
+Range
+Trim Type
+Character
+Word
+Line
+Use Full Text Size
+Max Line Width
+Round Position
+Blend Mode
+Normal
+Alpha
+Surface Out
+Text File In
+Load .txt in as text.
+Path
+Content
+Path
+Text File Out
+Save text as a .txt file.
+Path
+Content
+Texture Remap
+Remap image using texture map. Where red channel control x position and green channel control y position.
+Surface In
+RG Map
+Active
+Dimension Source
+Surface
+RG Map
+Array Index
+Index Start
+Surface Out
+Threshold
+Set a threshold where pixel darker will becomes black, and brighter to white. Also works with alpha.
+Surface In
+Brightness
+Threshold
+Smoothness
+Mask
+Mix
+Active
+Alpha
+Threshold
+Smoothness
+Channel
+Invert mask
+Mask feather
+Brightness map
+Alpha map
+Algorithm
+Simple
+Adaptive mean
+Adaptive Radius
+Invert
+Invert
+Apply to Alpha
+Surface Out
+Tile
+Repeat images on a larger surface.
+Surface In
+Scaling Type
+Fix Dimension
+Relative To Input
+Dimension
+Amount
+Surface Out
+Convert to Tilemap
+Convert color image to tile data.
+Surface
+Tileset
+Animated
+Seed
+Rendered
+Tilemap
+Tileset
+Tile Drawer
+Draw using tileset.
+Tileset
+Map size
+Animated
+Seed
+Rendered
+Tilemap
+Tileset
+Tile Data
+Tile Random
+Repeat images on a larger surface randomly.
+Surface In
+Dimension
+Randomness
+Surface Out
+Render Tilemap
+Render tilemap to image.
+Tileset
+Tilemap
+Animated
+Rendered
+Tile Rule
+Apply tileset rules.
+Tileset
+Tilemap
+Seed
+Rendered
+Tilemap
+Tileset
+Export Tilemap
+Export tilemap to file.
+Tilemap
+Path
+Format
+CSV
+GameMaker
+GM Export Type
+Room
+GM Room
+GM Room Name
+GM Layer Name
+Tileset
+GD Scene
+Tileset
+Create tileset object.
+Texture
+Tile size
+Tileset
+Time Remap
+Remap image using texture as time map. Where brighter pixel in time map means using pixel from an older frame.
+Surface In
+Map
+Max Life
+Loop
+Surface Out
+To Number
+Convert string to number, supports scientific format (e.g. 1e-2 = 0.02).
+Text
+Number
+To Text
+Convert string to number.
+Value
+Text
+ACE
+Apply ACE tonemapping.
+Surface In
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Surface Out
+Trail
+Blend animation by filling in the pixel 'in-between' two or more frames.
+Surface In
+Max Life
+Loop
+Max Distance
+Maximum distance to search for movement, set to -1 to search the entire image.
+Match Color
+Make trail track pixels of the same color, instead of the closet pixels.
+Blend Color
+Blend color between two pixel smoothly.
+Alpha Over Life
+Surface Out
+Transform
+Move, rotate, and scale image.
+Surface In
+Output Dimension
+Position
+Anchor
+Relative Anchor
+Rotation
+Scale
+Render Mode
+Normal
+Tile
+Wrap
+Rotate by Velocity
+Make the surface rotates to follow its movement.
+Output Dimension Type
+Same as input
+Constant
+Relative to input
+Fit content
+Round Position
+Round position to the nearest integer value to avoid jittering.
+Active
+Echo
+Echo Amount
+Alpha
+Surface Out
+Dimension
+Transform Array
+Generate transfomation array.
+Postion
+Rotation
+Scale
+Transform
+Trigger
+Create trigger value.
+Trigger
+Trigger
+Boolean Trigger
+Create trigger based on boolean condition.
+Boolean
+Trigger condition
+True frame
+False to True
+True to False
+Value changed
+Trigger
+Tunnel Sender
+Create tunnel for sending value based on key matching.
+Name
+Value in
+Tunnel Receiver
+Receive value from tunnel in of the same key.
+Name
+Value out
+Twirl
+Twist the image around a mid point.
+Surface In
+Center
+Strength
+Radius
+Oversample Mode
+How to deal with pixel outside the surface.\n    - Empty: Use empty pixel\n    - Clamp: Repeat edge pixel\n    - Repeat: Repeat texture.
+Empty
+Clamp
+Repeat
+Mask
+Mix
+Active
+Channel
+Invert mask
+Mask feather
+Strength map
+Radius map
+Surface Out
+Unicode
+Convert unicode id into string.
+Unicode
+Character
+Vector2
+Generate vector composite of 2 members.
+x
+y
+Integer
+Display Type
+Number
+Coordinate
+Show on global
+Whether to show overlay gizmo when not selecting any nodes.
+Gizmo offset
+Gizmo scale
+Gizmo style
+Default
+Shapes
+Sprite
+Gizmo shape
+Rectangle
+Ellipse
+Gizmo sprite
+Gizmo size
+Vector
+x
+y
+Vector3
+Generate vector composite of 3 members.
+x
+y
+z
+Integer
+Vector
+x
+y
+z
+Vector4
+Generate vector composite of 4 members.
+x
+y
+z
+w
+Integer
+Vector
+x
+y
+z
+w
+Cart. to Polar
+Convert cartesian coordinates to polar coordinates
+Cartesian Coord
+Angle Unit
+Degrees
+Radians
+Polar Coord
+Cross product 2D
+Calculate cross product of 2 vec2s.
+Point 1
+Point 2
+Result
+Cross product 3D
+Calculate cross product of 2 vec3s.
+Point 1
+Point 2
+Result
+Dot product
+Calculate dot product between vectors.
+Point 1
+Point 2
+Result
+Magnitude
+Calculate magnitude (length) of a vector.
+Vector
+Magnitude
+Normalize
+Scale vector to length 1.
+Vector
+Normalized Vector
+Polar to Cart.
+Convert polar coordinates to cartesian coordinates.
+Polar Coord
+Angle Unit
+Degrees
+Radians
+Cartesian Coord
+Vector Split
+Split vector (up to 4) into individual components.
+Vector
+x
+y
+z
+w
+Swizzle
+Rearrange vector using string containing axis indicies (x, y, z, w).
+Vector
+Swizzle
+Result
+Accelerate
+Change the speed of particle in range.
+Particles
+Area
+Falloff
+Falloff distance
+Effect Vector
+Strength
+Rotate particle
+Scale particle
+Seed
+Particles
+Attract
+Attract particle in range to one point.
+Particles
+Area
+Falloff
+Falloff distance
+Effect Vector
+Strength
+Rotate particle
+Scale particle
+Seed
+Destroy when reach middle
+Particles
+Boids
+Apply boids algorithm to create a flock behaviour.
+Particles
+Sep. radius
+Sep. influence
+Ali. radius
+Ali. influence
+Grp. radius
+Grp. influence
+Speed amplification
+Follow point
+Point
+Fol. influence
+Separate
+Align
+Group
+Particles
+Destroy
+Destroy particle in range.
+Particles
+Area
+Falloff
+Falloff distance
+Effect Vector
+Strength
+Rotate particle
+Scale particle
+Seed
+Particles
+VFX
+
+Loop
+VFX
+Create VFX group, which generate particles that can be manipulated using different force nodes.
+Loop
+Dimension
+Oscillate
+Swing particle around its original trajectory.
+Particles
+Area
+Falloff
+Falloff distance
+Effect Vector
+Strength
+Rotate particle
+Scale particle
+Seed
+Amplitude
+Frequency
+Multiply by speed
+Particles
+VFX Override
+Replace particle variable with a new one.
+Particles
+Set Positions
+Mode
+Absolute
+Relative
+Positions
+Set Rotations
+Mode
+Absolute
+Relative
+Rotations
+Set Scales
+Mode
+Absolute
+Relative Add
+Relative Muliply
+Scales
+Set Blend
+Blend
+Set Alpha
+Mode
+Absolute
+Relative
+Alpha
+Set Surface
+Surface
+Particles
+Renderer
+Render particle objects to surface.
+Output dimension
+Round position
+Round position to the closest integer value to avoid jittering.
+Render Type
+Surface
+Line
+Line life
+Blend mode
+Normal
+Alpha
+Additive
+Particles
+Surface Out
+Renderer
+
+Output dimension
+Round position
+Round position to the closest integer value to avoid jittering.
+Render Type
+Surface
+Line
+Line life
+Blend mode
+Normal
+Alpha
+Additive
+Particles
+Repel
+Move particle away from point.
+Particles
+Area
+Falloff
+Falloff distance
+Effect Vector
+Strength
+Rotate particle
+Scale particle
+Seed
+Particles
+Spawner
+Spawn new particles.
+Particle Sprite
+Spawn Delay
+Frames delay between each particle spawn.
+Spawn Amount
+Amount of particle spawn in that frame.
+Spawn Area
+Spawn Source
+Area Inside
+Area Border
+Map
+Path
+Lifespan
+Initial Direction
+Acceleration
+Initial Rotation
+Rotational Speed
+Initial Scale
+Scale Over Time
+Color Over Lifetime
+Alpha
+Alpha Over Time
+Rotate by Direction
+Make the particle rotates to follow its movement.
+Spawn Type
+Stream
+Burst
+Trigger
+Initial Size
+Initial Speed
+Gravity
+Direction Wiggle
+Loop
+Surface Array
+Whether to select image from an array in order, at random, or treat array as animation.
+Random
+Order
+Animation
+Scale
+Animation Speed
+Distribution
+Uniform
+Random
+Boundary Data
+On Animation End
+Loop
+Ping pong
+Destroy
+Spawn
+Random Blend
+Directed From Center
+Make particle move away from the spawn center.
+Distribution Map
+Atlas
+Seed
+Gravity Direction
+Turning
+Turn Both Directions
+Apply randomized 1, -1 multiplier to the turning speed.
+Turn Scale with Speed
+Collide Ground
+Ground Offset
+Bounce Amount
+Bounce Friction
+Apply horizontal friction once particle stop bouncing.
+Position Wiggle
+Rotation Wiggle
+Scale Wiggle
+Spawn
+Follow Path
+Path
+Path Deviation
+Reset Seed
+Stretch Animation
+Color by Index
+Burst Duration
+Uniform Period
+Angle Range
+Friction
+Spawn Path
+Sample Surface
+Use Physics
+Use Wiggles
+Rotational Speed Over Time
+Base Speed Over Time
+Speed may conflict with physics-based properties.
+Snap Rotation
+Spawn trigger
+Step interval
+How often the 'on step' event is triggered.\nWith 1 being trigger every frame, 2 means triggered once every 2 frames.
+Particles
+On create
+On step
+On destroy
+VFX Trail
+Generate path from particle movement.
+Particles
+Life
+Color
+Path
+VFX Triangulate
+Render line between particles.
+Output dimension
+Particles
+Thickness
+Color
+Inherit Thickness
+Inherit Color
+Segments
+Thickness over Length
+Color over Length
+Surface Out
+Turbulence
+Move particle in range randomly.
+Particles
+Area
+Falloff
+Falloff distance
+Effect Vector
+Strength
+Rotate particle
+Scale particle
+Seed
+Turbulence scale
+Constant seed
+Particles
+VFX Variable
+Extract variable from particle objects.
+Particles
+Positions
+Scales
+Rotations
+Blending
+Alpha
+Life
+Max life
+Surface
+Velocity
+Seed
+Spawn Positions
+Vortex
+Rotate particle around a point.
+Particles
+Area
+Falloff
+Falloff distance
+Effect Vector
+Strength
+Rotate particle
+Scale particle
+Seed
+Attraction force
+Clockwise
+Destroy when reach middle
+Particles
+Wind
+Move particle in range.
+Particles
+Area
+Falloff
+Falloff distance
+Effect Vector
+Strength
+Rotate particle
+Scale particle
+Seed
+Particles
+Vignette
+Apply vignette effect to the border.
+Surface In
+Active
+Exposure
+Strength
+Exponent
+Roundness
+Lighten
+Surface Out
+Extra Voronoi
+Random voronoi noise made with different algorithms.
+Dimension
+Position
+Scale
+Seed
+Progress
+Mode
+Block
+Triangle
+Parameter A
+Rotation
+Mask
+Surface Out
+Warp
+Warp image by freely moving the corners.
+Surface In
+Top Left
+Top Right
+Bottom Left
+Bottom Right
+Active
+Dimension Type
+Input
+Absolute
+Relative
+Dimension
+Tile
+Relative Dimension
+Back Surface
+Surface Out
+WAV File In
+Load wav audio file.
+Path
+Sync length
+Mono
+Data
+Path
+Sample rate
+Channels
+Duration
+WAV File Out
+Save wav audio file.
+Path
+Audio Data
+Sample
+Bit Depth
+8 bit positive
+16 bit integer
+Remap Data
+Data Range
+Wavelet Noise
+Generate wavelet noise
+Dimension
+Position
+Scale
+Seed
+Progress
+Detail
+Scale map
+Progress map
+Detail map
+Rotation
+Mask
+Surface Out
+Websocket Receiver
+Create websocket server to receive data from the network.
+Port
+Active
+Mode
+Client
+Server
+Url
+Data
+Receive data
+Websocket Sender
+Create websocket server to send data to the network.
+Port
+Data type
+Struct
+Surface
+File
+Buffer
+Struct
+Surface
+Path
+Target
+Buffer
+Widget Test
+
+textBox
+rangeBox
+vectorBox
+vectorRangeBox
+rotator
+rotatorRange
+rotatorRandom
+slider
+sliderRange
+areaBox
+paddingBox
+cornerBox
+controlPointBox
+scrollBox
+Choice 1
+Choice 2
+buttonGroup
+Choice 1
+Choice 2
+matrixGrid
+transformBox
+transformBox
+quarternionBox
+checkBox
+buttonColor
+buttonPalette
+buttonGradient
+pathArrayBox
+pathLoad
+pathSave
+font
+curveBox
+textArea
+textBox
+textArea
+textArea
+textArrayBox
+surfaceBox
+Wiggler
+Create random value smoothly changing over time.
+Display
+Number
+Graph
+Range
+Frequency
+Seed
+Clip
+Output
+Area Warp
+Wrap image to fit an area value.
+Surface In
+Area
+Active
+Surface Out
+XML File In
+Load xml file.
+Path
+Content
+Path
+XML File Out
+Write struct to xml file.
+Path
+Struct
+Zigzag
+Generate zigzag pattern.
+Dimension
+Amount
+Position
+Color 1
+Color 2
+Type
+Solid
+Smooth
+AA
+Amount map
+Angle map
+Angle
+Mask
+Threshold
+Surface Out

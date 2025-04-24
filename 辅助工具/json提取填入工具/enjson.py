@@ -65,7 +65,6 @@ def process_file(filename):
     restore_json(filename, json_name)
 
 # 使用示例
-process_file('text.txt')
-# process_file('UI.txt')
+# process_file('text.txt')
 # process_file('words.txt')
-# process_file('nodes.json')
+process_file('nodes.json')

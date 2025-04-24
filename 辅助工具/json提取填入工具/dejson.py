@@ -44,6 +44,5 @@ def process_file(json_path):
 
 # 处理三个文件
 # process_file('text.json')
-# process_file('UI.json')
-# process_file('words.json')
+process_file('words.json')
 process_file('nodes.json')
