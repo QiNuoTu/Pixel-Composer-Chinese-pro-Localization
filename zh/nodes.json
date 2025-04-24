@@ -3089,83 +3089,83 @@
     ]
   },
   "Node_Blend": {
-    "name": "Blend",
-    "tooltip": "Combine 2 images using different blend modes.",
+    "name": "混合",
+    "tooltip": "使用不同的混合模式组合两幅图像。",
     "inputs": [
       {
-        "name": "Background"
+        "name": "背景"
       },
       {
-        "name": "Foreground"
+        "name": "前景"
       },
       {
-        "name": "Blend mode",
+        "name": "混合模式",
         "display_data": [
-          "Normal",
-          "Replace",
+          "正常",
+          "替换",
           -1.0,
-          "Multiply",
-          "Color Burn",
-          "Linear Burn",
-          "Minimum",
+          "相乘",
+          "颜色加深",
+          "线性加深",
+          "最小值",
           -1.0,
-          "Add",
-          "Screen",
-          "Color Dodge",
-          "Maximum",
+          "加法",
+          "屏幕",
+          "颜色减淡",
+          "最大值",
           -1.0,
-          "Overlay",
-          "Soft Light",
-          "Hard Light",
-          "Vivid Light",
-          "Linear Light",
-          "Pin Light",
+          "叠加",
+          "柔光",
+          "强光",
+          "亮光",
+          "线性光",
+          "点光",
           -1.0,
-          "Difference",
-          "Exclusion",
-          "Subtract",
-          "Divide",
+          "差值",
+          "排除",
+          "减法",
+          "除法",
           -1.0,
-          "Hue",
-          "Saturation",
-          "Luminosity"
+          "色调",
+          "饱和度",
+          "亮度"
         ]
       },
       {
-        "name": "Opacity"
+        "name": "透明度"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Fill mode",
+        "name": "填充模式",
         "display_data": [
-          "None",
-          "Stretch",
-          "Tile"
+          "无",
+          "拉伸",
+          "平铺"
         ]
       },
       {
-        "name": "Output dimension",
+        "name": "输出尺寸",
         "display_data": [
-          "Background",
-          "Forground",
-          "Mask",
-          "Maximum",
-          "Constant"
+          "背景",
+          "前景",
+          "遮罩",
+          "最大值",
+          "固定"
         ]
       },
       {
-        "name": "Constant dimension"
+        "name": "固定尺寸"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Preserve alpha"
+        "name": "保留透明度"
       },
       {
-        "name": "Horizontal Align",
+        "name": "水平对齐",
         "display_data": [
           "@ref sprite(__newsprite1122)",
           "@ref sprite(__newsprite1122)",
@@ -3173,7 +3173,7 @@
         ]
       },
       {
-        "name": "Vertical Align",
+        "name": "垂直对齐",
         "display_data": [
           "@ref sprite(__newsprite1123)",
           "@ref sprite(__newsprite1123)",
@@ -3181,1548 +3181,1548 @@
         ]
       },
       {
-        "name": "Invert mask"
+        "name": "反转遮罩"
       },
       {
-        "name": "Mask feather"
+        "name": "遮罩羽化"
       },
       {
-        "name": "Position"
+        "name": "位置"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Blend_Edge": {
-    "name": "Blend Edge",
-    "tooltip": "Blend the edges of an image to create tilable patterns.",
+    "name": "混合边缘",
+    "tooltip": "混合图像的边缘以创建可平铺的图案。",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Width"
+        "name": "宽度"
       },
       {
-        "name": "Types",
+        "name": "类型",
         "display_data": [
-          "Both",
-          "Horizontal",
-          "Vertical"
+          "两者",
+          "水平",
+          "垂直"
         ]
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Channel"
+        "name": "通道"
       },
       {
-        "name": "Width map"
+        "name": "宽度映射"
       },
       {
-        "name": "Blending"
+        "name": "混合"
       },
       {
-        "name": "Smoothness"
+        "name": "平滑度"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Blobify": {
-    "name": "Blobify",
-    "tooltip": "Round off sharp corner in BW image by bluring and thresholding.",
+    "name": "圆角化",
+    "tooltip": "通过模糊和阈值处理将黑白图像的锐角变圆。",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Radius"
+        "name": "半径"
       },
       {
-        "name": "Threshold"
+        "name": "阈值"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Bloom": {
-    "name": "Bloom",
-    "tooltip": "Apply bloom effect, blurring and brighten the bright part of the image.",
+    "name": "泛光",
+    "tooltip": "应用泛光效果，模糊并提亮图像的明亮部分。",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Size",
-        "tooltip": "Bloom blur radius."
+        "name": "大小",
+        "tooltip": "泛光模糊半径。"
       },
       {
-        "name": "Tolerance",
-        "tooltip": "How bright a pixel should be to start blooming."
+        "name": "容差",
+        "tooltip": "像素需要多亮才能开始泛光。"
       },
       {
-        "name": "Strength",
-        "tooltip": "Blend intensity."
+        "name": "强度",
+        "tooltip": "混合强度。"
       },
       {
-        "name": "Bloom mask"
+        "name": "泛光遮罩"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Mix"
+        "name": "混合"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Channel"
+        "name": "通道"
       },
       {
-        "name": "Invert mask"
+        "name": "反转遮罩"
       },
       {
-        "name": "Mask feather"
+        "name": "遮罩羽化"
       },
       {
-        "name": "Aspect Ratio"
+        "name": "宽高比"
       },
       {
-        "name": "Direction"
+        "name": "方向"
       },
       {
-        "name": "Types",
+        "name": "类型",
         "display_data": [
-          "Gaussian",
-          "Zoom"
+          "高斯",
+          "缩放"
         ]
       },
       {
-        "name": "Zoom Origin"
+        "name": "缩放原点"
       },
       {
-        "name": "Blend"
+        "name": "混合"
       },
       {
-        "name": "Saturation"
+        "name": "饱和度"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       },
       {
-        "name": "Bloom Mask"
+        "name": "泛光遮罩"
       }
     ]
   },
   "Node_Blur": {
-    "name": "Blur",
-    "tooltip": "Blur image smoothly.",
+    "name": "模糊",
+    "tooltip": "平滑模糊图像。",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Size"
+        "name": "大小"
       },
       {
-        "name": "Oversample mode",
-        "tooltip": "How to deal with pixel outside the surface.\n    - Empty: Use empty pixel\n    - Clamp: Repeat edge pixel\n    - Repeat: Repeat texture.",
+        "name": "过采样模式",
+        "tooltip": "如何处理表面外的像素。\n    - 空白：使用空白像素\n    - 钳制：重复边缘像素\n    - 重复：重复纹理。",
         "display_data": [
-          "Empty",
-          "Clamp",
-          "Repeat"
+          "空白",
+          "钳制",
+          "重复"
         ]
       },
       {
-        "name": "Override color",
-        "tooltip": "Replace all color while keeping the alpha. Used to\nfix grey outline when bluring transparent pixel."
+        "name": "覆盖颜色",
+        "tooltip": "替换所有颜色，同时保留透明度。用于修复模糊透明像素时的灰色轮廓。"
       },
       {
-        "name": "Color"
+        "name": "颜色"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Mix"
+        "name": "混合"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Channel"
+        "name": "通道"
       },
       {
-        "name": "Invert mask"
+        "name": "反转遮罩"
       },
       {
-        "name": "Mask feather"
+        "name": "遮罩羽化"
       },
       {
-        "name": "Gamma Correction"
+        "name": "伽马校正"
       },
       {
-        "name": "Aspect Ratio"
+        "name": "宽高比"
       },
       {
-        "name": "Direction"
+        "name": "方向"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Blur_Bokeh": {
-    "name": "Lens Blur",
-    "tooltip": "Create bokeh effect. Blur lighter color in a lens-like manner.",
+    "name": "镜头模糊",
+    "tooltip": "创建光斑效果。以镜头方式模糊较亮的颜色。",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Strength"
+        "name": "强度"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Mix"
+        "name": "混合"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Channel"
+        "name": "通道"
       },
       {
-        "name": "Invert mask"
+        "name": "反转遮罩"
       },
       {
-        "name": "Mask feather"
+        "name": "遮罩羽化"
       },
       {
-        "name": "Strength map"
+        "name": "强度映射"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Blur_Box": {
-    "name": "Box Blur",
-    "tooltip": "Blur pixel in square area uniformly.",
+    "name": "方框模糊",
+    "tooltip": "在方形区域内均匀模糊像素。",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Size"
+        "name": "大小"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Mix"
+        "name": "混合"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Channel"
+        "name": "通道"
       },
       {
-        "name": "Invert mask"
+        "name": "反转遮罩"
       },
       {
-        "name": "Mask feather"
+        "name": "遮罩羽化"
       },
       {
-        "name": "Separate Axis"
+        "name": "分离轴"
       },
       {
-        "name": "2D Size"
+        "name": "二维尺寸"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Blur_Contrast": {
-    "name": "Contrast Blur",
-    "tooltip": "Blur only pixel of a similiar color.",
+    "name": "对比度模糊",
+    "tooltip": "仅模糊相似颜色的像素。",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Size"
+        "name": "大小"
       },
       {
-        "name": "Threshold",
-        "tooltip": "Brightness different to be blur together."
+        "name": "阈值",
+        "tooltip": "要一起模糊的亮度差异。"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Mix"
+        "name": "混合"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Channel"
+        "name": "通道"
       },
       {
-        "name": "Invert mask"
+        "name": "反转遮罩"
       },
       {
-        "name": "Mask feather"
+        "name": "遮罩羽化"
       },
       {
-        "name": "Gamma Correction"
+        "name": "伽马校正"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Blur_Directional": {
-    "name": "Directional Blur",
-    "tooltip": "Blur image given a direction.",
+    "name": "方向性模糊",
+    "tooltip": "根据给定方向模糊图像。",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Strength"
+        "name": "强度"
       },
       {
-        "name": "Direction"
+        "name": "方向"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Mix"
+        "name": "混合"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Channel"
+        "name": "通道"
       },
       {
-        "name": "Invert mask"
+        "name": "反转遮罩"
       },
       {
-        "name": "Mask feather"
+        "name": "遮罩羽化"
       },
       {
-        "name": "Strength map"
+        "name": "强度映射"
       },
       {
-        "name": "Direction map"
+        "name": "方向映射"
       },
       {
-        "name": "Single direction"
+        "name": "单一方向"
       },
       {
-        "name": "Gamma Correction"
+        "name": "伽马校正"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Blur_Path": {
-    "name": "Path Blur",
-    "tooltip": "Blur pixel along path.",
+    "name": "路径模糊",
+    "tooltip": "沿路径模糊像素。",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Blur Path"
+        "name": "模糊路径"
       },
       {
-        "name": "Resolution"
+        "name": "分辨率"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Mix"
+        "name": "混合"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Channel"
+        "name": "通道"
       },
       {
-        "name": "Invert mask"
+        "name": "反转遮罩"
       },
       {
-        "name": "Mask feather"
+        "name": "遮罩羽化"
       },
       {
-        "name": "Intensity"
+        "name": "强度"
       },
       {
-        "name": "Intensity Along Path"
+        "name": "沿路径的强度"
       },
       {
-        "name": "Range"
+        "name": "范围"
       },
       {
-        "name": "Path Origin"
+        "name": "路径原点"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Blur_Radial": {
-    "name": "Radial Blur",
-    "tooltip": "Blur image by rotating around a mid point.",
+    "name": "径向模糊",
+    "tooltip": "通过围绕中点旋转来模糊图像。",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Strength"
+        "name": "强度"
       },
       {
-        "name": "Center"
+        "name": "中心"
       },
       {
-        "name": "Oversample mode",
-        "tooltip": "How to deal with pixel outside the surface.\n    - Empty: Use empty pixel\n    - Clamp: Repeat edge pixel\n    - Repeat: Repeat texture.",
+        "name": "过采样模式",
+        "tooltip": "如何处理表面外的像素。\n    - 空白：使用空白像素\n    - 钳制：重复边缘像素\n    - 重复：重复纹理。",
         "display_data": [
-          "Empty",
-          "Clamp",
-          "Repeat"
+          "空白",
+          "钳制",
+          "重复"
         ]
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Mix"
+        "name": "混合"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Channel"
+        "name": "通道"
       },
       {
-        "name": "Invert mask"
+        "name": "反转遮罩"
       },
       {
-        "name": "Mask feather"
+        "name": "遮罩羽化"
       },
       {
-        "name": "Strength map"
+        "name": "强度映射"
       },
       {
-        "name": "Gamma Correction"
+        "name": "伽马校正"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Blur_Shape": {
-    "name": "Shape Blur",
-    "tooltip": "Blur image using another image as blur map.",
+    "name": "形状模糊",
+    "tooltip": "使用另一幅图像作为模糊映射来模糊图像。",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Blur Shape"
+        "name": "模糊形状"
       },
       {
-        "name": "Blur mask"
+        "name": "模糊遮罩"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Mix"
+        "name": "混合"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Channel"
+        "name": "通道"
       },
       {
-        "name": "Mode",
+        "name": "模式",
         "display_data": [
-          "Blur",
-          "Max"
+          "模糊",
+          "最大值"
         ]
       },
       {
-        "name": "Invert mask"
+        "name": "反转遮罩"
       },
       {
-        "name": "Mask feather"
+        "name": "遮罩羽化"
       },
       {
-        "name": "Gamma Correction"
+        "name": "伽马校正"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Blur_Simple": {
-    "name": "Non-Uniform Blur",
-    "tooltip": "Blur image using simpler algorithm. Allowing for variable blur strength.",
+    "name": "非均匀模糊",
+    "tooltip": "使用更简单的算法模糊图像，允许使用可变的模糊强度。",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Size"
+        "name": "大小"
       },
       {
-        "name": "Oversample mode",
-        "tooltip": "How to deal with pixel outside the surface.\n    - Empty: Use empty pixel\n    - Clamp: Repeat edge pixel\n    - Repeat: Repeat texture.",
+        "name": "过采样模式",
+        "tooltip": "如何处理表面外的像素。\n    - 空白：使用空白像素\n    - 钳制：重复边缘像素\n    - 重复：重复纹理。",
         "display_data": [
-          "Empty",
-          "Clamp",
-          "Repeat"
+          "空白",
+          "钳制",
+          "重复"
         ]
       },
       {
-        "name": "Blur mask"
+        "name": "模糊遮罩"
       },
       {
-        "name": "Override color",
-        "tooltip": "Replace all color while keeping the alpha. Used to\nfix grey outline when bluring transparent pixel."
+        "name": "覆盖颜色",
+        "tooltip": "替换所有颜色，同时保留透明度。用于修复模糊透明像素时的灰色轮廓。"
       },
       {
-        "name": "Color"
+        "name": "颜色"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Mix"
+        "name": "混合"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Channel"
+        "name": "通道"
       },
       {
-        "name": "Invert mask"
+        "name": "反转遮罩"
       },
       {
-        "name": "Mask feather"
+        "name": "遮罩羽化"
       },
       {
-        "name": "Gradient"
+        "name": "渐变"
       },
       {
-        "name": "Gradient map"
+        "name": "渐变映射"
       },
       {
-        "name": "Gradient map range"
+        "name": "渐变映射范围"
       },
       {
-        "name": "Use Gradient"
+        "name": "使用渐变"
       },
       {
-        "name": "Gamma Correction"
+        "name": "伽马校正"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Blur_Slope": {
-    "name": "Slope Blur",
-    "tooltip": "Blur along a gradient of a slope map.",
+    "name": "斜率模糊",
+    "tooltip": "沿斜率图的梯度模糊。",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Strength"
+        "name": "强度"
       },
       {
-        "name": "Slope Map"
+        "name": "斜率图"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Mix"
+        "name": "混合"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Channel"
+        "name": "通道"
       },
       {
-        "name": "Invert mask"
+        "name": "反转遮罩"
       },
       {
-        "name": "Mask feather"
+        "name": "遮罩羽化"
       },
       {
-        "name": "Strength map"
+        "name": "强度映射"
       },
       {
-        "name": "Step"
+        "name": "步长"
       },
       {
-        "name": "Gamma Correction"
+        "name": "伽马校正"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Blur_Zoom": {
-    "name": "Zoom Blur",
-    "tooltip": "Blur image by zooming in\/out from a mid point.",
+    "name": "缩放模糊",
+    "tooltip": "通过从中点放大\/缩小来模糊图像。",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Strength"
+        "name": "强度"
       },
       {
-        "name": "Center"
+        "name": "中心"
       },
       {
-        "name": "Oversample mode",
-        "tooltip": "How to deal with pixel outside the surface.\n    - Empty: Use empty pixel\n    - Clamp: Repeat edge pixel\n    - Repeat: Repeat texture.",
+        "name": "过采样模式",
+        "tooltip": "如何处理表面外的像素。\n    - 空白：使用空白像素\n    - 钳制：重复边缘像素\n    - 重复：重复纹理。",
         "display_data": [
-          "Empty",
-          "Clamp",
-          "Repeat"
+          "空白",
+          "钳制",
+          "重复"
         ]
       },
       {
-        "name": "Zoom origin",
+        "name": "缩放原点",
         "display_data": [
-          "Start",
-          "Middle",
-          "End"
+          "开始",
+          "中间",
+          "结束"
         ]
       },
       {
-        "name": "Blur mask"
+        "name": "模糊遮罩"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Mix"
+        "name": "混合"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Channel"
+        "name": "通道"
       },
       {
-        "name": "Invert mask"
+        "name": "反转遮罩"
       },
       {
-        "name": "Mask feather"
+        "name": "遮罩羽化"
       },
       {
-        "name": "Strength map"
+        "name": "强度映射"
       },
       {
-        "name": "Gamma Correction"
+        "name": "伽马校正"
       },
       {
-        "name": "Samples"
+        "name": "样本数"
       },
       {
-        "name": "Mode",
+        "name": "模式",
         "display_data": [
-          "Blur",
-          "Step"
+          "模糊",
+          "步进"
         ]
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Boolean": {
-    "name": "Boolean",
-    "tooltip": "Generate boolean (true, false) data.",
+    "name": "布尔值",
+    "tooltip": "生成布尔值（真、假）数据。",
     "inputs": [
       {
-        "name": "Value"
+        "name": "值"
       },
       {
-        "name": "Hide Background"
+        "name": "隐藏背景"
       },
       {
-        "name": "Name location",
+        "name": "名称位置",
         "display_data": [
-          "Top",
-          "Bottom"
+          "顶部",
+          "底部"
         ]
       }
     ],
     "outputs": [
       {
-        "name": "Boolean"
+        "name": "布尔值"
       }
     ]
   },
   "Node_Box_Pattern": {
-    "name": "Box Pattern",
-    "tooltip": "Generate square-based patterns.",
+    "name": "方块图案",
+    "tooltip": "生成基于方形的图案。",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Scale"
+        "name": "缩放"
       },
       {
-        "name": "Angle"
+        "name": "角度"
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Color 1"
+        "name": "颜色 1"
       },
       {
-        "name": "Color 2"
+        "name": "颜色 2"
       },
       {
-        "name": "Amount Map"
+        "name": "数量映射"
       },
       {
-        "name": "Angle Map"
+        "name": "角度映射"
       },
       {
-        "name": "Render Type",
+        "name": "渲染类型",
         "display_data": [
-          "Solid",
-          "Smooth",
-          "AA"
+          "实心",
+          "平滑",
+          "抗锯齿"
         ]
       },
       {
-        "name": "Width"
+        "name": "宽度"
       },
       {
-        "name": "Width Map"
+        "name": "宽度映射"
       },
       {
-        "name": "Pattern",
+        "name": "图案",
         "display_data": [
-          "Cross",
-          "Xor"
+          "十字",
+          "异或"
         ]
       },
       {
-        "name": "Iteration"
+        "name": "迭代次数"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Brush_Linear": {
-    "name": "Brush",
-    "tooltip": "Apply brush effect.",
+    "name": "线性画刷",
+    "tooltip": "应用画刷效果。",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Iteration"
+        "name": "迭代次数"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "Length"
+        "name": "长度"
       },
       {
-        "name": "Attenuation"
+        "name": "衰减"
       },
       {
-        "name": "Circulation"
+        "name": "循环"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Mix"
+        "name": "混合"
       },
       {
-        "name": "Channel"
+        "name": "通道"
       },
       {
-        "name": "Invert mask"
+        "name": "反转遮罩"
       },
       {
-        "name": "Mask feather"
+        "name": "遮罩羽化"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_BW": {
-    "name": "BW",
-    "tooltip": "Convert color image to black and white.",
+    "name": "黑白",
+    "tooltip": "将彩色图像转换为黑白图像。",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Brightness"
+        "name": "亮度"
       },
       {
-        "name": "Contrast"
+        "name": "对比度"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Mix"
+        "name": "混合"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Channel"
+        "name": "通道"
       },
       {
-        "name": "Invert mask"
+        "name": "反转遮罩"
       },
       {
-        "name": "Mask feather"
+        "name": "遮罩羽化"
       },
       {
-        "name": "Brightness map"
+        "name": "亮度映射"
       },
       {
-        "name": "Contrast map"
+        "name": "对比度映射"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Byte_File_Read": {
-    "name": "Byte File In",
-    "tooltip": "Load any file to buffer.",
+    "name": "字节文件读取",
+    "tooltip": "从路径加载文件到缓冲区。",
     "inputs": [
       {
-        "name": "Path"
+        "name": "路径"
       }
     ],
     "outputs": [
       {
-        "name": "Content"
+        "name": "内容"
       },
       {
-        "name": "Path"
+        "name": "路径"
       }
     ]
   },
   "Node_Byte_File_Write": {
-    "name": "Byte File Out",
-    "tooltip": "Save buffer content to a file.",
+    "name": "字节文件写入",
+    "tooltip": "将缓冲区内容保存到文件。",
     "inputs": [
       {
-        "name": "Path"
+        "name": "路径"
       },
       {
-        "name": "Content"
+        "name": "内容"
       }
     ],
     "outputs": []
   },
   "Node_Cache": {
-    "name": "Cache",
-    "tooltip": "Store current animation. Cache persisted between save.",
+    "name": "缓存",
+    "tooltip": "存储当前动画。缓存会在保存之间保持。",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       }
     ],
     "outputs": [
       {
-        "name": "Cache surface"
+        "name": "缓存表面"
       }
     ]
   },
   "Node_Cache_Array": {
-    "name": "Cache Array",
-    "tooltip": "Store current animation as array.  Cache persisted between save.",
+    "name": "缓存数组",
+    "tooltip": "将当前动画存储为数组缓存会在保存之间保持",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Start frame",
-        "tooltip": "Frame index to start caching, set to -1 to start at the first frame."
+        "name": "开始帧",
+        "tooltip": "开始缓存的帧索引，设置为 -1 从第一帧开始。"
       },
       {
-        "name": "Stop frame",
-        "tooltip": "Frame index to stop caching (inclusive), set to -1 to stop at the last frame."
+        "name": "停止帧",
+        "tooltip": "停止缓存的帧索引（包括此帧），设置为 -1 以在最后一帧停止。"
       },
       {
-        "name": "Step",
-        "tooltip": "Cache every N frames, set to 1 to cache every frame."
+        "name": "步长",
+        "tooltip": "每 N 帧缓存一次，设置为 1 时每帧都缓存。"
       }
     ],
     "outputs": [
       {
-        "name": "Cache array"
+        "name": "缓存数组"
       }
     ]
   },
   "Node_Cache_Value_Array": {
-    "name": "Cache Value Array",
-    "tooltip": "Store current value as array.",
+    "name": "缓存值数组",
+    "tooltip": "存储当前值为数组。",
     "inputs": [
       {
-        "name": "Value"
+        "name": "值"
       },
       {
-        "name": "Start frame",
-        "tooltip": "Frame index to start caching, set to -1 to start at the first frame."
+        "name": "开始帧",
+        "tooltip": "开始缓存的帧索引，设置为 -1 从第一帧开始。"
       },
       {
-        "name": "Stop frame",
-        "tooltip": "Frame index to stop caching (inclusive), set to -1 to stop at the last frame."
+        "name": "停止帧",
+        "tooltip": "停止缓存的帧索引（包括此帧），设置为 -1 以在最后一帧停止。"
       }
     ],
     "outputs": [
       {
-        "name": "Cache array"
+        "name": "缓存数组"
       }
     ]
   },
   "Node_Camera": {
-    "name": "Camera",
-    "tooltip": "Create camera that crop image to fix dimension with control of position, zoom. Also can be use to create parallax effect.",
+    "name": "相机",
+    "tooltip": "创建一个相机用于裁剪图像以适应尺寸并控制位置和缩放，也可用于创建视差效果",
     "inputs": [
       {
-        "name": "Focus Center"
+        "name": "焦点区域"
       },
       {
-        "name": "Zoom"
+        "name": "缩放"
       },
       {
-        "name": "Depth of Field"
+        "name": "景深"
       },
       {
-        "name": "Focal distance"
+        "name": "焦距"
       },
       {
-        "name": "Defocus"
+        "name": "虚化"
       },
       {
-        "name": "Focal range"
+        "name": "焦距范围"
       },
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Element 0"
+        "name": "元素 0"
       },
       {
-        "name": "Positioning 0",
+        "name": "定位模式 0",
         "display_data": [
-          "Space",
-          "Camera"
+          "空间",
+          "相机"
         ]
       },
       {
-        "name": "Position 0"
+        "name": "位置 0"
       },
       {
-        "name": "Oversample 0",
+        "name": "过采样 0",
         "display_data": [
-          "Empty ",
-          "Repeat ",
-          "Repeat X",
-          "Repeat Y"
+          "空白",
+          "重复",
+          "重复 X",
+          "重复 Y"
         ]
       },
       {
-        "name": "Parallax 0"
+        "name": "视差 0"
       },
       {
-        "name": "Depth 0"
+        "name": "深度 0"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Canvas": {
-    "name": "Canvas",
-    "tooltip": "Draw on surface using brush, eraser, etc.",
+    "name": "画布",
+    "tooltip": "使用画笔、橡皮擦等在表面上绘制。",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Color"
+        "name": "颜色"
       },
       {
-        "name": "Brush Size"
+        "name": "画笔大小"
       },
       {
-        "name": "Fill Threshold"
+        "name": "填充阈值"
       },
       {
-        "name": "Fill Type",
+        "name": "填充类型",
         "display_data": [
-          "4 connect",
-          "8 connect",
-          "Entire canvas"
+          "4 连接",
+          "8 连接",
+          "整个画布"
         ]
       },
       {
-        "name": "Draw Preview Overlay"
+        "name": "绘制预览叠加"
       },
       {
-        "name": "Brush"
+        "name": "画笔"
       },
       {
-        "name": "Surface Amount"
+        "name": "表面数量"
       },
       {
-        "name": "Background"
+        "name": "背景"
       },
       {
-        "name": "Background Alpha"
+        "name": "背景透明度"
       },
       {
-        "name": "Render Background"
+        "name": "渲染背景"
       },
       {
-        "name": "Alpha"
+        "name": "透明度"
       },
       {
-        "name": "Frames Animation"
+        "name": "帧动画"
       },
       {
-        "name": "Animation Speed"
+        "name": "动画速度"
       },
       {
-        "name": "Use Background Dimension"
+        "name": "使用背景尺寸"
       },
       {
-        "name": "Brush Distance"
+        "name": "画笔距离"
       },
       {
-        "name": "Rotate Brush by Direction"
+        "name": "按方向旋转画笔"
       },
       {
-        "name": "Random Direction"
+        "name": "随机方向"
       },
       {
-        "name": "Animation Type",
+        "name": "动画类型",
         "display_data": [
-          "Loop",
-          "Hold",
-          "Clear"
+          "循环",
+          "保持",
+          "清除"
         ]
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Canvas_Group": {
-    "name": "Canvas Group",
-    "tooltip": "Create a group that combines multiple canvas nodes a layers.",
+    "name": "画布组",
+    "tooltip": "创建一个组合多个画布节点为图层的组。",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       }
     ],
     "outputs": []
   },
   "Node_Caustic": {
-    "name": "Caustic",
-    "tooltip": "Generate caustic noise",
+    "name": "透镜光晕",
+    "tooltip": "生成透镜光晕噪声",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Scale"
+        "name": "缩放"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "Progress"
+        "name": "进度"
       },
       {
-        "name": "Detail"
+        "name": "细节"
       },
       {
-        "name": "Intensity"
+        "name": "强度"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Cellular": {
-    "name": "Cellular Noise",
-    "tooltip": "Generate voronoi pattern.",
+    "name": "细胞噪声",
+    "tooltip": "生成 Voronoi 图案。",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Scale"
+        "name": "缩放"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "Type",
+        "name": "类型",
         "display_data": [
-          "Point",
-          "Edge",
-          "Cell",
-          "Crystal"
+          "点",
+          "边缘",
+          "单元",
+          "晶体"
         ]
       },
       {
-        "name": "Contrast"
+        "name": "对比度"
       },
       {
-        "name": "Pattern",
+        "name": "图案",
         "display_data": [
-          "Tiled",
-          "Uniform",
-          "Radial"
+          "平铺",
+          "均匀",
+          "径向"
         ]
       },
       {
-        "name": "Middle"
+        "name": "中间值"
       },
       {
-        "name": "Radial scale"
+        "name": "径向缩放"
       },
       {
-        "name": "Radial shatter"
+        "name": "径向碎片"
       },
       {
-        "name": "Colored"
+        "name": "彩色"
       },
       {
-        "name": "Scale map"
+        "name": "缩放映射"
       },
       {
-        "name": "Rotation"
+        "name": "旋转"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Phase"
+        "name": "相位"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Checker": {
-    "name": "Checker",
-    "tooltip": "Generate checkerboard pattern.",
+    "name": "棋盘格",
+    "tooltip": "生成棋盘格图案。",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Amount"
+        "name": "数量"
       },
       {
-        "name": "Angle"
+        "name": "角度"
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Color 1"
+        "name": "颜色 1"
       },
       {
-        "name": "Color 2"
+        "name": "颜色 2"
       },
       {
-        "name": "Amount map"
+        "name": "数量映射"
       },
       {
-        "name": "Angle map"
+        "name": "角度映射"
       },
       {
-        "name": "Type",
+        "name": "类型",
         "display_data": [
-          "Solid",
-          "Smooth",
-          "AA"
+          "实心",
+          "平滑",
+          "抗锯齿"
         ]
       },
       {
-        "name": "Diagonal"
+        "name": "对角线"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Chromatic_Aberration": {
-    "name": "Chromatic Aberration",
-    "tooltip": "Apply chromatic aberration effect to the image.",
+    "name": "色差",
+    "tooltip": "对图像应用色差效果。",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Center"
+        "name": "中心"
       },
       {
-        "name": "Strength"
+        "name": "强度"
       },
       {
-        "name": "Active"
+        "name": "启用"
       },
       {
-        "name": "Strength map"
+        "name": "强度映射"
       },
       {
-        "name": "Type",
+        "name": "类型",
         "display_data": [
           "RGB",
-          "Continuous"
+          "连续"
         ]
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Color": {
-    "name": "Color",
-    "tooltip": "Create color value.",
+    "name": "颜色",
+    "tooltip": "创建颜色值。",
     "inputs": [
       {
-        "name": "Color"
+        "name": "颜色"
       }
     ],
     "outputs": [
       {
-        "name": "Color"
+        "name": "颜色"
       }
     ]
   },
   "Node_Color_adjust": {
-    "name": "Color Adjust",
-    "tooltip": "Adjust brightness, contrast, hue, saturation, value, alpha, and blend image with color.",
+    "name": "颜色调整",
+    "tooltip": "调整亮度、对比度、色相、饱和度、明度、透明度，并将图像与颜色混合",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Brightness"
+        "name": "亮度"
       },
       {
-        "name": "Contrast"
+        "name": "对比度"
       },
       {
-        "name": "Hue"
+        "name": "色相"
       },
       {
-        "name": "Saturation"
+        "name": "饱和度"
       },
       {
-        "name": "Value"
+        "name": "明度"
       },
       {
-        "name": "Blend"
+        "name": "混合"
       },
       {
-        "name": "Blend amount"
+        "name": "混合量"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Alpha"
+        "name": "透明度"
       },
       {
-        "name": "Exposure"
+        "name": "曝光"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Input Type",
+        "name": "输入类型",
         "display_data": [
-          "Surface",
-          "Color"
+          "表面",
+          "颜色"
         ]
       },
       {
-        "name": "Color"
+        "name": "颜色"
       },
       {
-        "name": "Blend mode",
+        "name": "混合模式",
         "display_data": [
-          "Normal",
-          "Replace",
+          "正常",
+          "替换",
           -1.0,
-          "Multiply",
-          "Color Burn",
-          "Linear Burn",
-          "Minimum",
+          "相乘",
+          "颜色加深",
+          "线性加深",
+          "最小值",
           -1.0,
-          "Add",
-          "Screen",
-          "Color Dodge",
-          "Maximum",
+          "加法",
+          "屏幕",
+          "颜色减淡",
+          "最大值",
           -1.0,
-          "Overlay",
-          "Soft Light",
-          "Hard Light",
-          "Vivid Light",
-          "Linear Light",
-          "Pin Light",
+          "叠加",
+          "柔光",
+          "强光",
+          "亮光",
+          "线性光",
+          "点光",
           -1.0,
-          "Difference",
-          "Exclusion",
-          "Subtract",
-          "Divide",
+          "差值",
+          "排除",
+          "减法",
+          "除法",
           -1.0,
-          "Hue",
-          "Saturation",
-          "Luminosity"
+          "色相",
+          "饱和度",
+          "亮度"
         ]
       },
       {
-        "name": "Channel"
+        "name": "通道"
       },
       {
-        "name": "Invert mask"
+        "name": "反转遮罩"
       },
       {
-        "name": "Mask feather"
+        "name": "遮罩羽化"
       },
       {
-        "name": "Brightness map"
+        "name": "亮度映射"
       },
       {
-        "name": "Contrast map"
+        "name": "对比度映射"
       },
       {
-        "name": "Hue map"
+        "name": "色相映射"
       },
       {
-        "name": "Saturation map"
+        "name": "饱和度映射"
       },
       {
-        "name": "Value map"
+        "name": "明度映射"
       },
       {
-        "name": "Blend map"
+        "name": "混合映射"
       },
       {
-        "name": "Alpha map"
+        "name": "透明度映射"
       },
       {
-        "name": "Exposure map"
+        "name": "曝光映射"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       },
       {
-        "name": "Color out"
+        "name": "输出颜色"
       }
     ]
   },
   "Node_Color_Data": {
-    "name": "Color Data",
-    "tooltip": "Get data (rgb, hsv, brightness) from color.",
+    "name": "颜色数据",
+    "tooltip": "从颜色中获取数据（RGB、HSV、亮度）。",
     "inputs": [
       {
-        "name": "Color"
+        "name": "颜色"
       },
       {
-        "name": "Normalize"
+        "name": "归一化"
       }
     ],
     "outputs": [
       {
-        "name": "Red"
+        "name": "红色"
       },
       {
-        "name": "Green"
+        "name": "绿色"
       },
       {
-        "name": "Blue"
+        "name": "蓝色"
       },
       {
-        "name": "Hue"
+        "name": "色相"
       },
       {
-        "name": "Saturation"
+        "name": "饱和度"
       },
       {
-        "name": "Value"
+        "name": "明度"
       },
       {
-        "name": "Brightness"
+        "name": "亮度"
       },
       {
-        "name": "Alpha"
+        "name": "透明度"
       }
     ]
   },
   "Node_Color_HSV": {
-    "name": "HSV Color",
-    "tooltip": "Create (rgb) color from value in HSV color space.",
+    "name": "HSV 颜色",
+    "tooltip": "从 HSV 颜色空间的值创建 (RGB) 颜色。",
     "inputs": [
       {
-        "name": "Hue"
+        "name": "色相"
       },
       {
-        "name": "Saturation"
+        "name": "饱和度"
       },
       {
-        "name": "Value"
+        "name": "明度"
       },
       {
-        "name": "Normalized"
+        "name": "归一化"
       },
       {
-        "name": "Alpha"
+        "name": "透明度"
       }
     ],
     "outputs": [
       {
-        "name": "Color"
+        "name": "颜色"
       }
     ]
   },
   "Node_Color_Mix": {
-    "name": "Mix Color",
-    "tooltip": "Combine two colors.",
+    "name": "混合颜色",
+    "tooltip": "混合两种颜色。",
     "inputs": [
       {
-        "name": "Color from"
+        "name": "起始颜色"
       },
       {
-        "name": "Color to"
+        "name": "目标颜色"
       },
       {
-        "name": "Mix"
+        "name": "混合比例"
       },
       {
-        "name": "Color space",
+        "name": "颜色空间",
         "display_data": [
           "RGB",
           "HSV",
@@ -4732,314 +4732,314 @@
     ],
     "outputs": [
       {
-        "name": "Color"
+        "name": "颜色"
       }
     ]
   },
   "Node_Color_OKLCH": {
-    "name": "OKLCH Color",
-    "tooltip": "Create (rgb) color from value in OKLCH color space.",
+    "name": "OKLCH 颜色",
+    "tooltip": "从 OKLCH 颜色空间的值创建 (RGB) 颜色。",
     "inputs": [
       {
-        "name": "Lightness"
+        "name": "亮度"
       },
       {
-        "name": "Chroma"
+        "name": "色度"
       },
       {
-        "name": "Hue"
+        "name": "色相"
       },
       {
-        "name": "Alpha"
+        "name": "透明度"
       },
       {
-        "name": "Gamut clipping",
+        "name": "色域裁剪",
         "display_data": [
-          "Chroma",
-          "50% grey",
-          "Adaptive grey",
-          "RGB (Naive)"
+          "色度",
+          "50% 灰色",
+          "自适应灰色",
+          "RGB (简单)"
         ]
       }
     ],
     "outputs": [
       {
-        "name": "Color"
+        "name": "颜色"
       },
       {
-        "name": "Raw RGB"
+        "name": "原始 RGB"
       }
     ]
   },
   "Node_Color_Remove": {
-    "name": "Remove Color",
-    "tooltip": "Remove color that match a palette.",
+    "name": "移除颜色",
+    "tooltip": "移除与调色板匹配的颜色。",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Colors"
+        "name": "颜色"
       },
       {
-        "name": "Threshold"
+        "name": "阈值"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Mix"
+        "name": "混合"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Invert",
-        "tooltip": "Keep the selected colors and remove the rest."
+        "name": "反转",
+        "tooltip": "保留选中的颜色并移除其余颜色。"
       },
       {
-        "name": "Channel"
+        "name": "通道"
       },
       {
-        "name": "Invert mask"
+        "name": "反转遮罩"
       },
       {
-        "name": "Mask feather"
+        "name": "遮罩羽化"
       },
       {
-        "name": "Threshold map"
+        "name": "阈值映射"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Color_replace": {
-    "name": "Replace Palette",
-    "tooltip": "Match image to a palette then remap it to another palette.",
+    "name": "替换调色板",
+    "tooltip": "将图像匹配到调色板，然后将其重新映射到另一个调色板",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "From"
+        "name": "从调色板"
       },
       {
-        "name": "To"
+        "name": "到调色板"
       },
       {
-        "name": "Threshold"
+        "name": "阈值"
       },
       {
-        "name": "Replace Other Colors"
+        "name": "将其他颜色设置为黑色"
       },
       {
-        "name": "Multiply alpha"
+        "name": "乘以透明度"
       },
       {
-        "name": "Hard replace",
-        "tooltip": "Completely override pixel with new color instead of blending between it."
+        "name": "硬替换",
+        "tooltip": "完全用新颜色覆盖像素，而不是在它们之间进行混合。"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Mix"
+        "name": "混合"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Channel"
+        "name": "通道"
       },
       {
-        "name": "Invert mask"
+        "name": "反转遮罩"
       },
       {
-        "name": "Mask feather"
+        "name": "遮罩羽化"
       },
       {
-        "name": "Mode",
+        "name": "模式",
         "display_data": [
-          "Closest",
-          "Random"
+          "最近",
+          "随机"
         ]
       },
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "Target Color"
+        "name": "目标颜色"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Color_RGB": {
-    "name": "RGB Color",
-    "tooltip": "Create (rgb) color from value in RGB color space.",
+    "name": "RGB 颜色",
+    "tooltip": "从 RGB 颜色空间的值创建 (RGB) 颜色。",
     "inputs": [
       {
-        "name": "Red"
+        "name": "红色"
       },
       {
-        "name": "Green"
+        "name": "绿色"
       },
       {
-        "name": "Blue"
+        "name": "蓝色"
       },
       {
-        "name": "Normalized"
+        "name": "归一化"
       },
       {
-        "name": "Alpha"
+        "name": "透明度"
       }
     ],
     "outputs": [
       {
-        "name": "Color"
+        "name": "颜色"
       }
     ]
   },
   "Node_Color_Separate": {
-    "name": "Separate Color",
-    "tooltip": "Generate array of surfaces for each color.",
+    "name": "分离颜色",
+    "tooltip": "将图像的每个颜色生成为独立的图像。",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "All Colors"
+        "name": "所有颜色"
       },
       {
-        "name": "Colors"
+        "name": "颜色"
       },
       {
-        "name": "Match All",
-        "tooltip": "If false, only match pixels with the exact same color."
+        "name": "匹配全部",
+        "tooltip": "如果为假，则仅匹配完全相同的颜色。"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Color_to_HSV": {
-    "name": "Color HSV",
-    "tooltip": "Return normalized HSV components of a color.",
+    "name": "颜色 HSV",
+    "tooltip": "返回颜色的归一化 HSV 分量。",
     "inputs": [
       {
-        "name": "Color"
+        "name": "颜色"
       }
     ],
     "outputs": [
       {
-        "name": "Hue"
+        "name": "色相"
       },
       {
-        "name": "Saturation"
+        "name": "饱和度"
       },
       {
-        "name": "Value"
+        "name": "明度"
       }
     ]
   },
   "Node_Color_to_OKLCH": {
-    "name": "Color OKLCH",
-    "tooltip": "Return normalized LCH components of a color.",
+    "name": "颜色 OKLCH",
+    "tooltip": "返回颜色的归一化 LCH 分量。",
     "inputs": [
       {
-        "name": "Color"
+        "name": "颜色"
       }
     ],
     "outputs": [
       {
-        "name": "Lightness"
+        "name": "亮度"
       },
       {
-        "name": "Chroma"
+        "name": "色度"
       },
       {
-        "name": "Hue"
+        "name": "色相"
       }
     ]
   },
   "Node_Color_to_RGB": {
-    "name": "Color RGB",
-    "tooltip": "Return normalized RGB components of a color.",
+    "name": "颜色 RGB",
+    "tooltip": "返回颜色的归一化 RGB 分量。",
     "inputs": [
       {
-        "name": "Color"
+        "name": "颜色"
       }
     ],
     "outputs": [
       {
-        "name": "Red"
+        "name": "红色"
       },
       {
-        "name": "Green"
+        "name": "绿色"
       },
       {
-        "name": "Blue"
+        "name": "蓝色"
       }
     ]
   },
   "Node_Colorize": {
-    "name": "Colorize",
-    "tooltip": "Map brightness of a pixel to a color from a gradient.",
+    "name": "着色",
+    "tooltip": "将像素的亮度映射到渐变中的颜色",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Gradient"
+        "name": "渐变"
       },
       {
-        "name": "Gradient Shift"
+        "name": "渐变偏移"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Mix"
+        "name": "混合"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Multiply Alpha"
+        "name": "乘以透明度"
       },
       {
-        "name": "Channel"
+        "name": "通道"
       },
       {
-        "name": "Invert mask"
+        "name": "反转遮罩"
       },
       {
-        "name": "Mask feather"
+        "name": "遮罩羽化"
       },
       {
-        "name": "Gradient shift map"
+        "name": "渐变偏移图"
       },
       {
-        "name": "Gradient map"
+        "name": "渐变图"
       },
       {
-        "name": "Gradient map range"
+        "name": "渐变图范围"
       },
       {
-        "name": "Keep Alpha"
+        "name": "保持透明度"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
