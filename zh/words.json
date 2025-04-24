@@ -897,7 +897,6 @@
     "auto_organize":                          "自动整理",
     "auto_refresh":                           "自动刷新",
     "auto_update":                            "自动更新",
-    "auto_update":                            "自动更新",
     "background_color":                       "背景颜色",
     "border_color":                           "边框颜色",
     "border_opacity":                         "边框透明度",
@@ -1067,5 +1066,5 @@
     "warp":                                  "扭曲",
     "workspace_panel":                       "工作区面板",
 
-    "":                                        "",
+    "":                                        ""
 }
