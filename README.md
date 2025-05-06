@@ -19,6 +19,9 @@ The simplified chinese localization file for Pixel-Composer
 </a>
 
 <!-- Made with [OSS Insight](https://ossinsight.io/) -->
+# 软件交流
+
+像素特效交流🐧群:[965593104](https://qm.qq.com/q/OJq4AY2z4e)
 
 # 进度
 
@@ -88,9 +91,6 @@ Pixel-Composer-Chinese-Localization/
 
 4. 打开Pixel Compose在开始窗口查看汉化过的教程吧！
 
-# 软件交流
-
-像素特效交流🐧群:[965593104](https://qm.qq.com/q/OJq4AY2z4e)
 
 # 备注
 
