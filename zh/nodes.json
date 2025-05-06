@@ -17577,575 +17577,575 @@
     ]
   },
   "Node_Pixel_Sampler": {
-    "name": "Pixel Sampler",
-    "tooltip": "Map image on to each individual pixels of another image.",
+    "name": "像素采样器",
+    "tooltip": "将图像映射到另一个图像的每个像素上。",
     "inputs": [
       {
-        "name": "Base Texture"
+        "name": "基础纹理"
       },
       {
-        "name": "Sample Mode",
+        "name": "采样模式",
         "display_data": [
-          "Keep Size",
-          "Expand"
+          "保持尺寸",
+          "扩展"
         ]
       },
       {
-        "name": "Match Mode",
+        "name": "匹配模式",
         "display_data": [
-          "Brightness",
+          "亮度",
           "RGB",
-          "Hue"
+          "色调"
         ]
       },
       {
-        "name": "Surfaces"
+        "name": "表面"
       },
       {
-        "name": "Gradient"
+        "name": "渐变"
       },
       {
-        "name": "Gradient map"
+        "name": "渐变映射"
       },
       {
-        "name": "Gradient map range"
+        "name": "渐变映射范围"
       },
       {
-        "name": "Color Blending",
+        "name": "颜色混合",
         "display_data": [
-          "None",
-          "Multiply"
+          "无",
+          "相乘"
         ]
       },
       {
-        "name": "Blending Intensity"
+        "name": "混合强度"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Pixel_Sort": {
-    "name": "Pixel Sort",
-    "tooltip": "Sort pixel by brightness in horizontal, or vertial axis.",
+    "name": "像素排序",
+    "tooltip": "按亮度在水平或垂直轴上对像素进行排序",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Iteration"
+        "name": "迭代次数"
       },
       {
-        "name": "Threshold"
+        "name": "阈值"
       },
       {
-        "name": "Direction"
+        "name": "方向"
       },
       {
-        "name": "Mask"
+        "name": "蒙版"
       },
       {
-        "name": "Mix"
+        "name": "混合"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Channel"
+        "name": "通道"
       },
       {
-        "name": "Invert mask"
+        "name": "反转蒙版"
       },
       {
-        "name": "Mask feather"
+        "name": "蒙版羽化"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Plot_Linear": {
-    "name": "Draw Bar / Graph",
-    "tooltip": "Plot graph or bar chart from array of number.",
+    "name": "绘制条形图/折线图",
+    "tooltip": "从数字数组绘制折线图或条形图。",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Data"
+        "name": "数据"
       },
       {
-        "name": "Range"
+        "name": "范围"
       },
       {
-        "name": "Sample frequency"
+        "name": "采样频率"
       },
       {
-        "name": "Origin"
+        "name": "原点"
       },
       {
-        "name": "Scale"
+        "name": "缩放"
       },
       {
-        "name": "Base Color"
+        "name": "基础颜色"
       },
       {
-        "name": "Graph Thickness"
+        "name": "图表厚度"
       },
       {
-        "name": "Background"
+        "name": "背景"
       },
       {
-        "name": "Background color"
+        "name": "背景颜色"
       },
       {
-        "name": "Direction"
+        "name": "方向"
       },
       {
-        "name": "Type",
+        "name": "类型",
         "display_data": [
-          "Bar chart",
-          "Graph"
+          "条形图",
+          "折线图"
         ]
       },
       {
-        "name": "Value Offset"
+        "name": "值偏移"
       },
       {
-        "name": "Color Over Sample"
+        "name": "按采样着色"
       },
       {
-        "name": "Trim mode",
+        "name": "修剪模式",
         "display_data": [
-          "Range",
-          "Window"
+          "范围",
+          "窗口"
         ]
       },
       {
-        "name": "Window Size"
+        "name": "窗口大小"
       },
       {
-        "name": "Window Offset"
+        "name": "窗口偏移"
       },
       {
-        "name": "Spacing"
+        "name": "间距"
       },
       {
-        "name": "Bar Width"
+        "name": "条形宽度"
       },
       {
-        "name": "Rounded Bar"
+        "name": "圆角条形"
       },
       {
-        "name": "Path"
+        "name": "路径"
       },
       {
-        "name": "Flip Value"
+        "name": "反转值"
       },
       {
-        "name": "Loop"
+        "name": "循环"
       },
       {
-        "name": "Smooth"
+        "name": "平滑"
       },
       {
-        "name": "Color Over Value"
+        "name": "按值着色"
       },
       {
-        "name": "Value range"
+        "name": "值范围"
       },
       {
-        "name": "Absolute"
+        "name": "绝对值"
       },
       {
-        "name": "Sample Gradient map"
+        "name": "采样渐变映射"
       },
       {
-        "name": "Sample Gradient map range"
+        "name": "采样渐变映射范围"
       },
       {
-        "name": "Value Gradient map"
+        "name": "值渐变映射"
       },
       {
-        "name": "Value Gradient map range"
+        "name": "值渐变映射范围"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Point_In_Area": {
-    "name": "Point in Area",
-    "tooltip": "Check whether a point lies in an area.",
+    "name": "点在区域内",
+    "tooltip": "检查点是否在区域内",
     "inputs": [
       {
-        "name": "Area"
+        "name": "区域"
       },
       {
-        "name": "Point"
+        "name": "点"
       },
       {
-        "name": "Include Boundary"
+        "name": "包含边界"
       }
     ],
     "outputs": [
       {
-        "name": "Is in"
+        "name": "是否在内"
       }
     ]
   },
   "Node_Points_Triangulate": {
-    "name": "Triangulate Points",
+    "name": "点的三角化",
     "tooltip": "",
     "inputs": [
       {
-        "name": "Points"
+        "name": "点"
       }
     ],
     "outputs": [
       {
-        "name": "Segments"
+        "name": "线段"
       }
     ]
   },
   "Node_Polar": {
-    "name": "Polar",
-    "tooltip": "Convert image to polar coordinate.",
+    "name": "极坐标",
+    "tooltip": "将图像转换为极坐标",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Mask"
+        "name": "蒙版"
       },
       {
-        "name": "Mix"
+        "name": "混合"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Channel"
+        "name": "通道"
       },
       {
-        "name": "Invert"
+        "name": "反转"
       },
       {
-        "name": "Blend"
+        "name": "混合模式"
       },
       {
-        "name": "Invert mask"
+        "name": "反转蒙版"
       },
       {
-        "name": "Mask feather"
+        "name": "蒙版羽化"
       },
       {
-        "name": "Radius Mode",
+        "name": "半径模式",
         "display_data": [
-          "Linear",
-          "Inverse Square",
-          "Logarithm"
+          "线性",
+          "反平方比",
+          "对数"
         ]
       },
       {
-        "name": "Swap"
+        "name": "交换"
       },
       {
-        "name": "Blend Map"
+        "name": "混合映射"
       },
       {
-        "name": "Tile"
+        "name": "平铺"
       },
       {
-        "name": "Range"
+        "name": "范围"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Posterize": {
-    "name": "Posterize",
-    "tooltip": "Reduce and remap color to match a palette.",
+    "name": "色调分离",
+    "tooltip": "减少并重新映射颜色以匹配调色板",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Palette"
+        "name": "调色板"
       },
       {
-        "name": "Use Palette"
+        "name": "使用调色板"
       },
       {
-        "name": "Steps"
+        "name": "步数"
       },
       {
-        "name": "Gamma"
+        "name": "伽马"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Posterize alpha"
+        "name": "对透明度进行色调分离"
       },
       {
-        "name": "Gamma map"
+        "name": "伽马映射"
       },
       {
-        "name": "Space",
+        "name": "空间",
         "display_data": [
           "RGB",
           "LAB"
         ]
       },
       {
-        "name": "Use Global Range"
+        "name": "使用全局范围"
       },
       {
-        "name": "Hue Bias"
+        "name": "色调偏移"
       },
       {
-        "name": "Reference"
+        "name": "参考"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Print": {
-    "name": "Print",
-    "tooltip": "Display text to notification.",
+    "name": "打印",
+    "tooltip": "在通知中显示文本",
     "inputs": [
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Text"
+        "name": "文本"
       }
     ],
     "outputs": []
   },
   "Node_Project_Data": {
-    "name": "Project Data",
+    "name": "项目数据",
     "tooltip": "",
     "inputs": [],
     "outputs": [
       {
-        "name": "Name"
+        "name": "名称"
       },
       {
-        "name": "Description"
+        "name": "描述"
       },
       {
-        "name": "Author"
+        "name": "作者"
       },
       {
-        "name": "Contact"
+        "name": "联系方式"
       },
       {
-        "name": "Path"
+        "name": "路径"
       }
     ]
   },
   "Node_Pytagorean_Tile": {
-    "name": "Pytagorean Tile",
-    "tooltip": "Generate Pytagorean tile pattern.",
+    "name": "毕达哥拉斯瓷砖",
+    "tooltip": "生成毕达哥拉斯瓷砖图案",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Scale"
+        "name": "缩放"
       },
       {
-        "name": "Rotation"
+        "name": "旋转"
       },
       {
-        "name": "Gap"
+        "name": "间隙"
       },
       {
-        "name": "Tile Color"
+        "name": "瓷砖颜色"
       },
       {
-        "name": "Gap Color"
+        "name": "间隙颜色"
       },
       {
-        "name": "Render Type",
+        "name": "渲染类型",
         "display_data": [
-          "Colored tile",
-          "Height map",
-          "Texture grid"
+          "彩色瓷砖",
+          "高度图",
+          "纹理网格"
         ]
       },
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "Texture"
+        "name": "纹理"
       },
       {
-        "name": "Anti Aliasing"
+        "name": "抗锯齿"
       },
       {
-        "name": "Scale Map"
+        "name": "缩放映射"
       },
       {
-        "name": "Angle Map"
+        "name": "角度映射"
       },
       {
-        "name": "Gap Map"
+        "name": "间隙映射"
       },
       {
-        "name": "Truchet"
+        "name": "特鲁谢"
       },
       {
-        "name": "Truchet Seed"
+        "name": "特鲁谢种子"
       },
       {
-        "name": "Truchet Threshold"
+        "name": "特鲁谢阈值"
       },
       {
-        "name": "Phase"
+        "name": "相位"
       },
       {
-        "name": "Gradient Map"
+        "name": "渐变映射"
       },
       {
-        "name": "Gradient Map Range"
+        "name": "渐变映射范围"
       },
       {
-        "name": "Texture Angle"
+        "name": "纹理角度"
       },
       {
-        "name": "Level"
+        "name": "层级"
       },
       {
-        "name": "Mask"
+        "name": "蒙版"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Quasicrystal": {
-    "name": "Quasicrystal",
-    "tooltip": "Generate Quasicrystal pattern.",
+    "name": "准晶体",
+    "tooltip": "生成准晶体图案",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Scale"
+        "name": "缩放"
       },
       {
-        "name": "Angle"
+        "name": "角度"
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Color 1"
+        "name": "颜色 1"
       },
       {
-        "name": "Color 2"
+        "name": "颜色 2"
       },
       {
-        "name": "Scale map"
+        "name": "缩放映射"
       },
       {
-        "name": "Angle map"
+        "name": "角度映射"
       },
       {
-        "name": "Phase"
+        "name": "相位"
       },
       {
-        "name": "Phasemap"
+        "name": "相位映射"
       },
       {
-        "name": "Angle Range"
+        "name": "角度范围"
       },
       {
-        "name": "Mask"
+        "name": "蒙版"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Random": {
-    "name": "Random",
-    "tooltip": "Generate pseudo-random value based on seed.",
+    "name": "随机",
+    "tooltip": "根据种子生成伪随机值",
     "inputs": [
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "From"
+        "name": "从"
       },
       {
-        "name": "To"
+        "name": "到"
       },
       {
-        "name": "Shuffle"
+        "name": "随机打乱"
       },
       {
-        "name": "Mode",
+        "name": "模式",
         "display_data": [
-          "Per Frame",
-          "Periordic",
-          "Trigger",
-          "Probabilistic",
-          "Accumulative"
+          "每帧",
+          "周期性",
+          "触发",
+          "概率",
+          "累积"
         ]
       },
       {
-        "name": "Period"
+        "name": "周期"
       },
       {
-        "name": "Period Shift"
+        "name": "周期偏移"
       },
       {
-        "name": "Trigger"
+        "name": "触发"
       },
       {
-        "name": "Probability"
+        "name": "概率"
       },
       {
-        "name": "Distribution",
+        "name": "分布",
         "display_data": [
-          "Uniform",
-          "Gaussian",
-          "Bernoulli (True\/False)",
-          "Binomial",
-          "Custom"
+          "均匀",
+          "高斯",
+          "伯努利 (真/假)",
+          "二项式",
+          "自定义"
         ]
       },
       {
-        "name": "Dist. Curve"
+        "name": "分布曲线"
       },
       {
-        "name": "Mean"
+        "name": "均值"
       },
       {
-        "name": "Variance"
+        "name": "方差"
       },
       {
         "name": "p"
@@ -18154,53 +18154,53 @@
         "name": "t"
       },
       {
-        "name": "Smoothing",
+        "name": "平滑",
         "display_data": [
-          "None",
-          "Moving Average",
-          "Convolution",
-          "Lerp"
+          "无",
+          "移动平均",
+          "卷积",
+          "线性插值"
         ]
       },
       {
-        "name": "Window Size"
+        "name": "窗口大小"
       },
       {
-        "name": "Kernel Span"
+        "name": "核跨度"
       },
       {
-        "name": "Kernel"
+        "name": "核"
       },
       {
-        "name": "Lerp Ratio"
+        "name": "线性插值比率"
       },
       {
-        "name": "Average Period"
+        "name": "平均周期"
       },
       {
-        "name": "Period Variance"
+        "name": "周期方差"
       }
     ],
     "outputs": [
       {
-        "name": "Result"
+        "name": "结果"
       }
     ]
   },
   "Node_Random_Shape": {
-    "name": "Draw Random Shape",
-    "tooltip": "Generate random shape, use for testing purposes.",
+    "name": "绘制随机形状",
+    "tooltip": "生成随机形状，用于测试目的",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
         "name": "SSAA",
         "display_data": [
-          "None",
+          "无",
           "2x",
           "4x",
           "8x"
@@ -18209,1134 +18209,1133 @@
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Random_Tile": {
-    "name": "Random Tile",
-    "tooltip": "Generate Random tile pattern.",
+    "name": "随机瓷砖",
+    "tooltip": "生成随机瓷砖图案",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Scale"
+        "name": "缩放"
       },
       {
-        "name": "Angle"
+        "name": "角度"
       },
       {
-        "name": "Gap"
+        "name": "间隙"
       },
       {
-        "name": "Tile Color"
+        "name": "瓷砖颜色"
       },
       {
-        "name": "Gap Color"
+        "name": "间隙颜色"
       },
       {
-        "name": "Render Type",
+        "name": "渲染类型",
         "display_data": [
-          "Colored tile",
-          "Height map",
-          "Texture grid"
+          "彩色瓷砖",
+          "高度图",
+          "纹理网格"
         ]
       },
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "Texture"
+        "name": "纹理"
       },
       {
-        "name": "Anti-aliasing"
+        "name": "抗锯齿"
       },
       {
-        "name": "Scale Map"
+        "name": "缩放映射"
       },
       {
-        "name": "Angle Map"
+        "name": "角度映射"
       },
       {
-        "name": "Gap Map"
+        "name": "间隙映射"
       },
       {
-        "name": "Truchet"
+        "name": "特鲁谢"
       },
       {
-        "name": "Truchet Seed"
+        "name": "特鲁谢种子"
       },
       {
-        "name": "Truchet Threshold"
+        "name": "特鲁谢阈值"
       },
       {
-        "name": "Gradient Map"
+        "name": "渐变映射"
       },
       {
-        "name": "Gradient Map Range"
+        "name": "渐变映射范围"
       },
       {
-        "name": "Texture Angle"
+        "name": "纹理角度"
       },
       {
-        "name": "Level"
+        "name": "层级"
       },
       {
-        "name": "Mask"
+        "name": "蒙版"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Rate_Remap": {
-    "name": "Rate Remap",
-    "tooltip": "Remap animation to a new framerate.",
+    "name": "帧率重映射",
+    "tooltip": "重新映射动画到新的帧率",
     "inputs": [
       {
-        "name": "Surface"
+        "name": "表面"
       },
       {
-        "name": "Framerate"
+        "name": "帧率"
       },
       {
-        "name": "Active"
+        "name": "激活"
       }
     ],
     "outputs": [
       {
-        "name": "Surface"
+        "name": "表面"
       }
     ]
   },
   "Node_RD": {
-    "name": "Reaction Diffusion",
-    "tooltip": "Simulate reaction diffusion effect.",
+    "name": "反应扩散",
+    "tooltip": "模拟反应扩散效果",
     "inputs": [
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "Kill rate"
+        "name": "抑制率"
       },
       {
-        "name": "Feed rate"
+        "name": "促进率"
       },
       {
-        "name": "Timestep"
+        "name": "时间步长"
       },
       {
-        "name": "Iteration"
+        "name": "迭代次数"
       },
       {
-        "name": "Diffusion A"
+        "name": "扩散 A"
       },
       {
-        "name": "Diffusion B"
+        "name": "扩散 B"
       },
       {
-        "name": "Add B"
+        "name": "增加 B"
       },
       {
-        "name": "Kill map"
+        "name": "抑制图"
       },
       {
-        "name": "Feed map"
+        "name": "促进图"
       },
       {
-        "name": "Time map"
+        "name": "时间图"
       },
       {
-        "name": "DfA map"
+        "name": "扩散A图"
       },
       {
-        "name": "DfB map"
+        "name": "扩散B图"
       },
       {
-        "name": "Diffusion"
+        "name": "扩散"
       }
     ],
     "outputs": [
       {
-        "name": "Reacted"
+        "name": "反应后"
       },
       {
-        "name": "Rendered"
+        "name": "渲染后"
       }
     ]
   },
   "Node_Region_Fill": {
-    "name": "Region Fill",
-    "tooltip": "Fill connected pixel with colors.",
+    "name": "区域填充",
+    "tooltip": "用颜色填充相连的像素区域",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Mask"
+        "name": "蒙版"
       },
       {
-        "name": "Fill Colors"
+        "name": "填充颜色"
       },
       {
-        "name": "Fill"
+        "name": "填充"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "Target Color"
+        "name": "目标颜色"
       },
       {
-        "name": "Inner Only",
-        "tooltip": "Only fill regions with surrounding pixels."
+        "name": "仅内部",
+        "tooltip": "仅填充周围有像素的区域"
       },
       {
-        "name": "Draw Original",
+        "name": "绘制原始",
         "display_data": [
-          "None",
-          "Above",
-          "Behind"
+          "无",
+          "上方",
+          "下方"
         ]
       },
       {
-        "name": "Fill Type",
+        "name": "填充类型",
         "display_data": [
-          "Random",
-          "Color map",
-          "Texture map",
-          "Texture Coord",
-          "Texture Index"
+          "随机",
+          "颜色图",
+          "纹理图",
+          "纹理坐标",
+          "纹理索引"
         ]
       },
       {
-        "name": "Color Map"
+        "name": "颜色图"
       },
       {
-        "name": "Texture Map"
+        "name": "纹理图"
       },
       {
-        "name": "Color Filter"
+        "name": "颜色过滤器"
       },
       {
-        "name": "Random Rotation"
+        "name": "随机旋转"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Render_Sprite_Sheet": {
-    "name": "Render Spritesheet",
-    "tooltip": "Create spritesheet from image array or animation.",
+    "name": "渲染精灵表",
+    "tooltip": "从图像数组或动画创建精灵表",
     "inputs": [
       {
-        "name": "Sprites"
+        "name": "精灵"
       },
       {
-        "name": "Sprite set",
+        "name": "精灵集",
         "display_data": [
-          "Animation",
-          "Sprite array"
+          "动画",
+          "精灵数组"
         ]
       },
       {
-        "name": "Frame step",
-        "tooltip": "Number of frames until next sprite. Can be seen as (Step - 1) frame skip."
+        "name": "帧步长",
+        "tooltip": "到下一个精灵的帧数。可以看作是 (步长 - 1) 帧跳过。"
       },
       {
-        "name": "Packing type",
+        "name": "合并类型",
         "display_data": [
-          "Horizontal",
-          "Vertical",
-          "Grid"
+          "水平",
+          "垂直",
+          "网格"
         ]
       },
       {
-        "name": "Grid column"
+        "name": "网格列数"
       },
       {
-        "name": "Alignment",
+        "name": "对齐方式",
         "display_data": [
-          "First",
-          "Middle",
-          "Last"
+          "首帧",
+          "中间帧",
+          "末帧"
         ]
       },
       {
-        "name": "Spacing"
+        "name": "间距"
       },
       {
-        "name": "Padding"
+        "name": "填充"
       },
       {
-        "name": "Range",
-        "tooltip": "Starting\/ending frames, set end to 0 to default to last frame."
+        "name": "范围",
+        "tooltip": "起始/结束帧，将结束帧设置为 0 则默认为最后一帧。"
       },
       {
-        "name": "Spacing"
+        "name": "间距"
       },
       {
-        "name": "Overlappable"
+        "name": "可重叠"
       },
       {
-        "name": "Custom Range"
+        "name": "自定义范围"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       },
       {
-        "name": "Atlas Data"
+        "name": "图集数据"
       }
     ]
   },
   "Node_Repeat": {
-    "name": "Repeat",
-    "tooltip": "Repeat image multiple times linearly, or in grid pattern.",
+    "name": "重复",
+    "tooltip": "线性或网格模式下多次重复图像",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Amount"
+        "name": "数量"
       },
       {
-        "name": "Pattern",
+        "name": "模式",
         "display_data": [
-          "Linear",
-          "Grid",
-          "Circular"
+          "线性",
+          "网格",
+          "圆形"
         ]
       },
       {
-        "name": "Shift position"
+        "name": "位移位置"
       },
       {
-        "name": "Repeat rotation"
+        "name": "重复旋转"
       },
       {
-        "name": "Scale multiply"
+        "name": "缩放倍数"
       },
       {
-        "name": "Angle range"
+        "name": "角度范围"
       },
       {
-        "name": "Radius"
+        "name": "半径"
       },
       {
-        "name": "Start position"
+        "name": "起始位置"
       },
       {
-        "name": "Scale over copy"
+        "name": "按副本缩放"
       },
       {
-        "name": "Path",
-        "tooltip": "Make each copy follow along path."
+        "name": "路径",
+        "tooltip": "使每个副本沿路径移动"
       },
       {
-        "name": "Path range",
-        "tooltip": "Range of the path to follow."
+        "name": "路径范围",
+        "tooltip": "要跟随的路径范围"
       },
       {
-        "name": "Path shift"
+        "name": "路径位移"
       },
       {
-        "name": "Color over copy"
+        "name": "按副本上色"
       },
       {
-        "name": "Alpha over copy"
+        "name": "按副本调整透明度"
       },
       {
-        "name": "Array select",
-        "tooltip": "Whether to select image from an array in order, at random, or spread each image to its own output.",
+        "name": "数组选择",
+        "tooltip": "是否按顺序、随机或分散选择图像数组中的图像，或将每个图像输出到一个输出。",
         "display_data": [
-          "Order",
-          "Random",
-          "Spread"
+          "顺序",
+          "随机",
+          "分散"
         ]
       },
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "Column"
+        "name": "列数"
       },
       {
-        "name": "Column shift"
+        "name": "列位移"
       },
       {
-        "name": "Animator midpoint"
+        "name": "动画中点"
       },
       {
-        "name": "Animator range"
+        "name": "动画范围"
       },
       {
-        "name": "Animator position"
+        "name": "动画位置"
       },
       {
-        "name": "Animator rotation"
+        "name": "动画旋转"
       },
       {
-        "name": "Animator scale"
+        "name": "动画缩放"
       },
       {
-        "name": "Animator falloff"
+        "name": "动画衰减"
       },
       {
-        "name": "Stack",
-        "tooltip": "Place each copy next to each other, taking surface dimension into account.",
+        "name": "堆叠",
+        "tooltip": "将每个副本依次放置，考虑表面尺寸。",
         "display_data": [
-          "None",
-          "X",
-          "Y"
+          "无",
+          "X 轴",
+          "Y 轴"
         ]
       },
       {
-        "name": "Animator blend"
+        "name": "动画混合"
       },
       {
-        "name": "Animator alpha"
+        "name": "动画透明度"
       },
       {
-        "name": "Animator"
+        "name": "动画"
       },
       {
-        "name": "Gradient map"
+        "name": "渐变映射"
       },
       {
-        "name": "Gradient map range"
+        "name": "渐变映射范围"
       },
       {
-        "name": "Start rotation"
+        "name": "起始旋转"
       },
       {
-        "name": "Base rotation"
+        "name": "基础旋转"
       },
       {
-        "name": "Blend Mode",
+        "name": "混合模式",
         "display_data": [
-          "Normal",
-          "Additive",
-          "Maximum"
+          "正常",
+          "叠加",
+          "最大值"
         ]
       },
       {
-        "name": "Output dimension type",
+        "name": "输出尺寸类型",
         "display_data": [
-          "Same as input",
-          "Constant",
-          "Relative to input",
-          "Fit content"
+          "与输入相同",
+          "固定",
+          "相对于输入",
+          "适应内容"
         ]
       },
       {
-        "name": "Relative dimension"
+        "name": "相对尺寸"
       },
       {
-        "name": "Padding"
+        "name": "填充"
       },
       {
-        "name": "Shift per copy"
+        "name": "按副本位移"
       },
       {
-        "name": "Animator type",
+        "name": "动画类型",
         "display_data": [
-          "Linear Transform",
-          "Blending"
+          "线性变换",
+          "混合"
         ]
       },
       {
-        "name": "Select mode",
+        "name": "选择模式",
         "display_data": [
-          "Index",
-          "Area",
-          "Surface"
+          "索引",
+          "区域",
+          "表面"
         ]
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Rotation"
+        "name": "旋转"
       },
       {
-        "name": "Scale"
+        "name": "缩放"
       },
       {
-        "name": "Anchor type",
+        "name": "锚点类型",
         "display_data": [
-          "Global",
-          "Local"
+          "全局",
+          "局部"
         ]
       },
       {
-        "name": "Anchor Position",
-        "tooltip": "Anchor point for transformation, absolute value for global type, relative for local."
+        "name": "锚点位置",
+        "tooltip": "变换的锚点，全局类型为绝对值，局部为相对值"
       },
       {
-        "name": "Color"
+        "name": "颜色"
       },
       {
-        "name": "Alpha"
+        "name": "透明度"
       },
       {
-        "name": "Selection area"
+        "name": "选择区域"
       },
       {
-        "name": "Selection index"
+        "name": "选择索引"
       },
       {
-        "name": "Selection range"
+        "name": "选择范围"
       },
       {
-        "name": "Selection falloff"
+        "name": "选择衰减"
       },
       {
-        "name": "Selection falloff curve"
+        "name": "选择衰减曲线"
       },
       {
-        "name": "Selection surface"
+        "name": "选择表面"
       },
       {
-        "name": "Strength"
+        "name": "强度"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Repeat_Texture": {
-    "name": "Repeat Texture",
-    "tooltip": "Repeat texture over larger surface without repeating patterns.",
+    "name": "重复纹理",
+    "tooltip": "在更大的表面上重复纹理，避免重复图案",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Target dimension"
+        "name": "目标尺寸"
       },
       {
-        "name": "Type",
+        "name": "类型",
         "display_data": [
-          "Tile",
-          "Scatter",
-          "Cell"
+          "平铺",
+          "散布",
+          "单元格"
         ]
       },
       {
-        "name": "Seed"
+        "name": "种子"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Revert": {
-    "name": "Reverse",
-    "tooltip": "Cache the entire animation and replay backward.",
+    "name": "反转",
+    "tooltip": "缓存整个动画并反向播放",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       }
     ],
     "outputs": [
       {
-        "name": "Output"
+        "name": "输出"
       }
     ]
   },
   "Node_RGB_Channel": {
-    "name": "RGBA Extract",
-    "tooltip": "Extract RGBA channel on an image, each channel becomes its own image.",
+    "name": "RGBA 提取",
+    "tooltip": "提取图像上的 RGBA 通道，每个通道成为单独的图像",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Output Type",
+        "name": "输出类型",
         "display_data": [
-          "Channel value",
-          "Greyscale"
+          "通道值",
+          "灰度"
         ]
       },
       {
-        "name": "Keep Alpha"
+        "name": "保留透明度"
       },
       {
-        "name": "Output Array"
+        "name": "输出数组"
       }
     ],
     "outputs": [
       {
-        "name": "Red"
+        "name": "红色"
       },
       {
-        "name": "Green"
+        "name": "绿色"
       },
       {
-        "name": "Blue"
+        "name": "蓝色"
       },
       {
-        "name": "Alpha"
+        "name": "透明度"
       }
     ]
   },
   "Node_Rigid_Activate": {
-    "name": "Activate Physics",
-    "tooltip": "Enable or disable rigidbody object.",
+    "name": "启用物理",
+    "tooltip": "启用或禁用刚体对象",
     "inputs": [
       {
-        "name": "Object"
+        "name": "对象"
       },
       {
-        "name": "Physics activated"
+        "name": "启用物理"
       }
     ],
     "outputs": [
       {
-        "name": "Object"
+        "name": "对象"
       }
     ]
   },
   "Node_Rigid_Force_Apply": {
-    "name": "Apply Force",
-    "tooltip": "Apply force to objects.",
+    "name": "施加力",
+    "tooltip": "对对象施加力",
     "inputs": [
       {
-        "name": "Object"
+        "name": "对象"
       },
       {
-        "name": "Force type",
+        "name": "力类型",
         "display_data": [
-          "Constant",
-          "Impulse",
-          "Torque",
-          "Explode"
+          "恒定",
+          "脉冲",
+          "扭矩",
+          "爆炸"
         ]
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Torque"
+        "name": "扭矩"
       },
       {
-        "name": "Apply frame",
-        "tooltip": "Frame index to apply force."
+        "name": "施加帧",
+        "tooltip": "施加力的帧索引"
       },
       {
-        "name": "Force"
+        "name": "力"
       },
       {
-        "name": "Scope",
+        "name": "作用范围",
         "display_data": [
-          "Global",
-          "Local"
+          "全局",
+          "局部"
         ]
       },
       {
-        "name": "Strength"
+        "name": "强度"
       },
       {
-        "name": "Range"
+        "name": "范围"
       }
     ],
     "outputs": [
       {
-        "name": "Object"
+        "name": "对象"
       }
     ]
   },
   "Node_Rigid_Global": {
-    "name": "RigidSim Global",
+    "name": "刚体全局设置",
     "tooltip": "",
     "inputs": [
       {
-        "name": "Gravity"
+        "name": "重力"
       }
     ],
     "outputs": []
   },
   "Node_Rigid_Group": {
-    "name": "RigidSim",
-    "tooltip": "Create group for rigidbody simulation.",
+    "name": "刚体模拟",
+    "tooltip": "为刚体模拟创建组",
     "inputs": [],
     "outputs": []
   },
   "Node_Rigid_Group_Inline": {
-    "name": "RigidSim",
-    "tooltip": "Create group for rigidbody simulation.",
+    "name": "刚体模拟",
+    "tooltip": "为刚体模拟创建组",
     "inputs": [
       {
-        "name": "Gravity"
+        "name": "重力"
       },
       {
-        "name": "Dimension"
+        "name": "尺寸"
       }
     ],
     "outputs": []
   },
   "Node_Rigid_Object": {
-    "name": "Object",
-    "tooltip": "Spawn a rigidbody object.",
+    "name": "生成刚体对象",
+    "tooltip": "生成刚体对象",
     "inputs": [
       {
-        "name": "Affect by force"
+        "name": "受力影响"
       },
       {
-        "name": "Weight"
+        "name": "重量"
       },
       {
-        "name": "Contact friction"
+        "name": "接触摩擦"
       },
       {
-        "name": "Air resistance"
+        "name": "空气阻力"
       },
       {
-        "name": "Rotation resistance"
+        "name": "旋转阻力"
       },
       {
-        "name": "Shape",
+        "name": "形状",
         "display_data": [
-          "Box",
-          "Circle",
-          "Custom"
+          "盒子",
+          "圆形",
+          "自定义"
         ]
       },
       {
-        "name": "Texture"
+        "name": "纹理"
       },
       {
-        "name": "Start position"
+        "name": "起始位置"
       },
       {
-        "name": "Spawn",
-        "tooltip": "Make object spawn when start."
+        "name": "生成",
+        "tooltip": "在开始时生成对象"
       },
       {
-        "name": "Generate mesh"
+        "name": "生成网格"
       },
       {
-        "name": "Mesh expansion"
+        "name": "网格扩展"
       },
       {
-        "name": "Add pixel collider"
+        "name": "添加像素碰撞器"
       },
       {
-        "name": "Collision group"
+        "name": "碰撞组"
       }
     ],
     "outputs": [
       {
-        "name": "Object"
+        "name": "对象"
       }
     ]
   },
   "Node_Rigid_Object_Spawner": {
-    "name": "Object Spawner",
-    "tooltip": "Spawn multiple rigidbody objects.",
+    "name": "对象生成器",
+    "tooltip": "生成多个刚体对象",
     "inputs": [
       {
-        "name": "Object"
+        "name": "对象"
       },
       {
-        "name": "Spawn area"
+        "name": "生成区域"
       },
       {
-        "name": "Spawn type",
+        "name": "生成类型",
         "display_data": [
-          "Stream",
-          "Burst"
+          "连续",
+          "爆发"
         ]
       },
       {
-        "name": "Spawn delay"
+        "name": "生成延迟"
       },
       {
-        "name": "Spawn amount"
+        "name": "生成数量"
       },
       {
-        "name": "Spawn frame"
+        "name": "生成帧"
       },
       {
-        "name": "Spawn"
+        "name": "生成"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       }
     ],
     "outputs": [
       {
-        "name": "Object"
+        "name": "对象"
       }
     ]
   },
   "Node_Rigid_Override": {
-    "name": "Rigidbody Override",
-    "tooltip": "Replace rigidbody object variable with a new one.",
+    "name": "刚体覆盖",
+    "tooltip": "用新变量替换刚体对象变量",
     "inputs": [
       {
-        "name": "Object"
+        "name": "对象"
       },
       {
-        "name": "Positions"
+        "name": "位置"
       },
       {
-        "name": "Scales"
+        "name": "缩放"
       },
       {
-        "name": "Rotations"
+        "name": "旋转"
       },
       {
-        "name": "Blends"
+        "name": "混合"
       },
       {
-        "name": "Alpha"
+        "name": "透明度"
       },
       {
-        "name": "Velocity"
+        "name": "速度"
       }
     ],
     "outputs": [
       {
-        "name": "Object"
+        "name": "对象"
       }
     ]
   },
   "Node_Rigid_Render": {
-    "name": "Render",
-    "tooltip": "Render rigidbody object to surface.",
+    "name": "渲染",
+    "tooltip": "将刚体对象渲染到表面",
     "inputs": [
       {
-        "name": "Render dimension"
+        "name": "渲染尺寸"
       },
       {
-        "name": "Round position"
+        "name": "四舍五入位置"
       },
       {
-        "name": "Object"
+        "name": "对象"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Rigid_Render_Output": {
-    "name": "Render",
+    "name": "渲染",
     "tooltip": "",
     "inputs": [
       {
-        "name": "Render dimension"
+        "name": "渲染尺寸"
       },
       {
-        "name": "Round position"
+        "name": "四舍五入位置"
       },
       {
-        "name": "Object"
+        "name": "对象"
       }
     ],
     "outputs": []
   },
   "Node_Rigid_Variable": {
-    "name": "Rigidbody Variable",
-    "tooltip": "Extract veriable from rigidbody object.",
+    "name": "刚体变量",
+    "tooltip": "从刚体对象中提取变量",
     "inputs": [
       {
-        "name": "Object"
+        "name": "对象"
       }
     ],
     "outputs": [
       {
-        "name": "Positions"
+        "name": "位置"
       },
       {
-        "name": "Scales"
+        "name": "缩放"
       },
       {
-        "name": "Rotations"
+        "name": "旋转"
       },
       {
-        "name": "Blends"
+        "name": "混合"
       },
       {
-        "name": "Alpha"
+        "name": "透明度"
       },
       {
-        "name": "Velocity"
+        "name": "速度"
       },
       {
-        "name": "Center of mass"
+        "name": "质心"
       },
       {
-        "name": "Velocity magnitude"
+        "name": "速度大小"
       }
     ]
   },
   "Node_Rigid_Wall": {
-    "name": "Wall",
+    "name": "墙壁",
     "tooltip": "",
     "inputs": [
       {
-        "name": "Sides"
+        "name": "侧面"
       },
       {
-        "name": "Contact Friction"
+        "name": "接触摩擦"
       },
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Collision Group"
+        "name": "碰撞组"
       }
     ],
     "outputs": []
   },
   "Node_RM_Cloud": {
-    "name": "RM Cloud",
-    "tooltip": "Generate distance field cloud texture.",
+    "name": "RM 云",
+    "tooltip": "生成距离场云",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Rotation"
+        "name": "旋转"
       },
       {
-        "name": "Scale"
+        "name": "缩放"
       },
       {
-        "name": "FOV"
+        "name": "视场角"
       },
       {
-        "name": "View Range"
+        "name": "视图范围"
       },
       {
-        "name": "Density"
+        "name": "密度"
       },
       {
-        "name": "Detail"
+        "name": "细节"
       },
       {
-        "name": "Threshold"
+        "name": "阈值"
       },
       {
-        "name": "Detail Scaling"
+        "name": "细节缩放"
       },
       {
-        "name": "Detail Attenuation"
+        "name": "细节衰减"
       },
       {
-        "name": "Shape",
+        "name": "形状",
         "display_data": [
-          "Volume",
-          "Plane"
+          "体积",
+          "平面"
         ]
       },
       {
-        "name": "Use Fog"
+        "name": "使用雾"
       },
       {
-        "name": "Colors"
+        "name": "颜色"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_RM_Combine": {
-    "name": "RM Combine",
-    "tooltip": "Combine 2 SDF objects using boolean operation.",
+    "name": "RM 合并",
+    "tooltip": "通过布尔运算组合 2 个 SDF 对象",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Projection",
+        "name": "投影",
         "display_data": [
-          "Perspective",
-          "Orthographic"
+          "透视",
+          "正交"
         ]
       },
       {
-        "name": "FOV"
+        "name": "视场角"
       },
       {
-        "name": "Ortho Scale"
+        "name": "正交缩放"
       },
       {
-        "name": "View Range"
+        "name": "视图范围"
       },
       {
-        "name": "Depth"
+        "name": "深度"
       },
       {
-        "name": "Draw BG"
+        "name": "绘制背景"
       },
       {
-        "name": "Background"
+        "name": "背景"
       },
       {
-        "name": "Ambient Level"
+        "name": "环境光强度"
       },
       {
-        "name": "Light Position"
+        "name": "光源位置"
       },
       {
-        "name": "Environment"
+        "name": "环境"
       },
       {
-        "name": "Camera Rotation"
+        "name": "相机旋转"
       },
       {
-        "name": "Camera Scale"
+        "name": "相机缩放"
       },
       {
-        "name": "Shape 1"
+        "name": "形状 1"
       },
       {
-        "name": "Shape 2"
+        "name": "形状 2"
       },
       {
-        "name": "Type",
+        "name": "类型",
         "display_data": [
-          "Place",
-          "Union",
-          "Subtract",
-          "Intersect"
+          "放置",
+          "联合",
+          "减去",
+          "交集"
         ]
       },
       {
-        "name": "Merge"
+        "name": "合并"
       },
       {
-        "name": "Render"
+        "name": "渲染"
       },
       {
-        "name": "Env Interpolation"
+        "name": "环境插值"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       },
       {
-        "name": "Shape Data"
+        "name": "形状数据"
       }
     ]
   },
   "Node_RM_Primitive": {
-    "name": "RM Primitive",
-    "tooltip": "Create SDF object.",
+    "name": "RM 原始形状",
+    "tooltip": "创建 SDF 对象",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Shape",
+        "name": "形状",
         "display_data": [
-          "Plane",
-          "Box",
-          "Box Frame",
-          "Box Round",
+          "平面",
+          "盒子",
+          "盒子框架",
+          "圆角盒子",
           -1.0,
-          "Sphere",
-          "Ellipse",
-          "Cut Sphere",
-          "Cut Hollow Sphere",
-          "Torus",
-          "Capped Torus",
+          "球体",
+          "椭圆",
+          "切球",
+          "切空心球",
+          "圆环",
+          "封顶圆环",
           -1.0,
-          "Cylinder",
-          "Prism",
-          "Capsule",
-          "Cone",
-          "Capped Cone",
-          "Round Cone",
-          "3D Arc",
-          "Pie",
+          "圆柱",
+          "棱柱",
+          "圆锥",
+          "封顶圆锥",
+          "圆角圆锥",
+          "3D 弧线",
+          "饼",
           -1.0,
-          "Octahedron",
-          "Pyramid"
+          "八面体",
+          "金字塔"
         ]
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Rotation"
+        "name": "旋转"
       },
       {
-        "name": "Scale"
+        "name": "缩放"
       },
       {
-        "name": "FOV"
+        "name": "视场角"
       },
       {
-        "name": "View Range"
+        "name": "视图范围"
       },
       {
-        "name": "Depth"
+        "name": "深度"
       },
       {
-        "name": "Light Position"
+        "name": "光源位置"
       },
       {
-        "name": "Base Color"
+        "name": "基础颜色"
       },
       {
-        "name": "Ambient Level"
+        "name": "环境光强度"
       },
       {
-        "name": "Elongate"
+        "name": "拉伸"
       },
       {
-        "name": "Rounded"
+        "name": "圆润"
       },
       {
-        "name": "Projection",
+        "name": "投影",
         "display_data": [
-          "Perspective",
-          "Orthographic"
+          "透视",
+          "正交"
         ]
       },
       {
-        "name": "Ortho Scale"
+        "name": "正交缩放"
       },
       {
-        "name": "Wave Amplitude"
+        "name": "波幅"
       },
       {
-        "name": "Wave Intensity"
+        "name": "波强度"
       },
       {
-        "name": "Wave Phase"
+        "name": "波相位"
       },
       {
-        "name": "Twist Axis",
+        "name": "扭曲轴",
         "display_data": [
           "X",
           "Y",
@@ -19344,296 +19343,296 @@
         ]
       },
       {
-        "name": "Twist Amount"
+        "name": "扭曲量"
       },
       {
-        "name": "Tile Distance"
+        "name": "平铺距离"
       },
       {
-        "name": "Size"
+        "name": "大小"
       },
       {
-        "name": "Radius"
+        "name": "半径"
       },
       {
-        "name": "Thickness"
+        "name": "厚度"
       },
       {
-        "name": "Crop"
+        "name": "裁剪"
       },
       {
-        "name": "Angle"
+        "name": "角度"
       },
       {
-        "name": "Height"
+        "name": "高度"
       },
       {
-        "name": "Radius Range"
+        "name": "半径范围"
       },
       {
-        "name": "Uniform Size"
+        "name": "统一大小"
       },
       {
-        "name": "Tile Amount"
+        "name": "平铺数量"
       },
       {
-        "name": "Background"
+        "name": "背景"
       },
       {
-        "name": "Draw BG"
+        "name": "绘制背景"
       },
       {
-        "name": "Volumetric"
+        "name": "体积"
       },
       {
-        "name": "Density"
+        "name": "密度"
       },
       {
-        "name": "Environment"
+        "name": "环境"
       },
       {
-        "name": "Reflective"
+        "name": "反射"
       },
       {
-        "name": "Texture"
+        "name": "纹理"
       },
       {
-        "name": "Triplanar Smoothing"
+        "name": "三平面平滑"
       },
       {
-        "name": "Texture Scale"
+        "name": "纹理缩放"
       },
       {
-        "name": "Corner"
+        "name": "角落"
       },
       {
-        "name": "2D Size"
+        "name": "2D 大小"
       },
       {
-        "name": "Side"
+        "name": "侧面"
       },
       {
-        "name": "Camera Rotation"
+        "name": "相机旋转"
       },
       {
-        "name": "Camera Scale"
+        "name": "相机缩放"
       },
       {
-        "name": "Render"
+        "name": "渲染"
       },
       {
-        "name": "Tile"
+        "name": "平铺"
       },
       {
-        "name": "Tiled Shift"
+        "name": "平铺偏移"
       },
       {
-        "name": "Tiled Rotation"
+        "name": "平铺旋转"
       },
       {
-        "name": "Tiled Scale"
+        "name": "平铺缩放"
       },
       {
-        "name": "Env Interpolation"
+        "name": "环境插值"
       },
       {
-        "name": "Texture Interpolation"
+        "name": "纹理插值"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       },
       {
-        "name": "Shape Data"
+        "name": "形状数据"
       }
     ]
   },
   "Node_RM_Render": {
-    "name": "RM Render",
-    "tooltip": "Render SDF object.",
+    "name": "RM 渲染",
+    "tooltip": "渲染 SDF 对象",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Projection",
+        "name": "投影",
         "display_data": [
-          "Perspective",
-          "Orthographic"
+          "透视",
+          "正交"
         ]
       },
       {
-        "name": "FOV"
+        "name": "视场角"
       },
       {
-        "name": "Ortho Scale"
+        "name": "正交缩放"
       },
       {
-        "name": "View Range"
+        "name": "视图范围"
       },
       {
-        "name": "Depth"
+        "name": "深度"
       },
       {
-        "name": "Draw BG"
+        "name": "绘制背景"
       },
       {
-        "name": "Background"
+        "name": "背景"
       },
       {
-        "name": "Ambient Level"
+        "name": "环境光强度"
       },
       {
-        "name": "Light Position"
+        "name": "光源位置"
       },
       {
-        "name": "Environment"
+        "name": "环境"
       },
       {
-        "name": "Camera Rotation"
+        "name": "相机旋转"
       },
       {
-        "name": "Camera Scale"
+        "name": "相机缩放"
       },
       {
-        "name": "SDF Object"
+        "name": "SDF 对象"
       },
       {
-        "name": "Env Interpolation"
+        "name": "环境插值"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_RM_Terrain": {
-    "name": "RM Terrain",
-    "tooltip": "Generate SDF image from height map.",
+    "name": "RM 地形",
+    "tooltip": "从高度图创建 3D 地形",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Surface"
+        "name": "表面"
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Rotation"
+        "name": "旋转"
       },
       {
-        "name": "Scale"
+        "name": "缩放"
       },
       {
-        "name": "FOV"
+        "name": "视场角"
       },
       {
-        "name": "View Range"
+        "name": "视图范围"
       },
       {
-        "name": "BG Bleed"
+        "name": "背景溢出"
       },
       {
-        "name": "Ambient"
+        "name": "环境光"
       },
       {
-        "name": "Height"
+        "name": "高度"
       },
       {
-        "name": "Tile"
+        "name": "平铺"
       },
       {
-        "name": "Texture"
+        "name": "纹理"
       },
       {
-        "name": "Background"
+        "name": "背景"
       },
       {
-        "name": "Reflection"
+        "name": "反射"
       },
       {
-        "name": "Sun Position"
+        "name": "太阳位置"
       },
       {
-        "name": "Shadow"
+        "name": "阴影"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Sampler": {
-    "name": "Sampler",
-    "tooltip": "Sample color from an image.",
+    "name": "采样器",
+    "tooltip": "从图像中采样颜色",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Sampling size",
-        "tooltip": "Size of square around the position to sample and average pixel color."
+        "name": "采样大小",
+        "tooltip": "围绕位置的正方形大小，用于采样并平均像素颜色"
       },
       {
-        "name": "Alpha"
+        "name": "透明度"
       }
     ],
     "outputs": [
       {
-        "name": "Color"
+        "name": "颜色"
       }
     ]
   },
   "Node_Scale": {
-    "name": "Scale",
-    "tooltip": "Simple node for scaling image.",
+    "name": "缩放",
+    "tooltip": "简单节点，用于调整图像比例",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Scale"
+        "name": "缩放"
       },
       {
-        "name": "Mode",
+        "name": "模式",
         "display_data": [
-          "Upscale",
-          "Scale to fit"
+          "放大",
+          "适应尺寸"
         ]
       },
       {
-        "name": "Target Dimension"
+        "name": "目标尺寸"
       },
       {
-        "name": "Active"
+        "name": "启用"
       },
       {
-        "name": "Scale Atlas Position"
+        "name": "缩放图集位置"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Scale_Algo": {
-    "name": "Scale Algorithm",
-    "tooltip": "Scale image using pixel-art based scaling algorithms.",
+    "name": "缩放算法",
+    "tooltip": "使用 Scale2x、Scale3x 算法缩放图像",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Algorithm",
+        "name": "算法",
         "display_data": [
           "Scale2x",
           "Scale3x",
@@ -19641,262 +19640,262 @@
         ]
       },
       {
-        "name": "Tolerance"
+        "name": "容差"
       },
       {
-        "name": "Active"
+        "name": "启用"
       },
       {
-        "name": "Scale Atlas Position"
+        "name": "缩放图集位置"
       },
       {
-        "name": "Scale"
+        "name": "缩放"
       },
       {
-        "name": "Rotation"
+        "name": "旋转"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Scatter": {
-    "name": "Scatter",
-    "tooltip": "Scatter image randomly multiple times.",
+    "name": "散射",
+    "tooltip": "随机多次散射图像",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Amount"
+        "name": "数量"
       },
       {
-        "name": "Scale"
+        "name": "缩放"
       },
       {
-        "name": "Angle"
+        "name": "角度"
       },
       {
-        "name": "Area"
+        "name": "区域"
       },
       {
-        "name": "Distribution",
+        "name": "分布",
         "display_data": [
-          "Area",
-          "Border",
-          "Map",
-          "Direct Data",
-          "Path",
-          "Full image + Tile"
+          "区域",
+          "边界",
+          "映射",
+          "直接数据",
+          "路径",
+          "全图 + 平铺"
         ]
       },
       {
-        "name": "Point at Center",
-        "tooltip": "Rotate each copy to face the spawn center."
+        "name": "指向中心",
+        "tooltip": "使每个副本面向生成中心"
       },
       {
-        "name": "Uniform Scaling"
+        "name": "统一缩放"
       },
       {
-        "name": "Scatter",
+        "name": "散射",
         "display_data": [
-          "Uniform",
-          "Random",
-          "Poisson"
+          "均匀",
+          "随机",
+          "泊松"
         ]
       },
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "Random Blend"
+        "name": "随机混合"
       },
       {
-        "name": "Alpha"
+        "name": "透明度"
       },
       {
-        "name": "Distribution Map"
+        "name": "分布映射"
       },
       {
-        "name": "Distribution Data"
+        "name": "分布数据"
       },
       {
-        "name": "Array",
-        "tooltip": "What to do when input array of surface.\r\n- Spread: Create Array of output each scattering single surface.\r\n- Mixed: Create single output scattering multiple images.",
+        "name": "数组",
+        "tooltip": "当输入为表面数组时的操作。\n- 平铺：为每个散射的单个表面创建输出数组。\n- 混合：为多个图像的散射创建单个输出。",
         "display_data": [
-          "Spread output",
-          "Index",
-          "Random",
-          "Data",
-          "Texture"
+          "平铺输出",
+          "索引",
+          "随机",
+          "数据",
+          "纹理"
         ]
       },
       {
-        "name": "Multiply Alpha"
+        "name": "乘以透明度"
       },
       {
-        "name": "Extra Value",
-        "tooltip": "Apply the third and later values in each data point (if exist) on given properties."
+        "name": "额外值",
+        "tooltip": "在给定属性上应用每个数据点的第三个值（如果存在）"
       },
       {
-        "name": "Blend Mode",
+        "name": "混合模式",
         "display_data": [
-          "Normal",
-          "Add",
-          "Max"
+          "正常",
+          "添加",
+          "最大值"
         ]
       },
       {
-        "name": "Path"
+        "name": "路径"
       },
       {
-        "name": "Rotate Along Path"
+        "name": "沿路径旋转"
       },
       {
-        "name": "Path Shift"
+        "name": "路径偏移"
       },
       {
-        "name": "Scatter Distance"
+        "name": "散射距离"
       },
       {
-        "name": "Sort Y"
+        "name": "按 Y 排序"
       },
       {
-        "name": "Array Indices"
+        "name": "数组索引"
       },
       {
-        "name": "Array Texture"
+        "name": "数组纹理"
       },
       {
-        "name": "Animated Array"
+        "name": "动画数组"
       },
       {
-        "name": "Animated Array End",
+        "name": "动画数组结束",
         "display_data": [
-          "Loop",
-          "Ping Pong",
-          "Hide"
+          "循环",
+          "往返",
+          "隐藏"
         ]
       },
       {
-        "name": "Gradient Map"
+        "name": "渐变映射"
       },
       {
-        "name": "Gradient Map Range"
+        "name": "渐变映射范围"
       },
       {
-        "name": "Uniform Amount"
+        "name": "统一数量"
       },
       {
-        "name": "Auto Amount"
+        "name": "自动数量"
       },
       {
-        "name": "Rotate per Radius"
+        "name": "按半径旋转"
       },
       {
-        "name": "Random Position"
+        "name": "随机位置"
       },
       {
-        "name": "Scale per Radius"
+        "name": "按半径缩放"
       },
       {
-        "name": "Angle Range"
+        "name": "角度范围"
       },
       {
-        "name": "Shift Position"
+        "name": "位移位置"
       },
       {
-        "name": "Exact"
+        "name": "精确"
       },
       {
-        "name": "Spacing",
+        "name": "间距",
         "display_data": [
-          "After",
-          "Between",
-          "Around"
+          "之后",
+          "之间",
+          "周围"
         ]
       },
       {
-        "name": "Shift Radial"
+        "name": "位移径向"
       },
       {
-        "name": "Anchor"
+        "name": "锚点"
       },
       {
-        "name": "Sample Surface"
+        "name": "采样表面"
       },
       {
-        "name": "Sample Wiggle"
+        "name": "采样摆动"
       },
       {
-        "name": "Scale Surface"
+        "name": "缩放表面"
       },
       {
-        "name": "Distance"
+        "name": "距离"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       },
       {
-        "name": "Atlas Data"
+        "name": "图集数据"
       }
     ]
   },
   "Node_Scatter_Points": {
-    "name": "Scatter Points",
-    "tooltip": "Generate array of vector 2 points.",
+    "name": "散射点",
+    "tooltip": "生成二维向量点数组",
     "inputs": [
       {
-        "name": "Point area"
+        "name": "点区域"
       },
       {
-        "name": "Distribution",
+        "name": "分布",
         "display_data": [
-          "Area",
-          "Border",
-          "Map"
+          "区域",
+          "边界",
+          "映射"
         ]
       },
       {
-        "name": "Scatter",
+        "name": "散射",
         "display_data": [
-          "Uniform",
-          "Random",
-          "Poisson"
+          "均匀",
+          "随机",
+          "泊松"
         ]
       },
       {
-        "name": "Amount",
-        "tooltip": "Amount of particle spawn in that frame."
+        "name": "点数量",
+        "tooltip": "该帧生成的粒子数量"
       },
       {
-        "name": "Distribution Map"
+        "name": "分布映射"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "Fixed Position",
-        "tooltip": "Fix point position, and only select point in the area."
+        "name": "固定位置",
+        "tooltip": "固定点位置，仅选择区域内的点"
       },
       {
-        "name": "Reference Dimension"
+        "name": "参考尺寸"
       },
       {
-        "name": "Reference Value"
+        "name": "参考值"
       },
       {
-        "name": "Output 3D"
+        "name": "输出 3D"
       },
       {
-        "name": "Normal",
+        "name": "法线",
         "display_data": [
           "X",
           "Y",
@@ -19904,2658 +19903,2655 @@
         ]
       },
       {
-        "name": "Plane Position"
+        "name": "平面位置"
       },
       {
-        "name": "Distance"
+        "name": "距离"
       }
     ],
     "outputs": [
       {
-        "name": "Points"
+        "name": "点"
       }
     ]
   },
   "Node_SDF": {
     "name": "SDF",
-    "tooltip": "Create signed distance field using jump flooding algorithm.",
+    "tooltip": "使用跳跃扩散算法创建符号距离场",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Active"
+        "name": "启用"
       },
       {
-        "name": "Side",
+        "name": "侧面",
         "display_data": [
-          "Inside",
-          "Outside",
-          "Both"
+          "内部",
+          "外部",
+          "两侧"
         ]
       },
       {
-        "name": "Max distance"
+        "name": "最大距离"
       },
       {
-        "name": "Keep Alpha"
+        "name": "保留透明度"
       },
       {
-        "name": "Invert"
+        "name": "反转"
       },
       {
-        "name": "Angle"
+        "name": "角度"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Segment_Filter": {
-    "name": "Filter Segments",
-    "tooltip": "Filter segment (vec2 array) based on a conditions.",
+    "name": "过滤线段",
+    "tooltip": "根据条件过滤线段（vec2 数组）",
     "inputs": [
       {
-        "name": "Segments"
+        "name": "线段"
       },
       {
-        "name": "Angle"
+        "name": "角度"
       },
       {
-        "name": "Spread"
+        "name": "扩散"
       },
       {
-        "name": "Both side"
+        "name": "两侧"
       }
     ],
     "outputs": [
       {
-        "name": "Segments"
+        "name": "线段"
       }
     ]
   },
   "Node_Seperate_Shape": {
-    "name": "Separate Shape",
-    "tooltip": "Separate disconnected pixel each into an image in an image array.",
+    "name": "分离形状",
+    "tooltip": "将不相连的像素区域分别提取到图像数组中的每个图像",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Tolerance"
+        "name": "容差"
       },
       {
-        "name": "Override color"
+        "name": "覆盖颜色"
       },
       {
-        "name": "Color"
+        "name": "颜色"
       },
       {
-        "name": "Ignore blank",
-        "tooltip": "Skip empty shapes."
+        "name": "跳过空白",
+        "tooltip": "跳过空白和黑色形状"
       },
       {
-        "name": "Mode",
+        "name": "模式",
         "display_data": [
-          "Greyscale",
+          "灰度",
           "Alpha"
         ]
       },
       {
-        "name": "Crop"
+        "name": "裁剪"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       },
       {
-        "name": "Atlas"
+        "name": "图集"
       }
     ]
   },
   "Node_Sequence_Anim": {
-    "name": "Array to Anim",
-    "tooltip": "Convert array of images into animation.",
+    "name": "序列帧转动画",
+    "tooltip": "将图像数组转换为动画",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Speed"
+        "name": "速度"
       },
       {
-        "name": "Sequence"
+        "name": "序列"
       },
       {
-        "name": "Overflow",
+        "name": "溢出",
         "display_data": [
-          "Hold",
-          "Loop",
-          "Ping Pong",
-          "Empty"
+          "保持",
+          "循环",
+          "乒乓",
+          "空白"
         ]
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Shadow": {
-    "name": "Shadow",
-    "tooltip": "Apply shadow behind the image.",
+    "name": "阴影",
+    "tooltip": "在图像后面添加阴影",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Color"
+        "name": "颜色"
       },
       {
-        "name": "Strength"
+        "name": "强度"
       },
       {
-        "name": "Shift"
+        "name": "偏移"
       },
       {
-        "name": "Grow"
+        "name": "扩展"
       },
       {
-        "name": "Blur"
+        "name": "模糊"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Mix"
+        "name": "混合"
       },
       {
-        "name": "Active"
+        "name": "启用"
       },
       {
-        "name": "Invert mask"
+        "name": "反转遮罩"
       },
       {
-        "name": "Mask feather"
+        "name": "遮罩羽化"
       },
       {
-        "name": "Positioning",
+        "name": "定位方式",
         "display_data": [
-          "Shift",
-          "Light"
+          "偏移",
+          "光源"
         ]
       },
       {
-        "name": "Light Position"
+        "name": "光源位置"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Shadow_Cast": {
-    "name": "Cast Shadow",
-    "tooltip": "Apply light that casts shadow.",
+    "name": "投射阴影",
+    "tooltip": "创建投射阴影的光源",
     "inputs": [
       {
-        "name": "Background"
+        "name": "背景"
       },
       {
-        "name": "Solid"
+        "name": "实体"
       },
       {
-        "name": "Light Position"
+        "name": "光源位置"
       },
       {
-        "name": "Soft light radius"
+        "name": "柔和光源半径"
       },
       {
-        "name": "Light density"
+        "name": "光源密度"
       },
       {
-        "name": "Light type",
+        "name": "光源类型",
         "display_data": [
-          "Point",
-          "Sun"
+          "点光源",
+          "太阳光"
         ]
       },
       {
-        "name": "Ambient color"
+        "name": "环境光颜色"
       },
       {
-        "name": "Light color"
+        "name": "光源颜色"
       },
       {
-        "name": "Light radius"
+        "name": "光源半径"
       },
       {
-        "name": "Render solid"
+        "name": "渲染实体"
       },
       {
-        "name": "Use BG color",
-        "tooltip": "If checked, background color will be used as shadow caster."
+        "name": "使用背景颜色",
+        "tooltip": "如果勾选，则背景颜色将用作阴影投射。"
       },
       {
-        "name": "BG threshold"
+        "name": "背景阈值"
       },
       {
-        "name": "Light intensity"
+        "name": "光源强度"
       },
       {
-        "name": "Banding"
+        "name": "色带"
       },
       {
-        "name": "Attenuation",
-        "tooltip": "Control how light fade out over distance.",
+        "name": "衰减",
+        "tooltip": "控制光线随距离逐渐减弱的方式。",
         "display_data": [
-          "Quadratic",
-          "Invert quadratic",
-          "Linear"
+          "二次方",
+          "反转二次方",
+          "线性"
         ]
       },
       {
-        "name": "Ambient occlusion"
+        "name": "环境光遮蔽"
       },
       {
-        "name": "Ambient occlusion strength"
+        "name": "环境光遮蔽强度"
       },
       {
-        "name": "Active"
+        "name": "启用"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       },
       {
-        "name": "Light mask"
+        "name": "光源遮罩"
       }
     ]
   },
   "Node_Shape": {
-    "name": "Draw Shape",
-    "tooltip": "Draw simple shapes using signed distance field.",
+    "name": "绘制形状",
+    "tooltip": "使用符号距离场绘制简单形状",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Background"
+        "name": "背景"
       },
       {
-        "name": "Shape",
+        "name": "形状",
         "display_data": [
-          "Rectangle",
-          "Diamond",
-          "Trapezoid",
-          "Parallelogram",
-          "Half",
+          "矩形",
+          "菱形",
+          "梯形",
+          "平行四边形",
+          "半圆",
           -1.0,
-          "Ellipse",
-          "Arc",
-          "Donut",
-          "Crescent",
-          "Disk Segment",
-          "Pie",
-          "Squircle",
+          "椭圆",
+          "弧形",
+          "甜甜圈",
+          "新月形",
+          "圆盘段",
+          "饼图",
+          "圆角矩形",
           -1.0,
-          "Regular polygon",
-          "Star",
-          "Cross",
-          "Rounded Cross",
+          "正多边形",
+          "星形",
+          "十字形",
+          "圆角十字形",
           -1.0,
-          "Line",
-          "Arrow",
+          "线段",
+          "箭头",
           -1.0,
-          "Teardrop",
-          "Leaf",
-          "Heart",
-          "Gear"
+          "泪滴形",
+          "树叶形",
+          "心形",
+          "齿轮"
         ]
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Sides"
+        "name": "边数"
       },
       {
-        "name": "Inner radius"
+        "name": "内半径"
       },
       {
-        "name": "Anti-aliasing"
+        "name": "抗锯齿"
       },
       {
-        "name": "Rotation"
+        "name": "旋转"
       },
       {
-        "name": "Angle range"
+        "name": "角度范围"
       },
       {
-        "name": "Corner radius"
+        "name": "圆角半径"
       },
       {
-        "name": "Shape color"
+        "name": "形状颜色"
       },
       {
-        "name": "Background color"
+        "name": "背景颜色"
       },
       {
-        "name": "Height"
+        "name": "高度"
       },
       {
-        "name": "Start radius"
+        "name": "起始半径"
       },
       {
-        "name": "Shape path"
+        "name": "形状路径"
       },
       {
-        "name": "Positioning Mode",
+        "name": "定位模式",
         "display_data": [
-          "Area",
-          "Center + Scale",
-          "Full Image"
+          "区域",
+          "中心 + 缩放",
+          "全图"
         ]
       },
       {
-        "name": "Center"
+        "name": "中心"
       },
       {
-        "name": "Half Size"
+        "name": "半尺寸"
       },
       {
-        "name": "Tile"
+        "name": "平铺"
       },
       {
-        "name": "Shape rotation"
+        "name": "形状旋转"
       },
       {
-        "name": "Level"
+        "name": "层级"
       },
       {
-        "name": "Angles"
+        "name": "角度"
       },
       {
-        "name": "Skew"
+        "name": "倾斜"
       },
       {
-        "name": "Arrow Sizes"
+        "name": "箭头尺寸"
       },
       {
-        "name": "Arrow Head"
+        "name": "齿数"
       },
       {
-        "name": "Teeth Amount"
+        "name": "齿尺寸"
       },
       {
-        "name": "Teeth Size"
+        "name": "齿旋转"
       },
       {
-        "name": "Teeth Rotation"
+        "name": "形状缩放"
       },
       {
-        "name": "Shape Scale"
+        "name": "曲线"
       },
       {
-        "name": "Curve"
+        "name": "端盖"
       },
       {
-        "name": "Caps"
+        "name": "因子"
       },
       {
-        "name": "Factor"
+        "name": "点 1"
       },
       {
-        "name": "Point 1"
+        "name": "点 2"
       },
       {
-        "name": "Point 2"
+        "name": "厚度"
       },
       {
-        "name": "Thickness"
+        "name": "点 3"
       },
       {
-        "name": "Point 3"
-      },
-      {
-        "name": "Corner Shape",
+        "name": "角形状",
         "display_data": [
-          "Round",
-          "Cut"
+          "圆角",
+          "切角"
         ]
       },
       {
-        "name": "Opacity"
+        "name": "透明度"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Shape_Map": {
-    "name": "Shape Map",
-    "tooltip": "Map image into shapes.",
+    "name": "形状映射",
+    "tooltip": "将图像映射到形状中",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Active"
+        "name": "启用"
       },
       {
-        "name": "Shape",
+        "name": "形状",
         "display_data": [
-          "Circle",
-          "Polygon"
+          "圆形",
+          "多边形"
         ]
       },
       {
-        "name": "Map Scale"
+        "name": "映射缩放"
       },
       {
-        "name": "Radius"
+        "name": "半径"
       },
       {
-        "name": "Sides"
+        "name": "边数"
       },
       {
-        "name": "Scale"
+        "name": "缩放"
       },
       {
-        "name": "Angle"
+        "name": "角度"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Shape_Polygon": {
-    "name": "Draw Shape Polygon",
-    "tooltip": "Draw polygonal shapes.",
+    "name": "绘制多边形形状",
+    "tooltip": "绘制多边形形状",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Background"
+        "name": "背景"
       },
       {
-        "name": "Background color"
+        "name": "背景颜色"
       },
       {
-        "name": "Shape color"
+        "name": "形状颜色"
       },
       {
-        "name": "Shape",
+        "name": "形状",
         "display_data": [
-          "Rectangle",
-          "Diamond",
-          "Trapezoid",
-          "Parallelogram",
+          "矩形",
+          "菱形",
+          "梯形",
+          "平行四边形",
           -1.0,
-          "Ellipse",
-          "Arc",
-          "Ring",
-          "Crescent",
-          "Pie",
-          "Squircle",
+          "椭圆",
+          "弧形",
+          "圆环",
+          "新月形",
+          "饼图",
+          "圆角矩形",
           -1.0,
-          "Regular Polygon",
-          "Star",
-          "Cross",
+          "正多边形",
+          "星形",
+          "十字形",
           -1.0,
-          "Capsule",
+          "胶囊",
           -1.0,
-          "Leaf",
-          "Gear"
+          "树叶形",
+          "齿轮"
         ]
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Rotation"
+        "name": "旋转"
       },
       {
-        "name": "Scale"
+        "name": "缩放"
       },
       {
-        "name": "Sides"
+        "name": "边数"
       },
       {
-        "name": "Inner radius"
+        "name": "内半径"
       },
       {
-        "name": "Radius"
+        "name": "半径"
       },
       {
-        "name": "Teeth"
+        "name": "齿数"
       },
       {
-        "name": "Teeth height"
+        "name": "齿高"
       },
       {
-        "name": "Teeth taper"
+        "name": "齿尖"
       },
       {
-        "name": "Angle range"
+        "name": "角度范围"
       },
       {
-        "name": "Round cap"
+        "name": "圆角"
       },
       {
-        "name": "Mesh"
+        "name": "网格"
       },
       {
-        "name": "Explode"
+        "name": "爆炸"
       },
       {
-        "name": "Piece Rotation"
+        "name": "碎片旋转"
       },
       {
-        "name": "Vertex Color 1"
+        "name": "顶点颜色 1"
       },
       {
-        "name": "Vertex Color 2"
+        "name": "顶点颜色 2"
       },
       {
-        "name": "Vertex Color 3"
+        "name": "顶点颜色 3"
       },
       {
-        "name": "Piece Scale"
+        "name": "碎片缩放"
       },
       {
-        "name": "Shape Palette"
+        "name": "形状调色板"
       },
       {
         "name": "SSAA",
         "display_data": [
-          "None",
+          "无",
           "2x",
           "4x",
           "8x"
         ]
       },
       {
-        "name": "Trapezoid sides"
+        "name": "梯形边"
       },
       {
-        "name": "Skew"
+        "name": "倾斜"
       },
       {
-        "name": "Factor"
+        "name": "因子"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       },
       {
-        "name": "Mesh"
+        "name": "网格"
       },
       {
-        "name": "Path"
+        "name": "路径"
       }
     ]
   },
   "Node_Shard_Noise": {
-    "name": "Shard Noise",
-    "tooltip": "Generate glass shard-looking noise",
+    "name": "碎片噪声",
+    "tooltip": "生成类似玻璃碎片的噪声",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Scale"
+        "name": "缩放"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "Sharpness"
+        "name": "锐度"
       },
       {
-        "name": "Progress"
+        "name": "进度"
       },
       {
-        "name": "Scale map"
+        "name": "缩放映射"
       },
       {
-        "name": "Sharpness map"
+        "name": "锐度映射"
       },
       {
-        "name": "Progress map"
+        "name": "进度映射"
       },
       {
-        "name": "Rotation"
+        "name": "旋转"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Shell": {
-    "name": "Execute Shell",
-    "tooltip": "Execute shell script.",
+    "name": "执行 Shell",
+    "tooltip": "执行 Shell 脚本",
     "inputs": [
       {
-        "name": "Path"
+        "name": "路径"
       },
       {
-        "name": "Script"
+        "name": "脚本"
       }
     ],
     "outputs": []
   },
   "Node_Shuffle": {
-    "name": "Shuffle",
-    "tooltip": "Shuffle image while keeping pixel colors.",
+    "name": "随机打乱",
+    "tooltip": "随机打乱图像中的像素，同时保持像素颜色",
     "inputs": [
       {
-        "name": "Surface"
+        "name": "表面"
       },
       {
-        "name": "Type",
+        "name": "类型",
         "display_data": [
-          "Pixel",
-          "Block"
+          "像素",
+          "区块"
         ]
       },
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "Axis",
+        "name": "轴",
         "display_data": [
-          "Horizontal",
-          "Vertical",
-          "Both"
+          "水平",
+          "垂直",
+          "两者"
         ]
       },
       {
-        "name": "Block count"
+        "name": "区块数量"
       },
       {
-        "name": "Randomness"
+        "name": "随机性"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Skew": {
-    "name": "Skew",
-    "tooltip": "Skew image horizontally, or vertically.",
+    "name": "倾斜",
+    "tooltip": "水平或垂直倾斜图像",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Axis",
+        "name": "轴",
         "display_data": [
           "x",
           "y"
         ]
       },
       {
-        "name": "Strength"
+        "name": "强度"
       },
       {
-        "name": "Wrap"
+        "name": "环绕"
       },
       {
-        "name": "Center"
+        "name": "中心"
       },
       {
-        "name": "Oversample mode",
+        "name": "过采样模式",
         "display_data": [
-          "Empty",
-          "Clamp",
-          "Repeat"
+          "空白",
+          "钳制",
+          "重复"
         ]
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Mix"
+        "name": "混合"
       },
       {
-        "name": "Active"
+        "name": "启用"
       },
       {
-        "name": "Channel"
+        "name": "通道"
       },
       {
-        "name": "Invert mask"
+        "name": "反转遮罩"
       },
       {
-        "name": "Mask feather"
+        "name": "遮罩羽化"
       },
       {
-        "name": "Strength map"
+        "name": "强度映射"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Sky": {
-    "name": "Sky",
-    "tooltip": "Generate sky texture using different model.",
+    "name": "天空",
+    "tooltip": "使用不同模型生成天空纹理",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Offset"
+        "name": "偏移"
       },
       {
-        "name": "Scale"
+        "name": "缩放"
       },
       {
-        "name": "Model",
+        "name": "模型",
         "display_data": [
           "Preetham",
-          "Basic scattering",
+          "基本散射",
           "Hosek"
         ]
       },
       {
-        "name": "Turbidity"
+        "name": "湍流"
       },
       {
-        "name": "Sun"
+        "name": "太阳"
       },
       {
-        "name": "Sun Radius"
+        "name": "太阳半径"
       },
       {
-        "name": "Sun Radiance"
+        "name": "太阳辐射"
       },
       {
-        "name": "Albedo"
+        "name": "反照率"
       },
       {
-        "name": "Coordinate",
+        "name": "坐标",
         "display_data": [
-          "Rectangular",
-          "Polar"
+          "笛卡尔",
+          "极坐标"
         ]
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Slideshow": {
-    "name": "Slideshow",
+    "name": "幻灯片",
     "tooltip": "",
     "inputs": [
       {
-        "name": "Order"
+        "name": "顺序"
       },
       {
-        "name": "Title"
+        "name": "标题"
       },
       {
-        "name": "Anchor",
+        "name": "锚点",
         "display_data": [
-          "Center",
-          "Top left"
+          "中心",
+          "左上角"
         ]
       },
       {
-        "name": "Arrival Speed"
+        "name": "到达速度"
       }
     ],
     "outputs": []
   },
   "Node_Smear": {
-    "name": "Smear",
-    "tooltip": "Stretch out brighter pixel in one direction.",
+    "name": "涂抹",
+    "tooltip": "在一个方向上拉伸较亮的像素",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Strength"
+        "name": "强度"
       },
       {
-        "name": "Direction"
+        "name": "方向"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Mix"
+        "name": "混合"
       },
       {
-        "name": "Active"
+        "name": "启用"
       },
       {
-        "name": "Channel"
+        "name": "通道"
       },
       {
-        "name": "Invert mask"
+        "name": "反转遮罩"
       },
       {
-        "name": "Mask feather"
+        "name": "遮罩羽化"
       },
       {
-        "name": "Strength map"
+        "name": "强度映射"
       },
       {
-        "name": "Direction map"
+        "name": "方向映射"
       },
       {
-        "name": "Mode",
+        "name": "模式",
         "display_data": [
-          "Greyscale",
-          "Alpha"
+          "灰度",
+          "透明度"
         ]
       },
       {
-        "name": "Modulate strength",
+        "name": "调节强度",
         "display_data": [
-          "Distance",
-          "Color",
-          "None"
+          "距离",
+          "颜色",
+          "无"
         ]
       },
       {
-        "name": "Spread"
+        "name": "扩散"
       },
       {
-        "name": "Invert"
+        "name": "反转"
       },
       {
-        "name": "Blend Mode",
+        "name": "混合模式",
         "display_data": [
-          "Maximum",
-          "Additive"
+          "最大值",
+          "加性"
         ]
       },
       {
-        "name": "Render Mode",
+        "name": "渲染模式",
         "display_data": [
-          "Distance",
-          "Distance Normalized",
-          "Base Color"
+          "距离",
+          "距离归一化",
+          "基础颜色"
         ]
       },
       {
-        "name": "Blend Side"
+        "name": "混合侧"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Smoke_Add": {
-    "name": "Add Emitter",
-    "tooltip": "Add smoke emitter.",
+    "name": "添加发射器",
+    "tooltip": "添加烟雾发射器",
     "inputs": [
       {
-        "name": "Domain"
+        "name": "域"
       },
       {
-        "name": "Fluid brush"
+        "name": "流体画笔"
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Active"
+        "name": "启用"
       },
       {
-        "name": "Inherit velocity"
+        "name": "继承速度"
       },
       {
-        "name": "Density"
+        "name": "密度"
       },
       {
-        "name": "Expand velocity mask"
+        "name": "扩展速度蒙版"
       },
       {
-        "name": "Velocity"
+        "name": "速度"
       },
       {
-        "name": "Type",
+        "name": "类型",
         "display_data": [
-          "Shape",
-          "Surface"
+          "形状",
+          "表面"
         ]
       },
       {
-        "name": "Scale"
+        "name": "缩放"
       },
       {
-        "name": "Repulse"
+        "name": "排斥"
       },
       {
-        "name": "Shape",
+        "name": "形状",
         "display_data": [
-          "Disk",
-          "Ring"
+          "圆盘",
+          "圆环"
         ]
       },
       {
-        "name": "Level"
+        "name": "层级"
       },
       {
-        "name": "Spokes"
+        "name": "轮辐"
       },
       {
-        "name": "Twist"
+        "name": "扭曲"
       }
     ],
     "outputs": [
       {
-        "name": "Domain"
+        "name": "域"
       }
     ]
   },
   "Node_Smoke_Add_Collider": {
-    "name": "Add Collider",
-    "tooltip": "Add solid object that smoke can collides to.",
+    "name": "添加碰撞器",
+    "tooltip": "添加烟雾可以碰撞的固体对象",
     "inputs": [
       {
-        "name": "Domain"
+        "name": "域"
       },
       {
-        "name": "Collider"
+        "name": "碰撞器"
       },
       {
-        "name": "Area"
+        "name": "区域"
       }
     ],
     "outputs": [
       {
-        "name": "Domain"
+        "name": "域"
       }
     ]
   },
   "Node_Smoke_Apply_Velocity": {
-    "name": "Apply Velocity",
-    "tooltip": "Apply velocity to smoke.",
+    "name": "应用速度",
+    "tooltip": "将速度应用于烟雾",
     "inputs": [
       {
-        "name": "Domain"
+        "name": "域"
       },
       {
-        "name": "Brush"
+        "name": "画笔"
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Velocity"
+        "name": "速度"
       },
       {
-        "name": "Active"
+        "name": "启用"
       },
       {
-        "name": "Type",
+        "name": "类型",
         "display_data": [
-          "Shape",
-          "Surface"
+          "形状",
+          "表面"
         ]
       },
       {
-        "name": "Scale"
+        "name": "缩放"
       },
       {
-        "name": "Strength"
+        "name": "强度"
       }
     ],
     "outputs": [
       {
-        "name": "Domain"
+        "name": "域"
       }
     ]
   },
   "Node_Smoke_Domain": {
-    "name": "Domain",
+    "name": "烟雾域",
     "tooltip": "",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Collision"
+        "name": "碰撞"
       },
       {
-        "name": "Material dissipation type",
+        "name": "材质耗散类型",
         "display_data": [
-          "Multiply",
-          "Subtract"
+          "相乘",
+          "相减"
         ]
       },
       {
-        "name": "Material dissipation"
+        "name": "材质耗散"
       },
       {
-        "name": "Velocity dissipation type",
+        "name": "速度耗散类型",
         "display_data": [
-          "Multiply",
-          "Subtract"
+          "相乘",
+          "相减"
         ]
       },
       {
-        "name": "Velocity dissipation"
+        "name": "速度耗散"
       },
       {
-        "name": "Acceleration"
+        "name": "加速度"
       },
       {
-        "name": "Material intertia"
+        "name": "材质惯性"
       },
       {
-        "name": "Initial pressure"
+        "name": "初始压力"
       },
       {
-        "name": "Material Maccormack weight"
+        "name": "材质 MacCormack 权重"
       },
       {
-        "name": "Velocity Maccormack weight"
+        "name": "速度 MacCormack 权重"
       },
       {
-        "name": "Boundary",
+        "name": "边界",
         "display_data": [
-          "Free",
-          "Wall",
-          "Wrap"
+          "自由",
+          "墙壁",
+          "环绕"
         ]
       },
       {
-        "name": "Timestep"
+        "name": "时间步长"
       }
     ],
     "outputs": [
       {
-        "name": "Domain"
+        "name": "域"
       },
       {
-        "name": "Velocity"
+        "name": "速度"
       },
       {
-        "name": "Pressure"
+        "name": "压力"
       }
     ]
   },
   "Node_Smoke_Domain_Queue": {
-    "name": "Queue Domain",
-    "tooltip": "Sync multiple domains to be render at the same time.",
+    "name": "队列域",
+    "tooltip": "同步多个域以同时进行渲染",
     "inputs": [
       {
-        "name": "Input"
+        "name": "输入"
       }
     ],
     "outputs": [
       {
-        "name": "Domain"
+        "name": "域"
       }
     ]
   },
   "Node_Smoke_Group": {
-    "name": "SmokeSim",
-    "tooltip": "Create group for fluid simulation.",
+    "name": "烟雾模拟",
+    "tooltip": "为烟雾模拟创建组",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Collision"
+        "name": "碰撞"
       },
       {
-        "name": "Material dissipation type",
+        "name": "材质耗散类型",
         "display_data": [
-          "Multiply",
-          "Subtract"
+          "相乘",
+          "相减"
         ]
       },
       {
-        "name": "Material dissipation"
+        "name": "材质耗散"
       },
       {
-        "name": "Velocity dissipation type",
+        "name": "速度耗散类型",
         "display_data": [
-          "Multiply",
-          "Subtract"
+          "相乘",
+          "相减"
         ]
       },
       {
-        "name": "Velocity dissipation"
+        "name": "速度耗散"
       },
       {
-        "name": "Acceleration"
+        "name": "加速度"
       },
       {
-        "name": "Material intertia"
+        "name": "材质惯性"
       },
       {
-        "name": "Initial pressure"
+        "name": "初始压力"
       },
       {
-        "name": "Material Maccormack weight"
+        "name": "材质 MacCormack 权重"
       },
       {
-        "name": "Velocity Maccormack weight"
+        "name": "速度 MacCormack 权重"
       },
       {
-        "name": "Wrap"
+        "name": "环绕"
       }
     ],
     "outputs": []
   },
   "Node_Smoke_Group_Inline": {
-    "name": "SmokeSim",
-    "tooltip": "Create group for smoke simulation.",
+    "name": "烟雾模拟",
+    "tooltip": "为烟雾模拟创建组",
     "inputs": [],
     "outputs": []
   },
   "Node_Smoke_Render": {
-    "name": "Render Domain",
-    "tooltip": "Render smoke to surface. This node also have update function build in.",
+    "name": "渲染域",
+    "tooltip": "将烟雾渲染到表面上。此节点还内置了更新功能。",
     "inputs": [
       {
-        "name": "Domain"
+        "name": "域"
       },
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Interpolate"
+        "name": "插值"
       },
       {
-        "name": "Draw Domain"
+        "name": "绘制域"
       },
       {
-        "name": "Auto Update"
+        "name": "自动更新"
       }
     ],
     "outputs": [
       {
-        "name": "Smoke"
+        "name": "烟雾"
       },
       {
-        "name": "Domain"
+        "name": "域"
       }
     ]
   },
   "Node_Smoke_Render_Output": {
-    "name": "Render Domain",
+    "name": "渲染域",
     "tooltip": "",
     "inputs": [
       {
-        "name": "Domain"
+        "name": "域"
       },
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Interpolate"
+        "name": "插值"
       },
       {
-        "name": "Draw Domain"
+        "name": "绘制域"
       },
       {
-        "name": "Auto Update"
+        "name": "自动更新"
       }
     ],
     "outputs": []
   },
   "Node_Smoke_Repulse": {
-    "name": "Repulse",
-    "tooltip": "Spread smoke away from a point.",
+    "name": "排斥",
+    "tooltip": "使烟雾从一个点向外扩散",
     "inputs": [
       {
-        "name": "Domain"
+        "name": "域"
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Radius"
+        "name": "半径"
       },
       {
-        "name": "Strength"
+        "name": "强度"
       },
       {
-        "name": "Spokes"
+        "name": "轮辐"
       },
       {
-        "name": "Twist"
+        "name": "扭曲"
       }
     ],
     "outputs": [
       {
-        "name": "Domain"
+        "name": "域"
       }
     ]
   },
   "Node_Smoke_Turbulence": {
-    "name": "Turbulence",
-    "tooltip": "Apply random velocity map to the smoke.",
+    "name": "湍流",
+    "tooltip": "为烟雾应用随机速度图",
     "inputs": [
       {
-        "name": "Domain"
+        "name": "域"
       },
       {
-        "name": "Effect area"
+        "name": "影响区域"
       },
       {
-        "name": "Strength"
+        "name": "强度"
       },
       {
-        "name": "Scale"
+        "name": "缩放"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       }
     ],
     "outputs": [
       {
-        "name": "Domain"
+        "name": "域"
       }
     ]
   },
   "Node_Smoke_Update": {
-    "name": "Update Domain",
-    "tooltip": "Run smoke by one step.",
+    "name": "更新域",
+    "tooltip": "运行烟雾模拟的一步",
     "inputs": [
       {
-        "name": "Domain"
+        "name": "域"
       },
       {
-        "name": "Active"
+        "name": "启用"
       }
     ],
     "outputs": [
       {
-        "name": "Domain"
+        "name": "域"
       }
     ]
   },
   "Node_Smoke_Vortex": {
-    "name": "Vortex",
-    "tooltip": "Apply rotational force around a point.",
+    "name": "漩涡",
+    "tooltip": "在某一点周围施加旋转力",
     "inputs": [
       {
-        "name": "Domain"
+        "name": "域"
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Radius"
+        "name": "半径"
       },
       {
-        "name": "Strength"
+        "name": "强度"
       },
       {
-        "name": "Attraction"
+        "name": "吸引力"
       }
     ],
     "outputs": [
       {
-        "name": "Domain"
+        "name": "域"
       },
       {
-        "name": "Domain"
+        "name": "域"
       }
     ]
   },
   "Node_Solid": {
-    "name": "Solid",
-    "tooltip": "Create image of a single color.",
+    "name": "纯色",
+    "tooltip": "创建单色图像",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Color"
+        "name": "颜色"
       },
       {
-        "name": "Empty"
+        "name": "空白"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Use mask dimension"
+        "name": "使用遮罩尺寸"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Spherize": {
-    "name": "Spherize",
-    "tooltip": "Wrap a texture on to sphere.",
+    "name": "球形化",
+    "tooltip": "将纹理包裹到球体上",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Center"
+        "name": "中心"
       },
       {
-        "name": "Strength"
+        "name": "强度"
       },
       {
-        "name": "Radius"
+        "name": "半径"
       },
       {
-        "name": "Oversample Mode",
-        "tooltip": "How to deal with pixel outside the surface.\n    - Empty: Use empty pixel\n    - Clamp: Repeat edge pixel\n    - Repeat: Repeat texture.",
+        "name": "过采样模式",
+        "tooltip": "如何处理表面外的像素。\n    - 空白：使用空白像素\n    - 钳制：重复边缘像素\n    - 重复：重复纹理。",
         "display_data": [
-          "Empty",
-          "Clamp",
-          "Repeat"
+          "空白",
+          "钳制",
+          "重复"
         ]
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Mix"
+        "name": "混合"
       },
       {
-        "name": "Active"
+        "name": "启用"
       },
       {
-        "name": "Channel"
+        "name": "通道"
       },
       {
-        "name": "Invert mask"
+        "name": "反转遮罩"
       },
       {
-        "name": "Mask feather"
+        "name": "遮罩羽化"
       },
       {
-        "name": "Strength Map"
+        "name": "强度映射"
       },
       {
-        "name": "Radius Map"
+        "name": "半径映射"
       },
       {
-        "name": "Trim Edge"
+        "name": "裁剪边缘"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Spout_Send": {
-    "name": "Spout Sender",
-    "tooltip": "Send surface through Spout.",
+    "name": "Spout 发送器",
+    "tooltip": "通过 Spout 发送表面",
     "inputs": [
       {
-        "name": "Sender name"
+        "name": "发送者名称"
       },
       {
-        "name": "Surface"
+        "name": "表面"
       }
     ],
     "outputs": [
       {
-        "name": "Surface"
+        "name": "表面"
       }
     ]
   },
   "Node_Sprite_Stack": {
-    "name": "Sprite Stack",
-    "tooltip": "Create sprite stack either from repeating a single image or stacking different images using array.",
+    "name": "精灵堆叠",
+    "tooltip": "通过重复单个图像或使用数组堆叠不同图像创建精灵堆叠",
     "inputs": [
       {
-        "name": "Base shape"
+        "name": "基础形状"
       },
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Stack amount"
+        "name": "堆叠数量"
       },
       {
-        "name": "Stack shift"
+        "name": "堆叠偏移"
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Rotation"
+        "name": "旋转"
       },
       {
-        "name": "Stack blend"
+        "name": "堆叠混合"
       },
       {
-        "name": "Alpha end",
-        "tooltip": "Alpha value for the last copy."
+        "name": "透明度结束",
+        "tooltip": "最后一个副本的透明度值。"
       },
       {
-        "name": "Move base",
-        "tooltip": "Make each copy move the original image."
+        "name": "移动基础",
+        "tooltip": "使每个副本移动原始图像。"
       },
       {
-        "name": "Highlight",
+        "name": "高亮",
         "display_data": [
-          "None",
-          "Color",
-          "Inner pixel"
+          "无",
+          "颜色",
+          "内部像素"
         ]
       },
       {
-        "name": "Highlight color"
+        "name": "高亮颜色"
       },
       {
-        "name": "Highlight alpha"
+        "name": "高亮透明度"
       },
       {
-        "name": "Array process",
+        "name": "数组处理",
         "display_data": [
-          "Individual",
-          "Combined"
+          "单独处理",
+          "组合处理"
         ]
       },
       {
-        "name": "Output dimension type",
+        "name": "输出尺寸类型",
         "display_data": [
-          "Same as input",
-          "Constant",
-          "Relative to input",
-          "Fit content"
+          "与输入相同",
+          "固定值",
+          "相对于输入",
+          "适应内容"
         ]
       },
       {
-        "name": "Relative dimension"
+        "name": "相对尺寸"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Stack": {
-    "name": "Stack",
-    "tooltip": "Place image next to each other linearly, or on top of each other.",
+    "name": "堆叠",
+    "tooltip": "将图像沿直线依次并排摆放或者相互堆叠",
     "inputs": [
       {
-        "name": "Axis",
+        "name": "轴",
         "display_data": [
-          "Horizontal",
-          "Vertical",
-          "On top"
+          "水平",
+          "垂直",
+          "堆叠"
         ]
       },
       {
-        "name": "Align",
+        "name": "对齐",
         "display_data": [
-          "Start",
-          "Middle",
-          "End"
+          "开始",
+          "中间",
+          "结束"
         ]
       },
       {
-        "name": "Spacing"
+        "name": "间距"
       },
       {
-        "name": "Padding"
+        "name": "填充"
       },
       {
-        "name": "Blend Mode",
+        "name": "混合模式",
         "display_data": [
-          "Normal",
-          "Replace",
+          "正常",
+          "替换",
           -1.0,
-          "Multiply",
-          "Color Burn",
-          "Linear Burn",
-          "Minimum",
+          "相乘",
+          "颜色加深",
+          "线性加深",
+          "最小值",
           -1.0,
-          "Add",
-          "Screen",
-          "Color Dodge",
-          "Maximum",
+          "加法",
+          "屏幕",
+          "颜色减淡",
+          "最大值",
           -1.0,
-          "Overlay",
-          "Soft Light",
-          "Hard Light",
-          "Vivid Light",
-          "Linear Light",
-          "Pin Light",
+          "叠加",
+          "柔光",
+          "强光",
+          "亮光",
+          "线性光",
+          "点光",
           -1.0,
-          "Difference",
-          "Exclusion",
-          "Subtract",
-          "Divide",
+          "差值",
+          "排除",
+          "减法",
+          "除法",
           -1.0,
-          "Hue",
-          "Saturation",
-          "Luminosity"
+          "色相",
+          "饱和度",
+          "亮度"
         ]
       },
       {
-        "name": "Input"
+        "name": "输入"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       },
       {
-        "name": "Atlas data"
+        "name": "图集数据"
       }
     ]
   },
   "Node_Stagger": {
-    "name": "Stagger",
-    "tooltip": "Delay the animation based on array index.",
+    "name": "交错",
+    "tooltip": "根据数组索引延迟动画",
     "inputs": [
       {
-        "name": "Surface"
+        "name": "表面"
       },
       {
-        "name": "Delay Step"
+        "name": "延迟步长"
       },
       {
-        "name": "Delay Amount"
+        "name": "延迟量"
       },
       {
-        "name": "Stagger Curve"
+        "name": "交错曲线"
       },
       {
-        "name": "Overflow",
+        "name": "溢出",
         "display_data": [
-          "Hide",
-          "Clamp"
+          "隐藏",
+          "钳制"
         ]
       }
     ],
     "outputs": [
       {
-        "name": "Surface"
+        "name": "表面"
       }
     ]
   },
   "Node_Statistic": {
-    "name": "Statistic",
-    "tooltip": "Apply statistical operation (sum, average, median, etc.) to array of numbers.",
+    "name": "统计",
+    "tooltip": "对数字数组执行统计操作（求和、平均值、中位数等）",
     "inputs": [
       {
-        "name": "Type",
+        "name": "类型",
         "display_data": [
-          "Sum",
-          "Mean",
-          "Median",
-          "Max",
-          "Min"
+          "求和",
+          "平均值",
+          "中位数",
+          "最大值",
+          "最小值"
         ]
       },
       {
-        "name": "Input"
+        "name": "输入"
       }
     ],
     "outputs": [
       {
-        "name": "Statistic"
+        "name": "统计结果"
       }
     ]
   },
   "Node_Strand_Break": {
-    "name": "Strand Break",
-    "tooltip": "Detach strands from its origin.",
+    "name": "纤维断裂",
+    "tooltip": "从其起源处分离纤维",
     "inputs": [
       {
-        "name": "Strand"
+        "name": "纤维"
       },
       {
-        "name": "Shape",
+        "name": "形状",
         "display_data": [
-          "Point",
-          "Band"
+          "点",
+          "带"
         ]
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Range"
+        "name": "范围"
       },
       {
-        "name": "Direction"
+        "name": "方向"
       },
       {
-        "name": "Falloff"
+        "name": "衰减"
       },
       {
-        "name": "Chance"
+        "name": "几率"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       }
     ],
     "outputs": [
       {
-        "name": "Strand"
+        "name": "纤维"
       }
     ]
   },
   "Node_Strand_Collision": {
-    "name": "Strand Collision",
-    "tooltip": "Create solid object for strands to collides to.",
+    "name": "纤维碰撞",
+    "tooltip": "创建固体对象供纤维碰撞",
     "inputs": [
       {
-        "name": "Strand"
+        "name": "纤维"
       },
       {
-        "name": "Collision mesh"
+        "name": "碰撞网格"
       }
     ],
     "outputs": [
       {
-        "name": "Strand"
+        "name": "纤维"
       }
     ]
   },
   "Node_Strand_Create": {
-    "name": "Strand Create",
-    "tooltip": "Create strands from point, path, or mesh.",
+    "name": "创建纤维",
+    "tooltip": "从点、路径或网格创建纤维",
     "inputs": [
       {
-        "name": "Type",
+        "name": "类型",
         "display_data": [
-          "Point",
-          "Path",
-          "Mesh"
+          "点",
+          "路径",
+          "网格"
         ]
       },
       {
-        "name": "Density",
-        "tooltip": "How many strands to generate."
+        "name": "密度",
+        "tooltip": "生成的纤维数量"
       },
       {
-        "name": "Length"
+        "name": "长度"
       },
       {
-        "name": "Segment"
+        "name": "分段"
       },
       {
-        "name": "Elasticity",
-        "tooltip": "Length preservation, the higher the value the easier it is to stretch each segment."
+        "name": "弹性",
+        "tooltip": "长度保持，值越高越容易拉伸每段"
       },
       {
-        "name": "Path"
+        "name": "路径"
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Side",
+        "name": "侧面",
         "display_data": [
-          "Inner",
-          "Outer",
-          "Both"
+          "内侧",
+          "外侧",
+          "两侧"
         ]
       },
       {
-        "name": "Spring"
+        "name": "弹簧"
       },
       {
-        "name": "Structure",
-        "tooltip": "The ability to keep its original shape."
+        "name": "结构",
+        "tooltip": "保持原始形状的能力"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "Curl frequency"
+        "name": "卷曲频率"
       },
       {
-        "name": "Curliness"
+        "name": "卷曲度"
       },
       {
-        "name": "Mesh"
+        "name": "网格"
       },
       {
-        "name": "Distribution",
+        "name": "分布",
         "display_data": [
-          "Uniform",
-          "Random"
+          "均匀",
+          "随机"
         ]
       },
       {
-        "name": "Bake hair",
-        "tooltip": "Prevent strand reseting to apply manual modification. Unbaking will remove all changes."
+        "name": "烘焙头发",
+        "tooltip": "防止毛发重置以应用手动修改。取消烘焙将移除所有更改。"
       },
       {
-        "name": "View fix hair"
+        "name": "查看固定头发"
       },
       {
-        "name": "Root Strength",
-        "tooltip": "The force required to break strand from its root. Set to -1 to make strand infinitely strong."
+        "name": "根部强度",
+        "tooltip": "从根部断裂毛发所需的力。设置为 -1 使毛发无限强度。"
       },
       {
-        "name": "Direction"
+        "name": "方向"
       },
       {
-        "name": "Restitution",
-        "tooltip": "Minimum speed before the strand stops moving completely."
+        "name": "恢复力",
+        "tooltip": "毛发停止运动的最小速度"
       }
     ],
     "outputs": [
       {
-        "name": "Strand"
+        "name": "纤维"
       }
     ]
   },
   "Node_Strand_Force_Apply": {
-    "name": "Strand Force Apply",
-    "tooltip": "Apply general force to strands.",
+    "name": "施加力",
+    "tooltip": "对纤维施加一般力",
     "inputs": [
       {
-        "name": "Strand"
+        "name": "纤维"
       },
       {
-        "name": "Shape",
+        "name": "形状",
         "display_data": [
-          "Point",
-          "Band"
+          "点",
+          "带"
         ]
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Range"
+        "name": "范围"
       },
       {
-        "name": "Direction"
+        "name": "方向"
       },
       {
-        "name": "Falloff"
+        "name": "衰减"
       },
       {
-        "name": "Strength"
+        "name": "强度"
       },
       {
-        "name": "Turbulence"
+        "name": "湍流"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "Turbulence frequency"
+        "name": "湍流频率"
       },
       {
-        "name": "Turbulence detail"
+        "name": "湍流细节"
       }
     ],
     "outputs": [
       {
-        "name": "Strand"
+        "name": "纤维"
       }
     ]
   },
   "Node_Strand_Gravity": {
-    "name": "Strand Gravity",
-    "tooltip": "Apply downward acceleration to strands.",
+    "name": "重力",
+    "tooltip": "对纤维施加向下的力",
     "inputs": [
       {
-        "name": "Strand"
+        "name": "纤维"
       },
       {
-        "name": "Gravity"
+        "name": "重力"
       },
       {
-        "name": "Direction"
+        "name": "方向"
       }
     ],
     "outputs": [
       {
-        "name": "Strand"
+        "name": "纤维"
       }
     ]
   },
   "Node_Strand_Group": {
-    "name": "StrandSim",
-    "tooltip": "Create group for hair simulation.",
+    "name": "纤维模拟",
+    "tooltip": "为纤维模拟创建组",
     "inputs": [],
     "outputs": []
   },
   "Node_Strand_Group_Inline": {
-    "name": "StrandSim",
-    "tooltip": "Create group for hair simulation.",
+    "name": "纤维模拟",
+    "tooltip": "为纤维模拟创建组",
     "inputs": [],
     "outputs": []
   },
   "Node_Strand_Length_Adjust": {
-    "name": "Strand Length Adjust",
-    "tooltip": "Adjust length of strands in area.",
+    "name": "调整纤维长度",
+    "tooltip": "调整指定区域内的纤维长度",
     "inputs": [
       {
-        "name": "Strand"
+        "name": "纤维"
       },
       {
-        "name": "Shape",
+        "name": "形状",
         "display_data": [
-          "Point",
-          "Band"
+          "点",
+          "带"
         ]
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Range"
+        "name": "范围"
       },
       {
-        "name": "Direction"
+        "name": "方向"
       },
       {
-        "name": "Falloff"
+        "name": "衰减"
       },
       {
-        "name": "Type",
+        "name": "类型",
         "display_data": [
-          "Increase",
-          "Decrease"
+          "增加",
+          "减少"
         ]
       },
       {
-        "name": "Strength"
+        "name": "强度"
       }
     ],
     "outputs": [
       {
-        "name": "Strand"
+        "name": "纤维"
       }
     ]
   },
   "Node_Strand_Render": {
-    "name": "Strand Render",
-    "tooltip": "Render strands to surface as a single path.",
+    "name": "渲染纤维",
+    "tooltip": "将纤维渲染为纹理路径",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Strand"
+        "name": "纤维"
       },
       {
-        "name": "Thickness"
+        "name": "厚度"
       },
       {
-        "name": "Thickness over length"
+        "name": "沿长度的厚度变化"
       },
       {
-        "name": "Random color"
+        "name": "随机颜色"
       },
       {
-        "name": "Color over length"
+        "name": "沿长度的颜色变化"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "Children Count",
-        "tooltip": "Render extra strands between the real strands."
+        "name": "子纤维数量",
+        "tooltip": "在真实纤维之间渲染额外的纤维"
       },
       {
-        "name": "Update Step"
+        "name": "更新步长"
       },
       {
-        "name": "Use Scatter"
+        "name": "使用散射"
       },
       {
-        "name": "Scatter Range"
+        "name": "散射范围"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Strand_Render_Texture": {
-    "name": "Strand Render Texture",
-    "tooltip": "Render strands to surface as a textured path.",
+    "name": "渲染纤维纹理",
+    "tooltip": "将纤维渲染为带纹理的路径",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Strand"
+        "name": "纤维"
       },
       {
-        "name": "Thickness"
+        "name": "厚度"
       },
       {
-        "name": "Random color"
+        "name": "随机颜色"
       },
       {
-        "name": "Texture"
+        "name": "纹理"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Strand_Update": {
-    "name": "Strand Update",
-    "tooltip": "Update strands by one step.",
+    "name": "更新纤维",
+    "tooltip": "更新纤维一步",
     "inputs": [
       {
-        "name": "Strand"
+        "name": "纤维"
       },
       {
-        "name": "Step"
+        "name": "步长"
       }
     ],
     "outputs": [
       {
-        "name": "Strand"
+        "name": "纤维"
       }
     ]
   },
   "Node_String": {
-    "name": "Text",
-    "tooltip": "Generate text\/string data.",
+    "name": "文本",
+    "tooltip": "生成文本/字符串数据",
     "inputs": [
       {
-        "name": "Text"
+        "name": "文本"
       }
     ],
     "outputs": [
       {
-        "name": "Text"
+        "name": "文本"
       }
     ]
   },
   "Node_String_Change_Case": {
-    "name": "Change Case",
-    "tooltip": "Change text to uppercase, lowercase, or titlecase.",
+    "name": "更改大小写",
+    "tooltip": "将文本更改为小写、大写或标题大小写",
     "inputs": [
       {
-        "name": "Text"
+        "name": "文本"
       },
       {
-        "name": "Target",
+        "name": "目标",
         "display_data": [
-          "Lowercase",
-          "Uppercase",
-          "Titlecase"
+          "小写",
+          "大写",
+          "标题大小写"
         ]
       }
     ],
     "outputs": [
       {
-        "name": "Text"
+        "name": "文本"
       }
     ]
   },
   "Node_String_Count": {
-    "name": "Count Text",
-    "tooltip": "Counts the number of times a subtext occurs in a text.",
+    "name": "统计文本",
+    "tooltip": "统计子文本在文本中出现的次数",
     "inputs": [
       {
-        "name": "Text"
+        "name": "文本"
       },
       {
-        "name": "Count Text"
+        "name": "统计文本"
       }
     ],
     "outputs": [
       {
-        "name": "Amount"
+        "name": "数量"
       }
     ]
   },
   "Node_String_Delete": {
-    "name": "Delete Text",
-    "tooltip": "Delete parts of a text.",
+    "name": "删除文本",
+    "tooltip": "删除文本的一部分",
     "inputs": [
       {
-        "name": "Text"
+        "name": "文本"
       },
       {
-        "name": "Index"
+        "name": "索引"
       },
       {
-        "name": "Amount"
+        "name": "数量"
       }
     ],
     "outputs": [
       {
-        "name": "Text"
+        "name": "文本"
       }
     ]
   },
   "Node_String_Format": {
-    "name": "Format Text",
-    "tooltip": "Replace string with {var} format with a proper variable.",
+    "name": "格式化文本",
+    "tooltip": "将 {var} 格式的字符串替换为适当的变量",
     "inputs": [
       {
-        "name": "Text"
+        "name": "文本"
       },
       {
-        "name": "Argument name"
+        "name": "参数名称"
       },
       {
-        "name": "Argument value"
+        "name": "参数值"
       }
     ],
     "outputs": [
       {
-        "name": "Text"
+        "name": "文本"
       }
     ]
   },
   "Node_String_Get_Char": {
-    "name": "Get Character",
-    "tooltip": "Get a nth character in a string.",
+    "name": "获取字符",
+    "tooltip": "获取字符串中的第 n 个字符",
     "inputs": [
       {
-        "name": "Text"
+        "name": "文本"
       },
       {
-        "name": "Index"
+        "name": "索引"
       },
       {
-        "name": "Amount"
+        "name": "数量"
       }
     ],
     "outputs": [
       {
-        "name": "Text"
+        "name": "文本"
       }
     ]
   },
   "Node_String_Insert": {
-    "name": "Insert Text",
-    "tooltip": "Insert subtext into another text.",
+    "name": "插入文本",
+    "tooltip": "将子文本插入到另一段文本中",
     "inputs": [
       {
-        "name": "Text"
+        "name": "文本"
       },
       {
-        "name": "Insert Text"
+        "name": "插入文本"
       },
       {
-        "name": "Position"
+        "name": "位置"
       }
     ],
     "outputs": [
       {
-        "name": "Text"
+        "name": "文本"
       }
     ]
   },
   "Node_String_Join": {
-    "name": "Join Text Array",
-    "tooltip": "Combine string array with an option to add extra string in-between.",
+    "name": "连接文本数组",
+    "tooltip": "将字符串数组组合起来，可以选择在中间添加额外的字符串",
     "inputs": [
       {
-        "name": "Text array"
+        "name": "文本数组"
       },
       {
-        "name": "Divider"
+        "name": "分隔符"
       }
     ],
     "outputs": [
       {
-        "name": "Text"
+        "name": "文本"
       }
     ]
   },
   "Node_String_Length": {
-    "name": "Text Length",
-    "tooltip": "Return number of character in a string.",
+    "name": "文本长度",
+    "tooltip": "返回字符串中的字符数量",
     "inputs": [
       {
-        "name": "Text"
+        "name": "文本"
       },
       {
-        "name": "Mode",
+        "name": "模式",
         "display_data": [
-          "Character",
-          "Word"
+          "字符",
+          "单词"
         ]
       }
     ],
     "outputs": [
       {
-        "name": "Text"
+        "name": "文本"
       }
     ]
   },
   "Node_String_Merge": {
-    "name": "Combine Texts",
-    "tooltip": "Combine multiple strings into one long string.",
+    "name": "合并文本",
+    "tooltip": "将多个字符串合并为一个长字符串",
     "inputs": [
       {
-        "name": "Text"
+        "name": "文本"
       }
     ],
     "outputs": [
       {
-        "name": "Text"
+        "name": "文本"
       }
     ]
   },
   "Node_String_Regex_Match": {
-    "name": "RegEx Match",
-    "tooltip": "Check whether regular expression pattern exist in a string.",
+    "name": "正则表达式匹配",
+    "tooltip": "检查正则表达式模式是否存在于字符串中",
     "inputs": [
       {
-        "name": "Text"
+        "name": "文本"
       },
       {
-        "name": "Regex"
+        "name": "正则表达式"
       }
     ],
     "outputs": [
       {
-        "name": "Results"
+        "name": "结果"
       }
     ]
   },
   "Node_String_Regex_Replace": {
-    "name": "RegEx Replace",
-    "tooltip": "Replace instances of a string with another using regular expression.",
+    "name": "正则表达式替换",
+    "tooltip": "使用正则表达式将字符串中的实例替换为另一个字符串",
     "inputs": [
       {
-        "name": "Text"
+        "name": "文本"
       },
       {
-        "name": "Regex"
+        "name": "正则表达式"
       },
       {
-        "name": "Replacement"
+        "name": "替换内容"
       }
     ],
     "outputs": [
       {
-        "name": "Results"
+        "name": "结果"
       }
     ]
   },
   "Node_String_Regex_Search": {
-    "name": "RegEx Search",
-    "tooltip": "Search for instances in a string using regular expression.",
+    "name": "正则表达式搜索",
+    "tooltip": "使用正则表达式在字符串中搜索实例",
     "inputs": [
       {
-        "name": "Text"
+        "name": "文本"
       },
       {
-        "name": "Regex"
+        "name": "正则表达式"
       }
     ],
     "outputs": [
       {
-        "name": "Results"
+        "name": "结果"
       }
     ]
   },
   "Node_String_Split": {
-    "name": "Split Text",
-    "tooltip": "Split string into arrays of substring based on delimiter.",
+    "name": "分割文本",
+    "tooltip": "根据分隔符将字符串分割为子字符串数组",
     "inputs": [
       {
-        "name": "Text"
+        "name": "文本"
       },
       {
-        "name": "Delimiter",
-        "tooltip": "Character that used to split text,\nleave blank to create character array."
+        "name": "分隔符",
+        "tooltip": "用于分割文本的字符，留空以创建字符数组。"
       },
       {
-        "name": "Mode",
+        "name": "模式",
         "display_data": [
-          "Delimiter",
-          "Periodic"
+          "分隔符",
+          "周期性"
         ]
       },
       {
-        "name": "Period"
+        "name": "周期"
       }
     ],
     "outputs": [
       {
-        "name": "Text"
+        "name": "文本"
       }
     ]
   },
   "Node_String_Trim": {
-    "name": "Trim Text",
-    "tooltip": "Remove first and last n character(s) from a string.",
+    "name": "修剪文本",
+    "tooltip": "移除字符串的首尾 n 个字符",
     "inputs": [
       {
-        "name": "Text"
+        "name": "文本"
       },
       {
-        "name": "Head"
+        "name": "头部"
       },
       {
-        "name": "Tail"
+        "name": "尾部"
       },
       {
-        "name": "Trim",
+        "name": "修剪",
         "display_data": [
-          "Character",
-          "Word"
+          "字符",
+          "单词"
         ]
       },
       {
-        "name": "Mode",
-        "tooltip": "Set to progress to use ratio, where 0 means no change and 1 means the entire length of the text.",
+        "name": "模式",
+        "tooltip": "设置为进度以使用比例，其中 0 表示无变化，1 表示文本的整个长度。",
         "display_data": [
-          "Counter",
-          "Progress"
+          "计数器",
+          "进度"
         ]
       }
     ],
     "outputs": [
       {
-        "name": "Text"
+        "name": "文本"
       }
     ]
   },
   "Node_Stripe": {
-    "name": "Stripe",
-    "tooltip": "Generate stripe pattern.",
+    "name": "条纹",
+    "tooltip": "生成条纹图案",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Amount"
+        "name": "数量"
       },
       {
-        "name": "Angle"
+        "name": "角度"
       },
       {
-        "name": "Type",
+        "name": "类型",
         "display_data": [
-          "Solid",
-          "Smooth",
-          "AA"
+          "实色",
+          "平滑",
+          "抗锯齿"
         ]
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Random"
+        "name": "随机"
       },
       {
-        "name": "Coloring",
+        "name": "着色方式",
         "display_data": [
-          "Alternate",
-          "Palette",
-          "Random"
+          "交替",
+          "调色板",
+          "随机"
         ]
       },
       {
-        "name": "Colors"
+        "name": "颜色"
       },
       {
-        "name": "Color 1"
+        "name": "颜色 1"
       },
       {
-        "name": "Color 2"
+        "name": "颜色 2"
       },
       {
-        "name": "Strip Ratio"
+        "name": "条纹比例"
       },
       {
-        "name": "Amount Map"
+        "name": "数量映射"
       },
       {
-        "name": "Angle Map"
+        "name": "角度映射"
       },
       {
-        "name": "Random Map"
+        "name": "随机映射"
       },
       {
-        "name": "Ratio Map"
+        "name": "比例映射"
       },
       {
-        "name": "Gradient Map"
+        "name": "渐变映射"
       },
       {
-        "name": "Gradient Map Range"
+        "name": "渐变映射范围"
       },
       {
-        "name": "Progress"
+        "name": "进度"
       },
       {
-        "name": "Colors"
+        "name": "颜色"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Struct": {
-    "name": "Struct",
-    "tooltip": "Create key-value pair struct.",
+    "name": "结构体",
+    "tooltip": "创建键值对结构体",
     "inputs": [
       {
-        "name": "Key"
+        "name": "键"
       },
       {
-        "name": "value"
+        "name": "值"
       }
     ],
     "outputs": [
       {
-        "name": "Struct"
+        "name": "结构体"
       }
     ]
   },
   "Node_Struct_Get": {
-    "name": "Struct Get",
-    "tooltip": "Get value from struct and key.",
+    "name": "结构体获取",
+    "tooltip": "从结构体和键中获取值",
     "inputs": [
       {
-        "name": "Struct"
+        "name": "结构体"
       },
       {
-        "name": "Key"
+        "name": "键"
       }
     ],
     "outputs": [
       {
-        "name": "Value"
+        "name": "值"
       }
     ]
   },
   "Node_Struct_JSON_Parse": {
-    "name": "Parse JSON",
-    "tooltip": "Parse json string into struct\/array.",
+    "name": "解析 JSON",
+    "tooltip": "将 JSON 字符串解析为结构体/数组",
     "inputs": [
       {
-        "name": "JSON string"
+        "name": "JSON 字符串"
       }
     ],
     "outputs": [
       {
-        "name": "Struct"
+        "name": "结构体"
       }
     ]
   },
   "Node_Struct_Set": {
-    "name": "Struct Set",
-    "tooltip": "Modify struct",
+    "name": "结构体设置",
+    "tooltip": "修改结构体",
     "inputs": [
       {
-        "name": "Struct"
+        "name": "结构体"
       },
       {
-        "name": "Key"
+        "name": "键"
       },
       {
-        "name": "Value"
+        "name": "值"
       }
     ],
     "outputs": [
       {
-        "name": "Struct"
+        "name": "结构体"
       }
     ]
   },
   "Node_Surface_data": {
-    "name": "Surface Data",
-    "tooltip": "Extract information about a surface",
+    "name": "表面数据",
+    "tooltip": "提取表面的信息",
     "inputs": [
       {
-        "name": "Surface"
+        "name": "表面"
       }
     ],
     "outputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Width"
+        "name": "宽度"
       },
       {
-        "name": "Height"
+        "name": "高度"
       },
       {
-        "name": "Format String"
+        "name": "格式字符串"
       },
       {
-        "name": "Bit Depth"
+        "name": "位深度"
       },
       {
-        "name": "Channels"
+        "name": "通道"
       }
     ]
   },
   "Node_Surface_From_Buffer": {
-    "name": "Surface from Buffer",
-    "tooltip": "Create surface from a valid buffer.",
+    "name": "从缓冲区创建表面",
+    "tooltip": "从有效的缓冲区创建表面",
     "inputs": [
       {
-        "name": "Buffer"
+        "name": "缓冲区"
       }
     ],
     "outputs": [
       {
-        "name": "Surface"
+        "name": "表面"
       }
     ]
   },
   "Node_Surface_Replace": {
-    "name": "Replace Image",
-    "tooltip": "Replace instances of an image with a new one.",
+    "name": "替换图像",
+    "tooltip": "将图像的实例替换为新的图像",
     "inputs": [
       {
-        "name": "Base Image"
+        "name": "基础图像"
       },
       {
-        "name": "Target Image"
+        "name": "目标图像"
       },
       {
-        "name": "Replacement Image"
+        "name": "替换图像"
       },
       {
-        "name": "Color Threshold",
-        "tooltip": "How similiar the color need to be in order to be count as matched."
+        "name": "颜色阈值",
+        "tooltip": "颜色需要多相似才能被视为匹配"
       },
       {
-        "name": "Draw Base Image"
+        "name": "绘制基础图像"
       },
       {
-        "name": "Fast Mode"
+        "name": "快速模式"
       },
       {
-        "name": "Pixel Threshold",
-        "tooltip": "How many pixel need to me matched to replace with replacement image."
+        "name": "像素阈值",
+        "tooltip": "需要多少像素匹配才能替换为替换图像"
       },
       {
-        "name": "Array mode",
+        "name": "数组模式",
         "display_data": [
-          "Match index",
-          "Randomized"
+          "匹配索引",
+          "随机化"
         ]
       },
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "Replace Empty"
+        "name": "替换空白"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Surface_Tag": {
-    "name": "Tag Surface",
+    "name": "标记表面",
     "tooltip": "",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Tag"
+        "name": "标记"
       },
       {
-        "name": "Position"
+        "name": "位置"
       }
     ],
     "outputs": [
       {
-        "name": "Tagged Surface"
+        "name": "标记表面"
       }
     ]
   },
   "Node_Surface_To_Buffer": {
-    "name": "Buffer from Surface",
-    "tooltip": "Create buffer from a surface.",
+    "name": "从表面创建缓冲区",
+    "tooltip": "从表面创建缓冲区",
     "inputs": [
       {
-        "name": "Surface"
+        "name": "表面"
       }
     ],
     "outputs": [
       {
-        "name": "Buffer"
+        "name": "缓冲区"
       }
     ]
   },
   "Node_SVG": {
     "name": "SVG",
-    "tooltip": "Load a SVG file.",
+    "tooltip": "加载 SVG 文件",
     "inputs": [
       {
-        "name": "Path"
+        "name": "路径"
       },
       {
-        "name": "Scale"
+        "name": "缩放"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       },
       {
-        "name": "SVG Struct"
+        "name": "SVG 结构"
       }
     ]
   },
   "Node_Switch": {
-    "name": "Switch",
-    "tooltip": "Output value based on index.",
+    "name": "开关",
+    "tooltip": "根据索引输出值",
     "inputs": [
       {
-        "name": "Index"
+        "name": "索引"
       },
       {
-        "name": "Default value"
+        "name": "默认值"
       },
       {
-        "name": "Case"
+        "name": "条件"
       },
       {
-        "name": "value"
+        "name": "值"
       }
     ],
     "outputs": [
       {
-        "name": "Result"
+        "name": "结果"
       }
     ]
   },
   "Node_Terminal_Trigger": {
-    "name": "Terminal trigger",
+    "name": "终端触发器",
     "tooltip": "",
     "inputs": [],
     "outputs": [
       {
-        "name": "Terminal"
+        "name": "终端"
       }
     ]
   },
   "Node_Text": {
-    "name": "Draw Text",
-    "tooltip": "Draw text on an image.",
+    "name": "绘制文本",
+    "tooltip": "在图像上绘制文本",
     "inputs": [
       {
-        "name": "Text"
+        "name": "文本"
       },
       {
-        "name": "Font"
+        "name": "字体"
       },
       {
-        "name": "Size"
+        "name": "大小"
       },
       {
-        "name": "Anti-aliasing "
+        "name": "抗锯齿"
       },
       {
-        "name": "Character Range"
+        "name": "字符范围"
       },
       {
-        "name": "Color"
+        "name": "颜色"
       },
       {
-        "name": "Fixed Dimension"
+        "name": "固定尺寸"
       },
       {
-        "name": "H Align",
+        "name": "水平对齐",
         "display_data": [
           "@ref sprite(__newsprite1002)",
           "@ref sprite(__newsprite1002)",
@@ -22563,7 +22559,7 @@
         ]
       },
       {
-        "name": "V Align",
+        "name": "垂直对齐",
         "display_data": [
           "@ref sprite(__newsprite1004)",
           "@ref sprite(__newsprite1004)",
@@ -22571,771 +22567,772 @@
         ]
       },
       {
-        "name": "Output Dimension",
+        "name": "输出尺寸",
         "display_data": [
-          "Fixed",
-          "Dynamic"
+          "固定",
+          "动态"
         ]
       },
       {
-        "name": "Padding"
+        "name": "填充"
       },
       {
-        "name": "Letter Spacing"
+        "name": "字间距"
       },
       {
-        "name": "Line Height"
+        "name": "行高"
       },
       {
-        "name": "Path"
+        "name": "路径"
       },
       {
-        "name": "Path Shift"
+        "name": "路径偏移"
       },
       {
-        "name": "Scale to Fit"
+        "name": "按比例缩放以适应"
       },
       {
-        "name": "Render Background"
+        "name": "渲染背景"
       },
       {
-        "name": "BG Color"
+        "name": "背景颜色"
       },
       {
-        "name": "Wave"
+        "name": "波浪"
       },
       {
-        "name": "Wave Amplitude"
+        "name": "波浪振幅"
       },
       {
-        "name": "Wave Scale"
+        "name": "波浪缩放"
       },
       {
-        "name": "Wave Phase"
+        "name": "波浪相位"
       },
       {
-        "name": "Wave Shape"
+        "name": "波浪形状"
       },
       {
-        "name": "Typewriter"
+        "name": "打字机效果"
       },
       {
-        "name": "Range"
+        "name": "范围"
       },
       {
-        "name": "Trim Type",
+        "name": "修剪类型",
         "display_data": [
-          "Character",
-          "Word",
-          "Line"
+          "字符",
+          "单词",
+          "行"
         ]
       },
       {
-        "name": "Use Full Text Size"
+        "name": "使用全文尺寸"
       },
       {
-        "name": "Max Line Width"
+        "name": "最大行宽"
       },
       {
-        "name": "Round Position"
+        "name": "四舍五入位置"
       },
       {
-        "name": "Blend Mode",
+        "name": "混合模式",
         "display_data": [
-          "Normal",
+          "正常",
           "Alpha"
         ]
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Text_File_Read": {
-    "name": "Text File In",
-    "tooltip": "Load .txt in as text.",
+    "name": "文本文件输入",
+    "tooltip": "加载 .txt 文件为文本",
     "inputs": [
       {
-        "name": "Path"
+        "name": "路径"
       }
     ],
     "outputs": [
       {
-        "name": "Content"
+        "name": "内容"
       },
       {
-        "name": "Path"
+        "name": "路径"
       }
     ]
   },
   "Node_Text_File_Write": {
-    "name": "Text File Out",
-    "tooltip": "Save text as a .txt file.",
+    "name": "文本文件输出",
+    "tooltip": "将文本保存为 .txt 文件",
     "inputs": [
       {
-        "name": "Path"
+        "name": "路径"
       },
       {
-        "name": "Content"
+        "name": "内容"
       }
     ],
     "outputs": []
   },
   "Node_Texture_Remap": {
-    "name": "Texture Remap",
-    "tooltip": "Remap image using texture map. Where red channel control x position and green channel control y position.",
+    "name": "纹理重映射",
+    "tooltip": "使用纹理图重新映射图像，其中红色通道控制 x 位置，绿色通道控制 y 位置",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "RG Map"
+        "name": "RG 映射"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Dimension Source",
+        "name": "尺寸来源",
         "display_data": [
-          "Surface",
-          "RG Map"
+          "表面",
+          "RG 映射"
         ]
       },
       {
-        "name": "Array Index"
+        "name": "数组索引"
       },
       {
-        "name": "Index Start"
+        "name": "索引起始"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Threshold": {
-    "name": "Threshold",
-    "tooltip": "Set a threshold where pixel darker will becomes black, and brighter to white. Also works with alpha.",
+    "name": "阈值",
+    "tooltip": "设置阈值，使较暗的像素变为黑色，较亮的像素变为白色。也适用于透明度。",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Brightness"
+        "name": "亮度"
       },
       {
-        "name": "Threshold"
+        "name": "阈值"
       },
       {
-        "name": "Smoothness"
+        "name": "平滑度"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Mix"
+        "name": "混合"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Alpha"
+        "name": "透明度"
       },
       {
-        "name": "Threshold"
+        "name": "阈值"
       },
       {
-        "name": "Smoothness"
+        "name": "平滑度"
       },
       {
-        "name": "Channel"
+        "name": "通道"
       },
       {
-        "name": "Invert mask"
+        "name": "反转遮罩"
       },
       {
-        "name": "Mask feather"
+        "name": "遮罩羽化"
       },
       {
-        "name": "Brightness map"
+        "name": "亮度映射"
       },
       {
-        "name": "Alpha map"
+        "name": "透明度映射"
       },
       {
-        "name": "Algorithm",
+        "name": "算法",
         "display_data": [
-          "Simple",
-          "Adaptive mean"
+          "简单",
+          "自适应平均"
         ]
       },
       {
-        "name": "Adaptive Radius"
+        "name": "自适应半径"
       },
       {
-        "name": "Invert"
+        "name": "反转"
       },
       {
-        "name": "Invert"
+        "name": "反转"
       },
       {
-        "name": "Apply to Alpha"
+        "name": "应用于透明度"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Tile": {
-    "name": "Tile",
-    "tooltip": "Repeat images on a larger surface.",
+    "name": "平铺",
+    "tooltip": "在更大的表面上重复图像",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Scaling Type",
+        "name": "缩放类型",
         "display_data": [
-          "Fix Dimension",
-          "Relative To Input"
+          "固定尺寸",
+          "相对于输入"
         ]
       },
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Amount"
+        "name": "数量"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Tile_Convert": {
-    "name": "Convert to Tilemap",
-    "tooltip": "Convert color image to tile data.",
+    "name": "转换为图块地图",
+    "tooltip": "将彩色图像转换为图块数据",
     "inputs": [
       {
-        "name": "Surface"
+        "name": "表面"
       },
       {
-        "name": "Tileset"
+        "name": "图块集"
       },
       {
-        "name": "Animated"
+        "name": "动画"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       }
     ],
     "outputs": [
       {
-        "name": "Rendered"
+        "name": "渲染结果"
       },
       {
-        "name": "Tilemap"
+        "name": "图块地图"
       },
       {
-        "name": "Tileset"
+        "name": "图块集"
       }
     ]
   },
   "Node_Tile_Drawer": {
-    "name": "Tile Drawer",
-    "tooltip": "Draw using tileset.",
+    "name": "图块绘制器",
+    "tooltip": "使用图块集进行绘制",
     "inputs": [
       {
-        "name": "Tileset"
+        "name": "图块集"
       },
       {
-        "name": "Map size"
+        "name": "地图尺寸"
       },
       {
-        "name": "Animated"
+        "name": "动画"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       }
     ],
     "outputs": [
       {
-        "name": "Rendered"
+        "name": "渲染结果"
       },
       {
-        "name": "Tilemap"
+        "name": "图块地图"
       },
       {
-        "name": "Tileset"
+        "name": "图块集"
       },
       {
-        "name": "Tile Data"
+        "name": "图块数据"
       }
     ]
   },
   "Node_Tile_Random": {
-    "name": "Tile Random",
-    "tooltip": "Repeat images on a larger surface randomly.",
+    "name": "随机平铺",
+    "tooltip": "在更大的表面上随机重复图像",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Randomness"
+        "name": "随机性"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Tile_Render": {
-    "name": "Render Tilemap",
-    "tooltip": "Render tilemap to image.",
+    "name": "渲染图块地图",
+    "tooltip": "将图块地图渲染为图像",
     "inputs": [
       {
-        "name": "Tileset"
+        "name": "图块集"
       },
       {
-        "name": "Tilemap"
+        "name": "图块地图"
       },
       {
-        "name": "Animated"
+        "name": "动画"
       }
     ],
     "outputs": [
       {
-        "name": "Rendered"
+        "name": "渲染结果"
       }
     ]
   },
   "Node_Tile_Rule": {
-    "name": "Tile Rule",
-    "tooltip": "Apply tileset rules.",
+    "name": "图块规则",
+    "tooltip": "应用图块集规则",
     "inputs": [
       {
-        "name": "Tileset"
+        "name": "图块集"
       },
       {
-        "name": "Tilemap"
+        "name": "图块地图"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       }
     ],
     "outputs": [
       {
-        "name": "Rendered"
+        "name": "渲染结果"
       },
       {
-        "name": "Tilemap"
+        "name": "图块地图"
       },
       {
-        "name": "Tileset"
+        "name": "图块集"
       }
     ]
   },
   "Node_Tile_Tilemap_Export": {
-    "name": "Export Tilemap",
-    "tooltip": "Export tilemap to file.",
+    "name": "导出图块地图",
+    "tooltip": "将图块地图导出为文件",
     "inputs": [
       {
-        "name": "Tilemap"
+        "name": "图块地图"
       },
       {
-        "name": "Path"
+        "name": "路径"
       },
       {
-        "name": "Format",
+        "name": "格式",
         "display_data": [
           "CSV",
           "GameMaker"
         ]
       },
       {
-        "name": "GM Export Type",
+        "name": "GM 导出类型",
         "display_data": [
-          "Room"
+          "房间"
         ]
       },
       {
-        "name": "GM Room"
+        "name": "GM 房间"
       },
       {
-        "name": "GM Room Name"
+        "name": "GM 房间名称"
       },
       {
-        "name": "GM Layer Name"
+        "name": "GM 图层名称"
       },
       {
-        "name": "Tileset"
+        "name": "图块集"
       },
       {
-        "name": "GD Scene"
+        "name": "GD 场景"
       }
     ],
     "outputs": []
   },
   "Node_Tile_Tileset": {
-    "name": "Tileset",
-    "tooltip": "Create tileset object.",
+    "name": "图块集",
+    "tooltip": "创建图块集对象",
     "inputs": [
       {
-        "name": "Texture"
+        "name": "纹理"
       },
       {
-        "name": "Tile size"
+        "name": "图块尺寸"
       }
     ],
     "outputs": [
       {
-        "name": "Tileset"
+        "name": "图块集"
       }
     ]
   },
   "Node_Time_Remap": {
-    "name": "Time Remap",
-    "tooltip": "Remap image using texture as time map. Where brighter pixel in time map means using pixel from an older frame.",
+    "name": "时间重映射",
+    "tooltip": "使用纹理作为时间映射重新映射图像。其中较亮的像素表示使用来自旧帧的像素",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Map"
+        "name": "映射"
       },
       {
-        "name": "Max Life"
+        "name": "最大寿命"
       },
       {
-        "name": "Loop"
+        "name": "循环"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_To_Number": {
-    "name": "To Number",
-    "tooltip": "Convert string to number, supports scientific format (e.g. 1e-2 = 0.02).",
+    "name": "转换为数字",
+    "tooltip": "将字符串转换为数字，支持科学计数法（例如 1e-2 = 0.02）",
     "inputs": [
       {
-        "name": "Text"
+        "name": "文本"
       }
     ],
     "outputs": [
       {
-        "name": "Number"
+        "name": "数字"
       }
     ]
   },
   "Node_To_Text": {
-    "name": "To Text",
-    "tooltip": "Convert string to number.",
+    "name": "转换为文本",
+    "tooltip": "将值转换为文本",
     "inputs": [
       {
-        "name": "Value"
+        "name": "值"
       }
     ],
     "outputs": [
       {
-        "name": "Text"
+        "name": "文本"
       }
     ]
   },
   "Node_Tonemap_ACE": {
-    "name": "ACE",
-    "tooltip": "Apply ACE tonemapping.",
+    "name": "ACE 色调映射",
+    "tooltip": "应用 ACE 色调映射",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Mix"
+        "name": "混合"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Channel"
+        "name": "通道"
       },
       {
-        "name": "Invert mask"
+        "name": "反转遮罩"
       },
       {
-        "name": "Mask feather"
+        "name": "遮罩羽化"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Trail": {
-    "name": "Trail",
-    "tooltip": "Blend animation by filling in the pixel 'in-between' two or more frames.",
+    "name": "轨迹",
+    "tooltip": "通过填充两帧或多帧之间的像素来混合动画",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Max Life"
+        "name": "最大寿命"
       },
       {
-        "name": "Loop"
+        "name": "循环"
       },
       {
-        "name": "Max Distance",
-        "tooltip": "Maximum distance to search for movement, set to -1 to search the entire image."
+        "name": "最大距离",
+        "tooltip": "搜索运动的最大距离，设置为 -1 以搜索整个图像"
       },
       {
-        "name": "Match Color",
-        "tooltip": "Make trail track pixels of the same color, instead of the closet pixels."
+        "name": "匹配颜色",
+        "tooltip": "使轨迹跟踪相同颜色的像素，而不是最近的像素"
       },
       {
-        "name": "Blend Color",
-        "tooltip": "Blend color between two pixel smoothly."
+        "name": "混合颜色",
+        "tooltip": "在两个像素之间平滑混合颜色"
       },
       {
-        "name": "Alpha Over Life"
+        "name": "按寿命的透明度"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Transform": {
-    "name": "Transform",
-    "tooltip": "Move, rotate, and scale image.",
+    "name": "变换",
+    "tooltip": "移动、旋转和缩放图像",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Output Dimension"
+        "name": "输出尺寸"
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Anchor"
+        "name": "锚点"
       },
       {
-        "name": "Relative Anchor"
+        "name": "相对锚点"
       },
       {
-        "name": "Rotation"
+        "name": "旋转"
       },
       {
-        "name": "Scale"
+        "name": "缩放"
       },
       {
-        "name": "Render Mode",
+        "name": "渲染模式",
         "display_data": [
-          "Normal",
-          "Tile",
-          "Wrap"
+          "正常",
+          "平铺",
+          "环绕"
         ]
       },
       {
-        "name": "Rotate by Velocity",
-        "tooltip": "Make the surface rotates to follow its movement."
+        "name": "按速度旋转",
+        "tooltip": "使表面根据其运动方向旋转"
       },
       {
-        "name": "Output Dimension Type",
+        "name": "输出尺寸类型",
         "display_data": [
-          "Same as input",
-          "Constant",
-          "Relative to input",
-          "Fit content"
+          "与输入相同",
+          "固定",
+          "相对于输入",
+          "适应内容"
         ]
       },
       {
-        "name": "Round Position",
-        "tooltip": "Round position to the nearest integer value to avoid jittering."
+        "name": "四舍五入位置",
+        "tooltip": "将位置四舍五入到最接近的整数值，以避免抖动"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Echo"
+        "name": "回声",
+        "tooltip": "在原始图像周围添加渐变的副本"
       },
       {
-        "name": "Echo Amount"
+        "name": "回声量"
       },
       {
-        "name": "Alpha"
+        "name": "透明度"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       },
       {
-        "name": "Dimension"
+        "name": "尺寸"
       }
     ]
   },
   "Node_Transform_Array": {
-    "name": "Transform Array",
-    "tooltip": "Generate transfomation array.",
+    "name": "变换数组",
+    "tooltip": "生成变换数组",
     "inputs": [
       {
-        "name": "Postion"
+        "name": "位置"
       },
       {
-        "name": "Rotation"
+        "name": "旋转"
       },
       {
-        "name": "Scale"
+        "name": "缩放"
       }
     ],
     "outputs": [
       {
-        "name": "Transform"
+        "name": "变换"
       }
     ]
   },
   "Node_Trigger": {
-    "name": "Trigger",
-    "tooltip": "Create trigger value.",
+    "name": "触发器",
+    "tooltip": "创建触发值",
     "inputs": [
       {
-        "name": "Trigger"
+        "name": "触发"
       }
     ],
     "outputs": [
       {
-        "name": "Trigger"
+        "name": "触发"
       }
     ]
   },
   "Node_Trigger_Bool": {
-    "name": "Boolean Trigger",
-    "tooltip": "Create trigger based on boolean condition.",
+    "name": "布尔触发器",
+    "tooltip": "根据布尔条件创建触发器",
     "inputs": [
       {
-        "name": "Boolean"
+        "name": "布尔值"
       },
       {
-        "name": "Trigger condition",
+        "name": "触发条件",
         "display_data": [
-          "True frame",
-          "False to True",
-          "True to False",
-          "Value changed"
+          "真值帧",
+          "假值变成真值",
+          "真值变成假值",
+          "值变化"
         ]
       }
     ],
     "outputs": [
       {
-        "name": "Trigger"
+        "name": "触发"
       }
     ]
   },
   "Node_Tunnel_In": {
-    "name": "Tunnel Sender",
-    "tooltip": "Create tunnel for sending value based on key matching.",
+    "name": "隧道发送器",
+    "tooltip": "根据键匹配发送值创建隧道",
     "inputs": [
       {
-        "name": "Name"
+        "name": "名称"
       },
       {
-        "name": "Value in"
+        "name": "输入值"
       }
     ],
     "outputs": []
   },
   "Node_Tunnel_Out": {
-    "name": "Tunnel Receiver",
-    "tooltip": "Receive value from tunnel in of the same key.",
+    "name": "隧道接收器",
+    "tooltip": "从与相同键的隧道输入中接收值",
     "inputs": [
       {
-        "name": "Name"
+        "name": "名称"
       }
     ],
     "outputs": [
       {
-        "name": "Value out"
+        "name": "输出值"
       }
     ]
   },
   "Node_Twirl": {
-    "name": "Twirl",
-    "tooltip": "Twist the image around a mid point.",
+    "name": "旋转扭曲",
+    "tooltip": "围绕中心点扭曲图像",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Center"
+        "name": "中心"
       },
       {
-        "name": "Strength"
+        "name": "强度"
       },
       {
-        "name": "Radius"
+        "name": "半径"
       },
       {
-        "name": "Oversample Mode",
-        "tooltip": "How to deal with pixel outside the surface.\n    - Empty: Use empty pixel\n    - Clamp: Repeat edge pixel\n    - Repeat: Repeat texture.",
+        "name": "过采样模式",
+        "tooltip": "如何处理表面外的像素。\n    - 空白：使用空白像素\n    - 钳制：重复边缘像素\n    - 重复：重复纹理。",
         "display_data": [
-          "Empty",
-          "Clamp",
-          "Repeat"
+          "空白",
+          "钳制",
+          "重复"
         ]
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Mix"
+        "name": "混合"
       },
       {
-        "name": "Active"
+        "name": "激活"
       },
       {
-        "name": "Channel"
+        "name": "通道"
       },
       {
-        "name": "Invert mask"
+        "name": "反转遮罩"
       },
       {
-        "name": "Mask feather"
+        "name": "遮罩羽化"
       },
       {
-        "name": "Strength map"
+        "name": "强度映射"
       },
       {
-        "name": "Radius map"
+        "name": "半径映射"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Unicode": {
     "name": "Unicode",
-    "tooltip": "Convert unicode id into string.",
+    "tooltip": "将 Unicode ID 转换为字符串",
     "inputs": [
       {
         "name": "Unicode"
@@ -23343,13 +23340,13 @@
     ],
     "outputs": [
       {
-        "name": "Character"
+        "name": "字符"
       }
     ]
   },
   "Node_Vector2": {
-    "name": "Vector2",
-    "tooltip": "Generate vector composite of 2 members.",
+    "name": "二维向量",
+    "tooltip": "生成由 2 个成员组成的向量复合体",
     "inputs": [
       {
         "name": "x"
@@ -23358,50 +23355,50 @@
         "name": "y"
       },
       {
-        "name": "Integer"
+        "name": "整数"
       },
       {
-        "name": "Display Type",
+        "name": "显示类型",
         "display_data": [
-          "Number",
-          "Coordinate"
+          "数值",
+          "坐标"
         ]
       },
       {
-        "name": "Show on global",
-        "tooltip": "Whether to show overlay gizmo when not selecting any nodes."
+        "name": "显示在全局",
+        "tooltip": "是否在未选择任何节点时显示叠加小工具"
       },
       {
-        "name": "Gizmo offset"
+        "name": "小工具偏移"
       },
       {
-        "name": "Gizmo scale"
+        "name": "小工具缩放"
       },
       {
-        "name": "Gizmo style",
+        "name": "小工具样式",
         "display_data": [
-          "Default",
-          "Shapes",
-          "Sprite"
+          "默认",
+          "形状",
+          "精灵"
         ]
       },
       {
-        "name": "Gizmo shape",
+        "name": "小工具形状",
         "display_data": [
-          "Rectangle",
-          "Ellipse"
+          "矩形",
+          "椭圆"
         ]
       },
       {
-        "name": "Gizmo sprite"
+        "name": "小工具精灵"
       },
       {
-        "name": "Gizmo size"
+        "name": "小工具大小"
       }
     ],
     "outputs": [
       {
-        "name": "Vector"
+        "name": "向量"
       },
       {
         "name": "x"
@@ -23412,8 +23409,8 @@
     ]
   },
   "Node_Vector3": {
-    "name": "Vector3",
-    "tooltip": "Generate vector composite of 3 members.",
+    "name": "三维向量",
+    "tooltip": "生成由 3 个成员组成的向量复合体",
     "inputs": [
       {
         "name": "x"
@@ -23425,12 +23422,12 @@
         "name": "z"
       },
       {
-        "name": "Integer"
+        "name": "整数"
       }
     ],
     "outputs": [
       {
-        "name": "Vector"
+        "name": "向量"
       },
       {
         "name": "x"
@@ -23444,8 +23441,8 @@
     ]
   },
   "Node_Vector4": {
-    "name": "Vector4",
-    "tooltip": "Generate vector composite of 4 members.",
+    "name": "四维向量",
+    "tooltip": "生成由 4 个成员组成的向量复合体",
     "inputs": [
       {
         "name": "x"
@@ -23460,12 +23457,12 @@
         "name": "w"
       },
       {
-        "name": "Integer"
+        "name": "整数"
       }
     ],
     "outputs": [
       {
-        "name": "Vector"
+        "name": "向量"
       },
       {
         "name": "x"
@@ -23482,132 +23479,132 @@
     ]
   },
   "Node_Vector_Cart_To_Polar": {
-    "name": "Cart. to Polar",
-    "tooltip": "Convert cartesian coordinates to polar coordinates",
+    "name": "笛卡尔转极坐标",
+    "tooltip": "将笛卡尔坐标转换为极坐标",
     "inputs": [
       {
-        "name": "Cartesian Coord"
+        "name": "笛卡尔坐标"
       },
       {
-        "name": "Angle Unit",
+        "name": "角度单位",
         "display_data": [
-          "Degrees",
-          "Radians"
+          "度",
+          "弧度"
         ]
       }
     ],
     "outputs": [
       {
-        "name": "Polar Coord"
+        "name": "极坐标"
       }
     ]
   },
   "Node_Vector_Cross_2D": {
-    "name": "Cross product 2D",
-    "tooltip": "Calculate cross product of 2 vec2s.",
+    "name": "二维向量叉积",
+    "tooltip": "计算两个二维向量的叉积",
     "inputs": [
       {
-        "name": "Point 1"
+        "name": "点 1"
       },
       {
-        "name": "Point 2"
+        "name": "点 2"
       }
     ],
     "outputs": [
       {
-        "name": "Result"
+        "name": "结果"
       }
     ]
   },
   "Node_Vector_Cross_3D": {
-    "name": "Cross product 3D",
-    "tooltip": "Calculate cross product of 2 vec3s.",
+    "name": "三维向量叉积",
+    "tooltip": "计算两个三维向量的叉积",
     "inputs": [
       {
-        "name": "Point 1"
+        "name": "点 1"
       },
       {
-        "name": "Point 2"
+        "name": "点 2"
       }
     ],
     "outputs": [
       {
-        "name": "Result"
+        "name": "结果"
       }
     ]
   },
   "Node_Vector_Dot": {
-    "name": "Dot product",
-    "tooltip": "Calculate dot product between vectors.",
+    "name": "向量点积",
+    "tooltip": "计算两个向量的点积",
     "inputs": [
       {
-        "name": "Point 1"
+        "name": "点 1"
       },
       {
-        "name": "Point 2"
+        "name": "点 2"
       }
     ],
     "outputs": [
       {
-        "name": "Result"
+        "name": "结果"
       }
     ]
   },
   "Node_Vector_Magnitude": {
-    "name": "Magnitude",
-    "tooltip": "Calculate magnitude (length) of a vector.",
+    "name": "向量大小",
+    "tooltip": "计算向量的大小（长度）",
     "inputs": [
       {
-        "name": "Vector"
+        "name": "向量"
       }
     ],
     "outputs": [
       {
-        "name": "Magnitude"
+        "name": "大小"
       }
     ]
   },
   "Node_Vector_Normalize": {
-    "name": "Normalize",
-    "tooltip": "Scale vector to length 1.",
+    "name": "向量归一化",
+    "tooltip": "将向量缩放至长度为 1",
     "inputs": [
       {
-        "name": "Vector"
+        "name": "向量"
       }
     ],
     "outputs": [
       {
-        "name": "Normalized Vector"
+        "name": "归一化向量"
       }
     ]
   },
   "Node_Vector_Polar_To_Cart": {
-    "name": "Polar to Cart.",
-    "tooltip": "Convert polar coordinates to cartesian coordinates.",
+    "name": "极坐标转笛卡尔",
+    "tooltip": "将极坐标转换为笛卡尔坐标",
     "inputs": [
       {
-        "name": "Polar Coord"
+        "name": "极坐标"
       },
       {
-        "name": "Angle Unit",
+        "name": "角度单位",
         "display_data": [
-          "Degrees",
-          "Radians"
+          "度",
+          "弧度"
         ]
       }
     ],
     "outputs": [
       {
-        "name": "Cartesian Coord"
+        "name": "笛卡尔坐标"
       }
     ]
   },
   "Node_Vector_Split": {
-    "name": "Vector Split",
-    "tooltip": "Split vector (up to 4) into individual components.",
+    "name": "向量拆分",
+    "tooltip": "将向量（最多 4 个）拆分为单独的分量",
     "inputs": [
       {
-        "name": "Vector"
+        "name": "向量"
       }
     ],
     "outputs": [
@@ -23626,450 +23623,450 @@
     ]
   },
   "Node_Vector_Swizzle": {
-    "name": "Swizzle",
-    "tooltip": "Rearrange vector using string containing axis indicies (x, y, z, w).",
+    "name": "向量重排",
+    "tooltip": "使用包含轴索引（x, y, z, w）的字符串重新排列向量",
     "inputs": [
       {
-        "name": "Vector"
+        "name": "向量"
       },
       {
-        "name": "Swizzle"
+        "name": "重排"
       }
     ],
     "outputs": [
       {
-        "name": "Result"
+        "name": "结果"
       }
     ]
   },
   "Node_VFX_Accelerate": {
-    "name": "Accelerate",
-    "tooltip": "Change the speed of particle in range.",
+    "name": "加速",
+    "tooltip": "在范围内改变粒子的速度",
     "inputs": [
       {
-        "name": "Particles"
+        "name": "粒子"
       },
       {
-        "name": "Area"
+        "name": "区域"
       },
       {
-        "name": "Falloff"
+        "name": "衰减"
       },
       {
-        "name": "Falloff distance"
+        "name": "衰减距离"
       },
       {
-        "name": "Effect Vector"
+        "name": "效果向量"
       },
       {
-        "name": "Strength"
+        "name": "强度"
       },
       {
-        "name": "Rotate particle"
+        "name": "旋转粒子"
       },
       {
-        "name": "Scale particle"
+        "name": "缩放粒子"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       }
     ],
     "outputs": [
       {
-        "name": "Particles"
+        "name": "粒子"
       }
     ]
   },
   "Node_VFX_Attract": {
-    "name": "Attract",
-    "tooltip": "Attract particle in range to one point.",
+    "name": "吸引",
+    "tooltip": "在范围内将粒子吸引到一个点",
     "inputs": [
       {
-        "name": "Particles"
+        "name": "粒子"
       },
       {
-        "name": "Area"
+        "name": "区域"
       },
       {
-        "name": "Falloff"
+        "name": "衰减"
       },
       {
-        "name": "Falloff distance"
+        "name": "衰减距离"
       },
       {
-        "name": "Effect Vector"
+        "name": "效果向量"
       },
       {
-        "name": "Strength"
+        "name": "强度"
       },
       {
-        "name": "Rotate particle"
+        "name": "旋转粒子"
       },
       {
-        "name": "Scale particle"
+        "name": "缩放粒子"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "Destroy when reach middle"
+        "name": "到达中间时销毁"
       }
     ],
     "outputs": [
       {
-        "name": "Particles"
+        "name": "粒子"
       }
     ]
   },
   "Node_VFX_Boids": {
-    "name": "Boids",
-    "tooltip": "Apply boids algorithm to create a flock behaviour.",
+    "name": "群体行为",
+    "tooltip": "应用群体算法以创建群体行为",
     "inputs": [
       {
-        "name": "Particles"
+        "name": "粒子"
       },
       {
-        "name": "Sep. radius"
+        "name": "分离半径"
       },
       {
-        "name": "Sep. influence"
+        "name": "分离影响"
       },
       {
-        "name": "Ali. radius"
+        "name": "对齐半径"
       },
       {
-        "name": "Ali. influence"
+        "name": "对齐影响"
       },
       {
-        "name": "Grp. radius"
+        "name": "聚集半径"
       },
       {
-        "name": "Grp. influence"
+        "name": "聚集影响"
       },
       {
-        "name": "Speed amplification"
+        "name": "速度放大"
       },
       {
-        "name": "Follow point"
+        "name": "跟随点"
       },
       {
-        "name": "Point"
+        "name": "点"
       },
       {
-        "name": "Fol. influence"
+        "name": "跟随影响"
       },
       {
-        "name": "Separate"
+        "name": "分离"
       },
       {
-        "name": "Align"
+        "name": "对齐"
       },
       {
-        "name": "Group"
+        "name": "聚集"
       }
     ],
     "outputs": [
       {
-        "name": "Particles"
+        "name": "粒子"
       }
     ]
   },
   "Node_VFX_Destroy": {
-    "name": "Destroy",
-    "tooltip": "Destroy particle in range.",
+    "name": "销毁",
+    "tooltip": "在范围内销毁粒子",
     "inputs": [
       {
-        "name": "Particles"
+        "name": "粒子"
       },
       {
-        "name": "Area"
+        "name": "区域"
       },
       {
-        "name": "Falloff"
+        "name": "衰减"
       },
       {
-        "name": "Falloff distance"
+        "name": "衰减距离"
       },
       {
-        "name": "Effect Vector"
+        "name": "效果向量"
       },
       {
-        "name": "Strength"
+        "name": "强度"
       },
       {
-        "name": "Rotate particle"
+        "name": "旋转粒子"
       },
       {
-        "name": "Scale particle"
+        "name": "缩放粒子"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       }
     ],
     "outputs": [
       {
-        "name": "Particles"
+        "name": "粒子"
       }
     ]
   },
   "Node_VFX_Group": {
-    "name": "VFX",
+    "name": "VFX 组",
     "tooltip": "",
     "inputs": [
       {
-        "name": "Loop"
+        "name": "循环"
       }
     ],
     "outputs": []
   },
   "Node_VFX_Group_Inline": {
-    "name": "VFX",
-    "tooltip": "Create VFX group, which generate particles that can be manipulated using different force nodes.",
+    "name": "VFX 组",
+    "tooltip": "创建 VFX 组，可以使用不同的力节点操作生成的粒子",
     "inputs": [
       {
-        "name": "Loop"
+        "name": "循环"
       },
       {
-        "name": "Dimension"
+        "name": "尺寸"
       }
     ],
     "outputs": []
   },
   "Node_VFX_Oscillate": {
-    "name": "Oscillate",
-    "tooltip": "Swing particle around its original trajectory.",
+    "name": "振荡",
+    "tooltip": "使粒子围绕其原始轨迹摆动",
     "inputs": [
       {
-        "name": "Particles"
+        "name": "粒子"
       },
       {
-        "name": "Area"
+        "name": "区域"
       },
       {
-        "name": "Falloff"
+        "name": "衰减"
       },
       {
-        "name": "Falloff distance"
+        "name": "衰减距离"
       },
       {
-        "name": "Effect Vector"
+        "name": "效果向量"
       },
       {
-        "name": "Strength"
+        "name": "强度"
       },
       {
-        "name": "Rotate particle"
+        "name": "旋转粒子"
       },
       {
-        "name": "Scale particle"
+        "name": "缩放粒子"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "Amplitude"
+        "name": "振幅"
       },
       {
-        "name": "Frequency"
+        "name": "频率"
       },
       {
-        "name": "Multiply by speed"
+        "name": "乘以速度"
       }
     ],
     "outputs": [
       {
-        "name": "Particles"
+        "name": "粒子"
       }
     ]
   },
   "Node_VFX_Override": {
-    "name": "VFX Override",
-    "tooltip": "Replace particle variable with a new one.",
+    "name": "VFX 覆盖",
+    "tooltip": "用新变量替换粒子变量",
     "inputs": [
       {
-        "name": "Particles"
+        "name": "粒子"
       },
       {
-        "name": "Set Positions"
+        "name": "设置位置"
       },
       {
-        "name": "Mode",
+        "name": "模式",
         "display_data": [
-          "Absolute",
-          "Relative"
+          "绝对",
+          "相对"
         ]
       },
       {
-        "name": "Positions"
+        "name": "位置"
       },
       {
-        "name": "Set Rotations"
+        "name": "设置旋转"
       },
       {
-        "name": "Mode",
+        "name": "模式",
         "display_data": [
-          "Absolute",
-          "Relative"
+          "绝对",
+          "相对"
         ]
       },
       {
-        "name": "Rotations"
+        "name": "旋转"
       },
       {
-        "name": "Set Scales"
+        "name": "设置缩放"
       },
       {
-        "name": "Mode",
+        "name": "模式",
         "display_data": [
-          "Absolute",
-          "Relative Add",
-          "Relative Muliply"
+          "绝对",
+          "相对加",
+          "相对乘"
         ]
       },
       {
-        "name": "Scales"
+        "name": "缩放"
       },
       {
-        "name": "Set Blend"
+        "name": "设置混合"
       },
       {
-        "name": "Blend"
+        "name": "混合"
       },
       {
-        "name": "Set Alpha"
+        "name": "设置透明度"
       },
       {
-        "name": "Mode",
+        "name": "模式",
         "display_data": [
-          "Absolute",
-          "Relative"
+          "绝对",
+          "相对"
         ]
       },
       {
-        "name": "Alpha"
+        "name": "透明度"
       },
       {
-        "name": "Set Surface"
+        "name": "设置表面"
       },
       {
-        "name": "Surface"
+        "name": "表面"
       }
     ],
     "outputs": [
       {
-        "name": "Particles"
+        "name": "粒子"
       }
     ]
   },
   "Node_VFX_Renderer": {
-    "name": "Renderer",
-    "tooltip": "Render particle objects to surface.",
+    "name": "渲染器",
+    "tooltip": "将粒子对象渲染到表面上",
     "inputs": [
       {
-        "name": "Output dimension"
+        "name": "输出尺寸"
       },
       {
-        "name": "Round position",
-        "tooltip": "Round position to the closest integer value to avoid jittering."
+        "name": "四舍五入位置",
+        "tooltip": "将位置四舍五入到最接近的整数值，以避免抖动"
       },
       {
-        "name": "Render Type",
+        "name": "渲染类型",
         "display_data": [
-          "Surface",
-          "Line"
+          "表面",
+          "线条"
         ]
       },
       {
-        "name": "Line life"
+        "name": "线条生命周期"
       },
       {
-        "name": "Blend mode",
+        "name": "混合模式",
         "display_data": [
-          "Normal",
+          "正常",
           "Alpha",
-          "Additive"
+          "加性"
         ]
       },
       {
-        "name": "Particles"
+        "name": "粒子"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_VFX_Renderer_Output": {
-    "name": "Renderer",
+    "name": "渲染器",
     "tooltip": "",
     "inputs": [
       {
-        "name": "Output dimension"
+        "name": "输出尺寸"
       },
       {
-        "name": "Round position",
-        "tooltip": "Round position to the closest integer value to avoid jittering."
+        "name": "四舍五入位置",
+        "tooltip": "将位置四舍五入到最接近的整数值，以避免抖动"
       },
       {
-        "name": "Render Type",
+        "name": "渲染类型",
         "display_data": [
-          "Surface",
-          "Line"
+          "表面",
+          "线条"
         ]
       },
       {
-        "name": "Line life"
+        "name": "线条生命周期"
       },
       {
-        "name": "Blend mode",
+        "name": "混合模式",
         "display_data": [
-          "Normal",
+          "正常",
           "Alpha",
-          "Additive"
+          "加性"
         ]
       },
       {
-        "name": "Particles"
+        "name": "粒子"
       }
     ],
     "outputs": []
   },
   "Node_VFX_Repel": {
-    "name": "Repel",
-    "tooltip": "Move particle away from point.",
+    "name": "排斥",
+    "tooltip": "将粒子从某点移开",
     "inputs": [
       {
-        "name": "Particles"
+        "name": "粒子"
       },
       {
-        "name": "Area"
+        "name": "区域"
       },
       {
-        "name": "Falloff"
+        "name": "衰减"
       },
       {
-        "name": "Falloff distance"
+        "name": "衰减距离"
       },
       {
-        "name": "Effect Vector"
+        "name": "效果向量"
       },
       {
-        "name": "Strength"
+        "name": "强度"
       },
       {
-        "name": "Rotate particle"
+        "name": "旋转粒子"
       },
       {
-        "name": "Scale particle"
+        "name": "缩放粒子"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       }
     ],
     "outputs": [
       {
-        "name": "Particles"
+        "name": "粒子"
       }
     ]
   },
