@@ -24074,1018 +24074,1018 @@
     ]
   },
   "Node_VFX_Spawner": {
-    "name": "Spawner",
-    "tooltip": "Spawn new particles.",
+    "name": "生成器",
+    "tooltip": "生成新的粒子。",
     "inputs": [
       {
-        "name": "Particle Sprite"
+        "name": "粒子精灵"
       },
       {
-        "name": "Spawn Delay",
-        "tooltip": "Frames delay between each particle spawn."
+        "name": "生成延迟",
+        "tooltip": "每帧生成粒子之间的延迟。"
       },
       {
-        "name": "Spawn Amount",
-        "tooltip": "Amount of particle spawn in that frame."
+        "name": "生成数量",
+        "tooltip": "该帧生成的粒子数量。"
       },
       {
-        "name": "Spawn Area"
+        "name": "生成区域"
       },
       {
-        "name": "Spawn Source",
+        "name": "生成源",
         "display_data": [
-          "Area Inside",
-          "Area Border",
-          "Map",
-          "Path"
+          "区域内部",
+          "区域边界",
+          "映射",
+          "路径"
         ]
       },
       {
-        "name": "Lifespan"
+        "name": "生命周期"
       },
       {
-        "name": "Initial Direction"
+        "name": "初始方向"
       },
       {
-        "name": "Acceleration"
+        "name": "加速度"
       },
       {
-        "name": "Initial Rotation"
+        "name": "初始旋转"
       },
       {
-        "name": "Rotational Speed"
+        "name": "旋转速度"
       },
       {
-        "name": "Initial Scale"
+        "name": "初始缩放"
       },
       {
-        "name": "Scale Over Time"
+        "name": "随时间缩放"
       },
       {
-        "name": "Color Over Lifetime"
+        "name": "随生命周期变化的颜色"
       },
       {
-        "name": "Alpha"
+        "name": "透明度"
       },
       {
-        "name": "Alpha Over Time"
+        "name": "随时间变化的透明度"
       },
       {
-        "name": "Rotate by Direction",
-        "tooltip": "Make the particle rotates to follow its movement."
+        "name": "按方向旋转",
+        "tooltip": "使粒子沿其运动方向旋转。"
       },
       {
-        "name": "Spawn Type",
+        "name": "生成类型",
         "display_data": [
-          "Stream",
-          "Burst",
-          "Trigger"
+          "流",
+          "爆发",
+          "触发"
         ]
       },
       {
-        "name": "Initial Size"
+        "name": "初始大小"
       },
       {
-        "name": "Initial Speed"
+        "name": "初始速度"
       },
       {
-        "name": "Gravity"
+        "name": "重力"
       },
       {
-        "name": "Direction Wiggle"
+        "name": "方向摆动"
       },
       {
-        "name": "Loop"
+        "name": "循环"
       },
       {
-        "name": "Surface Array",
-        "tooltip": "Whether to select image from an array in order, at random, or treat array as animation.",
+        "name": "表面数组",
+        "tooltip": "是否按顺序、随机选择图像，或将数组视为动画。",
         "display_data": [
-          "Random",
-          "Order",
-          "Animation",
-          "Scale"
+          "随机",
+          "顺序",
+          "动画",
+          "缩放"
         ]
       },
       {
-        "name": "Animation Speed"
+        "name": "动画速度"
       },
       {
-        "name": "Distribution",
+        "name": "分布",
         "display_data": [
-          "Uniform",
-          "Random"
+          "均匀",
+          "随机"
         ]
       },
       {
-        "name": "Boundary Data"
+        "name": "边界数据"
       },
       {
-        "name": "On Animation End",
+        "name": "动画结束时",
         "display_data": [
-          "Loop",
-          "Ping pong",
-          "Destroy"
+          "循环",
+          "往返",
+          "销毁"
         ]
       },
       {
-        "name": "Spawn"
+        "name": "生成"
       },
       {
-        "name": "Random Blend"
+        "name": "随机混合"
       },
       {
-        "name": "Directed From Center",
-        "tooltip": "Make particle move away from the spawn center."
+        "name": "从中心向外",
+        "tooltip": "使粒子从生成中心向外移动。"
       },
       {
-        "name": "Distribution Map"
+        "name": "分布映射"
       },
       {
-        "name": "Atlas"
+        "name": "图集"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "Gravity Direction"
+        "name": "重力方向"
       },
       {
-        "name": "Turning"
+        "name": "转向"
       },
       {
-        "name": "Turn Both Directions",
-        "tooltip": "Apply randomized 1, -1 multiplier to the turning speed."
+        "name": "双向转向",
+        "tooltip": "对转向速度应用随机的 1 或 -1 乘数。"
       },
       {
-        "name": "Turn Scale with Speed"
+        "name": "随速度缩放转向"
       },
       {
-        "name": "Collide Ground"
+        "name": "碰撞地面"
       },
       {
-        "name": "Ground Offset"
+        "name": "地面偏移"
       },
       {
-        "name": "Bounce Amount"
+        "name": "反弹量"
       },
       {
-        "name": "Bounce Friction",
-        "tooltip": "Apply horizontal friction once particle stop bouncing."
+        "name": "反弹摩擦",
+        "tooltip": "粒子停止反弹后应用水平摩擦。"
       },
       {
-        "name": "Position Wiggle"
+        "name": "位置摆动"
       },
       {
-        "name": "Rotation Wiggle"
+        "name": "旋转摆动"
       },
       {
-        "name": "Scale Wiggle"
+        "name": "缩放摆动"
       },
       {
-        "name": "Spawn"
+        "name": "生成"
       },
       {
-        "name": "Follow Path"
+        "name": "跟随路径"
       },
       {
-        "name": "Path"
+        "name": "路径"
       },
       {
-        "name": "Path Deviation"
+        "name": "路径偏差"
       },
       {
-        "name": "Reset Seed"
+        "name": "重置种子"
       },
       {
-        "name": "Stretch Animation"
+        "name": "拉伸动画"
       },
       {
-        "name": "Color by Index"
+        "name": "按索引着色"
       },
       {
-        "name": "Burst Duration"
+        "name": "爆发持续时间"
       },
       {
-        "name": "Uniform Period"
+        "name": "均匀周期"
       },
       {
-        "name": "Angle Range"
+        "name": "角度范围"
       },
       {
-        "name": "Friction"
+        "name": "摩擦"
       },
       {
-        "name": "Spawn Path"
+        "name": "生成路径"
       },
       {
-        "name": "Sample Surface"
+        "name": "采样表面"
       },
       {
-        "name": "Use Physics"
+        "name": "使用物理"
       },
       {
-        "name": "Use Wiggles"
+        "name": "使用摆动"
       },
       {
-        "name": "Rotational Speed Over Time"
+        "name": "随时间变化的旋转速度"
       },
       {
-        "name": "Base Speed Over Time",
-        "tooltip": "Speed may conflict with physics-based properties."
+        "name": "基础速度随时间变化",
+        "tooltip": "速度可能会与基于物理的属性冲突。"
       },
       {
-        "name": "Snap Rotation"
+        "name": "四舍五入旋转"
       },
       {
-        "name": "Spawn trigger"
+        "name": "生成触发"
       },
       {
-        "name": "Step interval",
-        "tooltip": "How often the 'on step' event is triggered.\nWith 1 being trigger every frame, 2 means triggered once every 2 frames."
+        "name": "步长间隔",
+        "tooltip": "‘按步’事件触发的频率。\n1 表示每帧触发一次，2 表示每 2 帧触发一次。"
       }
     ],
     "outputs": [
       {
-        "name": "Particles"
+        "name": "粒子"
       },
       {
-        "name": "On create"
+        "name": "创建时"
       },
       {
-        "name": "On step"
+        "name": "每步"
       },
       {
-        "name": "On destroy"
+        "name": "销毁时"
       }
     ]
   },
   "Node_VFX_Trail": {
-    "name": "VFX Trail",
-    "tooltip": "Generate path from particle movement.",
+    "name": "VFX 轨迹",
+    "tooltip": "从粒子运动生成路径。",
     "inputs": [
       {
-        "name": "Particles"
+        "name": "粒子"
       },
       {
-        "name": "Life"
+        "name": "生命周期"
       },
       {
-        "name": "Color"
+        "name": "颜色"
       }
     ],
     "outputs": [
       {
-        "name": "Path"
+        "name": "路径"
       }
     ]
   },
   "Node_VFX_Triangulate": {
-    "name": "VFX Triangulate",
-    "tooltip": "Render line between particles.",
+    "name": "VFX 三角化",
+    "tooltip": "在粒子之间绘制线条。",
     "inputs": [
       {
-        "name": "Output dimension"
+        "name": "输出尺寸"
       },
       {
-        "name": "Particles"
+        "name": "粒子"
       },
       {
-        "name": "Thickness"
+        "name": "厚度"
       },
       {
-        "name": "Color"
+        "name": "颜色"
       },
       {
-        "name": "Inherit Thickness"
+        "name": "继承厚度"
       },
       {
-        "name": "Inherit Color"
+        "name": "继承颜色"
       },
       {
-        "name": "Segments"
+        "name": "分段"
       },
       {
-        "name": "Thickness over Length"
+        "name": "沿长度的厚度变化"
       },
       {
-        "name": "Color over Length"
+        "name": "沿长度的颜色变化"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_VFX_Turbulence": {
-    "name": "Turbulence",
-    "tooltip": "Move particle in range randomly.",
+    "name": "湍流",
+    "tooltip": "在范围内随机移动粒子。",
     "inputs": [
       {
-        "name": "Particles"
+        "name": "粒子"
       },
       {
-        "name": "Area"
+        "name": "区域"
       },
       {
-        "name": "Falloff"
+        "name": "衰减"
       },
       {
-        "name": "Falloff distance"
+        "name": "衰减距离"
       },
       {
-        "name": "Effect Vector"
+        "name": "效果向量"
       },
       {
-        "name": "Strength"
+        "name": "强度"
       },
       {
-        "name": "Rotate particle"
+        "name": "旋转粒子"
       },
       {
-        "name": "Scale particle"
+        "name": "缩放粒子"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "Turbulence scale"
+        "name": "湍流缩放"
       },
       {
-        "name": "Constant seed"
+        "name": "常量种子"
       }
     ],
     "outputs": [
       {
-        "name": "Particles"
+        "name": "粒子"
       }
     ]
   },
   "Node_VFX_Variable": {
-    "name": "VFX Variable",
-    "tooltip": "Extract variable from particle objects.",
+    "name": "VFX 变量",
+    "tooltip": "从粒子对象中提取变量。",
     "inputs": [
       {
-        "name": "Particles"
+        "name": "粒子"
       }
     ],
     "outputs": [
       {
-        "name": "Positions"
+        "name": "位置"
       },
       {
-        "name": "Scales"
+        "name": "缩放"
       },
       {
-        "name": "Rotations"
+        "name": "旋转"
       },
       {
-        "name": "Blending"
+        "name": "混合"
       },
       {
-        "name": "Alpha"
+        "name": "透明度"
       },
       {
-        "name": "Life"
+        "name": "生命周期"
       },
       {
-        "name": "Max life"
+        "name": "最大生命周期"
       },
       {
-        "name": "Surface"
+        "name": "表面"
       },
       {
-        "name": "Velocity"
+        "name": "速度"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "Spawn Positions"
+        "name": "生成位置"
       }
     ]
   },
   "Node_VFX_Vortex": {
-    "name": "Vortex",
-    "tooltip": "Rotate particle around a point.",
+    "name": "漩涡",
+    "tooltip": "使粒子围绕某点旋转。",
     "inputs": [
       {
-        "name": "Particles"
+        "name": "粒子"
       },
       {
-        "name": "Area"
+        "name": "区域"
       },
       {
-        "name": "Falloff"
+        "name": "衰减"
       },
       {
-        "name": "Falloff distance"
+        "name": "衰减距离"
       },
       {
-        "name": "Effect Vector"
+        "name": "效果向量"
       },
       {
-        "name": "Strength"
+        "name": "强度"
       },
       {
-        "name": "Rotate particle"
+        "name": "旋转粒子"
       },
       {
-        "name": "Scale particle"
+        "name": "缩放粒子"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "Attraction force"
+        "name": "吸引力"
       },
       {
-        "name": "Clockwise"
+        "name": "顺时针"
       },
       {
-        "name": "Destroy when reach middle"
+        "name": "到达中间时销毁"
       }
     ],
     "outputs": [
       {
-        "name": "Particles"
+        "name": "粒子"
       }
     ]
   },
   "Node_VFX_Wind": {
-    "name": "Wind",
-    "tooltip": "Move particle in range.",
+    "name": "风",
+    "tooltip": "在范围内移动粒子。",
     "inputs": [
       {
-        "name": "Particles"
+        "name": "粒子"
       },
       {
-        "name": "Area"
+        "name": "区域"
       },
       {
-        "name": "Falloff"
+        "name": "衰减"
       },
       {
-        "name": "Falloff distance"
+        "name": "衰减距离"
       },
       {
-        "name": "Effect Vector"
+        "name": "效果向量"
       },
       {
-        "name": "Strength"
+        "name": "强度"
       },
       {
-        "name": "Rotate particle"
+        "name": "旋转粒子"
       },
       {
-        "name": "Scale particle"
+        "name": "缩放粒子"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       }
     ],
     "outputs": [
       {
-        "name": "Particles"
+        "name": "粒子"
       }
     ]
   },
   "Node_Vignette": {
-    "name": "Vignette",
-    "tooltip": "Apply vignette effect to the border.",
+    "name": "晕影效果",
+    "tooltip": "在边缘应用晕影效果",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Active"
+        "name": "启用"
       },
       {
-        "name": "Exposure"
+        "name": "曝光"
       },
       {
-        "name": "Strength"
+        "name": "强度"
       },
       {
-        "name": "Exponent"
+        "name": "指数"
       },
       {
-        "name": "Roundness"
+        "name": "圆润度"
       },
       {
-        "name": "Lighten"
+        "name": "提亮"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Voronoi_Extra": {
-    "name": "Extra Voronoi",
-    "tooltip": "Random voronoi noise made with different algorithms.",
+    "name": "额外 Voronoi",
+    "tooltip": "使用不同算法生成随机 Voronoi 噪声。",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Scale"
+        "name": "缩放"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "Progress"
+        "name": "进度"
       },
       {
-        "name": "Mode",
+        "name": "模式",
         "display_data": [
-          "Block",
-          "Triangle"
+          "块",
+          "三角形"
         ]
       },
       {
-        "name": "Parameter A"
+        "name": "参数 A"
       },
       {
-        "name": "Rotation"
+        "name": "旋转"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Warp": {
-    "name": "Warp",
-    "tooltip": "Warp image by freely moving the corners.",
+    "name": "扭曲",
+    "tooltip": "通过自由移动角点来扭曲图像。",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Top Left"
+        "name": "左上角"
       },
       {
-        "name": "Top Right"
+        "name": "右上角"
       },
       {
-        "name": "Bottom Left"
+        "name": "左下角"
       },
       {
-        "name": "Bottom Right"
+        "name": "右下角"
       },
       {
-        "name": "Active"
+        "name": "启用"
       },
       {
-        "name": "Dimension Type",
+        "name": "尺寸类型",
         "display_data": [
-          "Input",
-          "Absolute",
-          "Relative"
+          "输入",
+          "绝对值",
+          "相对值"
         ]
       },
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Tile"
+        "name": "平铺"
       },
       {
-        "name": "Relative Dimension"
+        "name": "相对尺寸"
       },
       {
-        "name": "Back Surface"
+        "name": "背景表面"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_WAV_File_Read": {
-    "name": "WAV File In",
-    "tooltip": "Load wav audio file.",
+    "name": "WAV 文件输入",
+    "tooltip": "加载 WAV 音频文件。",
     "inputs": [
       {
-        "name": "Path"
+        "name": "路径"
       },
       {
-        "name": "Sync length"
+        "name": "同步长度"
       },
       {
-        "name": "Mono"
+        "name": "单声道"
       }
     ],
     "outputs": [
       {
-        "name": "Data"
+        "name": "数据"
       },
       {
-        "name": "Path"
+        "name": "路径"
       },
       {
-        "name": "Sample rate"
+        "name": "采样率"
       },
       {
-        "name": "Channels"
+        "name": "声道"
       },
       {
-        "name": "Duration"
+        "name": "持续时间"
       }
     ]
   },
   "Node_WAV_File_Write": {
-    "name": "WAV File Out",
-    "tooltip": "Save wav audio file.",
+    "name": "WAV 文件输出",
+    "tooltip": "保存 WAV 音频文件。",
     "inputs": [
       {
-        "name": "Path"
+        "name": "路径"
       },
       {
-        "name": "Audio Data"
+        "name": "音频数据"
       },
       {
-        "name": "Sample"
+        "name": "采样"
       },
       {
-        "name": "Bit Depth",
+        "name": "位深度",
         "display_data": [
-          "8 bit positive",
-          "16 bit integer"
+          "8 位正数",
+          "16 位整数"
         ]
       },
       {
-        "name": "Remap Data"
+        "name": "重新映射数据"
       },
       {
-        "name": "Data Range"
+        "name": "数据范围"
       }
     ],
     "outputs": []
   },
   "Node_Wavelet_Noise": {
-    "name": "Wavelet Noise",
-    "tooltip": "Generate wavelet noise",
+    "name": "小波噪声",
+    "tooltip": "生成小波噪声",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Scale"
+        "name": "缩放"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "Progress"
+        "name": "进度"
       },
       {
-        "name": "Detail"
+        "name": "细节"
       },
       {
-        "name": "Scale map"
+        "name": "缩放映射"
       },
       {
-        "name": "Progress map"
+        "name": "进度映射"
       },
       {
-        "name": "Detail map"
+        "name": "细节映射"
       },
       {
-        "name": "Rotation"
+        "name": "旋转"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_Websocket_Receiver": {
-    "name": "Websocket Receiver",
-    "tooltip": "Create websocket server to receive data from the network.",
+    "name": "WebSocket 接收器",
+    "tooltip": "创建 WebSocket 服务器以从网络接收数据。",
     "inputs": [
       {
-        "name": "Port"
+        "name": "端口"
       },
       {
-        "name": "Active"
+        "name": "启用"
       },
       {
-        "name": "Mode",
+        "name": "模式",
         "display_data": [
-          "Client",
-          "Server"
+          "客户端",
+          "服务器"
         ]
       },
       {
-        "name": "Url"
+        "name": "URL"
       }
     ],
     "outputs": [
       {
-        "name": "Data"
+        "name": "数据"
       },
       {
-        "name": "Receive data"
+        "name": "接收数据"
       }
     ]
   },
   "Node_Websocket_Sender": {
-    "name": "Websocket Sender",
-    "tooltip": "Create websocket server to send data to the network.",
+    "name": "WebSocket 发送器",
+    "tooltip": "创建 WebSocket 服务器以将数据发送到网络。",
     "inputs": [
       {
-        "name": "Port"
+        "name": "端口"
       },
       {
-        "name": "Data type",
+        "name": "数据类型",
         "display_data": [
-          "Struct",
-          "Surface",
-          "File",
-          "Buffer"
+          "结构体",
+          "表面",
+          "文件",
+          "缓冲区"
         ]
       },
       {
-        "name": "Struct"
+        "name": "结构体"
       },
       {
-        "name": "Surface"
+        "name": "表面"
       },
       {
-        "name": "Path"
+        "name": "路径"
       },
       {
-        "name": "Target"
+        "name": "目标"
       },
       {
-        "name": "Buffer"
+        "name": "缓冲区"
       }
     ],
     "outputs": []
   },
   "Node_Widget_Test": {
-    "name": "Widget Test",
+    "name": "小部件测试",
     "tooltip": "",
     "inputs": [
       {
-        "name": "textBox"
+        "name": "文本框"
       },
       {
-        "name": "rangeBox"
+        "name": "范围框"
       },
       {
-        "name": "vectorBox"
+        "name": "向量框"
       },
       {
-        "name": "vectorRangeBox"
+        "name": "向量范围框"
       },
       {
-        "name": "rotator"
+        "name": "旋转器"
       },
       {
-        "name": "rotatorRange"
+        "name": "旋转范围"
       },
       {
-        "name": "rotatorRandom"
+        "name": "随机旋转"
       },
       {
-        "name": "slider"
+        "name": "滑块"
       },
       {
-        "name": "sliderRange"
+        "name": "滑块范围"
       },
       {
-        "name": "areaBox"
+        "name": "区域框"
       },
       {
-        "name": "paddingBox"
+        "name": "填充框"
       },
       {
-        "name": "cornerBox"
+        "name": "角落框"
       },
       {
-        "name": "controlPointBox"
+        "name": "控制点框"
       },
       {
-        "name": "scrollBox",
+        "name": "滚动框",
         "display_data": [
-          "Choice 1",
-          "Choice 2"
+          "选择 1",
+          "选择 2"
         ]
       },
       {
-        "name": "buttonGroup",
+        "name": "按钮组",
         "display_data": [
-          "Choice 1",
-          "Choice 2"
+          "选择 1",
+          "选择 2"
         ]
       },
       {
-        "name": "matrixGrid"
+        "name": "矩阵网格"
       },
       {
-        "name": "transformBox"
+        "name": "变换框"
       },
       {
-        "name": "transformBox"
+        "name": "变换框"
       },
       {
-        "name": "quarternionBox"
+        "name": "四元数框"
       },
       {
-        "name": "checkBox"
+        "name": "复选框"
       },
       {
-        "name": "buttonColor"
+        "name": "颜色按钮"
       },
       {
-        "name": "buttonPalette"
+        "name": "调色板按钮"
       },
       {
-        "name": "buttonGradient"
+        "name": "渐变按钮"
       },
       {
-        "name": "pathArrayBox"
+        "name": "路径数组框"
       },
       {
-        "name": "pathLoad"
+        "name": "加载路径"
       },
       {
-        "name": "pathSave"
+        "name": "保存路径"
       },
       {
-        "name": "font"
+        "name": "字体滚动框"
       },
       {
-        "name": "curveBox"
+        "name": "曲线框"
       },
       {
-        "name": "textArea"
+        "name": "文本区域"
       },
       {
-        "name": "textBox"
+        "name": "文本框"
       },
       {
-        "name": "textArea"
+        "name": "文本区域"
       },
       {
-        "name": "textArea"
+        "name": "文本区域"
       },
       {
-        "name": "textArrayBox"
+        "name": "文本数组框"
       },
       {
-        "name": "surfaceBox"
+        "name": "表面框"
       }
     ],
     "outputs": []
   },
   "Node_Wiggler": {
-    "name": "Wiggler",
-    "tooltip": "Create random value smoothly changing over time.",
+    "name": "摆动器",
+    "tooltip": "创建随时间平滑变化的随机值。",
     "inputs": [
       {
-        "name": "Display",
+        "name": "显示",
         "display_data": [
-          "Number",
-          "Graph"
+          "数字",
+          "图表"
         ]
       },
       {
-        "name": "Range"
+        "name": "范围"
       },
       {
-        "name": "Frequency"
+        "name": "频率"
       },
       {
-        "name": "Seed"
+        "name": "种子"
       },
       {
-        "name": "Clip"
+        "name": "裁剪"
       }
     ],
     "outputs": [
       {
-        "name": "Output"
+        "name": "输出"
       }
     ]
   },
   "Node_Wrap_Area": {
-    "name": "Area Warp",
-    "tooltip": "Wrap image to fit an area value.",
+    "name": "区域变形",
+    "tooltip": "将图像包裹以适应区域值 (x, y, w, h)。",
     "inputs": [
       {
-        "name": "Surface In"
+        "name": "输入表面"
       },
       {
-        "name": "Area"
+        "name": "区域"
       },
       {
-        "name": "Active"
+        "name": "启用"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   },
   "Node_XML_File_Read": {
-    "name": "XML File In",
-    "tooltip": "Load xml file.",
+    "name": "XML 文件读取",
+    "tooltip": "加载 XML 文件。",
     "inputs": [
       {
-        "name": "Path"
+        "name": "路径"
       }
     ],
     "outputs": [
       {
-        "name": "Content"
+        "name": "内容"
       },
       {
-        "name": "Path"
+        "name": "路径"
       }
     ]
   },
   "Node_XML_File_Write": {
-    "name": "XML File Out",
-    "tooltip": "Write struct to xml file.",
+    "name": "XML 文件写入",
+    "tooltip": "将结构体写入 XML 文件。",
     "inputs": [
       {
-        "name": "Path"
+        "name": "路径"
       },
       {
-        "name": "Struct"
+        "name": "结构体"
       }
     ],
     "outputs": []
   },
   "Node_Zigzag": {
-    "name": "Zigzag",
-    "tooltip": "Generate zigzag pattern.",
+    "name": "锯齿",
+    "tooltip": "生成锯齿图案。",
     "inputs": [
       {
-        "name": "Dimension"
+        "name": "尺寸"
       },
       {
-        "name": "Amount"
+        "name": "数量"
       },
       {
-        "name": "Position"
+        "name": "位置"
       },
       {
-        "name": "Color 1"
+        "name": "颜色 1"
       },
       {
-        "name": "Color 2"
+        "name": "颜色 2"
       },
       {
-        "name": "Type",
+        "name": "类型",
         "display_data": [
-          "Solid",
-          "Smooth",
-          "AA"
+          "实色",
+          "平滑",
+          "抗锯齿"
         ]
       },
       {
-        "name": "Amount map"
+        "name": "数量映射"
       },
       {
-        "name": "Angle map"
+        "name": "角度映射"
       },
       {
-        "name": "Angle"
+        "name": "角度"
       },
       {
-        "name": "Mask"
+        "name": "遮罩"
       },
       {
-        "name": "Threshold"
+        "name": "阈值"
       }
     ],
     "outputs": [
       {
-        "name": "Surface Out"
+        "name": "输出表面"
       }
     ]
   }
