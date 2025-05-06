@@ -9,6 +9,16 @@ The simplified chinese localization file for Pixel-Composer
 该项目为 [Pixel-Composer](https://github.com/Ttanasart-pt/Pixel-Composer) 的简体中文汉化包.
 
 本项目的原始框架参考了[Pixel-Composer_Chinese-localization](https://github.com/LunarConcerto/Pixel-Composer_Chinese-localization)后经过了修改
+<!-- Copy-paste in your Readme.md file -->
+
+<a href="https://next.ossinsight.io/widgets/official/compose-last-28-days-stats?repo_id=925111087" target="_blank" style="display: block" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/compose-last-28-days-stats/thumbnail.png?repo_id=925111087&image_size=auto&color_scheme=dark" width="655" height="auto">
+    <img alt="Performance Stats of LifeOfAc/Pixel-Composer-Chinese-Localization - Last 28 days" src="https://next.ossinsight.io/widgets/official/compose-last-28-days-stats/thumbnail.png?repo_id=925111087&image_size=auto&color_scheme=light" width="655" height="auto">
+  </picture>
+</a>
+
+<!-- Made with [OSS Insight](https://ossinsight.io/) -->
 
 # 进度
 
